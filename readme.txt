@@ -1,9 +1,11 @@
 === WooCommerce (nl) ===
 Contributors: pronamic, remcotolsma
 Tags: woocommerce, translation, dutch, nl, nl_NL, webshop, ecommerce, e-commerce, commerce, woothemes
+Donate link: http://pronamic.eu/donate/?for=wp-plugin-woocommerce-nl&source=wp-plugin-readme-txt
 Requires at least: 3.0
 Tested up to: 3.2
 Stable tag: 0.2.3
+Text Domain: woocommerce-nl
 
 This WordPress plugin extends the WooCommerce plugin with the Dutch translation.
 
