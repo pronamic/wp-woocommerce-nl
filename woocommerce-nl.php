@@ -54,20 +54,20 @@ class WooCommerceNL {
 
 		$newMofile = null;
 
-		// WooThemes
-		$isWooThemes = ($domain == 'woothemes');
+		// WooCommerce
+		$isWooCommerceDomain = ($domain == 'woocommerce');
 
-		if($isWooThemes) {
+		if($isWooCommerceDomain) {
 			$isWooCommerce = strpos($moFile, '/woocommerce/') !== false;
 
 			if($isWooCommerce) {
 				$version = get_option('woocommerce_db_version', null);
 
-				if(strpos($moFile, '/woocommerce/languages/woothemes-') !== false) {
+				if(strpos($moFile, '/woocommerce/languages/woocommerce-') !== false) {
 					$newMofile = self::getMoFile('woocommerce', $version);
-				} elseif(strpos($moFile, '/woocommerce/languages/formal/woothemes-') !== false) {
+				} elseif(strpos($moFile, '/woocommerce/languages/formal/woocommerce-') !== false) {
 					$newMofile = self::getMoFile('woocommerce', $version, 'formal/');
-				} elseif(strpos($moFile, '/woocommerce/languages/informal/woothemes-') !== false) {
+				} elseif(strpos($moFile, '/woocommerce/languages/informal/woocommerce-') !== false) {
 					$newMofile = self::getMoFile('woocommerce', $version, 'informal/');
 				}
 			}
