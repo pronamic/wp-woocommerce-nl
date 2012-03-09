@@ -10,7 +10,7 @@ This WordPress plugin extends the WooCommerce plugin with the Dutch translation.
 
 == Description ==
 
-<strong>WooCommerce</strong> 1.5
+<strong>WooCommerce</strong> 1.5.1
 
 > This plugin requires the <a href="http://wordpress.org/extend/plugins/woocommerce/">WooCommerce plugin</a>
 
@@ -22,6 +22,9 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 
 == Changelog ==
+
+= 0.3.5 =
+*	Added translation for WooCommerce v1.5.1
 
 = 0.3.4 =
 *	Added translation for WooCommerce v1.5
