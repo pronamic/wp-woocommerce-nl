@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-16 14:49+0100\n"
-"PO-Revision-Date: 2012-03-16 14:49+0100\n"
+"POT-Creation-Date: 2012-03-20 12:07+0100\n"
+"PO-Revision-Date: 2012-03-20 12:07+0100\n"
 "Last-Translator: Remco Tolsma <remco@pronamic.nl>\n"
 "Language-Team: Pronamic <info@pronamic.nl>\n"
 "MIME-Version: 1.0\n"
@@ -101,19 +101,19 @@ msgstr ""
 msgid "No products found"
 msgstr "Geen projecten gevonden"
 
-#: woocommerce-core-functions.php:481
-#: woocommerce-core-functions.php:533
+#: woocommerce-core-functions.php:485
+#: woocommerce-core-functions.php:537
 msgid "Download Permissions Granted"
 msgstr ""
 
-#: woocommerce-core-functions.php:567
+#: woocommerce-core-functions.php:571
 #: woocommerce.php:516
 #, fuzzy
 msgctxt "slug"
 msgid "product"
 msgstr "Project"
 
-#: woocommerce-core-functions.php:657
+#: woocommerce-core-functions.php:661
 #, fuzzy
 msgid "Select a category"
 msgstr "Project categorie"
@@ -293,26 +293,31 @@ msgstr "Geen evenementen gevonden"
 msgid "Guest"
 msgstr "Dossiers"
 
-#: woocommerce-functions.php:1205
+#: woocommerce-functions.php:1133
+#: woocommerce-template.php:345
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce-functions.php:1219
 #, fuzzy
 msgid "New products"
 msgstr "Nieuw project"
 
-#: woocommerce-functions.php:1213
+#: woocommerce-functions.php:1227
 #, php-format
 msgid "New products added to %s"
 msgstr ""
 
-#: woocommerce-functions.php:1221
+#: woocommerce-functions.php:1235
 #, php-format
 msgid "New products tagged %s"
 msgstr ""
 
-#: woocommerce-functions.php:1243
+#: woocommerce-functions.php:1257
 msgid "You have taken too long. Please go back and refresh the page."
 msgstr ""
 
-#: woocommerce-functions.php:1246
+#: woocommerce-functions.php:1260
 msgid "Please rate the product."
 msgstr ""
 
@@ -328,10 +333,6 @@ msgstr "Pagina's: %s"
 
 #: woocommerce-template.php:170
 msgid "This is a demo store for testing purposes &mdash; no orders shall be fulfilled."
-msgstr ""
-
-#: woocommerce-template.php:345
-msgid "SKU:"
 msgstr ""
 
 #: woocommerce-template.php:371
@@ -1236,6 +1237,16 @@ msgstr "Route naar"
 msgid "There are no product reviews yet."
 msgstr "Er zijn geen interviews."
 
+#: admin/woocommerce-admin-dashboard.php:393
+#, fuzzy
+msgid "Number of sales"
+msgstr "Aantal personen"
+
+#: admin/woocommerce-admin-dashboard.php:394
+#, fuzzy
+msgid "Sales aumount"
+msgstr "Alle maanden"
+
 #: admin/woocommerce-admin-functions.php:106
 #, fuzzy
 msgid "Email preview"
@@ -1398,7 +1409,7 @@ msgstr ""
 
 #: admin/woocommerce-admin-init.php:454
 #, php-format
-msgid "Product published. <a href=\"%s\">View Contact</a>"
+msgid "Product published. <a href=\"%s\">View Product</a>"
 msgstr ""
 
 #: admin/woocommerce-admin-init.php:455
@@ -8242,30 +8253,30 @@ msgstr ""
 msgid "WooCommerce Product Categories"
 msgstr "Zoek project categorieën"
 
-#: widgets/widget-product_categories.php:228
+#: widgets/widget-product_categories.php:229
 #, fuzzy
 msgid "Order by:"
 msgstr "Beoordeling"
 
-#: widgets/widget-product_categories.php:230
+#: widgets/widget-product_categories.php:231
 #, fuzzy
 msgid "Category Order"
 msgstr "Categorie:"
 
-#: widgets/widget-product_categories.php:235
+#: widgets/widget-product_categories.php:236
 msgid "Show as dropdown"
 msgstr ""
 
-#: widgets/widget-product_categories.php:238
+#: widgets/widget-product_categories.php:239
 msgid "Show post counts"
 msgstr ""
 
-#: widgets/widget-product_categories.php:241
+#: widgets/widget-product_categories.php:242
 #, fuzzy
 msgid "Show hierarchy"
 msgstr "Zoeken"
 
-#: widgets/widget-product_categories.php:244
+#: widgets/widget-product_categories.php:245
 msgid "Show children of current category only"
 msgstr ""
 
