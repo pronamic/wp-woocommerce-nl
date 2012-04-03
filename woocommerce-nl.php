@@ -3,7 +3,7 @@
 Plugin Name: WooCommerce (nl)
 Plugin URI: http://pronamic.eu/wp-plugins/woocommerce-nl/
 Description: Extends the WooCommerce plugin and add-ons with the Dutch language: <strong>WooCommerce</strong> 1.5.3
-Version: 0.3.7
+Version: 0.3.8
 Requires at least: 3.0
 Author: Pronamic
 Author URI: http://pronamic.eu/
