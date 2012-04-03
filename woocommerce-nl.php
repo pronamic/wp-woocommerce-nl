@@ -2,8 +2,8 @@
 /*
 Plugin Name: WooCommerce (nl)
 Plugin URI: http://pronamic.eu/wp-plugins/woocommerce-nl/
-Description: Extends the WooCommerce plugin and add-ons with the Dutch language: <strong>WooCommerce</strong> 1.3.2.1
-Version: 0.2.3
+Description: Extends the WooCommerce plugin and add-ons with the Dutch language: <strong>WooCommerce</strong> 1.5.3
+Version: 0.3.8
 Requires at least: 3.0
 Author: Pronamic
 Author URI: http://pronamic.eu/
@@ -54,20 +54,20 @@ class WooCommerceNL {
 
 		$newMofile = null;
 
-		// WooThemes
-		$isWooThemes = ($domain == 'woothemes');
+		// WooCommerce
+		$isWooCommerceDomain = ($domain == 'woocommerce');
 
-		if($isWooThemes) {
+		if($isWooCommerceDomain) {
 			$isWooCommerce = strpos($moFile, '/woocommerce/') !== false;
 
 			if($isWooCommerce) {
 				$version = get_option('woocommerce_db_version', null);
 
-				if(strpos($moFile, '/woocommerce/languages/woothemes-') !== false) {
+				if(strpos($moFile, '/woocommerce/languages/woocommerce-') !== false) {
 					$newMofile = self::getMoFile('woocommerce', $version);
-				} elseif(strpos($moFile, '/woocommerce/languages/formal/woothemes-') !== false) {
+				} elseif(strpos($moFile, '/woocommerce/languages/formal/woocommerce-') !== false) {
 					$newMofile = self::getMoFile('woocommerce', $version, 'formal/');
-				} elseif(strpos($moFile, '/woocommerce/languages/informal/woothemes-') !== false) {
+				} elseif(strpos($moFile, '/woocommerce/languages/informal/woocommerce-') !== false) {
 					$newMofile = self::getMoFile('woocommerce', $version, 'informal/');
 				}
 			}
