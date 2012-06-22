@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-06-15 08:38+0100\n"
-"PO-Revision-Date: 2012-06-15 08:38+0100\n"
+"POT-Creation-Date: 2012-06-22 08:45+0100\n"
+"PO-Revision-Date: 2012-06-22 08:45+0100\n"
 "Last-Translator: Remco Tolsma <remco@pronamic.nl>\n"
 "Language-Team: Pronamic <info@pronamic.nl>\n"
 "MIME-Version: 1.0\n"
@@ -1865,7 +1865,7 @@ msgstr ""
 
 #: admin/woocommerce-admin-reports.php:1185
 #: admin/post-types/writepanels/writepanel-coupon_data.php:56
-#: admin/post-types/writepanels/writepanel-order_data.php:395
+#: admin/post-types/writepanels/writepanel-order_data.php:399
 #, fuzzy
 msgid "Search for a product&hellip;"
 msgstr "Zoek resultaten voor:"
@@ -1908,7 +1908,7 @@ msgstr ""
 #: admin/woocommerce-admin-reports.php:1567
 #: admin/post-types/product.php:70
 #: admin/post-types/product.php:483
-#: admin/post-types/writepanels/writepanel-order_data.php:270
+#: admin/post-types/writepanels/writepanel-order_data.php:274
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:157
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:367
 msgid "SKU"
@@ -2277,7 +2277,11 @@ msgstr ""
 msgid "wp_remote_post() failed. PayPal IPN won't work with your server. Contact your hosting provider. Error:"
 msgstr ""
 
-#: admin/woocommerce-admin-status.php:378
+#: admin/woocommerce-admin-status.php:359
+msgid "wp_remote_post() failed. PayPal IPN may not work with your server."
+msgstr ""
+
+#: admin/woocommerce-admin-status.php:381
 #, fuzzy
 msgid "Tools"
 msgstr "Portaal"
@@ -2354,54 +2358,54 @@ msgstr "Einddatum:"
 
 #: admin/woocommerce-admin-users.php:113
 #: admin/woocommerce-admin-users.php:162
-#: admin/post-types/writepanels/writepanel-order_data.php:103
-#: admin/post-types/writepanels/writepanel-order_data.php:184
+#: admin/post-types/writepanels/writepanel-order_data.php:105
+#: admin/post-types/writepanels/writepanel-order_data.php:188
 msgid "Company"
 msgstr ""
 
 #: admin/woocommerce-admin-users.php:117
 #: admin/woocommerce-admin-users.php:166
-#: admin/post-types/writepanels/writepanel-order_data.php:107
-#: admin/post-types/writepanels/writepanel-order_data.php:188
+#: admin/post-types/writepanels/writepanel-order_data.php:109
+#: admin/post-types/writepanels/writepanel-order_data.php:192
 #, fuzzy
 msgid "Address 1"
 msgstr "Adres"
 
 #: admin/woocommerce-admin-users.php:121
 #: admin/woocommerce-admin-users.php:170
-#: admin/post-types/writepanels/writepanel-order_data.php:111
-#: admin/post-types/writepanels/writepanel-order_data.php:192
+#: admin/post-types/writepanels/writepanel-order_data.php:113
+#: admin/post-types/writepanels/writepanel-order_data.php:196
 #, fuzzy
 msgid "Address 2"
 msgstr "Adres"
 
 #: admin/woocommerce-admin-users.php:125
 #: admin/woocommerce-admin-users.php:174
-#: admin/post-types/writepanels/writepanel-order_data.php:115
-#: admin/post-types/writepanels/writepanel-order_data.php:196
+#: admin/post-types/writepanels/writepanel-order_data.php:117
+#: admin/post-types/writepanels/writepanel-order_data.php:200
 msgid "City"
 msgstr "Plaats"
 
 #: admin/woocommerce-admin-users.php:129
 #: admin/woocommerce-admin-users.php:178
-#: admin/post-types/writepanels/writepanel-order_data.php:119
-#: admin/post-types/writepanels/writepanel-order_data.php:200
+#: admin/post-types/writepanels/writepanel-order_data.php:121
+#: admin/post-types/writepanels/writepanel-order_data.php:204
 #, fuzzy
 msgid "Postcode"
 msgstr "Plaats reactie"
 
 #: admin/woocommerce-admin-users.php:133
 #: admin/woocommerce-admin-users.php:182
-#: admin/post-types/writepanels/writepanel-order_data.php:129
-#: admin/post-types/writepanels/writepanel-order_data.php:210
+#: admin/post-types/writepanels/writepanel-order_data.php:131
+#: admin/post-types/writepanels/writepanel-order_data.php:214
 #, fuzzy
 msgid "State/County"
 msgstr "Land"
 
 #: admin/woocommerce-admin-users.php:137
 #: admin/woocommerce-admin-users.php:186
-#: admin/post-types/writepanels/writepanel-order_data.php:123
-#: admin/post-types/writepanels/writepanel-order_data.php:204
+#: admin/post-types/writepanels/writepanel-order_data.php:125
+#: admin/post-types/writepanels/writepanel-order_data.php:208
 msgid "Country"
 msgstr "Land"
 
@@ -2410,7 +2414,7 @@ msgid "Telephone"
 msgstr ""
 
 #: admin/woocommerce-admin-users.php:145
-#: admin/post-types/writepanels/writepanel-order_data.php:133
+#: admin/post-types/writepanels/writepanel-order_data.php:135
 #, fuzzy
 msgid "Email"
 msgstr "E-mailadres"
@@ -2512,7 +2516,7 @@ msgid "Delete this item permanently"
 msgstr "Verwijder bericht"
 
 #: admin/post-types/product.php:132
-#: admin/post-types/writepanels/writepanel-order_data.php:430
+#: admin/post-types/writepanels/writepanel-order_data.php:434
 #, fuzzy
 msgid "Delete Permanently"
 msgstr "Verwijder bericht"
@@ -3000,242 +3004,242 @@ msgstr ""
 msgid "Customer's notes about the order"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:91
+#: admin/post-types/writepanels/writepanel-order_data.php:93
 #, fuzzy
 msgid "Billing Details"
 msgstr "Details"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:95
-#: admin/post-types/writepanels/writepanel-order_data.php:176
+#: admin/post-types/writepanels/writepanel-order_data.php:97
+#: admin/post-types/writepanels/writepanel-order_data.php:180
 #, fuzzy
 msgid "First Name"
 msgstr "Voornaam"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:99
-#: admin/post-types/writepanels/writepanel-order_data.php:180
+#: admin/post-types/writepanels/writepanel-order_data.php:101
+#: admin/post-types/writepanels/writepanel-order_data.php:184
 #, fuzzy
 msgid "Last Name"
 msgstr "Nieuwe fase naam"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:136
+#: admin/post-types/writepanels/writepanel-order_data.php:138
 msgid "Phone"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:143
-#: admin/post-types/writepanels/writepanel-order_data.php:218
+#: admin/post-types/writepanels/writepanel-order_data.php:145
+#: admin/post-types/writepanels/writepanel-order_data.php:222
 msgid "Address"
 msgstr "Adres"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:143
+#: admin/post-types/writepanels/writepanel-order_data.php:145
 msgid "No billing address set."
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:153
+#: admin/post-types/writepanels/writepanel-order_data.php:155
 msgid "Load customer billing address"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:172
+#: admin/post-types/writepanels/writepanel-order_data.php:176
 #, fuzzy
 msgid "Shipping Details"
 msgstr "Schip details"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:218
+#: admin/post-types/writepanels/writepanel-order_data.php:222
 msgid "No shipping address set."
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:228
+#: admin/post-types/writepanels/writepanel-order_data.php:232
 msgid "Load customer shipping address"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:269
+#: admin/post-types/writepanels/writepanel-order_data.php:273
 #, fuzzy
 msgid "Item"
 msgstr "Interviews"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:274
+#: admin/post-types/writepanels/writepanel-order_data.php:278
 #, fuzzy
 msgid "Tax Class"
 msgstr "Classificatie"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:274
+#: admin/post-types/writepanels/writepanel-order_data.php:278
 msgid "Tax class for the line item"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:276
+#: admin/post-types/writepanels/writepanel-order_data.php:280
 msgid "Qty"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:278
+#: admin/post-types/writepanels/writepanel-order_data.php:282
 msgid "Line&nbsp;Subtotal"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:278
+#: admin/post-types/writepanels/writepanel-order_data.php:282
 msgid "Line cost and line tax before pre-tax discounts"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:280
+#: admin/post-types/writepanels/writepanel-order_data.php:284
 msgid "Line&nbsp;Total"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:280
+#: admin/post-types/writepanels/writepanel-order_data.php:284
 msgid "Line cost and line tax after pre-tax discounts"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:358
+#: admin/post-types/writepanels/writepanel-order_data.php:362
 #, fuzzy
 msgid "Tax class"
 msgstr "Tax IDs"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:397
+#: admin/post-types/writepanels/writepanel-order_data.php:401
 #, fuzzy
 msgid "Add item(s)"
 msgstr "Nieuwe toevoegen"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:400
+#: admin/post-types/writepanels/writepanel-order_data.php:404
 msgid "Calc line tax &uarr;"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:401
+#: admin/post-types/writepanels/writepanel-order_data.php:405
 msgid "Calc totals &rarr;"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:416
+#: admin/post-types/writepanels/writepanel-order_data.php:420
 #, fuzzy
 msgid "Save Order"
 msgstr "Beoordeling"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:416
+#: admin/post-types/writepanels/writepanel-order_data.php:420
 msgid "Save/update the order"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:418
+#: admin/post-types/writepanels/writepanel-order_data.php:422
 #, fuzzy
 msgid "Reduce stock"
 msgstr "Route naar"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:418
+#: admin/post-types/writepanels/writepanel-order_data.php:422
 msgid "Reduces stock for each item in the order; useful after manually creating an order or manually marking an order as paid."
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:420
+#: admin/post-types/writepanels/writepanel-order_data.php:424
 #, fuzzy
 msgid "Restore stock"
 msgstr "Gerelateerd"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:420
+#: admin/post-types/writepanels/writepanel-order_data.php:424
 msgid "Restores stock for each item in the order; useful after refunding or canceling the entire order."
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:422
+#: admin/post-types/writepanels/writepanel-order_data.php:426
 msgid "Email invoice"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:422
+#: admin/post-types/writepanels/writepanel-order_data.php:426
 msgid "Email the order to the customer. Unpaid orders will include a payment link."
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:432
+#: admin/post-types/writepanels/writepanel-order_data.php:436
 msgid "Move to Trash"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:452
+#: admin/post-types/writepanels/writepanel-order_data.php:456
 #, fuzzy
 msgid "Discounts"
 msgstr "Regio's"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:456
+#: admin/post-types/writepanels/writepanel-order_data.php:460
 msgid "Cart Discount:"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:463
+#: admin/post-types/writepanels/writepanel-order_data.php:467
 msgid "Order Discount:"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:477
+#: admin/post-types/writepanels/writepanel-order_data.php:481
 msgid "Cost ex. tax:"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:478
+#: admin/post-types/writepanels/writepanel-order_data.php:482
 msgid "(ex. tax)"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:483
+#: admin/post-types/writepanels/writepanel-order_data.php:487
 msgid "Method:"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:486
+#: admin/post-types/writepanels/writepanel-order_data.php:490
 #, fuzzy
 msgid "Shipping method&hellip;"
 msgstr "Schepen in"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:494
+#: admin/post-types/writepanels/writepanel-order_data.php:498
 #, fuzzy
 msgid "Tax Rows"
 msgstr "Tax IDs"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:494
+#: admin/post-types/writepanels/writepanel-order_data.php:498
 msgid "These rows contain taxes for this order. This allows you to display multiple or compound taxes rather than a single total."
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:528
+#: admin/post-types/writepanels/writepanel-order_data.php:532
 #, fuzzy
 msgid "+ Add tax row"
 msgstr "Nieuwe toevoegen"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:532
+#: admin/post-types/writepanels/writepanel-order_data.php:536
 #, fuzzy
 msgid "Tax Totals"
 msgstr "Portaal"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:553
+#: admin/post-types/writepanels/writepanel-order_data.php:557
 #, fuzzy
 msgid "Total"
 msgstr "Portaal"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:557
+#: admin/post-types/writepanels/writepanel-order_data.php:561
 #, fuzzy
 msgid "Order Total:"
 msgstr "Titel"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:564
+#: admin/post-types/writepanels/writepanel-order_data.php:568
 #, fuzzy
 msgid "Payment Method:"
 msgstr "Speeldatum"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:567
+#: admin/post-types/writepanels/writepanel-order_data.php:571
 #, fuzzy
 msgid "Payment method&hellip;"
 msgstr "Pagina niet gevonden"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:748
+#: admin/post-types/writepanels/writepanel-order_data.php:752
 msgid "Manually reducing stock."
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:762
+#: admin/post-types/writepanels/writepanel-order_data.php:766
 #, php-format
 msgid "Item #%s stock reduced from %s to %s."
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:770
-#: admin/post-types/writepanels/writepanel-order_data.php:800
+#: admin/post-types/writepanels/writepanel-order_data.php:774
+#: admin/post-types/writepanels/writepanel-order_data.php:804
 #, php-format
 msgid "Item %s %s not found, skipping."
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:776
+#: admin/post-types/writepanels/writepanel-order_data.php:780
 msgid "Manual stock reduction complete."
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:780
+#: admin/post-types/writepanels/writepanel-order_data.php:784
 msgid "Manually restoring stock."
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:794
+#: admin/post-types/writepanels/writepanel-order_data.php:798
 #, php-format
 msgid "Item #%s stock increased from %s to %s."
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:808
+#: admin/post-types/writepanels/writepanel-order_data.php:812
 msgid "Manual stock restore complete."
 msgstr ""
 
@@ -3308,20 +3312,20 @@ msgstr "Er zijn geen berichten in deze categorie."
 msgid "Add note"
 msgstr "Nieuwe toevoegen"
 
-#: admin/post-types/writepanels/writepanel-order_notes.php:48
+#: admin/post-types/writepanels/writepanel-order_notes.php:47
 msgid "Add a note for your reference, or add a customer note (the user will be notified)."
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_notes.php:51
+#: admin/post-types/writepanels/writepanel-order_notes.php:53
 msgid "Customer note"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_notes.php:52
+#: admin/post-types/writepanels/writepanel-order_notes.php:54
 #, fuzzy
 msgid "Private note"
 msgstr "Interview bekijken"
 
-#: admin/post-types/writepanels/writepanel-order_notes.php:54
+#: admin/post-types/writepanels/writepanel-order_notes.php:56
 #, fuzzy
 msgid "Add"
 msgstr "Adres"
@@ -5090,6 +5094,12 @@ msgstr ""
 msgid "Done"
 msgstr ""
 
+#: admin/settings/settings-tax-rates.php:188
+#: classes/class-wc-countries.php:258
+#, fuzzy
+msgid "United States"
+msgstr "Update classificatie"
+
 #: admin/settings/settings-tax-rates.php:195
 #, fuzzy
 msgid "countries/states selected"
@@ -5151,57 +5161,57 @@ msgstr ""
 msgid "Sorry, we do not have enough \"%s\" in stock to fulfill your order. Please edit your cart and try again. We apologise for any inconvenience caused."
 msgstr ""
 
-#: classes/class-wc-cart.php:663
+#: classes/class-wc-cart.php:664
 #, fuzzy
 msgid "This product cannot be purchased."
 msgstr "Gebruikersnaam kan niet worden gewijzigd."
 
-#: classes/class-wc-cart.php:669
+#: classes/class-wc-cart.php:670
 msgid "This product cannot be purchased - the price is not yet set."
 msgstr ""
 
-#: classes/class-wc-cart.php:675
+#: classes/class-wc-cart.php:676
 #, php-format
 msgid "You cannot add that amount to the cart since there is not enough stock. We have %s in stock."
 msgstr ""
 
-#: classes/class-wc-cart.php:678
+#: classes/class-wc-cart.php:679
 msgid "You cannot add that product to the cart since the product is out of stock."
 msgstr ""
 
-#: classes/class-wc-cart.php:688
+#: classes/class-wc-cart.php:689
 msgid "You already have this item in your cart."
 msgstr ""
 
-#: classes/class-wc-cart.php:702
-#: classes/class-wc-cart.php:710
+#: classes/class-wc-cart.php:703
+#: classes/class-wc-cart.php:711
 #, php-format
 msgid "<a href=\"%s\" class=\"button\">%s</a> You cannot add that amount to the cart &mdash; we have %s in stock and you already have %s in your cart."
 msgstr ""
 
-#: classes/class-wc-cart.php:1516
+#: classes/class-wc-cart.php:1517
 #: classes/class-wc-order.php:491
 #, fuzzy
 msgid "Free!"
 msgstr "Beoordeling"
 
-#: classes/class-wc-cart.php:1528
+#: classes/class-wc-cart.php:1529
 msgid "via"
 msgstr ""
 
-#: classes/class-wc-cart.php:1566
+#: classes/class-wc-cart.php:1567
 msgid "Invalid coupon."
 msgstr ""
 
-#: classes/class-wc-cart.php:1572
+#: classes/class-wc-cart.php:1573
 msgid "Discount code already applied!"
 msgstr ""
 
-#: classes/class-wc-cart.php:1592
+#: classes/class-wc-cart.php:1593
 msgid "Discount code applied successfully."
 msgstr ""
 
-#: classes/class-wc-cart.php:1596
+#: classes/class-wc-cart.php:1597
 msgid "Coupon does not exist!"
 msgstr ""
 
@@ -5290,6 +5300,16 @@ msgstr ""
 
 #: classes/class-wc-checkout.php:256
 msgid "Invalid payment method."
+msgstr ""
+
+#: classes/class-wc-checkout.php:317
+#, fuzzy, php-format
+msgid "Order &ndash; %s"
+msgstr "Beoordeling"
+
+#: classes/class-wc-checkout.php:317
+msgctxt "Order date parsed by strftime"
+msgid "%B %e, %Y @ %I:%M %p"
 msgstr ""
 
 #: classes/class-wc-countries.php:25
@@ -6305,11 +6325,6 @@ msgstr ""
 msgid "United Kingdom"
 msgstr ""
 
-#: classes/class-wc-countries.php:258
-#, fuzzy
-msgid "United States"
-msgstr "Update classificatie"
-
 #: classes/class-wc-countries.php:259
 msgid "Uruguay"
 msgstr ""
@@ -7098,6 +7113,11 @@ msgstr ""
 #: classes/class-wc-email.php:452
 #, php-format
 msgid "Welcome to %s"
+msgstr ""
+
+#: classes/class-wc-order.php:157
+msgctxt "hash before order number"
+msgid "#"
 msgstr ""
 
 #: classes/class-wc-order.php:486
@@ -8357,7 +8377,7 @@ msgid "Cart Subtotal"
 msgstr ""
 
 #: templates/cart/totals.php:28
-#: templates/cart/totals.php:193
+#: templates/cart/totals.php:191
 msgid "[Remove]"
 msgstr ""
 
@@ -8369,40 +8389,40 @@ msgstr ""
 msgid "Sorry, it seems that there are no available shipping methods for your state. Please contact us if you require assistance or wish to make alternate arrangements."
 msgstr ""
 
-#: templates/cart/totals.php:129
-#: templates/cart/totals.php:157
+#: templates/cart/totals.php:128
+#: templates/cart/totals.php:155
 msgid "incl."
 msgstr ""
 
-#: templates/cart/totals.php:143
+#: templates/cart/totals.php:142
 #, fuzzy
 msgid "Subtotal"
 msgstr "Portaal"
 
-#: templates/cart/totals.php:193
+#: templates/cart/totals.php:191
 msgid "Order Discount"
 msgstr ""
 
-#: templates/cart/totals.php:218
+#: templates/cart/totals.php:216
 #, php-format
 msgid "(taxes estimated for %s)"
 msgstr ""
 
-#: templates/cart/totals.php:220
+#: templates/cart/totals.php:218
 #, php-format
 msgid "Note: Shipping and taxes are estimated%s and will be updated during checkout based on your billing and shipping information."
 msgstr ""
 
-#: templates/cart/totals.php:230
+#: templates/cart/totals.php:228
 msgid "No shipping methods were found; please recalculate your shipping and enter your state/county and zip/postcode to ensure their are no other available methods for your location."
 msgstr ""
 
-#: templates/cart/totals.php:237
+#: templates/cart/totals.php:235
 #, php-format
 msgid "Sorry, it seems that there are no available shipping methods for your location (%s)."
 msgstr ""
 
-#: templates/cart/totals.php:239
+#: templates/cart/totals.php:237
 msgid "If you require assistance or wish to make alternate arrangements please contact us."
 msgstr ""
 
@@ -8759,7 +8779,7 @@ msgstr ""
 msgid "Order Again"
 msgstr "Rubrieken zoeken"
 
-#: templates/order/order-details.php:87
+#: templates/order/order-details.php:89
 msgid "Telephone:"
 msgstr ""
 
@@ -8870,22 +8890,22 @@ msgstr ""
 msgid "Best Sellers"
 msgstr ""
 
-#: widgets/widget-best_sellers.php:140
+#: widgets/widget-best_sellers.php:141
 #: widgets/widget-cart.php:118
-#: widgets/widget-featured_products.php:127
+#: widgets/widget-featured_products.php:128
 #: widgets/widget-layered_nav.php:436
 #: widgets/widget-onsale.php:154
 #, fuzzy
 msgid "Title:"
 msgstr "Titel"
 
-#: widgets/widget-best_sellers.php:143
-#: widgets/widget-featured_products.php:130
+#: widgets/widget-best_sellers.php:144
+#: widgets/widget-featured_products.php:131
 #: widgets/widget-onsale.php:157
 msgid "Number of products to show:"
 msgstr ""
 
-#: widgets/widget-best_sellers.php:147
+#: widgets/widget-best_sellers.php:148
 #, fuzzy
 msgid "Hide free products"
 msgstr "Projecten zoeken"
@@ -9120,8 +9140,8 @@ msgstr ""
 msgid "Random Products"
 msgstr "Project"
 
-#: widgets/widget-random_products.php:116
-#: widgets/widget-recent_products.php:143
+#: widgets/widget-random_products.php:112
+#: widgets/widget-recent_products.php:139
 msgid "Show hidden product variations"
 msgstr ""
 
