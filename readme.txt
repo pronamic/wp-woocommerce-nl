@@ -23,6 +23,9 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 == Changelog ==
 
+= 0.3.13 =
+*	Added translation for WooCommerce v1.6.0
+
 = 0.3.12 =
 *	Added translation for WooCommerce v1.5.8
 
