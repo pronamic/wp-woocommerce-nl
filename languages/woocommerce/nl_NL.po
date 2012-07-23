@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-23 11:03+0100\n"
-"PO-Revision-Date: 2012-07-23 11:04+0100\n"
+"POT-Creation-Date: 2012-07-23 11:27+0100\n"
+"PO-Revision-Date: 2012-07-23 11:27+0100\n"
 "Last-Translator: Remco Tolsma <remco@pronamic.nl>\n"
 "Language-Team: Pronamic <info@pronamic.nl>\n"
 "MIME-Version: 1.0\n"
@@ -335,46 +335,50 @@ msgstr "Zoekresultaten voor: %s"
 msgid "&nbsp;&ndash; Page %s"
 msgstr ""
 
-#: woocommerce-template.php:145
+#: woocommerce-template.php:76
+msgid "No products found which match your selection."
+msgstr ""
+
+#: woocommerce-template.php:179
 msgid "This is a demo store for testing purposes &mdash; no orders shall be fulfilled."
 msgstr ""
 
-#: woocommerce-template.php:308
+#: woocommerce-template.php:342
 #, fuzzy
 msgid "Buy product"
 msgstr "Project"
 
-#: woocommerce-template.php:646
+#: woocommerce-template.php:684
 #: woocommerce.php:1014
 #, fuzzy
 msgid "required"
 msgstr "(verplicht)"
 
-#: woocommerce-template.php:654
+#: woocommerce-template.php:692
 #, fuzzy
 msgid "Select a country&hellip;"
 msgstr "Project categorie"
 
-#: woocommerce-template.php:662
+#: woocommerce-template.php:700
 #, fuzzy
 msgid "Update country"
 msgstr "Gebruikersnaam"
 
-#: woocommerce-template.php:696
+#: woocommerce-template.php:734
 #, fuzzy
 msgid "Select a state&hellip;"
 msgstr "Project categorie"
 
-#: woocommerce-template.php:787
+#: woocommerce-template.php:825
 msgid "Search for:"
 msgstr "Zoek resultaten voor:"
 
-#: woocommerce-template.php:788
+#: woocommerce-template.php:826
 #, fuzzy
 msgid "Search for products"
 msgstr "Projecten zoeken"
 
-#: woocommerce-template.php:789
+#: woocommerce-template.php:827
 #: woocommerce.php:718
 msgid "Search"
 msgstr "Zoeken"
@@ -8290,10 +8294,6 @@ msgstr "datum"
 msgid "Payment method:"
 msgstr "Pagina niet gevonden"
 
-#: templates/archive-product.php:70
-msgid "No products found which match your selection."
-msgstr ""
-
 #: templates/single-product-reviews.php:31
 #, fuzzy, php-format
 msgid "%s review for %s"
@@ -8528,6 +8528,7 @@ msgid "If you have shopped with us before, please enter your username and passwo
 msgstr ""
 
 #: templates/checkout/form-pay.php:14
+#: templates/checkout/review-order.php:17
 #, fuzzy
 msgid "Totals"
 msgstr "Portaal"
