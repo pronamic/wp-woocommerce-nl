@@ -25,7 +25,7 @@ class WooCommerceNL {
 	 *
 	 * @var boolean
 	 */
-	private static $isDutch;
+	private static $is_dutch;
 
 	////////////////////////////////////////////////////////////
 
@@ -33,7 +33,7 @@ class WooCommerceNL {
 	 * Bootstrap
 	 */
 	public static function bootstrap() {
-		add_filter('load_textdomain_mofile', array(__CLASS__, 'loadMoFile'), 10, 2);
+		add_filter( 'load_textdomain_mofile', array( __CLASS__, 'load_mo_file' ), 10, 2 );
 	}
 
 	////////////////////////////////////////////////////////////
@@ -44,42 +44,42 @@ class WooCommerceNL {
 	 * @param string $moFile
 	 * @param string $domain
 	 */
-	public static function loadMoFile($moFile, $domain) {
-		if(self::$language == null) {
-			self::$language = get_option('WPLANG', WPLANG);
-			self::$isDutch = (self::$language == 'nl' || self::$language == 'nl_NL');
+	public static function load_mo_file( $mo_file, $domain ) {
+		if ( self::$language == null ) {
+			self::$language = get_option( 'WPLANG', WPLANG );
+			self::$is_dutch = ( self::$language == 'nl' || self::$language == 'nl_NL' );
 
-			if(defined('ICL_LANGUAGE_CODE')) {
-				self::$isDutch = ICL_LANGUAGE_CODE == 'nl';
+			if ( defined( 'ICL_LANGUAGE_CODE' ) ) {
+				self::$is_dutch = ( ICL_LANGUAGE_CODE == 'nl' );
 			}
 		}
 
-		$newMofile = null;
+		$new_mo_file = null;
 
 		// WooCommerce
-		$isWooCommerceDomain = ($domain == 'woocommerce');
+		$is_woocommerce_domain = ($domain == 'woocommerce');
 
-		if($isWooCommerceDomain) {
-			$isWooCommerce = strpos($moFile, '/woocommerce/') !== false;
+		if ( $is_woocommerce_domain ) {
+			$is_woocommerce = strpos( $mo_file, '/woocommerce/' ) !== false;
 
-			if($isWooCommerce) {
-				$version = get_option('woocommerce_db_version', null);
+			if ( $is_woocommerce ) {
+				$version = get_option( 'woocommerce_db_version', null );
 
-				if(strpos($moFile, '/woocommerce/languages/woocommerce-') !== false) {
-					$newMofile = self::getMoFile('woocommerce', $version);
-				} elseif(strpos($moFile, '/woocommerce/languages/formal/woocommerce-') !== false) {
-					$newMofile = self::getMoFile('woocommerce', $version, 'formal/');
-				} elseif(strpos($moFile, '/woocommerce/languages/informal/woocommerce-') !== false) {
-					$newMofile = self::getMoFile('woocommerce', $version, 'informal/');
+				if ( strpos( $mo_file, '/woocommerce/languages/woocommerce-' ) !== false ) {
+					$new_mo_file = self::get_mo_file( 'woocommerce', $version );
+				} elseif ( strpos( $mo_file, '/woocommerce/languages/formal/woocommerce-' ) !== false ) {
+					$new_mo_file = self::get_mo_file( 'woocommerce', $version, 'formal/' );
+				} elseif ( strpos( $mo_file, '/woocommerce/languages/informal/woocommerce-' ) !== false ) {
+					$new_mo_file = self::get_mo_file( 'woocommerce', $version, 'informal/' );
 				}
 			}
 		}
 
-		if(is_readable($newMofile)) {
-			$moFile = $newMofile;
+		if ( is_readable( $new_mo_file ) ) {
+			$mo_file = $new_mo_file;
 		}
 
-		return $moFile;
+		return $mo_file;
 	}
 
 	////////////////////////////////////////////////////////////
@@ -87,17 +87,17 @@ class WooCommerceNL {
 	/**
 	 * Get the MO file for the specified domain, version and language
 	 */
-	public static function getMoFile($domain, $version, $path = '') {
-		$dir = dirname(__FILE__);
+	public static function get_mo_file( $domain, $version, $path = '' ) {
+		$dir = dirname( __FILE__ );
 
-		$moFile = $dir . '/languages/' . $domain . '/' . $version . '/' . $path . self::$language . '.mo';
+		$mo_file = $dir . '/languages/' . $domain . '/' . $version . '/' . $path . self::$language . '.mo';
 
 		// if specific version MO file is not available point to the current public release (cpr) version
-		if(!is_readable($moFile)) {
-			$moFile = $dir . '/languages/' . $domain . '/cpr/' . $path . self::$language . '.mo';
+		if( ! is_readable( $mo_file ) ) {
+			$mo_file = $dir . '/languages/' . $domain . '/cpr/' . $path . self::$language . '.mo';
 		}
 
-		return $moFile;
+		return $mo_file;
 	}
 }
 
