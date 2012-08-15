@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-09 22:09+0100\n"
-"PO-Revision-Date: 2012-08-09 22:09+0100\n"
+"POT-Creation-Date: 2012-08-15 12:02+0100\n"
+"PO-Revision-Date: 2012-08-15 12:02+0100\n"
 "Last-Translator: Remco Tolsma <remco@pronamic.nl>\n"
 "Language-Team: Pronamic <info@pronamic.nl>\n"
 "MIME-Version: 1.0\n"
@@ -186,147 +186,147 @@ msgid "Username is required."
 msgstr ""
 
 #: woocommerce-functions.php:493
-#: woocommerce-functions.php:567
+#: woocommerce-functions.php:576
 msgid "Password is required."
 msgstr ""
 
-#: woocommerce-functions.php:548
 #: woocommerce-functions.php:550
-#: woocommerce-functions.php:553
-#: woocommerce-functions.php:558
-#: woocommerce-functions.php:560
-#: woocommerce-functions.php:563
-#: woocommerce-functions.php:586
+#: woocommerce-functions.php:552
+#: woocommerce-functions.php:555
+#: woocommerce-functions.php:567
+#: woocommerce-functions.php:569
+#: woocommerce-functions.php:572
+#: woocommerce-functions.php:595
 msgid "ERROR"
 msgstr ""
 
-#: woocommerce-functions.php:548
+#: woocommerce-functions.php:550
 #, fuzzy
 msgid "Please enter a username."
 msgstr "Bovenliggende fase:"
 
-#: woocommerce-functions.php:550
+#: woocommerce-functions.php:552
 msgid "This username is invalid because it uses illegal characters. Please enter a valid username."
 msgstr ""
 
-#: woocommerce-functions.php:553
+#: woocommerce-functions.php:555
 msgid "This username is already registered, please choose another one."
 msgstr ""
 
-#: woocommerce-functions.php:558
+#: woocommerce-functions.php:567
 msgid "Please type your e-mail address."
 msgstr ""
 
-#: woocommerce-functions.php:560
+#: woocommerce-functions.php:569
 msgid "The email address isn&#8217;t correct."
 msgstr ""
 
-#: woocommerce-functions.php:563
+#: woocommerce-functions.php:572
 msgid "This email is already registered, please choose another one."
 msgstr ""
 
-#: woocommerce-functions.php:568
+#: woocommerce-functions.php:577
 #, fuzzy
 msgid "Re-enter your password."
 msgstr "Nieuw wachtwoord"
 
-#: woocommerce-functions.php:569
+#: woocommerce-functions.php:578
 msgid "Passwords do not match."
 msgstr ""
 
-#: woocommerce-functions.php:572
+#: woocommerce-functions.php:581
 msgid "Anti-spam field was filled in."
 msgstr ""
 
-#: woocommerce-functions.php:586
+#: woocommerce-functions.php:595
 msgid "Couldn&#8217;t register you&hellip; please contact us if you continue to have problems."
 msgstr ""
 
-#: woocommerce-functions.php:665
+#: woocommerce-functions.php:674
 msgid "The cart has been filled with the items from your previous order."
 msgstr ""
 
-#: woocommerce-functions.php:687
+#: woocommerce-functions.php:696
 msgid "Order cancelled by customer."
 msgstr ""
 
-#: woocommerce-functions.php:690
+#: woocommerce-functions.php:699
 msgid "Your order was cancelled."
 msgstr ""
 
-#: woocommerce-functions.php:696
+#: woocommerce-functions.php:705
 msgid "Your order is no longer pending and could not be cancelled. Please contact us if you need assistance."
 msgstr ""
 
-#: woocommerce-functions.php:700
-#: woocommerce-functions.php:762
+#: woocommerce-functions.php:709
+#: woocommerce-functions.php:771
 msgid "Invalid order."
 msgstr ""
 
-#: woocommerce-functions.php:724
+#: woocommerce-functions.php:733
 msgid "Invalid email address."
 msgstr ""
 
-#: woocommerce-functions.php:724
-#: woocommerce-functions.php:736
-#: woocommerce-functions.php:762
-#: woocommerce-functions.php:769
-#: woocommerce-functions.php:776
-#: woocommerce-functions.php:948
+#: woocommerce-functions.php:733
+#: woocommerce-functions.php:745
+#: woocommerce-functions.php:771
+#: woocommerce-functions.php:778
+#: woocommerce-functions.php:785
+#: woocommerce-functions.php:957
 msgid "Go to homepage &rarr;"
 msgstr ""
 
-#: woocommerce-functions.php:736
+#: woocommerce-functions.php:745
 msgid "Invalid download."
 msgstr ""
 
-#: woocommerce-functions.php:748
+#: woocommerce-functions.php:757
 #, fuzzy
 msgid "You must be logged in to download files."
 msgstr "Je moet ingelogd zijn om je profiel te wijzigen."
 
-#: woocommerce-functions.php:748
+#: woocommerce-functions.php:757
 #, fuzzy
 msgid "Login &rarr;"
 msgstr "Uitloggen &raquo;"
 
-#: woocommerce-functions.php:753
+#: woocommerce-functions.php:762
 msgid "This is not your download link."
 msgstr ""
 
-#: woocommerce-functions.php:769
+#: woocommerce-functions.php:778
 msgid "Sorry, you have reached your download limit for this file"
 msgstr ""
 
-#: woocommerce-functions.php:776
+#: woocommerce-functions.php:785
 msgid "Sorry, this download has expired"
 msgstr ""
 
-#: woocommerce-functions.php:948
+#: woocommerce-functions.php:957
 #, fuzzy
 msgid "File not found"
 msgstr "Geen evenementen gevonden"
 
-#: woocommerce-functions.php:1013
+#: woocommerce-functions.php:1022
 #, fuzzy
 msgid "New products"
 msgstr "Nieuw project"
 
-#: woocommerce-functions.php:1021
+#: woocommerce-functions.php:1030
 #, php-format
 msgid "New products added to %s"
 msgstr ""
 
-#: woocommerce-functions.php:1029
+#: woocommerce-functions.php:1038
 #, php-format
 msgid "New products tagged %s"
 msgstr ""
 
-#: woocommerce-functions.php:1051
+#: woocommerce-functions.php:1060
 msgid "You have taken too long. Please go back and refresh the page."
 msgstr ""
 
-#: woocommerce-functions.php:1054
+#: woocommerce-functions.php:1063
 msgid "Please rate the product."
 msgstr ""
 
@@ -344,46 +344,46 @@ msgstr ""
 msgid "No products found which match your selection."
 msgstr ""
 
-#: woocommerce-template.php:172
+#: woocommerce-template.php:175
 msgid "This is a demo store for testing purposes &mdash; no orders shall be fulfilled."
 msgstr ""
 
-#: woocommerce-template.php:360
+#: woocommerce-template.php:365
 #, fuzzy
 msgid "Buy product"
 msgstr "Project"
 
-#: woocommerce-template.php:721
+#: woocommerce-template.php:726
 #: woocommerce.php:1003
 #, fuzzy
 msgid "required"
 msgstr "(verplicht)"
 
-#: woocommerce-template.php:729
+#: woocommerce-template.php:734
 #, fuzzy
 msgid "Select a country&hellip;"
 msgstr "Project categorie"
 
-#: woocommerce-template.php:737
+#: woocommerce-template.php:742
 #, fuzzy
 msgid "Update country"
 msgstr "Gebruikersnaam"
 
-#: woocommerce-template.php:771
+#: woocommerce-template.php:776
 #, fuzzy
 msgid "Select a state&hellip;"
 msgstr "Project categorie"
 
-#: woocommerce-template.php:862
+#: woocommerce-template.php:867
 msgid "Search for:"
 msgstr "Zoek resultaten voor:"
 
-#: woocommerce-template.php:863
+#: woocommerce-template.php:868
 #, fuzzy
 msgid "Search for products"
 msgstr "Projecten zoeken"
 
-#: woocommerce-template.php:864
+#: woocommerce-template.php:869
 #: woocommerce.php:718
 msgid "Search"
 msgstr "Zoeken"
@@ -2104,7 +2104,7 @@ msgid "Total sales minus shipping and tax."
 msgstr ""
 
 #: admin/woocommerce-admin-reports.php:1803
-#: admin/post-types/writepanels/writepanel-order_data.php:589
+#: admin/post-types/writepanels/writepanel-order_data.php:607
 #, fuzzy
 msgid "Total"
 msgstr "Portaal"
@@ -2526,6 +2526,8 @@ msgstr "Betalende abonnee"
 
 #: admin/woocommerce-admin-users.php:61
 #: admin/woocommerce-admin-users.php:80
+#: admin/post-types/writepanels/writepanel-order_data.php:521
+#: admin/post-types/writepanels/writepanel-order_data.php:620
 msgid "N/A"
 msgstr ""
 
@@ -3215,8 +3217,9 @@ msgid "No billing address set."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-order_data.php:187
-msgid "Load customer billing address"
-msgstr ""
+#, fuzzy
+msgid "Load billing address"
+msgstr "Schepen in"
 
 #: admin/post-types/writepanels/writepanel-order_data.php:208
 #, fuzzy
@@ -3228,7 +3231,12 @@ msgid "No shipping address set."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-order_data.php:264
-msgid "Load customer shipping address"
+#, fuzzy
+msgid "Load shipping address"
+msgstr "Schepen in"
+
+#: admin/post-types/writepanels/writepanel-order_data.php:264
+msgid "Copy from billing"
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-order_data.php:305
@@ -3347,74 +3355,72 @@ msgstr ""
 msgid "Method:"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:522
+#: admin/post-types/writepanels/writepanel-order_data.php:535
+#: admin/post-types/writepanels/writepanel-order_data.php:537
+#: admin/post-types/writepanels/writepanel-order_data.php:634
+#: admin/post-types/writepanels/writepanel-order_data.php:636
 #, fuzzy
-msgid "Shipping method&hellip;"
-msgstr "Schepen in"
+msgid "Other"
+msgstr "meter"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:530
+#: admin/post-types/writepanels/writepanel-order_data.php:548
 #, fuzzy
 msgid "Tax Rows"
 msgstr "Tax IDs"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:530
+#: admin/post-types/writepanels/writepanel-order_data.php:548
 msgid "These rows contain taxes for this order. This allows you to display multiple or compound taxes rather than a single total."
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:564
+#: admin/post-types/writepanels/writepanel-order_data.php:582
 #, fuzzy
 msgid "+ Add tax row"
 msgstr "Nieuwe toevoegen"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:568
+#: admin/post-types/writepanels/writepanel-order_data.php:586
 #, fuzzy
 msgid "Tax Totals"
 msgstr "Portaal"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:593
+#: admin/post-types/writepanels/writepanel-order_data.php:611
 #, fuzzy
 msgid "Order Total:"
 msgstr "Titel"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:600
+#: admin/post-types/writepanels/writepanel-order_data.php:618
 #, fuzzy
 msgid "Payment Method:"
 msgstr "Speeldatum"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:603
-#, fuzzy
-msgid "Payment method&hellip;"
-msgstr "Pagina niet gevonden"
-
-#: admin/post-types/writepanels/writepanel-order_data.php:784
+#: admin/post-types/writepanels/writepanel-order_data.php:836
 msgid "Manually reducing stock."
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:798
+#: admin/post-types/writepanels/writepanel-order_data.php:850
 #, php-format
 msgid "Item #%s stock reduced from %s to %s."
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:806
-#: admin/post-types/writepanels/writepanel-order_data.php:838
+#: admin/post-types/writepanels/writepanel-order_data.php:858
+#: admin/post-types/writepanels/writepanel-order_data.php:890
 #, php-format
 msgid "Item %s %s not found, skipping."
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:812
+#: admin/post-types/writepanels/writepanel-order_data.php:864
 msgid "Manual stock reduction complete."
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:818
+#: admin/post-types/writepanels/writepanel-order_data.php:870
 msgid "Manually restoring stock."
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:832
+#: admin/post-types/writepanels/writepanel-order_data.php:884
 #, php-format
 msgid "Item #%s stock increased from %s to %s."
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-order_data.php:844
+#: admin/post-types/writepanels/writepanel-order_data.php:896
 msgid "Manual stock restore complete."
 msgstr ""
 
@@ -4359,68 +4365,77 @@ msgid "Registration"
 msgstr "Registreren"
 
 #: admin/settings/settings-init.php:171
-msgid "Allow unregistered users to register from the Checkout"
+msgid "Allow registration on the checkout page"
 msgstr ""
 
 #: admin/settings/settings-init.php:179
-msgid "Allow unregistered users to register from \"My Account\""
+msgid "Allow registration on the \"My Account\" page"
 msgstr ""
 
 #: admin/settings/settings-init.php:187
+msgid "Register using the email address for the username"
+msgstr ""
+
+#: admin/settings/settings-init.php:195
 msgid "Customer Accounts"
 msgstr ""
 
-#: admin/settings/settings-init.php:188
+#: admin/settings/settings-init.php:196
 msgid "Prevent customers from accessing WordPress admin"
 msgstr ""
 
-#: admin/settings/settings-init.php:196
+#: admin/settings/settings-init.php:204
 msgid "Clear cart when logging out"
 msgstr ""
 
-#: admin/settings/settings-init.php:204
+#: admin/settings/settings-init.php:212
 msgid "Allow customers to repurchase past orders"
 msgstr ""
 
-#: admin/settings/settings-init.php:213
+#: admin/settings/settings-init.php:221
 msgid "Styles and Scripts"
 msgstr ""
 
-#: admin/settings/settings-init.php:213
+#: admin/settings/settings-init.php:221
 msgid "The following options affect the styling of your store, as well as how certain features behave."
 msgstr ""
 
-#: admin/settings/settings-init.php:216
+#: admin/settings/settings-init.php:224
 #, fuzzy
 msgid "Styling"
 msgstr "Titel"
-
-#: admin/settings/settings-init.php:217
-msgid "Enable the \"Demo Store\" notice on your site"
-msgstr ""
 
 #: admin/settings/settings-init.php:225
 msgid "Enable WooCommerce CSS styles"
 msgstr ""
 
+#: admin/settings/settings-init.php:236
+#, fuzzy
+msgid "Store Notice"
+msgstr "Bouwschade"
+
 #: admin/settings/settings-init.php:237
+msgid "Enable the \"Demo Store\" notice on your site"
+msgstr ""
+
+#: admin/settings/settings-init.php:244
+msgid "Store Notice Text"
+msgstr ""
+
+#: admin/settings/settings-init.php:253
 msgid "Scripts"
 msgstr ""
 
-#: admin/settings/settings-init.php:238
+#: admin/settings/settings-init.php:254
 msgid "Enable AJAX add to cart buttons on product archives"
 msgstr ""
 
-#: admin/settings/settings-init.php:246
+#: admin/settings/settings-init.php:262
 msgid "Enable WooCommerce lightbox on the product page"
 msgstr ""
 
-#: admin/settings/settings-init.php:254
+#: admin/settings/settings-init.php:270
 msgid "Enable enhanced country select boxes"
-msgstr ""
-
-#: admin/settings/settings-init.php:262
-msgid "Enable jQuery UI (used by the price filter widget)"
 msgstr ""
 
 #: admin/settings/settings-init.php:279
@@ -5446,123 +5461,123 @@ msgstr ""
 msgid "Coupon does not exist!"
 msgstr ""
 
-#: classes/class-wc-checkout.php:36
+#: classes/class-wc-checkout.php:38
 #, fuzzy
 msgid "Account username"
 msgstr "Einddatum:"
 
-#: classes/class-wc-checkout.php:37
+#: classes/class-wc-checkout.php:39
 #, fuzzy
 msgctxt "placeholder"
 msgid "Username"
 msgstr "Gebruikersnaam"
 
-#: classes/class-wc-checkout.php:41
-#: classes/class-wc-checkout.php:47
+#: classes/class-wc-checkout.php:46
+#: classes/class-wc-checkout.php:53
 #, fuzzy
 msgid "Account password"
 msgstr "Wachtwoord vergeten?"
 
-#: classes/class-wc-checkout.php:42
-#: classes/class-wc-checkout.php:48
+#: classes/class-wc-checkout.php:47
+#: classes/class-wc-checkout.php:54
 #, fuzzy
 msgctxt "placeholder"
 msgid "Password"
 msgstr "Wachtwoord"
 
-#: classes/class-wc-checkout.php:58
+#: classes/class-wc-checkout.php:64
 msgctxt "placeholder"
 msgid "Notes about your order, e.g. special notes for delivery."
 msgstr ""
 
-#: classes/class-wc-checkout.php:93
+#: classes/class-wc-checkout.php:99
 #, php-format
 msgid "Sorry, your session has expired. <a href=\"%s\">Return to homepage &rarr;</a>"
 msgstr ""
 
-#: classes/class-wc-checkout.php:144
+#: classes/class-wc-checkout.php:150
 #, fuzzy
 msgid "is a required field."
 msgstr "Verplichte velden zijn gemarkeerd als %s"
 
-#: classes/class-wc-checkout.php:157
+#: classes/class-wc-checkout.php:163
 #, fuzzy, php-format
 msgid "(%s) is not a valid postcode/ZIP."
 msgstr "Bovenliggende fase:"
 
-#: classes/class-wc-checkout.php:178
+#: classes/class-wc-checkout.php:184
 msgid "is not valid. Please enter one of the following:"
 msgstr ""
 
-#: classes/class-wc-checkout.php:186
+#: classes/class-wc-checkout.php:192
 #, fuzzy
 msgid "is not a valid number."
 msgstr "Het nummer \"%s\" is geen geldige abonneenummer."
 
-#: classes/class-wc-checkout.php:193
+#: classes/class-wc-checkout.php:199
 msgid "is not a valid email address."
 msgstr ""
 
-#: classes/class-wc-checkout.php:247
+#: classes/class-wc-checkout.php:255
 #, fuzzy
 msgid "Please enter an account username."
 msgstr "Bovenliggende fase:"
 
-#: classes/class-wc-checkout.php:249
+#: classes/class-wc-checkout.php:259
+msgid "Invalid email/username."
+msgstr ""
+
+#: classes/class-wc-checkout.php:262
+msgid "An account is already registered with that username. Please choose another."
+msgstr ""
+
+#: classes/class-wc-checkout.php:272
 #, fuzzy
 msgid "Please enter an account password."
 msgstr "Bovenliggende fase:"
 
-#: classes/class-wc-checkout.php:255
-msgid "Invalid email/username."
-msgstr ""
-
-#: classes/class-wc-checkout.php:257
-msgid "An account is already registered with that username. Please choose another."
-msgstr ""
-
-#: classes/class-wc-checkout.php:261
+#: classes/class-wc-checkout.php:279
 msgid "An account is already registered with your email address. Please login."
 msgstr ""
 
-#: classes/class-wc-checkout.php:267
+#: classes/class-wc-checkout.php:285
 msgid "You must accept our Terms &amp; Conditions."
 msgstr ""
 
-#: classes/class-wc-checkout.php:275
+#: classes/class-wc-checkout.php:293
 msgid "Invalid shipping method."
 msgstr ""
 
-#: classes/class-wc-checkout.php:285
+#: classes/class-wc-checkout.php:303
 msgid "Invalid payment method."
 msgstr ""
 
-#: classes/class-wc-checkout.php:345
+#: classes/class-wc-checkout.php:363
 #, fuzzy, php-format
 msgid "Order &ndash; %s"
 msgstr "Beoordeling"
 
-#: classes/class-wc-checkout.php:345
+#: classes/class-wc-checkout.php:363
 msgctxt "Order date parsed by strftime"
 msgid "%b %d, %Y @ %I:%M %p"
 msgstr ""
 
-#: classes/class-wc-checkout.php:374
+#: classes/class-wc-checkout.php:392
 #, fuzzy
 msgid "Backordered"
 msgstr "Publicatie naam"
 
-#: classes/class-wc-checkout.php:536
+#: classes/class-wc-checkout.php:554
 #, fuzzy
 msgid "Customer IP Address"
 msgstr "Adres"
 
-#: classes/class-wc-checkout.php:537
+#: classes/class-wc-checkout.php:555
 #, fuzzy
 msgid "Customer UA"
 msgstr "Bouwschade"
 
-#: classes/class-wc-checkout.php:551
+#: classes/class-wc-checkout.php:569
 #, fuzzy, php-format
 msgid "Coupon Code Used: %s"
 msgstr "Plaats reactie"
@@ -7840,175 +7855,184 @@ msgid "provides a fully PCI Compliant, secure way to collect and transmit credit
 msgstr ""
 
 #: classes/gateways/paypal/class-wc-paypal.php:22
-#: classes/gateways/paypal/class-wc-paypal.php:109
+#: classes/gateways/paypal/class-wc-paypal.php:110
 msgid "PayPal"
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-paypal.php:72
+#: classes/gateways/paypal/class-wc-paypal.php:73
 #, fuzzy
 msgid "PayPal standard"
 msgstr "Straat"
 
-#: classes/gateways/paypal/class-wc-paypal.php:73
+#: classes/gateways/paypal/class-wc-paypal.php:74
 msgid "PayPal standard works by sending the user to PayPal to enter their payment information."
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-paypal.php:84
+#: classes/gateways/paypal/class-wc-paypal.php:85
 msgid "Gateway Disabled"
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-paypal.php:84
+#: classes/gateways/paypal/class-wc-paypal.php:85
 msgid "PayPal does not support your store currency."
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-paypal.php:102
+#: classes/gateways/paypal/class-wc-paypal.php:103
 msgid "Enable PayPal standard"
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-paypal.php:115
+#: classes/gateways/paypal/class-wc-paypal.php:116
 msgid "Pay via PayPal; you can pay with your credit card if you don't have a PayPal account"
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-paypal.php:118
+#: classes/gateways/paypal/class-wc-paypal.php:119
 msgid "PayPal Email"
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-paypal.php:120
+#: classes/gateways/paypal/class-wc-paypal.php:121
 #, fuzzy
 msgid "Please enter your PayPal email address; this is needed in order to take payment."
 msgstr "Gebruikersnaam of e-mailadres invoeren. Je zult per e-mail een link ontvangen waarna je een nieuw wachtwoord kunt aanmaken."
 
-#: classes/gateways/paypal/class-wc-paypal.php:124
+#: classes/gateways/paypal/class-wc-paypal.php:125
 #, fuzzy
-msgid "Submission method"
-msgstr "Schepen in"
-
-#: classes/gateways/paypal/class-wc-paypal.php:126
-msgid "Use form submission method."
-msgstr ""
+msgid "Invoice Prefix"
+msgstr "Premium"
 
 #: classes/gateways/paypal/class-wc-paypal.php:127
-msgid "Enable this to post order data to PayPal via a form instead of using a redirect/querystring."
+msgid "Please enter a prefix for your invoice numbers. If you use your PayPal account for multiple stores ensure this prefix is unqiue as PayPal will not allow orders with the same invoice number."
 msgstr ""
 
 #: classes/gateways/paypal/class-wc-paypal.php:131
 #, fuzzy
+msgid "Submission method"
+msgstr "Schepen in"
+
+#: classes/gateways/paypal/class-wc-paypal.php:133
+msgid "Use form submission method."
+msgstr ""
+
+#: classes/gateways/paypal/class-wc-paypal.php:134
+msgid "Enable this to post order data to PayPal via a form instead of using a redirect/querystring."
+msgstr ""
+
+#: classes/gateways/paypal/class-wc-paypal.php:138
+#, fuzzy
 msgid "Page Style"
 msgstr "Nieuwe fase naam"
 
-#: classes/gateways/paypal/class-wc-paypal.php:133
+#: classes/gateways/paypal/class-wc-paypal.php:140
 msgid "Optionally enter the name of the page style you wish to use. These are defined within your PayPal account."
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-paypal.php:137
+#: classes/gateways/paypal/class-wc-paypal.php:144
 #, fuzzy
 msgid "Shipping options"
 msgstr "Schepen in"
 
-#: classes/gateways/paypal/class-wc-paypal.php:142
+#: classes/gateways/paypal/class-wc-paypal.php:149
 #, fuzzy
 msgid "Shipping details"
 msgstr "Schip details"
 
-#: classes/gateways/paypal/class-wc-paypal.php:144
+#: classes/gateways/paypal/class-wc-paypal.php:151
 #, fuzzy
 msgid "Send shipping details to PayPal instead of billing."
 msgstr "Schip details"
 
-#: classes/gateways/paypal/class-wc-paypal.php:146
+#: classes/gateways/paypal/class-wc-paypal.php:153
 msgid "PayPal allows us to send 1 address. If you are using PayPal for shipping labels you may prefer to send the shipping address rather than billing."
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-paypal.php:150
+#: classes/gateways/paypal/class-wc-paypal.php:157
 #, fuzzy
 msgid "Address override"
 msgstr "Adres"
 
-#: classes/gateways/paypal/class-wc-paypal.php:152
+#: classes/gateways/paypal/class-wc-paypal.php:159
 msgid "Enable \"address_override\" to prevent address information from being changed."
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-paypal.php:153
+#: classes/gateways/paypal/class-wc-paypal.php:160
 msgid "PayPal verifies addresses therefore this setting can cause errors (we recommend keeping it disabled)."
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-paypal.php:157
+#: classes/gateways/paypal/class-wc-paypal.php:164
 msgid "Gateway Testing"
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-paypal.php:162
+#: classes/gateways/paypal/class-wc-paypal.php:169
 msgid "PayPal sandbox"
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-paypal.php:164
+#: classes/gateways/paypal/class-wc-paypal.php:171
 msgid "Enable PayPal sandbox"
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-paypal.php:166
+#: classes/gateways/paypal/class-wc-paypal.php:173
 #, php-format
 msgid "PayPal sandbox can be used to test payments. Sign up for a developer account <a href=\"%s\">here</a>."
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-paypal.php:169
+#: classes/gateways/paypal/class-wc-paypal.php:176
 msgid "Debug Log"
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-paypal.php:171
+#: classes/gateways/paypal/class-wc-paypal.php:178
 #, fuzzy
 msgid "Enable logging"
 msgstr "Juridische navigatie"
 
-#: classes/gateways/paypal/class-wc-paypal.php:173
+#: classes/gateways/paypal/class-wc-paypal.php:180
 msgid "Log PayPal events, such as IPN requests, inside <code>woocommerce/logs/paypal.txt</code>"
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-paypal.php:289
-#: classes/gateways/paypal/class-wc-paypal.php:326
+#: classes/gateways/paypal/class-wc-paypal.php:293
+#: classes/gateways/paypal/class-wc-paypal.php:330
 #, fuzzy
 msgid "Shipping via"
 msgstr "Schepen in"
 
-#: classes/gateways/paypal/class-wc-paypal.php:362
+#: classes/gateways/paypal/class-wc-paypal.php:366
 msgid "Thank you for your order. We are now redirecting you to PayPal to make payment."
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-paypal.php:383
+#: classes/gateways/paypal/class-wc-paypal.php:387
 msgid "Pay via PayPal"
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-paypal.php:383
+#: classes/gateways/paypal/class-wc-paypal.php:387
 msgid "Cancel order &amp; restore cart"
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-paypal.php:428
+#: classes/gateways/paypal/class-wc-paypal.php:432
 msgid "Thank you for your order, please click the button below to pay with PayPal."
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-paypal.php:565
+#: classes/gateways/paypal/class-wc-paypal.php:579
 #, fuzzy
 msgid "IPN payment completed"
 msgstr "Speeldatum"
 
-#: classes/gateways/paypal/class-wc-paypal.php:576
-#: classes/gateways/paypal/class-wc-paypal.php:584
-#: classes/gateways/paypal/class-wc-paypal.php:602
+#: classes/gateways/paypal/class-wc-paypal.php:590
+#: classes/gateways/paypal/class-wc-paypal.php:598
+#: classes/gateways/paypal/class-wc-paypal.php:616
 #, php-format
 msgid "Payment %s via IPN."
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-paypal.php:589
-#: classes/gateways/paypal/class-wc-paypal.php:607
+#: classes/gateways/paypal/class-wc-paypal.php:603
+#: classes/gateways/paypal/class-wc-paypal.php:621
 msgid "Order refunded/reversed"
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-paypal.php:590
-#: classes/gateways/paypal/class-wc-paypal.php:608
+#: classes/gateways/paypal/class-wc-paypal.php:604
+#: classes/gateways/paypal/class-wc-paypal.php:622
 #, php-format
 msgid "Order %s has been marked as refunded - PayPal reason code: %s"
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-paypal.php:593
-#: classes/gateways/paypal/class-wc-paypal.php:611
+#: classes/gateways/paypal/class-wc-paypal.php:607
+#: classes/gateways/paypal/class-wc-paypal.php:625
 #, php-format
 msgid "Payment for order %s refunded/reversed"
 msgstr ""
@@ -8045,8 +8069,8 @@ msgstr ""
 msgid "Add event tracking code for add to cart actions"
 msgstr ""
 
-#: classes/integrations/google-analytics/class-wc-google-analytics.php:229
-#: classes/integrations/google-analytics/class-wc-google-analytics.php:246
+#: classes/integrations/google-analytics/class-wc-google-analytics.php:231
+#: classes/integrations/google-analytics/class-wc-google-analytics.php:248
 #, fuzzy
 msgid "Add to Cart"
 msgstr "Nieuwe toevoegen"
@@ -8857,7 +8881,7 @@ msgid "Create an account?"
 msgstr ""
 
 #: templates/checkout/form-billing.php:42
-msgid "Create an account by entering the information below. If you are a returning customer please login with your username at the top of the page."
+msgid "Create an account by entering the information below. If you are a returning customer please login at the top of the page."
 msgstr ""
 
 #: templates/checkout/form-checkout.php:9
@@ -8887,7 +8911,7 @@ msgid "Click here to login"
 msgstr ""
 
 #: templates/checkout/form-login.php:13
-msgid "If you have shopped with us before, please enter your username and password in the boxes below. If you are a new customer please proceed to the Billing &amp; Shipping section."
+msgid "If you have shopped with us before, please enter your details in the boxes below. If you are a new customer please proceed to the Billing &amp; Shipping section."
 msgstr ""
 
 #: templates/checkout/form-pay.php:14
@@ -9065,14 +9089,13 @@ msgid "Login"
 msgstr "Inloggen"
 
 #: templates/myaccount/form-login.php:18
-#: templates/myaccount/form-login.php:44
 #: templates/shop/form-login.php:14
 #, fuzzy
-msgid "Username"
-msgstr "Gebruikersnaam"
+msgid "Username or email"
+msgstr "Gebruikersnaam of e-mailadres:"
 
 #: templates/myaccount/form-login.php:22
-#: templates/myaccount/form-login.php:54
+#: templates/myaccount/form-login.php:65
 #: templates/shop/form-login.php:18
 msgid "Password"
 msgstr "Wachtwoord"
@@ -9083,11 +9106,16 @@ msgid "Lost Password?"
 msgstr "Wachtwoord vergeten?"
 
 #: templates/myaccount/form-login.php:40
-#: templates/myaccount/form-login.php:70
+#: templates/myaccount/form-login.php:81
 msgid "Register"
 msgstr "Registreren"
 
-#: templates/myaccount/form-login.php:58
+#: templates/myaccount/form-login.php:46
+#, fuzzy
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: templates/myaccount/form-login.php:69
 #, fuzzy
 msgid "Re-enter password"
 msgstr "Nieuw wachtwoord"
@@ -9439,22 +9467,22 @@ msgstr ""
 msgid "WooCommerce Price Filter"
 msgstr ""
 
-#: widgets/widget-price_filter.php:188
+#: widgets/widget-price_filter.php:185
 #, fuzzy
 msgid "Min price"
 msgstr "Mijn profiel"
 
-#: widgets/widget-price_filter.php:189
+#: widgets/widget-price_filter.php:186
 #, fuzzy
 msgid "Max price"
 msgstr "Mijn profiel"
 
-#: widgets/widget-price_filter.php:190
+#: widgets/widget-price_filter.php:187
 #, fuzzy
 msgid "Filter"
 msgstr "Filter:"
 
-#: widgets/widget-price_filter.php:205
+#: widgets/widget-price_filter.php:202
 msgid "Filter by price"
 msgstr ""
 
@@ -9533,6 +9561,19 @@ msgstr "Project"
 msgid "Show hidden product variations"
 msgstr ""
 
+#: widgets/widget-recently_viewed.php:23
+msgid "Display a list of recently viewed products."
+msgstr ""
+
+#: widgets/widget-recently_viewed.php:25
+msgid "WooCommerce Recently Viewed Products"
+msgstr ""
+
+#: widgets/widget-recently_viewed.php:56
+#, fuzzy
+msgid "Recently viewed"
+msgstr "Recent nieuws"
+
 #: widgets/widget-recent_products.php:23
 msgid "Display a list of your most recent products on your site."
 msgstr ""
@@ -9561,19 +9602,6 @@ msgctxt "by comment author"
 msgid "by %1$s"
 msgstr ""
 
-#: widgets/widget-recently_viewed.php:23
-msgid "Display a list of recently viewed products."
-msgstr ""
-
-#: widgets/widget-recently_viewed.php:25
-msgid "WooCommerce Recently Viewed Products"
-msgstr ""
-
-#: widgets/widget-recently_viewed.php:56
-#, fuzzy
-msgid "Recently viewed"
-msgstr "Recent nieuws"
-
 #: widgets/widget-top_rated_products.php:24
 msgid "Display a list of top rated products on your site."
 msgstr ""
@@ -9585,6 +9613,14 @@ msgstr ""
 #: widgets/widget-top_rated_products.php:55
 msgid "Top Rated Products"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Shipping method&hellip;"
+#~ msgstr "Schepen in"
+
+#, fuzzy
+#~ msgid "Payment method&hellip;"
+#~ msgstr "Pagina niet gevonden"
 
 #, fuzzy
 #~ msgctxt "Admin menu name"
@@ -9769,10 +9805,6 @@ msgstr ""
 #~ msgid "User Display Name"
 #~ msgstr "Weergavenaam"
 
-#, fuzzy
-#~ msgid "User Email"
-#~ msgstr "Gebruikersnaam of e-mailadres:"
-
 #~ msgid "%1$s at %2$s"
 #~ msgstr "%1$s op %2$s"
 
@@ -9791,10 +9823,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Enter Email"
 #~ msgstr "Gebruikersnaam of e-mailadres:"
-
-#, fuzzy
-#~ msgid "Prefix"
-#~ msgstr "Premium"
 
 #, fuzzy
 #~ msgid "Cardholder Name"
