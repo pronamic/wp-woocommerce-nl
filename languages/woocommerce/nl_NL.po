@@ -2,19 +2,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-30 20:18+0100\n"
-"PO-Revision-Date: 2012-08-30 20:19+0100\n"
+"POT-Creation-Date: 2012-09-17 12:01+0100\n"
+"PO-Revision-Date: 2012-09-17 12:01+0100\n"
 "Last-Translator: Remco Tolsma <remco@pronamic.nl>\n"
 "Language-Team: Pronamic <info@pronamic.nl>\n"
+"Language: nl_NL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext:1,2;__withdesc;_ewithdesc;_c;_n_noop:1,2;__ngettext_noop:1,2;_x:2c,1;_nc:1,2;esc_attr_e;esc_html_e;esc_attr__;_nx:4c,1,2;_nx_noop:4c,1,2;esc_html_x:2c,1;esc_html__;_ex:2c,1\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext:1,2;__withdesc;_ewithdesc;_c;"
+"_n_noop:1,2;__ngettext_noop:1,2;_x:2c,1;_nc:1,2;esc_attr_e;esc_html_e;"
+"esc_attr__;_nx:4c,1,2;_nx_noop:4c,1,2;esc_html_x:2c,1;esc_html__;_ex:2c,1\n"
 "X-Poedit-Basepath: ../\n"
-"X-Poedit-Language: Dutch\n"
-"X-Poedit-Country: NETHERLANDS\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.3\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: woocommerce-ajax.php:69
@@ -22,7 +24,7 @@ msgstr ""
 msgid "Please enter your username and password to login."
 msgstr "Bovenliggende fase:"
 
-#: woocommerce-ajax.php:97
+#: woocommerce-ajax.php:97 shortcodes/shortcode-cart.php:46
 #, fuzzy
 msgid "Please enter a coupon code."
 msgstr "Bovenliggende fase:"
@@ -35,70 +37,85 @@ msgstr ""
 msgid "Return to homepage &rarr;"
 msgstr ""
 
-#: woocommerce-ajax.php:247
-#: woocommerce-ajax.php:281
-#: woocommerce-ajax.php:304
+#: woocommerce-ajax.php:247 woocommerce-ajax.php:281 woocommerce-ajax.php:304
 msgid "You do not have sufficient permissions to access this page."
 msgstr ""
 
-#: woocommerce-ajax.php:249
-#: woocommerce-ajax.php:282
-#: woocommerce-ajax.php:305
+#: woocommerce-ajax.php:249 woocommerce-ajax.php:282 woocommerce-ajax.php:305
 msgid "You have taken too long. Please go back and retry."
 msgstr ""
 
 #: woocommerce-ajax.php:777
+#: admin/post-types/writepanels/writepanel-order_data.php:345
 #, fuzzy
 msgid "Product ID:"
 msgstr "Project"
 
 #: woocommerce-ajax.php:778
+#: admin/post-types/writepanels/writepanel-order_data.php:346
 msgid "Variation ID:"
 msgstr ""
 
 #: woocommerce-ajax.php:779
+#: admin/post-types/writepanels/writepanel-order_data.php:347
 #, fuzzy
 msgid "Product SKU:"
 msgstr "Project"
 
 #: woocommerce-ajax.php:791
+#: admin/post-types/writepanels/writepanel-order_data.php:359
 #, fuzzy
 msgid "Delete item"
 msgstr "Verwijder bericht"
 
 #: woocommerce-ajax.php:792
+#: admin/post-types/writepanels/writepanel-order_data.php:360
 #, fuzzy
 msgid "View product"
 msgstr "Bekijk project"
 
 #: woocommerce-ajax.php:800
+#: admin/post-types/writepanels/writepanel-order_data.php:370
 msgid "Add&nbsp;meta"
 msgstr ""
 
 #: woocommerce-ajax.php:814
+#: admin/post-types/writepanels/writepanel-order_data.php:403
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:53
+#: admin/post-types/writepanels/writepanel-product_data.php:211
 #, fuzzy
 msgid "Standard"
 msgstr "Straat"
 
-#: woocommerce-ajax.php:828
-#: woocommerce-ajax.php:834
+#: woocommerce-ajax.php:828 woocommerce-ajax.php:834
+#: admin/post-types/writepanels/writepanel-order_data.php:417
+#: admin/post-types/writepanels/writepanel-order_data.php:423
+#: classes/shipping/class-wc-flat-rate.php:413
 #, fuzzy
 msgid "Cost"
 msgstr "Classificaties"
 
-#: woocommerce-ajax.php:830
-#: woocommerce-ajax.php:836
+#: woocommerce-ajax.php:830 woocommerce-ajax.php:836
 #: admin/woocommerce-admin-content.php:47
+#: admin/woocommerce-admin-settings.php:194
+#: admin/post-types/writepanels/writepanel-order_data.php:419
+#: admin/post-types/writepanels/writepanel-order_data.php:425
+#: classes/class-wc-countries.php:577 templates/cart/totals.php:174
+#: templates/cart/totals.php:184
 #, fuzzy
 msgid "Tax"
 msgstr "Tax IDs"
 
 #: woocommerce-ajax.php:931
+#: admin/post-types/writepanels/writepanel-order_notes.php:42
 #, fuzzy
 msgid "Delete note"
 msgstr "Verwijder bericht"
 
-#: woocommerce-ajax.php:1094
+#: woocommerce-ajax.php:1094 admin/post-types/shop_order.php:90
+#: admin/post-types/writepanels/writepanel-order_data.php:80
+#: classes/integrations/google-analytics/class-wc-google-analytics.php:112
+#: classes/integrations/google-analytics/class-wc-google-analytics.php:167
 #, fuzzy
 msgid "Guest"
 msgstr "Dossiers"
@@ -116,13 +133,11 @@ msgstr ""
 msgid "No products found"
 msgstr "Geen projecten gevonden"
 
-#: woocommerce-core-functions.php:899
-#: woocommerce-core-functions.php:963
+#: woocommerce-core-functions.php:899 woocommerce-core-functions.php:963
 msgid "Download Permissions Granted"
 msgstr ""
 
-#: woocommerce-core-functions.php:1011
-#: woocommerce.php:698
+#: woocommerce-core-functions.php:1011 woocommerce.php:698
 #, fuzzy
 msgctxt "slug"
 msgid "product"
@@ -138,13 +153,12 @@ msgstr "Project categorie"
 msgid "Uncategorized"
 msgstr "Categorieën"
 
-#: woocommerce-functions.php:138
+#: woocommerce-functions.php:138 widgets/widget-login.php:72
 #, fuzzy
 msgid "Logout"
 msgstr "Uitloggen"
 
-#: woocommerce-functions.php:170
-#: woocommerce-functions.php:214
+#: woocommerce-functions.php:170 woocommerce-functions.php:214
 #, fuzzy
 msgid "Cart updated."
 msgstr "Einddatum:"
@@ -154,8 +168,7 @@ msgstr "Einddatum:"
 msgid "You can only have 1 %s in your cart."
 msgstr ""
 
-#: woocommerce-functions.php:249
-#: woocommerce-functions.php:289
+#: woocommerce-functions.php:249 woocommerce-functions.php:289
 msgid "Please choose product options&hellip;"
 msgstr ""
 
@@ -172,12 +185,13 @@ msgstr ""
 msgid "Continue Shopping &rarr;"
 msgstr "Lees verder &rarr;"
 
-#: woocommerce-functions.php:397
-#: woocommerce-functions.php:401
+#: woocommerce-functions.php:397 woocommerce-functions.php:401
 msgid "Product successfully added to your cart."
 msgstr ""
 
-#: woocommerce-functions.php:401
+#: woocommerce-functions.php:401 classes/class-wc-cart.php:759
+#: classes/class-wc-cart.php:773 classes/class-wc-cart.php:781
+#: templates/cart/mini-cart.php:63
 msgid "View Cart &rarr;"
 msgstr ""
 
@@ -185,28 +199,27 @@ msgstr ""
 msgid "Username is required."
 msgstr ""
 
-#: woocommerce-functions.php:553
-#: woocommerce-functions.php:640
+#: woocommerce-functions.php:553 woocommerce-functions.php:640
 msgid "Password is required."
 msgstr ""
 
-#: woocommerce-functions.php:614
-#: woocommerce-functions.php:616
-#: woocommerce-functions.php:619
-#: woocommerce-functions.php:631
-#: woocommerce-functions.php:633
-#: woocommerce-functions.php:636
-#: woocommerce-functions.php:659
+#: woocommerce-functions.php:614 woocommerce-functions.php:616
+#: woocommerce-functions.php:619 woocommerce-functions.php:631
+#: woocommerce-functions.php:633 woocommerce-functions.php:636
+#: woocommerce-functions.php:659 classes/class-wc-checkout.php:366
+#: widgets/widget-login.php:267 widgets/widget-login.php:270
 msgid "ERROR"
 msgstr ""
 
-#: woocommerce-functions.php:614
+#: woocommerce-functions.php:614 widgets/widget-login.php:267
 #, fuzzy
 msgid "Please enter a username."
 msgstr "Bovenliggende fase:"
 
 #: woocommerce-functions.php:616
-msgid "This username is invalid because it uses illegal characters. Please enter a valid username."
+msgid ""
+"This username is invalid because it uses illegal characters. Please enter a "
+"valid username."
 msgstr ""
 
 #: woocommerce-functions.php:619
@@ -230,7 +243,8 @@ msgstr ""
 msgid "Re-enter your password."
 msgstr "Nieuw wachtwoord"
 
-#: woocommerce-functions.php:642
+#: woocommerce-functions.php:642 classes/class-wc-checkout.php:308
+#: shortcodes/shortcode-my_account.php:251
 msgid "Passwords do not match."
 msgstr ""
 
@@ -238,8 +252,10 @@ msgstr ""
 msgid "Anti-spam field was filled in."
 msgstr ""
 
-#: woocommerce-functions.php:659
-msgid "Couldn&#8217;t register you&hellip; please contact us if you continue to have problems."
+#: woocommerce-functions.php:659 classes/class-wc-checkout.php:366
+msgid ""
+"Couldn&#8217;t register you&hellip; please contact us if you continue to "
+"have problems."
 msgstr ""
 
 #: woocommerce-functions.php:742
@@ -255,11 +271,14 @@ msgid "Your order was cancelled."
 msgstr ""
 
 #: woocommerce-functions.php:777
-msgid "Your order is no longer pending and could not be cancelled. Please contact us if you need assistance."
+msgid ""
+"Your order is no longer pending and could not be cancelled. Please contact "
+"us if you need assistance."
 msgstr ""
 
-#: woocommerce-functions.php:781
-#: woocommerce-functions.php:847
+#: woocommerce-functions.php:781 woocommerce-functions.php:847
+#: shortcodes/shortcode-my_account.php:288 shortcodes/shortcode-pay.php:65
+#: shortcodes/shortcode-pay.php:120
 msgid "Invalid order."
 msgstr ""
 
@@ -267,12 +286,9 @@ msgstr ""
 msgid "Invalid email address."
 msgstr ""
 
-#: woocommerce-functions.php:809
-#: woocommerce-functions.php:821
-#: woocommerce-functions.php:847
-#: woocommerce-functions.php:854
-#: woocommerce-functions.php:861
-#: woocommerce-functions.php:1034
+#: woocommerce-functions.php:809 woocommerce-functions.php:821
+#: woocommerce-functions.php:847 woocommerce-functions.php:854
+#: woocommerce-functions.php:861 woocommerce-functions.php:1034
 msgid "Go to homepage &rarr;"
 msgstr ""
 
@@ -285,7 +301,7 @@ msgstr ""
 msgid "You must be logged in to download files."
 msgstr "Je moet ingelogd zijn om je profiel te wijzigen."
 
-#: woocommerce-functions.php:833
+#: woocommerce-functions.php:833 widgets/widget-login.php:111
 #, fuzzy
 msgid "Login &rarr;"
 msgstr "Uitloggen &raquo;"
@@ -330,22 +346,25 @@ msgstr ""
 msgid "Please rate the product."
 msgstr ""
 
-#: woocommerce-template.php:41
+#: woocommerce-template.php:41 templates/archive-product.php:27
 #, fuzzy, php-format
 msgid "Search Results: &ldquo;%s&rdquo;"
 msgstr "Zoekresultaten voor: %s"
 
-#: woocommerce-template.php:53
+#: woocommerce-template.php:53 templates/archive-product.php:29
 #, php-format
 msgid "&nbsp;&ndash; Page %s"
 msgstr ""
 
-#: woocommerce-template.php:87
+#: woocommerce-template.php:87 templates/archive-product.php:72
+#: templates/loop-shop.php:38
 msgid "No products found which match your selection."
 msgstr ""
 
-#: woocommerce-template.php:224
-msgid "This is a demo store for testing purposes &mdash; no orders shall be fulfilled."
+#: woocommerce-template.php:224 admin/settings/settings-init.php:249
+msgid ""
+"This is a demo store for testing purposes &mdash; no orders shall be "
+"fulfilled."
 msgstr ""
 
 #: woocommerce-template.php:588
@@ -353,13 +372,15 @@ msgstr ""
 msgid "Buy product"
 msgstr "Project"
 
-#: woocommerce-template.php:1087
-#: woocommerce.php:1161
+#: woocommerce-template.php:1087 woocommerce.php:1161
 #, fuzzy
 msgid "required"
 msgstr "(verplicht)"
 
 #: woocommerce-template.php:1095
+#: admin/post-types/writepanels/writepanel-order_data.php:164
+#: admin/post-types/writepanels/writepanel-order_data.php:247
+#: templates/cart/shipping-calculator.php:22
 #, fuzzy
 msgid "Select a country&hellip;"
 msgstr "Project categorie"
@@ -369,7 +390,7 @@ msgstr "Project categorie"
 msgid "Update country"
 msgstr "Gebruikersnaam"
 
-#: woocommerce-template.php:1137
+#: woocommerce-template.php:1137 templates/cart/shipping-calculator.php:48
 #, fuzzy
 msgid "Select a state&hellip;"
 msgstr "Project categorie"
@@ -383,8 +404,9 @@ msgstr "Zoek resultaten voor:"
 msgid "Search for products"
 msgstr "Projecten zoeken"
 
-#: woocommerce-template.php:1237
-#: woocommerce.php:862
+#: woocommerce-template.php:1237 woocommerce.php:862
+#: admin/post-types/product.php:615 admin/post-types/product.php:883
+#: admin/post-types/writepanels/writepanel-product_data.php:967
 msgid "Search"
 msgstr "Zoeken"
 
@@ -408,14 +430,14 @@ msgctxt "slug"
 msgid "product-tag"
 msgstr "Project"
 
-#: woocommerce.php:729
-#: woocommerce.php:731
+#: woocommerce.php:729 woocommerce.php:731
+#: admin/post-types/writepanels/writepanel-coupon_data.php:107
+#: widgets/widget-product_categories.php:54
 #, fuzzy
 msgid "Product Categories"
 msgstr "Alle project categorieën"
 
-#: woocommerce.php:732
-#: admin/woocommerce-admin-dashboard.php:95
+#: woocommerce.php:732 admin/woocommerce-admin-dashboard.php:95
 #, fuzzy
 msgid "Product Category"
 msgid_plural "Product Categories"
@@ -468,14 +490,13 @@ msgstr "Nieuwe project categorie toevoegen"
 msgid "New Product Category Name"
 msgstr "Nieuwe categorie naam"
 
-#: woocommerce.php:760
-#: woocommerce.php:762
+#: woocommerce.php:760 woocommerce.php:762
+#: widgets/widget-product_tag_cloud.php:55
 #, fuzzy
 msgid "Product Tags"
 msgstr "Berichten"
 
-#: woocommerce.php:763
-#: admin/woocommerce-admin-dashboard.php:109
+#: woocommerce.php:763 admin/woocommerce-admin-dashboard.php:109
 #, fuzzy
 msgid "Product Tag"
 msgid_plural "Product Tags"
@@ -528,13 +549,12 @@ msgstr "Nieuw project type toevoegen"
 msgid "New Product Tag Name"
 msgstr "Nieuwe project type naam"
 
-#: woocommerce.php:791
-#: woocommerce.php:793
+#: woocommerce.php:791 woocommerce.php:793
 #, fuzzy
 msgid "Shipping Classes"
 msgstr "Schepen in"
 
-#: woocommerce.php:794
+#: woocommerce.php:794 classes/shipping/class-wc-flat-rate.php:412
 #, fuzzy
 msgid "Shipping Class"
 msgstr "Schepen in"
@@ -631,27 +651,32 @@ msgstr "Nieuw project toevoegen"
 msgid "New Order status Name"
 msgstr "Nieuwe regio naam"
 
-#: woocommerce.php:863
+#: woocommerce.php:863 admin/settings/settings-tax-rates.php:62
+#: admin/settings/settings-tax-rates.php:222
 msgid "All"
 msgstr "Alles"
 
-#: woocommerce.php:864
-#: woocommerce.php:865
+#: woocommerce.php:864 woocommerce.php:865
 #, fuzzy
 msgid "Parent"
 msgstr "Artikelen"
 
-#: woocommerce.php:866
-#: woocommerce.php:895
-#: woocommerce.php:940
-#: woocommerce.php:986
-#: woocommerce.php:1032
+#: woocommerce.php:866 woocommerce.php:895 woocommerce.php:940
+#: woocommerce.php:986 woocommerce.php:1032
 #: admin/woocommerce-admin-attributes.php:280
+#: admin/post-types/writepanels/writepanel-order_data.php:129
+#: admin/post-types/writepanels/writepanel-order_data.php:212
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:86
+#: admin/post-types/writepanels/writepanel-product_data.php:987
+#: admin/settings/settings-tax-rates.php:57
+#: admin/settings/settings-tax-rates.php:169
+#: admin/settings/settings-tax-rates.php:176
+#: admin/settings/settings-tax-rates.php:217
+#: templates/myaccount/my-address.php:25 templates/myaccount/my-address.php:56
 msgid "Edit"
 msgstr "Bewerken"
 
-#: woocommerce.php:867
-#: admin/woocommerce-admin-attributes.php:235
+#: woocommerce.php:867 admin/woocommerce-admin-attributes.php:235
 #, fuzzy
 msgid "Update"
 msgstr "Update classificatie"
@@ -667,13 +692,24 @@ msgid "New"
 msgstr "Nieuws"
 
 #: woocommerce.php:890
+#: admin/post-types/writepanels/writepanel-coupon_data.php:59
+#: classes/integrations/google-analytics/class-wc-google-analytics.php:253
+#: classes/integrations/google-analytics/class-wc-google-analytics.php:273
 #, fuzzy
 msgid "Products"
 msgstr "Project"
 
-#: woocommerce.php:891
-#: admin/woocommerce-admin-dashboard.php:81
+#: woocommerce.php:891 admin/woocommerce-admin-dashboard.php:81
 #: admin/woocommerce-admin-functions.php:135
+#: admin/woocommerce-admin-reports.php:988
+#: admin/woocommerce-admin-reports.php:1088 templates/cart/cart.php:22
+#: templates/checkout/form-pay.php:17 templates/checkout/review-order.php:19
+#: templates/emails/admin-new-order.php:23
+#: templates/emails/customer-completed-order.php:23
+#: templates/emails/customer-invoice.php:27
+#: templates/emails/customer-note.php:27
+#: templates/emails/customer-processing-order.php:23
+#: templates/order/order-details.php:18
 #, fuzzy
 msgid "Product"
 msgid_plural "Products"
@@ -706,8 +742,7 @@ msgstr "Project bewerken"
 msgid "New Product"
 msgstr "Nieuw project"
 
-#: woocommerce.php:898
-#: woocommerce.php:899
+#: woocommerce.php:898 woocommerce.php:899
 #, fuzzy
 msgid "View Product"
 msgstr "Bekijk project"
@@ -737,6 +772,7 @@ msgid "This is where you can add new products to your store."
 msgstr ""
 
 #: woocommerce.php:936
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:22
 #, fuzzy
 msgid "Variations"
 msgstr "Realisatie"
@@ -747,6 +783,7 @@ msgid "Variation"
 msgstr "Realisatie"
 
 #: woocommerce.php:938
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:263
 #, fuzzy
 msgid "Add Variation"
 msgstr "Nieuwe toevoegen"
@@ -766,8 +803,7 @@ msgstr "Vacature bewerken"
 msgid "New Variation"
 msgstr "Nieuw vakblad"
 
-#: woocommerce.php:943
-#: woocommerce.php:944
+#: woocommerce.php:943 woocommerce.php:944
 #, fuzzy
 msgid "View Variation"
 msgstr "Bekijk vacature"
@@ -792,22 +828,22 @@ msgstr "Geen magazines gevonden in prullenbak"
 msgid "Parent Variation"
 msgstr "Bovenliggende rubriek"
 
-#: woocommerce.php:974
-#: admin/woocommerce-admin-init.php:121
+#: woocommerce.php:974 admin/woocommerce-admin-init.php:121
 #: admin/woocommerce-admin-init.php:123
 #, fuzzy
 msgctxt "Admin menu name"
 msgid "Orders"
 msgstr "Beoordeling"
 
-#: woocommerce.php:982
-#: admin/woocommerce-admin-content.php:66
+#: woocommerce.php:982 admin/woocommerce-admin-content.php:66
 #: admin/woocommerce-admin-dashboard.php:139
+#: admin/woocommerce-admin-users.php:27
 #, fuzzy
 msgid "Orders"
 msgstr "Beoordeling"
 
-#: woocommerce.php:983
+#: woocommerce.php:983 admin/post-types/shop_order.php:43
+#: templates/myaccount/my-orders.php:31
 #, fuzzy
 msgid "Order"
 msgstr "Beoordeling"
@@ -832,8 +868,7 @@ msgstr "Beoordeling"
 msgid "New Order"
 msgstr "Beoordeling"
 
-#: woocommerce.php:989
-#: woocommerce.php:990
+#: woocommerce.php:989 woocommerce.php:990
 #: admin/woocommerce-admin-install.php:198
 #, fuzzy
 msgid "View Order"
@@ -863,13 +898,14 @@ msgstr "Bovenliggende bouwfasen"
 msgid "This is where store orders are stored."
 msgstr ""
 
-#: woocommerce.php:1027
-#: admin/woocommerce-admin-content.php:74
+#: woocommerce.php:1027 admin/woocommerce-admin-content.php:74
+#: admin/settings/settings-init.php:144
 #, fuzzy
 msgid "Coupons"
 msgstr "Land"
 
-#: woocommerce.php:1028
+#: woocommerce.php:1028 classes/shipping/class-wc-free-shipping.php:81
+#: templates/cart/cart.php:116
 #, fuzzy
 msgid "Coupon"
 msgstr "Reactie"
@@ -931,7 +967,8 @@ msgid "Parent Coupon"
 msgstr "Bovenliggende regio"
 
 #: woocommerce.php:1042
-msgid "This is where you can add new coupons that customers can use in your store."
+msgid ""
+"This is where you can add new coupons that customers can use in your store."
 msgstr ""
 
 #: woocommerce.php:1155
@@ -944,7 +981,8 @@ msgstr "Bezig met laden&hellip;"
 msgid "Please select a rating"
 msgstr "Verwijder bericht"
 
-#: woocommerce.php:1584
+#: woocommerce.php:1584 templates/cart/totals.php:32
+#: templates/checkout/review-order.php:34
 #, fuzzy
 msgid "Cart Discount"
 msgstr "Reactie"
@@ -963,7 +1001,7 @@ msgstr "Project"
 msgid "Product % Discount"
 msgstr "Uitloggen van dit account."
 
-#: woocommerce.php:1652
+#: woocommerce.php:1652 admin/woocommerce-admin-settings.php:41
 msgid "Action failed. Please refresh the page and retry."
 msgstr ""
 
@@ -979,7 +1017,12 @@ msgstr "Regio bewerken"
 #: admin/woocommerce-admin-attributes.php:205
 #: admin/woocommerce-admin-attributes.php:265
 #: admin/woocommerce-admin-attributes.php:318
-#: admin/woocommerce-admin-init.php:370
+#: admin/woocommerce-admin-init.php:370 admin/post-types/product.php:83
+#: admin/post-types/writepanels/writepanel-order_data.php:311
+#: admin/post-types/writepanels/writepanel-product_data.php:339
+#: admin/post-types/writepanels/writepanel-product_data.php:419
+#: templates/single-product-reviews.php:88
+#: widgets/widget-product_categories.php:186
 msgid "Name"
 msgstr "Naam"
 
@@ -996,12 +1039,13 @@ msgstr ""
 
 #: admin/woocommerce-admin-attributes.php:218
 #: admin/woocommerce-admin-attributes.php:326
-msgid "Unique slug/reference for the attribute; must be shorter than 28 characters."
+msgid ""
+"Unique slug/reference for the attribute; must be shorter than 28 characters."
 msgstr ""
 
 #: admin/woocommerce-admin-attributes.php:223
 #: admin/woocommerce-admin-attributes.php:267
-#: admin/woocommerce-admin-attributes.php:330
+#: admin/woocommerce-admin-attributes.php:330 admin/post-types/product.php:96
 #, fuzzy
 msgid "Type"
 msgstr "Types"
@@ -1020,11 +1064,16 @@ msgstr "Teasers"
 
 #: admin/woocommerce-admin-attributes.php:230
 #: admin/woocommerce-admin-attributes.php:335
-msgid "Determines how you select attributes for products. <strong>Text</strong> allows manual entry via the product page, whereas <strong>select</strong> attribute terms can be defined from this section. If you plan on using an attribute for variations use <strong>select</strong>."
+msgid ""
+"Determines how you select attributes for products. <strong>Text</strong> "
+"allows manual entry via the product page, whereas <strong>select</strong> "
+"attribute terms can be defined from this section. If you plan on using an "
+"attribute for variations use <strong>select</strong>."
 msgstr ""
 
 #: admin/woocommerce-admin-attributes.php:257
 #: admin/woocommerce-admin-init.php:59
+#: admin/post-types/writepanels/writepanel-product_data.php:83
 msgid "Attributes"
 msgstr ""
 
@@ -1052,7 +1101,10 @@ msgid "Add New Attribute"
 msgstr "Nieuwe regio toevoegen"
 
 #: admin/woocommerce-admin-attributes.php:315
-msgid "Attributes let you define extra product data, such as size or colour. You can use these attributes in the shop sidebar using the \"layered nav\" widgets. Please note: you cannot rename an attribute later on."
+msgid ""
+"Attributes let you define extra product data, such as size or colour. You "
+"can use these attributes in the shop sidebar using the \"layered nav\" "
+"widgets. Please note: you cannot rename an attribute later on."
 msgstr ""
 
 #: admin/woocommerce-admin-attributes.php:338
@@ -1064,68 +1116,96 @@ msgid "Are you sure you want to delete this attribute?"
 msgstr ""
 
 #: admin/woocommerce-admin-content.php:25
+#: admin/woocommerce-admin-reports.php:31
+#: admin/woocommerce-admin-reports.php:72
+#: admin/woocommerce-admin-reports.php:83
 #, fuzzy
 msgid "Overview"
 msgstr "Overzicht"
 
 #: admin/woocommerce-admin-content.php:28
 #, php-format
-msgid "Thank you for using WooCommerce :) Should you need help using or extending WooCommerce please <a href=\"%s\">read the documentation</a>. For further assistance you can use the <a href=\"%s\">community forum</a> or if you have access, <a href=\"%s\">the members forum</a>."
+msgid ""
+"Thank you for using WooCommerce :) Should you need help using or extending "
+"WooCommerce please <a href=\"%s\">read the documentation</a>. For further "
+"assistance you can use the <a href=\"%s\">community forum</a> or if you have "
+"access, <a href=\"%s\">the members forum</a>."
 msgstr ""
 
 #: admin/woocommerce-admin-content.php:30
-msgid "If you are having problems, or to assist us with support, please check the status page to identify any problems with your configuration:"
+msgid ""
+"If you are having problems, or to assist us with support, please check the "
+"status page to identify any problems with your configuration:"
 msgstr ""
 
-#: admin/woocommerce-admin-content.php:32
-#: admin/woocommerce-admin-init.php:80
+#: admin/woocommerce-admin-content.php:32 admin/woocommerce-admin-init.php:80
+#: admin/woocommerce-admin-status.php:36
 #, fuzzy
 msgid "System Status"
 msgstr "Status"
 
 #: admin/woocommerce-admin-content.php:34
 #, php-format
-msgid "If you come across a bug, or wish to contribute to the project you can also <a href=\"%s\">get involved on GitHub</a>."
+msgid ""
+"If you come across a bug, or wish to contribute to the project you can also "
+"<a href=\"%s\">get involved on GitHub</a>."
 msgstr ""
 
-#: admin/woocommerce-admin-content.php:40
-#: admin/woocommerce-admin-init.php:79
-#: admin/woocommerce-admin-init.php:162
+#: admin/woocommerce-admin-content.php:40 admin/woocommerce-admin-init.php:79
+#: admin/woocommerce-admin-init.php:162 admin/woocommerce-admin-status.php:130
+#: classes/class-wc-settings-api.php:39
+#: classes/integrations/class-wc-integration.php:26
 #, fuzzy
 msgid "Settings"
 msgstr "Bijeenkomsten"
 
 #: admin/woocommerce-admin-content.php:42
-msgid "Here you can set up your store and customise it to fit your needs. The sections available from the settings page include:"
+msgid ""
+"Here you can set up your store and customise it to fit your needs. The "
+"sections available from the settings page include:"
 msgstr ""
 
 #: admin/woocommerce-admin-content.php:43
+#: admin/woocommerce-admin-settings.php:190
+#: admin/post-types/writepanels/writepanel-product_data.php:73
 #, fuzzy
 msgid "General"
 msgstr "Kop"
 
 #: admin/woocommerce-admin-content.php:43
-msgid "General settings such as your shop base, currency, and script/styling options which affect features used in your store."
+msgid ""
+"General settings such as your shop base, currency, and script/styling "
+"options which affect features used in your store."
 msgstr ""
 
 #: admin/woocommerce-admin-content.php:44
+#: admin/woocommerce-admin-settings.php:192
 #, fuzzy
 msgid "Pages"
 msgstr "Pagina's: %s"
 
 #: admin/woocommerce-admin-content.php:44
-msgid "This is where important store page are defined. You can also set up other pages (such as a Terms page) here."
+msgid ""
+"This is where important store page are defined. You can also set up other "
+"pages (such as a Terms page) here."
 msgstr ""
 
 #: admin/woocommerce-admin-content.php:45
+#: admin/woocommerce-admin-settings.php:191 admin/post-types/product.php:614
+#: admin/post-types/product.php:882
+#: admin/post-types/writepanels/writepanel-product_data.php:966
 msgid "Catalog"
 msgstr ""
 
 #: admin/woocommerce-admin-content.php:45
-msgid "Options for how things like price, images and weights appear in your product catalog."
+msgid ""
+"Options for how things like price, images and weights appear in your product "
+"catalog."
 msgstr ""
 
 #: admin/woocommerce-admin-content.php:46
+#: admin/woocommerce-admin-settings.php:193
+#: admin/post-types/writepanels/writepanel-product_data.php:77
 #, fuzzy
 msgid "Inventory"
 msgstr "Land"
@@ -1139,12 +1219,19 @@ msgid "Options concerning tax, including international and local tax rates."
 msgstr ""
 
 #: admin/woocommerce-admin-content.php:48
+#: admin/woocommerce-admin-settings.php:195 admin/post-types/shop_order.php:45
+#: admin/post-types/writepanels/writepanel-order_data.php:521
+#: admin/post-types/writepanels/writepanel-product_data.php:79
+#: admin/settings/settings-tax-rates.php:39
+#: admin/settings/settings-tax-rates.php:108 templates/cart/totals.php:41
+#: templates/checkout/review-order.php:45
 #, fuzzy
 msgid "Shipping"
 msgstr "Schepen in"
 
 #: admin/woocommerce-admin-content.php:48
-msgid "This is where shipping options are defined, and shipping methods are set up."
+msgid ""
+"This is where shipping options are defined, and shipping methods are set up."
 msgstr ""
 
 #: admin/woocommerce-admin-content.php:49
@@ -1153,10 +1240,13 @@ msgid "Payment Methods"
 msgstr "Status"
 
 #: admin/woocommerce-admin-content.php:49
-msgid "This is where payment gateway options are defined, and individual payment gateways are set up."
+msgid ""
+"This is where payment gateway options are defined, and individual payment "
+"gateways are set up."
 msgstr ""
 
 #: admin/woocommerce-admin-content.php:50
+#: admin/woocommerce-admin-settings.php:197
 #, fuzzy
 msgid "Emails"
 msgstr "E-mailadres"
@@ -1166,25 +1256,33 @@ msgid "Here you can customise the way WooCommerce emails appear."
 msgstr ""
 
 #: admin/woocommerce-admin-content.php:51
+#: admin/woocommerce-admin-settings.php:198
 #, fuzzy
 msgid "Integration"
 msgstr "Interviews"
 
 #: admin/woocommerce-admin-content.php:51
-msgid "The integration section contains options for third party services which integrate with WooCommerce."
+msgid ""
+"The integration section contains options for third party services which "
+"integrate with WooCommerce."
 msgstr ""
 
-#: admin/woocommerce-admin-content.php:56
-#: admin/woocommerce-admin-init.php:57
+#: admin/woocommerce-admin-content.php:56 admin/woocommerce-admin-init.php:57
 #, fuzzy
 msgid "Reports"
 msgstr "Thuishavens"
 
 #: admin/woocommerce-admin-content.php:58
-msgid "The reports section can be accessed from the left-hand navigation menu. Here you can generate reports for sales and customers."
+msgid ""
+"The reports section can be accessed from the left-hand navigation menu. Here "
+"you can generate reports for sales and customers."
 msgstr ""
 
 #: admin/woocommerce-admin-content.php:59
+#: admin/woocommerce-admin-reports.php:28
+#: admin/woocommerce-admin-reports.php:989
+#: admin/woocommerce-admin-reports.php:1089
+#: admin/woocommerce-admin-reports.php:1202
 #, fuzzy
 msgid "Sales"
 msgstr "Zeilschip"
@@ -1194,6 +1292,7 @@ msgid "Reports for sales based on date, top sellers and top earners."
 msgstr ""
 
 #: admin/woocommerce-admin-content.php:60
+#: admin/woocommerce-admin-reports.php:69
 msgid "Customers"
 msgstr ""
 
@@ -1202,6 +1301,8 @@ msgid "Customer reports, such as signups per day."
 msgstr ""
 
 #: admin/woocommerce-admin-content.php:61
+#: admin/woocommerce-admin-reports.php:80 admin/post-types/product.php:89
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:78
 msgid "Stock"
 msgstr ""
 
@@ -1210,15 +1311,22 @@ msgid "Stock reports for low stock and out of stock items."
 msgstr ""
 
 #: admin/woocommerce-admin-content.php:68
-msgid "The orders section can be accessed from the left-hand navigation menu. Here you can view and manage customer orders."
+msgid ""
+"The orders section can be accessed from the left-hand navigation menu. Here "
+"you can view and manage customer orders."
 msgstr ""
 
 #: admin/woocommerce-admin-content.php:69
-msgid "Orders can also be added from this section if you want to set them up for a customer manually."
+msgid ""
+"Orders can also be added from this section if you want to set them up for a "
+"customer manually."
 msgstr ""
 
 #: admin/woocommerce-admin-content.php:76
-msgid "Coupons can be managed from this section. Once added, customers will be able to enter coupon codes on the cart/checkout page. If a customer uses a coupon code they will be viewable when viewing orders."
+msgid ""
+"Coupons can be managed from this section. Once added, customers will be able "
+"to enter coupon codes on the cart/checkout page. If a customer uses a coupon "
+"code they will be viewable when viewing orders."
 msgstr ""
 
 #: admin/woocommerce-admin-content.php:80
@@ -1227,27 +1335,39 @@ msgid "For more information:"
 msgstr "Importeer informatie"
 
 #: admin/woocommerce-admin-content.php:81
-msgid "<a href=\"http://www.woothemes.com/woocommerce/\" target=\"_blank\">WooCommerce</a>"
+msgid ""
+"<a href=\"http://www.woothemes.com/woocommerce/\" target=\"_blank"
+"\">WooCommerce</a>"
 msgstr ""
 
 #: admin/woocommerce-admin-content.php:82
-msgid "<a href=\"http://wordpress.org/extend/plugins/woocommerce/\" target=\"_blank\">Project on WordPress.org</a>"
+msgid ""
+"<a href=\"http://wordpress.org/extend/plugins/woocommerce/\" target=\"_blank"
+"\">Project on WordPress.org</a>"
 msgstr ""
 
 #: admin/woocommerce-admin-content.php:83
-msgid "<a href=\"https://github.com/woothemes/woocommerce\" target=\"_blank\">Project on Github</a>"
+msgid ""
+"<a href=\"https://github.com/woothemes/woocommerce\" target=\"_blank"
+"\">Project on Github</a>"
 msgstr ""
 
 #: admin/woocommerce-admin-content.php:84
-msgid "<a href=\"http://www.woothemes.com/woocommerce-docs/\" target=\"_blank\">WooCommerce Docs</a>"
+msgid ""
+"<a href=\"http://www.woothemes.com/woocommerce-docs/\" target=\"_blank"
+"\">WooCommerce Docs</a>"
 msgstr ""
 
 #: admin/woocommerce-admin-content.php:85
-msgid "<a href=\"http://www.woothemes.com/extensions/woocommerce-extensions/\" target=\"_blank\">Official Extensions</a>"
+msgid ""
+"<a href=\"http://www.woothemes.com/extensions/woocommerce-extensions/\" "
+"target=\"_blank\">Official Extensions</a>"
 msgstr ""
 
 #: admin/woocommerce-admin-content.php:86
-msgid "<a href=\"http://www.woothemes.com/themes/woocommerce-themes/\" target=\"_blank\">Official Themes</a>"
+msgid ""
+"<a href=\"http://www.woothemes.com/themes/woocommerce-themes/\" target="
+"\"_blank\">Official Themes</a>"
 msgstr ""
 
 #: admin/woocommerce-admin-dashboard.php:38
@@ -1265,6 +1385,7 @@ msgid "WooCommerce Recent Orders"
 msgstr "Recente projecten"
 
 #: admin/woocommerce-admin-dashboard.php:43
+#: widgets/widget-recent_reviews.php:30
 msgid "WooCommerce Recent Reviews"
 msgstr ""
 
@@ -1289,6 +1410,7 @@ msgid "On-Hold"
 msgstr ""
 
 #: admin/woocommerce-admin-dashboard.php:173
+#: admin/post-types/shop_order.php:161
 msgid "Processing"
 msgstr ""
 
@@ -1312,7 +1434,8 @@ msgid_plural "items"
 msgstr[0] "Titel"
 msgstr[1] "Titel"
 
-#: admin/woocommerce-admin-dashboard.php:236
+#: admin/woocommerce-admin-dashboard.php:236 shortcodes/shortcode-pay.php:93
+#: templates/checkout/thankyou.php:49
 #, fuzzy
 msgid "Total:"
 msgstr "Titel"
@@ -1322,7 +1445,9 @@ msgstr "Titel"
 msgid "There are no product orders yet."
 msgstr "Er zijn geen interviews."
 
-#: admin/woocommerce-admin-dashboard.php:276
+#: admin/woocommerce-admin-dashboard.php:276 classes/class-wc-product.php:1090
+#: templates/single-product-reviews.php:38
+#: templates/single-product/review.php:22 widgets/widget-recent_reviews.php:87
 #, fuzzy
 msgid "out of 5"
 msgstr "Route naar"
@@ -1333,34 +1458,60 @@ msgid "There are no product reviews yet."
 msgstr "Er zijn geen interviews."
 
 #: admin/woocommerce-admin-dashboard.php:423
+#: admin/woocommerce-admin-reports.php:212
+#: admin/woocommerce-admin-reports.php:514
+#: admin/woocommerce-admin-reports.php:709
+#: admin/woocommerce-admin-reports.php:889
 #, fuzzy
 msgid "Number of sales"
 msgstr "Aantal personen"
 
 #: admin/woocommerce-admin-dashboard.php:424
+#: admin/woocommerce-admin-reports.php:207
+#: admin/woocommerce-admin-reports.php:514
+#: admin/woocommerce-admin-reports.php:709
+#: admin/woocommerce-admin-reports.php:889
 #, fuzzy
 msgid "Sales amount"
 msgstr "Alle maanden"
 
 #: admin/woocommerce-admin-functions.php:125
-#: admin/woocommerce-admin-install.php:207
+#: admin/woocommerce-admin-install.php:207 classes/class-wc-email.php:233
 msgid "Order Received"
 msgstr ""
 
 #: admin/woocommerce-admin-functions.php:127
-msgid "Thank you, we are now processing your order. Your order's details are below."
+#: templates/emails/customer-processing-order.php:14
+msgid ""
+"Thank you, we are now processing your order. Your order's details are below."
 msgstr ""
 
-#: admin/woocommerce-admin-functions.php:129
+#: admin/woocommerce-admin-functions.php:129 shortcodes/shortcode-pay.php:85
+#: templates/checkout/thankyou.php:41 templates/emails/admin-new-order.php:18
+#: templates/emails/customer-completed-order.php:18
+#: templates/emails/customer-invoice.php:22
+#: templates/emails/customer-note.php:22
+#: templates/emails/customer-processing-order.php:18
 #, fuzzy
 msgid "Order:"
 msgstr "Beoordeling"
 
-#: admin/woocommerce-admin-functions.php:136
+#: admin/woocommerce-admin-functions.php:136 templates/cart/cart.php:24
+#: templates/emails/admin-new-order.php:24
+#: templates/emails/customer-completed-order.php:24
+#: templates/emails/customer-invoice.php:28
+#: templates/emails/customer-note.php:28
+#: templates/emails/customer-processing-order.php:24
 msgid "Quantity"
 msgstr ""
 
-#: admin/woocommerce-admin-functions.php:137
+#: admin/woocommerce-admin-functions.php:137 admin/post-types/product.php:91
+#: admin/post-types/product.php:563 admin/post-types/product.php:782
+#: templates/cart/cart.php:23 templates/emails/admin-new-order.php:25
+#: templates/emails/customer-completed-order.php:25
+#: templates/emails/customer-invoice.php:29
+#: templates/emails/customer-note.php:29
+#: templates/emails/customer-processing-order.php:25
 #, fuzzy
 msgid "Price"
 msgstr "Artikelen"
@@ -1371,15 +1522,22 @@ msgid "Order total:"
 msgstr "Titel"
 
 #: admin/woocommerce-admin-functions.php:155
+#: templates/emails/admin-new-order.php:49
+#: templates/emails/customer-completed-order.php:49
+#: templates/emails/customer-note.php:53
+#: templates/emails/customer-processing-order.php:49
+#: templates/order/order-details.php:88
 #, fuzzy
 msgid "Customer details"
 msgstr "Haven details"
 
 #: admin/woocommerce-admin-functions.php:161
+#: templates/emails/email-addresses.php:16
 msgid "Billing address"
 msgstr ""
 
 #: admin/woocommerce-admin-functions.php:168
+#: templates/emails/email-addresses.php:26
 #, fuzzy
 msgid "Shipping address"
 msgstr "Schepen in"
@@ -1411,7 +1569,8 @@ msgid_plural "%s order statuses changed."
 msgstr[0] "Nieuwe regio naam"
 msgstr[1] "Nieuwe regio naam"
 
-#: admin/woocommerce-admin-init.php:55
+#: admin/woocommerce-admin-init.php:55 classes/class-wc-order.php:1046
+#: classes/class-wc-order.php:1047
 msgid "WooCommerce"
 msgstr ""
 
@@ -1426,7 +1585,9 @@ msgid "WooCommerce Status"
 msgstr "Geen secties"
 
 #: admin/woocommerce-admin-init.php:150
-msgid "<strong>Welcome to WooCommerce</strong> &#8211; You're almost ready to start selling :)"
+msgid ""
+"<strong>Welcome to WooCommerce</strong> &#8211; You're almost ready to start "
+"selling :)"
 msgstr ""
 
 #: admin/woocommerce-admin-init.php:151
@@ -1439,7 +1600,9 @@ msgid "Skip setup"
 msgstr ""
 
 #: admin/woocommerce-admin-init.php:160
-msgid "<strong>WooCommerce has been installed</strong> &#8211; You're ready to start selling :)"
+msgid ""
+"<strong>WooCommerce has been installed</strong> &#8211; You're ready to "
+"start selling :)"
 msgstr ""
 
 #: admin/woocommerce-admin-init.php:162
@@ -1448,7 +1611,10 @@ msgid "Documentation"
 msgstr "Locatie:"
 
 #: admin/woocommerce-admin-init.php:368
-msgid "Remove this item? If you have previously reduced this item's stock, or this order was submitted by a customer, will need to manually restore the item's stock."
+msgid ""
+"Remove this item? If you have previously reduced this item's stock, or this "
+"order was submitted by a customer, will need to manually restore the item's "
+"stock."
 msgstr ""
 
 #: admin/woocommerce-admin-init.php:369
@@ -1457,29 +1623,46 @@ msgid "Remove this attribute?"
 msgstr "Verwijder bericht"
 
 #: admin/woocommerce-admin-init.php:371
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:123
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:343
+#: admin/post-types/writepanels/writepanel-product_data.php:331
+#: admin/post-types/writepanels/writepanel-product_data.php:411
 #, fuzzy
 msgid "Remove"
 msgstr "Lees verder"
 
 #: admin/woocommerce-admin-init.php:372
+#: admin/post-types/writepanels/writepanel-order_downloads.php:43
+#: admin/post-types/writepanels/writepanel-order_downloads.php:159
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:124
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:344
+#: admin/post-types/writepanels/writepanel-product_data.php:332
+#: admin/post-types/writepanels/writepanel-product_data.php:412
 msgid "Click to toggle"
 msgstr ""
 
 #: admin/woocommerce-admin-init.php:373
+#: admin/post-types/writepanels/writepanel-product_data.php:347
+#: admin/post-types/writepanels/writepanel-product_data.php:425
 #, fuzzy
 msgid "Value(s)"
 msgstr "Zeilschip"
 
 #: admin/woocommerce-admin-init.php:374
+#: admin/post-types/writepanels/writepanel-product_data.php:426
 msgid "Enter some text, or some attributes by pipe (|) separating values."
 msgstr ""
 
 #: admin/woocommerce-admin-init.php:375
+#: admin/post-types/writepanels/writepanel-product_data.php:383
+#: admin/post-types/writepanels/writepanel-product_data.php:431
 #, fuzzy
 msgid "Visible on the product page"
 msgstr "Bekijk project"
 
 #: admin/woocommerce-admin-init.php:376
+#: admin/post-types/writepanels/writepanel-product_data.php:389
+#: admin/post-types/writepanels/writepanel-product_data.php:437
 #, fuzzy
 msgid "Used for variations"
 msgstr "Rubrieken zoeken"
@@ -1489,26 +1672,38 @@ msgid "Enter a name for the new attribute term:"
 msgstr ""
 
 #: admin/woocommerce-admin-init.php:378
-msgid "Calculate totals based on order items, discount amount, and shipping? Note, you will need to (optionally) calculate tax rows and cart discounts manually."
+msgid ""
+"Calculate totals based on order items, discount amount, and shipping? Note, "
+"you will need to (optionally) calculate tax rows and cart discounts manually."
 msgstr ""
 
 #: admin/woocommerce-admin-init.php:379
-msgid "Calculate line taxes? This will calculate taxes based on the customers country. If no billing/shipping is set it will use the store base country."
+msgid ""
+"Calculate line taxes? This will calculate taxes based on the customers "
+"country. If no billing/shipping is set it will use the store base country."
 msgstr ""
 
 #: admin/woocommerce-admin-init.php:380
-msgid "Copy billing information to shipping information? This will remove any currently entered shipping information."
+msgid ""
+"Copy billing information to shipping information? This will remove any "
+"currently entered shipping information."
 msgstr ""
 
 #: admin/woocommerce-admin-init.php:381
-msgid "Load the customer's billing information? This will remove any currently entered billing information."
+msgid ""
+"Load the customer's billing information? This will remove any currently "
+"entered billing information."
 msgstr ""
 
 #: admin/woocommerce-admin-init.php:382
-msgid "Load the customer's shipping information? This will remove any currently entered shipping information."
+msgid ""
+"Load the customer's shipping information? This will remove any currently "
+"entered shipping information."
 msgstr ""
 
-#: admin/woocommerce-admin-init.php:383
+#: admin/woocommerce-admin-init.php:383 admin/post-types/product.php:95
+#: admin/post-types/product.php:627 admin/post-types/product.php:894
+#: admin/post-types/writepanels/writepanel-product_data.php:983
 #, fuzzy
 msgid "Featured"
 msgstr "Gerelateerd"
@@ -1527,19 +1722,25 @@ msgid "No customer selected"
 msgstr ""
 
 #: admin/woocommerce-admin-init.php:390
+#: admin/post-types/writepanels/writepanel-order_data.php:576
 #, fuzzy
 msgid "Tax Label:"
 msgstr "Leeftijd"
 
 #: admin/woocommerce-admin-init.php:391
+#: admin/post-types/writepanels/writepanel-order_data.php:580
 msgid "Compound:"
 msgstr ""
 
 #: admin/woocommerce-admin-init.php:392
+#: admin/post-types/writepanels/writepanel-order_data.php:584
+#: admin/post-types/writepanels/writepanel-order_data.php:608
 msgid "Cart Tax:"
 msgstr ""
 
 #: admin/woocommerce-admin-init.php:393
+#: admin/post-types/writepanels/writepanel-order_data.php:588
+#: admin/post-types/writepanels/writepanel-order_data.php:615
 #, fuzzy
 msgid "Shipping Tax:"
 msgstr "Schepen in"
@@ -1557,15 +1758,13 @@ msgstr ""
 msgid "Product updated. <a href=\"%s\">View Product</a>"
 msgstr ""
 
-#: admin/woocommerce-admin-init.php:667
-#: admin/woocommerce-admin-init.php:682
+#: admin/woocommerce-admin-init.php:667 admin/woocommerce-admin-init.php:682
 #: admin/woocommerce-admin-init.php:697
 #, fuzzy
 msgid "Custom field updated."
 msgstr "Einddatum:"
 
-#: admin/woocommerce-admin-init.php:668
-#: admin/woocommerce-admin-init.php:683
+#: admin/woocommerce-admin-init.php:668 admin/woocommerce-admin-init.php:683
 #: admin/woocommerce-admin-init.php:698
 msgid "Custom field deleted."
 msgstr ""
@@ -1597,22 +1796,23 @@ msgstr ""
 
 #: admin/woocommerce-admin-init.php:674
 #, php-format
-msgid "Product scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview Product</a>"
+msgid ""
+"Product scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Preview Product</a>"
 msgstr ""
 
-#: admin/woocommerce-admin-init.php:675
-#: admin/woocommerce-admin-init.php:690
+#: admin/woocommerce-admin-init.php:675 admin/woocommerce-admin-init.php:690
 #: admin/woocommerce-admin-init.php:705
 msgid "M j, Y @ G:i"
 msgstr ""
 
 #: admin/woocommerce-admin-init.php:676
 #, php-format
-msgid "Product draft updated. <a target=\"_blank\" href=\"%s\">Preview Product</a>"
+msgid ""
+"Product draft updated. <a target=\"_blank\" href=\"%s\">Preview Product</a>"
 msgstr ""
 
-#: admin/woocommerce-admin-init.php:681
-#: admin/woocommerce-admin-init.php:684
+#: admin/woocommerce-admin-init.php:681 admin/woocommerce-admin-init.php:684
 #: admin/woocommerce-admin-init.php:686
 #, fuzzy
 msgid "Order updated."
@@ -1643,8 +1843,7 @@ msgstr "%d-%d of <strong>%d</strong> gezocht op: <strong>%s</strong>"
 msgid "Order draft updated."
 msgstr "Einddatum:"
 
-#: admin/woocommerce-admin-init.php:696
-#: admin/woocommerce-admin-init.php:699
+#: admin/woocommerce-admin-init.php:696 admin/woocommerce-admin-init.php:699
 #: admin/woocommerce-admin-init.php:701
 #, fuzzy
 msgid "Coupon updated."
@@ -1697,7 +1896,7 @@ msgctxt "page_slug"
 msgid "cart"
 msgstr "Status"
 
-#: admin/woocommerce-admin-install.php:183
+#: admin/woocommerce-admin-install.php:183 widgets/widget-cart.php:58
 #, fuzzy
 msgid "Cart"
 msgstr "Status"
@@ -1708,6 +1907,7 @@ msgid "checkout"
 msgstr ""
 
 #: admin/woocommerce-admin-install.php:186
+#: admin/settings/settings-init.php:107
 msgid "Checkout"
 msgstr ""
 
@@ -1726,7 +1926,7 @@ msgctxt "page_slug"
 msgid "my-account"
 msgstr ""
 
-#: admin/woocommerce-admin-install.php:192
+#: admin/woocommerce-admin-install.php:192 templates/checkout/thankyou.php:31
 msgid "My Account"
 msgstr ""
 
@@ -1962,6 +2162,8 @@ msgstr ""
 #: admin/woocommerce-admin-reports.php:1228
 #: admin/post-types/writepanels/writepanel-coupon_data.php:60
 #: admin/post-types/writepanels/writepanel-order_data.php:435
+#: admin/post-types/writepanels/writepanel-product_data.php:470
+#: admin/post-types/writepanels/writepanel-product_data.php:489
 #, fuzzy
 msgid "Search for a product&hellip;"
 msgstr "Zoek resultaten voor:"
@@ -2001,12 +2203,12 @@ msgid "Low stock"
 msgstr ""
 
 #: admin/woocommerce-admin-reports.php:1581
-#: admin/woocommerce-admin-reports.php:1616
-#: admin/post-types/product.php:86
+#: admin/woocommerce-admin-reports.php:1616 admin/post-types/product.php:86
 #: admin/post-types/product.php:552
 #: admin/post-types/writepanels/writepanel-order_data.php:310
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:163
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:375
+#: admin/post-types/writepanels/writepanel-product_data.php:96
 msgid "SKU"
 msgstr ""
 
@@ -2022,10 +2224,11 @@ msgstr[1] "Route naar"
 msgid "No products are low in stock."
 msgstr ""
 
-#: admin/woocommerce-admin-reports.php:1601
-#: admin/post-types/product.php:252
-#: admin/post-types/product.php:637
-#: admin/post-types/product.php:919
+#: admin/woocommerce-admin-reports.php:1601 admin/post-types/product.php:252
+#: admin/post-types/product.php:637 admin/post-types/product.php:919
+#: admin/post-types/writepanels/writepanel-product_data.php:247
+#: classes/class-wc-product.php:658 classes/class-wc-product.php:697
+#: classes/class-wc-product.php:707
 msgid "Out of stock"
 msgstr ""
 
@@ -2091,7 +2294,9 @@ msgid "Total Taxes"
 msgstr "Portaal"
 
 #: admin/woocommerce-admin-reports.php:1830
-msgid "This is the sum of the 'Cart Tax' and 'Shipping Tax' fields within your orders."
+msgid ""
+"This is the sum of the 'Cart Tax' and 'Shipping Tax' fields within your "
+"orders."
 msgstr ""
 
 #: admin/woocommerce-admin-reports.php:1831
@@ -2105,6 +2310,7 @@ msgstr ""
 
 #: admin/woocommerce-admin-reports.php:1858
 #: admin/post-types/writepanels/writepanel-order_data.php:625
+#: templates/cart/cart.php:25 templates/myaccount/my-orders.php:33
 #, fuzzy
 msgid "Total"
 msgstr "Portaal"
@@ -2119,21 +2325,28 @@ msgid "Your settings have been saved."
 msgstr ""
 
 #: admin/woocommerce-admin-settings.php:171
-msgid "<strong>Congratulations!</strong> &#8211; WooCommerce has been installed and setup. Enjoy :)"
+msgid ""
+"<strong>Congratulations!</strong> &#8211; WooCommerce has been installed and "
+"setup. Enjoy :)"
 msgstr ""
 
 #: admin/woocommerce-admin-settings.php:196
 #: admin/woocommerce-admin-settings.php:275
+#: admin/settings/settings-init.php:949
 #, fuzzy
 msgid "Payment Gateways"
 msgstr "Speeldatum"
 
 #: admin/woocommerce-admin-settings.php:215
 #, php-format
-msgid "More functionality and gateway options available via <a href=\"%s\" target=\"_blank\">WC official extensions</a>."
+msgid ""
+"More functionality and gateway options available via <a href=\"%s\" target="
+"\"_blank\">WC official extensions</a>."
 msgstr ""
 
 #: admin/woocommerce-admin-settings.php:240
+#: admin/settings/settings-init.php:872
+#: classes/shipping/class-wc-flat-rate.php:155
 #, fuzzy
 msgid "Shipping Options"
 msgstr "Schepen in"
@@ -2147,17 +2360,17 @@ msgstr "Zeilschip"
 msgid "The changes you made will be lost if you navigate away from this page."
 msgstr ""
 
-#: admin/woocommerce-admin-settings.php:504
-#: admin/post-types/product.php:597
+#: admin/woocommerce-admin-settings.php:504 admin/post-types/product.php:597
 #: admin/post-types/product.php:868
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:81
+#: admin/post-types/writepanels/writepanel-product_data.php:159
 msgid "Width"
 msgstr "Breedte"
 
-#: admin/woocommerce-admin-settings.php:506
-#: admin/post-types/product.php:598
+#: admin/woocommerce-admin-settings.php:506 admin/post-types/product.php:598
 #: admin/post-types/product.php:869
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:82
+#: admin/post-types/writepanels/writepanel-product_data.php:160
 msgid "Height"
 msgstr ""
 
@@ -2202,7 +2415,9 @@ msgid "Reset Capabilities"
 msgstr ""
 
 #: admin/woocommerce-admin-status.php:29
-msgid "This tool will reset the admin, customer and shop_manager roles to default. Use this if your users cannot access all of the WooCommerce admin pages."
+msgid ""
+"This tool will reset the admin, customer and shop_manager roles to default. "
+"Use this if your users cannot access all of the WooCommerce admin pages."
 msgstr ""
 
 #: admin/woocommerce-admin-status.php:36
@@ -2270,23 +2485,19 @@ msgid "Force SSL"
 msgstr ""
 
 #: admin/woocommerce-admin-status.php:145
-#: admin/woocommerce-admin-status.php:306
-#: admin/post-types/product.php:900
-#: admin/post-types/product.php:936
-#: admin/post-types/shop_order.php:191
+#: admin/woocommerce-admin-status.php:306 admin/post-types/product.php:900
+#: admin/post-types/product.php:936 admin/post-types/shop_order.php:191
 msgid "Yes"
 msgstr ""
 
 #: admin/woocommerce-admin-status.php:145
-#: admin/woocommerce-admin-status.php:306
-#: admin/post-types/product.php:901
-#: admin/post-types/product.php:937
-#: admin/post-types/shop_order.php:193
+#: admin/woocommerce-admin-status.php:306 admin/post-types/product.php:901
+#: admin/post-types/product.php:937 admin/post-types/shop_order.php:193
 #, fuzzy
 msgid "No"
 msgstr "Nieuws"
 
-#: admin/woocommerce-admin-status.php:151
+#: admin/woocommerce-admin-status.php:151 admin/settings/settings-init.php:437
 #, fuzzy
 msgid "Shop Pages"
 msgstr "Zoek bouwfasen"
@@ -2296,40 +2507,40 @@ msgstr "Zoek bouwfasen"
 msgid "Shop base page"
 msgstr "Publicatie naam"
 
-#: admin/woocommerce-admin-status.php:162
+#: admin/woocommerce-admin-status.php:162 admin/settings/settings-init.php:440
 #, fuzzy
 msgid "Cart Page"
 msgstr "Registreren pagina"
 
-#: admin/woocommerce-admin-status.php:166
+#: admin/woocommerce-admin-status.php:166 admin/settings/settings-init.php:451
 #, fuzzy
 msgid "Checkout Page"
 msgstr "Registreren pagina"
 
-#: admin/woocommerce-admin-status.php:170
+#: admin/woocommerce-admin-status.php:170 admin/settings/settings-init.php:462
 #, fuzzy
 msgid "Pay Page"
 msgstr "Niet betaald pagina"
 
-#: admin/woocommerce-admin-status.php:174
+#: admin/woocommerce-admin-status.php:174 admin/settings/settings-init.php:473
 msgid "Thanks Page"
 msgstr ""
 
-#: admin/woocommerce-admin-status.php:178
+#: admin/woocommerce-admin-status.php:178 admin/settings/settings-init.php:484
 msgid "My Account Page"
 msgstr ""
 
-#: admin/woocommerce-admin-status.php:182
+#: admin/woocommerce-admin-status.php:182 admin/settings/settings-init.php:495
 #, fuzzy
 msgid "Edit Address Page"
 msgstr "Fase bewerken"
 
-#: admin/woocommerce-admin-status.php:186
+#: admin/woocommerce-admin-status.php:186 admin/settings/settings-init.php:506
 #, fuzzy
 msgid "View Order Page"
 msgstr "Teaser bekijken"
 
-#: admin/woocommerce-admin-status.php:190
+#: admin/woocommerce-admin-status.php:190 admin/settings/settings-init.php:517
 #, fuzzy
 msgid "Change Password Page"
 msgstr "Nieuw wachtwoord"
@@ -2383,7 +2594,9 @@ msgstr ""
 
 #: admin/woocommerce-admin-status.php:298
 #, php-format
-msgid "%s - We recommend setting memory to at least 64MB. See: <a href=\"%s\">Increasing memory allocated to PHP</a>"
+msgid ""
+"%s - We recommend setting memory to at least 64MB. See: <a href=\"%s"
+"\">Increasing memory allocated to PHP</a>"
 msgstr ""
 
 #: admin/woocommerce-admin-status.php:305
@@ -2400,7 +2613,9 @@ msgid "Log directory is writable."
 msgstr ""
 
 #: admin/woocommerce-admin-status.php:314
-msgid "Log directory (<code>woocommerce/logs/</code>) is not writable. Logging will not be possible."
+msgid ""
+"Log directory (<code>woocommerce/logs/</code>) is not writable. Logging will "
+"not be possible."
 msgstr ""
 
 #: admin/woocommerce-admin-status.php:321
@@ -2413,12 +2628,14 @@ msgstr ""
 
 #: admin/woocommerce-admin-status.php:332
 #, php-format
-msgid "<code>%s</code> does not exist - contact your host to resolve the problem."
+msgid ""
+"<code>%s</code> does not exist - contact your host to resolve the problem."
 msgstr ""
 
 #: admin/woocommerce-admin-status.php:334
 #, php-format
-msgid "<code>%s</code> is not writable - contact your host to resolve the problem."
+msgid ""
+"<code>%s</code> is not writable - contact your host to resolve the problem."
 msgstr ""
 
 #: admin/woocommerce-admin-status.php:336
@@ -2452,7 +2669,10 @@ msgid "Your server has cURL enabled, fsockopen is disabled."
 msgstr ""
 
 #: admin/woocommerce-admin-status.php:367
-msgid "Your server does not have fsockopen or cURL enabled - PayPal IPN and other scripts which communicate with other servers will not work. Contact your hosting provider."
+msgid ""
+"Your server does not have fsockopen or cURL enabled - PayPal IPN and other "
+"scripts which communicate with other servers will not work. Contact your "
+"hosting provider."
 msgstr ""
 
 #: admin/woocommerce-admin-status.php:372
@@ -2464,7 +2684,9 @@ msgid "wp_remote_post() was successful - PayPal IPN is working."
 msgstr ""
 
 #: admin/woocommerce-admin-status.php:386
-msgid "wp_remote_post() failed. PayPal IPN won't work with your server. Contact your hosting provider. Error:"
+msgid ""
+"wp_remote_post() failed. PayPal IPN won't work with your server. Contact "
+"your hosting provider. Error:"
 msgstr ""
 
 #: admin/woocommerce-admin-status.php:389
@@ -2492,15 +2714,21 @@ msgid "Remove image"
 msgstr ""
 
 #: admin/woocommerce-admin-taxonomies.php:179
-msgid "Product categories for your store can be managed here. To change the order of categories on the front-end you can drag and drop to sort them. To see more categories listed click the \"screen options\" link at the top of the page."
+msgid ""
+"Product categories for your store can be managed here. To change the order "
+"of categories on the front-end you can drag and drop to sort them. To see "
+"more categories listed click the \"screen options\" link at the top of the "
+"page."
 msgstr ""
 
 #: admin/woocommerce-admin-taxonomies.php:194
-msgid "Shipping classes can be used to group products of similar type. These groups can then be used by certain shipping methods to provide different rates to different products."
+msgid ""
+"Shipping classes can be used to group products of similar type. These groups "
+"can then be used by certain shipping methods to provide different rates to "
+"different products."
 msgstr ""
 
-#: admin/woocommerce-admin-taxonomies.php:254
-#: admin/post-types/product.php:81
+#: admin/woocommerce-admin-taxonomies.php:254 admin/post-types/product.php:81
 #, fuzzy
 msgid "Image"
 msgstr "Pagina's: %s"
@@ -2509,12 +2737,17 @@ msgstr "Pagina's: %s"
 msgid "Configure shipping class"
 msgstr ""
 
-#: admin/woocommerce-admin-users.php:24
+#: admin/woocommerce-admin-users.php:24 templates/checkout/form-billing.php:19
+#: templates/myaccount/form-edit-address.php:25
+#: templates/myaccount/my-address.php:24 templates/order/order-details.php:106
 #, fuzzy
 msgid "Billing Address"
 msgstr "Adres"
 
 #: admin/woocommerce-admin-users.php:25
+#: templates/checkout/form-shipping.php:33
+#: templates/myaccount/form-edit-address.php:25
+#: templates/myaccount/my-address.php:55 templates/order/order-details.php:121
 #, fuzzy
 msgid "Shipping Address"
 msgstr "Schepen in"
@@ -2524,10 +2757,10 @@ msgstr "Schepen in"
 msgid "Paying Customer?"
 msgstr "Betalende abonnee"
 
-#: admin/woocommerce-admin-users.php:74
-#: admin/woocommerce-admin-users.php:93
+#: admin/woocommerce-admin-users.php:74 admin/woocommerce-admin-users.php:93
 #: admin/post-types/writepanels/writepanel-order_data.php:533
 #: admin/post-types/writepanels/writepanel-order_data.php:638
+#: templates/order/order-details.php:110 templates/order/order-details.php:125
 msgid "N/A"
 msgstr ""
 
@@ -2536,60 +2769,57 @@ msgstr ""
 msgid "Customer Billing Address"
 msgstr "Adres"
 
-#: admin/woocommerce-admin-users.php:124
-#: admin/woocommerce-admin-users.php:173
+#: admin/woocommerce-admin-users.php:124 admin/woocommerce-admin-users.php:173
 #, fuzzy
 msgid "First name"
 msgstr "Voornaam"
 
-#: admin/woocommerce-admin-users.php:128
-#: admin/woocommerce-admin-users.php:177
+#: admin/woocommerce-admin-users.php:128 admin/woocommerce-admin-users.php:177
 #, fuzzy
 msgid "Last name"
 msgstr "Einddatum:"
 
-#: admin/woocommerce-admin-users.php:132
-#: admin/woocommerce-admin-users.php:181
+#: admin/woocommerce-admin-users.php:132 admin/woocommerce-admin-users.php:181
 #: admin/post-types/writepanels/writepanel-order_data.php:141
 #: admin/post-types/writepanels/writepanel-order_data.php:224
 msgid "Company"
 msgstr ""
 
-#: admin/woocommerce-admin-users.php:136
-#: admin/woocommerce-admin-users.php:185
+#: admin/woocommerce-admin-users.php:136 admin/woocommerce-admin-users.php:185
 #: admin/post-types/writepanels/writepanel-order_data.php:145
 #: admin/post-types/writepanels/writepanel-order_data.php:228
 #, fuzzy
 msgid "Address 1"
 msgstr "Adres"
 
-#: admin/woocommerce-admin-users.php:140
-#: admin/woocommerce-admin-users.php:189
+#: admin/woocommerce-admin-users.php:140 admin/woocommerce-admin-users.php:189
 #: admin/post-types/writepanels/writepanel-order_data.php:149
 #: admin/post-types/writepanels/writepanel-order_data.php:232
+#: classes/class-wc-countries.php:1102
 #, fuzzy
 msgid "Address 2"
 msgstr "Adres"
 
-#: admin/woocommerce-admin-users.php:144
-#: admin/woocommerce-admin-users.php:193
+#: admin/woocommerce-admin-users.php:144 admin/woocommerce-admin-users.php:193
 #: admin/post-types/writepanels/writepanel-order_data.php:153
 #: admin/post-types/writepanels/writepanel-order_data.php:236
 msgid "City"
 msgstr "Plaats"
 
-#: admin/woocommerce-admin-users.php:148
-#: admin/woocommerce-admin-users.php:197
+#: admin/woocommerce-admin-users.php:148 admin/woocommerce-admin-users.php:197
 #: admin/post-types/writepanels/writepanel-order_data.php:157
 #: admin/post-types/writepanels/writepanel-order_data.php:240
+#: classes/class-wc-countries.php:1013 classes/class-wc-countries.php:1014
+#: templates/cart/shipping-calculator.php:67
 #, fuzzy
 msgid "Postcode"
 msgstr "Plaats reactie"
 
-#: admin/woocommerce-admin-users.php:152
-#: admin/woocommerce-admin-users.php:201
+#: admin/woocommerce-admin-users.php:152 admin/woocommerce-admin-users.php:201
 #: admin/post-types/writepanels/writepanel-order_data.php:167
 #: admin/post-types/writepanels/writepanel-order_data.php:250
+#: classes/class-wc-countries.php:1054 classes/class-wc-countries.php:1055
+#: classes/class-wc-countries.php:1130
 #, fuzzy
 msgid "State/County"
 msgstr "Land"
@@ -2598,15 +2828,14 @@ msgstr "Land"
 msgid "Country or state code"
 msgstr ""
 
-#: admin/woocommerce-admin-users.php:156
-#: admin/woocommerce-admin-users.php:205
+#: admin/woocommerce-admin-users.php:156 admin/woocommerce-admin-users.php:205
 #: admin/post-types/writepanels/writepanel-order_data.php:161
 #: admin/post-types/writepanels/writepanel-order_data.php:244
+#: classes/class-wc-countries.php:1123
 msgid "Country"
 msgstr "Land"
 
-#: admin/woocommerce-admin-users.php:157
-#: admin/woocommerce-admin-users.php:206
+#: admin/woocommerce-admin-users.php:157 admin/woocommerce-admin-users.php:206
 msgid "2 letter Country code"
 msgstr ""
 
@@ -2616,6 +2845,10 @@ msgstr ""
 
 #: admin/woocommerce-admin-users.php:164
 #: admin/post-types/writepanels/writepanel-order_data.php:171
+#: classes/integrations/shareyourcart/class-wc-shareyourcart.php:205
+#: classes/integrations/shareyourcart/class-wc-shareyourcart.php:228
+#: templates/single-product-reviews.php:90
+#: templates/myaccount/form-login.php:67
 #, fuzzy
 msgid "Email"
 msgstr "E-mailadres"
@@ -2664,8 +2897,7 @@ msgstr "Categorieën"
 msgid "Tags"
 msgstr "Pagina's: %s"
 
-#: admin/post-types/product.php:97
-#: admin/post-types/shop_order.php:49
+#: admin/post-types/product.php:97 admin/post-types/shop_order.php:49
 #, fuzzy
 msgid "Date"
 msgstr "datum"
@@ -2724,8 +2956,8 @@ msgstr "Overzicht"
 msgid "View &#8220;%s&#8221;"
 msgstr ""
 
-#: admin/post-types/product.php:159
-#: admin/post-types/shop_order.php:174
+#: admin/post-types/product.php:159 admin/post-types/shop_order.php:174
+#: templates/myaccount/my-orders.php:64
 #, fuzzy
 msgid "View"
 msgstr "Bekijk schip"
@@ -2739,20 +2971,20 @@ msgstr "route"
 msgid "External/Affiliate"
 msgstr ""
 
-#: admin/post-types/product.php:211
-#: admin/post-types/product.php:402
+#: admin/post-types/product.php:211 admin/post-types/product.php:402
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:87
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:249
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:450
+#: admin/post-types/writepanels/writepanel-product_data.php:50
 #, fuzzy
 msgid "Virtual"
 msgstr "Portaal"
 
-#: admin/post-types/product.php:213
-#: admin/post-types/product.php:398
+#: admin/post-types/product.php:213 admin/post-types/product.php:398
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:87
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:247
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:448
+#: admin/post-types/writepanels/writepanel-product_data.php:56
 msgid "Downloadable"
 msgstr ""
 
@@ -2761,8 +2993,7 @@ msgstr ""
 msgid "Simple"
 msgstr "Schip"
 
-#: admin/post-types/product.php:219
-#: admin/post-types/product.php:382
+#: admin/post-types/product.php:219 admin/post-types/product.php:382
 msgid "Variable"
 msgstr ""
 
@@ -2771,9 +3002,11 @@ msgstr ""
 msgid "Change"
 msgstr "Pagina's: %s"
 
-#: admin/post-types/product.php:250
-#: admin/post-types/product.php:636
+#: admin/post-types/product.php:250 admin/post-types/product.php:636
 #: admin/post-types/product.php:918
+#: admin/post-types/writepanels/writepanel-product_data.php:246
+#: classes/class-wc-product.php:669 classes/class-wc-product.php:674
+#: classes/class-wc-product.php:694
 msgid "In stock"
 msgstr ""
 
@@ -2783,14 +3016,17 @@ msgid "Show all product types"
 msgstr "Alle project types"
 
 #: admin/post-types/product.php:376
+#: admin/post-types/writepanels/writepanel-product_data.php:37
 msgid "Grouped product"
 msgstr ""
 
 #: admin/post-types/product.php:378
+#: admin/post-types/writepanels/writepanel-product_data.php:38
 msgid "External/Affiliate product"
 msgstr ""
 
 #: admin/post-types/product.php:380
+#: admin/post-types/writepanels/writepanel-product_data.php:36
 #, fuzzy
 msgid "Simple product"
 msgstr "Bekijk project"
@@ -2809,99 +3045,88 @@ msgstr ""
 msgid "[%s with ID of %d]"
 msgstr ""
 
-#: admin/post-types/product.php:547
-#: admin/post-types/product.php:778
+#: admin/post-types/product.php:547 admin/post-types/product.php:778
+#: admin/post-types/writepanels/writepanels-init.php:41
+#: admin/settings/settings-init.php:596
 #, fuzzy
 msgid "Product Data"
 msgstr "Publicatie naam"
 
-#: admin/post-types/product.php:565
-#: admin/post-types/product.php:798
+#: admin/post-types/product.php:565 admin/post-types/product.php:798
 #, fuzzy
 msgid "Regular price"
 msgstr "Mijn profiel"
 
-#: admin/post-types/product.php:570
-#: admin/post-types/product.php:804
+#: admin/post-types/product.php:570 admin/post-types/product.php:804
 #, fuzzy
 msgid "Sale"
 msgstr "Zeilschip"
 
-#: admin/post-types/product.php:572
-#: admin/post-types/product.php:820
+#: admin/post-types/product.php:572 admin/post-types/product.php:820
 #, fuzzy
 msgid "Sale price"
 msgstr "Zeilschip"
 
-#: admin/post-types/product.php:583
-#: admin/post-types/product.php:827
+#: admin/post-types/product.php:583 admin/post-types/product.php:827
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:79
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:184
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:394
+#: admin/post-types/writepanels/writepanel-product_data.php:148
+#: templates/single-product/product-attributes.php:26
 #, fuzzy
 msgid "Weight"
 msgstr "Website"
 
-#: admin/post-types/product.php:594
-#: admin/post-types/product.php:851
+#: admin/post-types/product.php:594 admin/post-types/product.php:851
 msgid "L/W/H"
 msgstr ""
 
-#: admin/post-types/product.php:596
-#: admin/post-types/product.php:867
+#: admin/post-types/product.php:596 admin/post-types/product.php:867
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:80
+#: admin/post-types/writepanels/writepanel-product_data.php:158
 #, fuzzy
 msgid "Length"
 msgstr "Lengte"
 
-#: admin/post-types/product.php:608
-#: admin/post-types/product.php:875
+#: admin/post-types/product.php:608 admin/post-types/product.php:875
 msgid "Visibility"
 msgstr ""
 
-#: admin/post-types/product.php:613
-#: admin/post-types/product.php:881
+#: admin/post-types/product.php:613 admin/post-types/product.php:881
 msgid "Catalog &amp; search"
 msgstr ""
 
-#: admin/post-types/product.php:616
-#: admin/post-types/product.php:884
+#: admin/post-types/product.php:616 admin/post-types/product.php:884
+#: admin/post-types/writepanels/writepanel-product_data.php:968
 #, fuzzy
 msgid "Hidden"
 msgstr "Kop"
 
-#: admin/post-types/product.php:631
-#: admin/post-types/product.php:912
+#: admin/post-types/product.php:631 admin/post-types/product.php:912
 msgid "In stock?"
 msgstr ""
 
-#: admin/post-types/product.php:652
-#: admin/post-types/product.php:930
+#: admin/post-types/product.php:652 admin/post-types/product.php:930
+#: admin/post-types/writepanels/writepanel-product_data.php:229
 msgid "Manage stock?"
 msgstr ""
 
-#: admin/post-types/product.php:656
-#: admin/post-types/product.php:949
+#: admin/post-types/product.php:656 admin/post-types/product.php:949
 #: admin/post-types/product.php:965
+#: admin/post-types/writepanels/writepanel-product_data.php:236
 msgid "Stock Qty"
 msgstr ""
 
-#: admin/post-types/product.php:787
-#: admin/post-types/product.php:809
-#: admin/post-types/product.php:832
-#: admin/post-types/product.php:856
-#: admin/post-types/product.php:880
-#: admin/post-types/product.php:899
-#: admin/post-types/product.php:917
-#: admin/post-types/product.php:935
+#: admin/post-types/product.php:787 admin/post-types/product.php:809
+#: admin/post-types/product.php:832 admin/post-types/product.php:856
+#: admin/post-types/product.php:880 admin/post-types/product.php:899
+#: admin/post-types/product.php:917 admin/post-types/product.php:935
 #: admin/post-types/product.php:954
 msgid "— No Change —"
 msgstr ""
 
-#: admin/post-types/product.php:788
-#: admin/post-types/product.php:810
-#: admin/post-types/product.php:833
-#: admin/post-types/product.php:857
+#: admin/post-types/product.php:788 admin/post-types/product.php:810
+#: admin/post-types/product.php:833 admin/post-types/product.php:857
 #: admin/post-types/product.php:955
 #, fuzzy
 msgid "Change to:"
@@ -2950,6 +3175,9 @@ msgid "Expiry date"
 msgstr "Oefenwedstrijd"
 
 #: admin/post-types/shop_order.php:42
+#: admin/settings/settings-payment-gateways.php:27
+#: admin/settings/settings-shipping-methods.php:29
+#: templates/myaccount/my-orders.php:34
 #, fuzzy
 msgid "Status"
 msgstr "Status"
@@ -2958,12 +3186,15 @@ msgstr "Status"
 msgid "Billing"
 msgstr ""
 
-#: admin/post-types/shop_order.php:46
+#: admin/post-types/shop_order.php:46 templates/cart/totals.php:202
+#: templates/checkout/review-order.php:205
 #, fuzzy
 msgid "Order Total"
 msgstr "Beoordeling"
 
 #: admin/post-types/shop_order.php:47
+#: admin/post-types/writepanels/writepanels-init.php:64
+#: classes/class-wc-checkout.php:74
 #, fuzzy
 msgid "Order Notes"
 msgstr "Nieuwe toevoegen"
@@ -2979,6 +3210,7 @@ msgid "Actions"
 msgstr "Alle secties"
 
 #: admin/post-types/shop_order.php:93
+#: classes/gateways/paypal/class-wc-paypal.php:302
 #, fuzzy, php-format
 msgid "Order %s"
 msgstr "Beoordeling"
@@ -2987,18 +3219,24 @@ msgstr "Beoordeling"
 msgid "made by"
 msgstr ""
 
-#: admin/post-types/shop_order.php:96
+#: admin/post-types/shop_order.php:96 templates/emails/admin-new-order.php:52
+#: templates/emails/customer-completed-order.php:52
+#: templates/emails/customer-note.php:56
+#: templates/emails/customer-processing-order.php:52
+#: templates/order/order-details.php:92
 #, fuzzy
 msgid "Email:"
 msgstr "E-mailadres"
 
-#: admin/post-types/shop_order.php:99
+#: admin/post-types/shop_order.php:99 templates/emails/admin-new-order.php:55
+#: templates/emails/customer-completed-order.php:55
+#: templates/emails/customer-note.php:59
+#: templates/emails/customer-processing-order.php:55
 #, fuzzy
 msgid "Tel:"
 msgstr "Titel"
 
-#: admin/post-types/shop_order.php:112
-#: admin/post-types/shop_order.php:125
+#: admin/post-types/shop_order.php:112 admin/post-types/shop_order.php:125
 msgid "Via"
 msgstr ""
 
@@ -3028,8 +3266,7 @@ msgstr "Voltooid"
 msgid "Show all statuses"
 msgstr ""
 
-#: admin/post-types/shop_order.php:302
-#: admin/post-types/shop_order.php:327
+#: admin/post-types/shop_order.php:302 admin/post-types/shop_order.php:327
 msgid "Show all customers"
 msgstr ""
 
@@ -3046,7 +3283,8 @@ msgid "Individual use"
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-coupon_data.php:42
-msgid "Check this box if the coupon cannot be used in conjunction with other coupons"
+msgid ""
+"Check this box if the coupon cannot be used in conjunction with other coupons"
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-coupon_data.php:45
@@ -3055,7 +3293,8 @@ msgid "Apply before tax"
 msgstr "slaapplaatsen"
 
 #: admin/post-types/writepanels/writepanel-coupon_data.php:45
-msgid "Check this box if the coupon should be applied before calculating cart tax"
+msgid ""
+"Check this box if the coupon should be applied before calculating cart tax"
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-coupon_data.php:48
@@ -3064,7 +3303,9 @@ msgstr ""
 
 #: admin/post-types/writepanels/writepanel-coupon_data.php:48
 #, php-format
-msgid "Check this box if the coupon enables free shipping (see <a href=\"%s\">Free Shipping</a>)"
+msgid ""
+"Check this box if the coupon enables free shipping (see <a href=\"%s\">Free "
+"Shipping</a>)"
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-coupon_data.php:53
@@ -3076,11 +3317,14 @@ msgid "No minimum"
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-coupon_data.php:53
-msgid "This field allows you to set the minimum subtotal needed to use the coupon."
+msgid ""
+"This field allows you to set the minimum subtotal needed to use the coupon."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-coupon_data.php:77
-msgid "Products which need to be in the cart to use this coupon or, for \"Product Discounts\", which products are discounted."
+msgid ""
+"Products which need to be in the cart to use this coupon or, for \"Product "
+"Discounts\", which products are discounted."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-coupon_data.php:82
@@ -3094,7 +3338,9 @@ msgid "Search for a product…"
 msgstr "Zoek resultaten voor:"
 
 #: admin/post-types/writepanels/writepanel-coupon_data.php:100
-msgid "Products which must not be in the cart to use this coupon or, for \"Product Discounts\", which products are not discounted."
+msgid ""
+"Products which must not be in the cart to use this coupon or, for \"Product "
+"Discounts\", which products are not discounted."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-coupon_data.php:108
@@ -3103,7 +3349,9 @@ msgid "Any category"
 msgstr "Evenement categorie"
 
 #: admin/post-types/writepanels/writepanel-coupon_data.php:119
-msgid "A product must be in this category for the coupon to remain valid or, for \"Product Discounts\", products in these categories will be discounted."
+msgid ""
+"A product must be in this category for the coupon to remain valid or, for "
+"\"Product Discounts\", products in these categories will be discounted."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-coupon_data.php:124
@@ -3117,7 +3365,9 @@ msgid "No categories"
 msgstr "Categorieën"
 
 #: admin/post-types/writepanels/writepanel-coupon_data.php:136
-msgid "Product must not be in this category for the coupon to remain valid or, for \"Product Discounts\", products in these categories will not be discounted."
+msgid ""
+"Product must not be in this category for the coupon to remain valid or, for "
+"\"Product Discounts\", products in these categories will not be discounted."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-coupon_data.php:142
@@ -3131,7 +3381,9 @@ msgid "Any customer"
 msgstr "Evenement categorie"
 
 #: admin/post-types/writepanels/writepanel-coupon_data.php:142
-msgid "Comma separate email addresses to restrict this coupon to specific billing and user emails."
+msgid ""
+"Comma separate email addresses to restrict this coupon to specific billing "
+"and user emails."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-coupon_data.php:147
@@ -3158,6 +3410,7 @@ msgid "Coupon code already exists."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-order_data.php:59
+#: templates/order/order-details.php:14
 #, fuzzy
 msgid "Order Details"
 msgstr "Details"
@@ -3176,6 +3429,7 @@ msgid "h"
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-order_data.php:74
+#: admin/settings/settings-init.php:655
 msgid "m"
 msgstr ""
 
@@ -3198,22 +3452,26 @@ msgstr "Details"
 
 #: admin/post-types/writepanels/writepanel-order_data.php:133
 #: admin/post-types/writepanels/writepanel-order_data.php:216
+#: classes/class-wc-countries.php:1078
 #, fuzzy
 msgid "First Name"
 msgstr "Voornaam"
 
 #: admin/post-types/writepanels/writepanel-order_data.php:137
 #: admin/post-types/writepanels/writepanel-order_data.php:220
+#: classes/class-wc-countries.php:1084
 #, fuzzy
 msgid "Last Name"
 msgstr "Nieuwe fase naam"
 
 #: admin/post-types/writepanels/writepanel-order_data.php:174
+#: classes/class-wc-countries.php:1181
 msgid "Phone"
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-order_data.php:181
 #: admin/post-types/writepanels/writepanel-order_data.php:258
+#: classes/class-wc-countries.php:1096
 msgid "Address"
 msgstr "Adres"
 
@@ -3250,6 +3508,9 @@ msgid "Item"
 msgstr "Interviews"
 
 #: admin/post-types/writepanels/writepanel-order_data.php:314
+#: admin/post-types/writepanels/writepanel-product_data.php:216
+#: admin/settings/settings-tax-rates.php:35
+#: admin/settings/settings-tax-rates.php:104
 #, fuzzy
 msgid "Tax Class"
 msgstr "Classificatie"
@@ -3259,6 +3520,8 @@ msgid "Tax class for the line item"
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-order_data.php:316
+#: templates/checkout/form-pay.php:18 templates/checkout/review-order.php:20
+#: templates/order/order-details.php:19
 msgid "Qty"
 msgstr ""
 
@@ -3311,7 +3574,9 @@ msgid "Reduce stock"
 msgstr "Route naar"
 
 #: admin/post-types/writepanels/writepanel-order_data.php:463
-msgid "Reduces stock for each item in the order; useful after manually creating an order or manually marking an order as paid."
+msgid ""
+"Reduces stock for each item in the order; useful after manually creating an "
+"order or manually marking an order as paid."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-order_data.php:465
@@ -3320,7 +3585,9 @@ msgid "Restore stock"
 msgstr "Gerelateerd"
 
 #: admin/post-types/writepanels/writepanel-order_data.php:465
-msgid "Restores stock for each item in the order; useful after refunding or canceling the entire order."
+msgid ""
+"Restores stock for each item in the order; useful after refunding or "
+"canceling the entire order."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-order_data.php:467
@@ -3328,7 +3595,8 @@ msgid "Email invoice"
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-order_data.php:467
-msgid "Email the order to the customer. Unpaid orders will include a payment link."
+msgid ""
+"Email the order to the customer. Unpaid orders will include a payment link."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-order_data.php:477
@@ -3341,10 +3609,12 @@ msgid "Discounts"
 msgstr "Regio's"
 
 #: admin/post-types/writepanels/writepanel-order_data.php:504
+#: classes/class-wc-order.php:853
 msgid "Cart Discount:"
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-order_data.php:511
+#: classes/class-wc-order.php:921
 msgid "Order Discount:"
 msgstr ""
 
@@ -3353,6 +3623,7 @@ msgid "Cost ex. tax:"
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-order_data.php:526
+#: classes/class-wc-countries.php:603
 msgid "(ex. tax)"
 msgstr ""
 
@@ -3384,7 +3655,9 @@ msgid "Tax Rows"
 msgstr "Tax IDs"
 
 #: admin/post-types/writepanels/writepanel-order_data.php:566
-msgid "These rows contain taxes for this order. This allows you to display multiple or compound taxes rather than a single total."
+msgid ""
+"These rows contain taxes for this order. This allows you to display multiple "
+"or compound taxes rather than a single total."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-order_data.php:600
@@ -3398,6 +3671,7 @@ msgid "Tax Totals"
 msgstr "Portaal"
 
 #: admin/post-types/writepanels/writepanel-order_data.php:629
+#: classes/class-wc-order.php:926
 #, fuzzy
 msgid "Order Total:"
 msgstr "Titel"
@@ -3412,6 +3686,7 @@ msgid "Manually reducing stock."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-order_data.php:880
+#: classes/class-wc-order.php:1308
 #, php-format
 msgid "Item #%s stock reduced from %s to %s."
 msgstr ""
@@ -3460,6 +3735,7 @@ msgstr ""
 #: admin/post-types/writepanels/writepanel-order_downloads.php:168
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:229
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:435
+#: admin/post-types/writepanels/writepanel-product_data.php:185
 #, fuzzy
 msgid "Unlimited"
 msgstr "Titel"
@@ -3472,6 +3748,7 @@ msgstr "Accessoires"
 
 #: admin/post-types/writepanels/writepanel-order_downloads.php:56
 #: admin/post-types/writepanels/writepanel-order_downloads.php:172
+#: admin/post-types/writepanels/writepanel-product_data.php:188
 msgid "Never"
 msgstr ""
 
@@ -3486,7 +3763,8 @@ msgid "Grant Access"
 msgstr "Bovenliggende accessoire"
 
 #: admin/post-types/writepanels/writepanel-order_downloads.php:180
-msgid "Could not grant access - the user may already have permission for this file."
+msgid ""
+"Could not grant access - the user may already have permission for this file."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-order_downloads.php:202
@@ -3509,7 +3787,9 @@ msgid "Add note"
 msgstr "Nieuwe toevoegen"
 
 #: admin/post-types/writepanels/writepanel-order_notes.php:52
-msgid "Add a note for your reference, or add a customer note (the user will be notified)."
+msgid ""
+"Add a note for your reference, or add a customer note (the user will be "
+"notified)."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-order_notes.php:58
@@ -3522,6 +3802,7 @@ msgid "Private note"
 msgstr "Interview bekijken"
 
 #: admin/post-types/writepanels/writepanel-order_notes.php:61
+#: admin/post-types/writepanels/writepanel-product_data.php:450
 #, fuzzy
 msgid "Add"
 msgstr "Adres"
@@ -3537,7 +3818,9 @@ msgid "Same as parent"
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:64
-msgid "Before adding variations, add and save some attributes on the <strong>Attributes</strong> tab."
+msgid ""
+"Before adding variations, add and save some attributes on the "
+"<strong>Attributes</strong> tab."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:66
@@ -3546,10 +3829,12 @@ msgid "Learn more"
 msgstr "Lees verder"
 
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:73
+#: admin/post-types/writepanels/writepanel-product_data.php:296
 msgid "Close all"
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:73
+#: admin/post-types/writepanels/writepanel-product_data.php:296
 msgid "Expand all"
 msgstr ""
 
@@ -3594,7 +3879,8 @@ msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:163
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:375
-msgid "Enter a SKU for this variation or leave blank to use the parent product SKU."
+msgid ""
+"Enter a SKU for this variation or leave blank to use the parent product SKU."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:173
@@ -3604,11 +3890,14 @@ msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:173
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:384
-msgid "Enter a quantity to enable stock management for this variation, or leave blank to use the variable product stock options."
+msgid ""
+"Enter a quantity to enable stock management for this variation, or leave "
+"blank to use the variable product stock options."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:177
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:388
+#: widgets/widget-price_filter.php:132
 #, fuzzy
 msgid "Price:"
 msgstr "Artikelen"
@@ -3621,7 +3910,9 @@ msgstr "Artikelen"
 
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:184
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:394
-msgid "Enter a weight for this variation or leave blank to use the parent product weight."
+msgid ""
+"Enter a weight for this variation or leave blank to use the parent product "
+"weight."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:190
@@ -3648,11 +3939,14 @@ msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:224
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:432
-msgid "Enter a File Path to make this variation a downloadable product, or leave blank."
+msgid ""
+"Enter a File Path to make this variation a downloadable product, or leave "
+"blank."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:224
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:432
+#: admin/post-types/writepanels/writepanel-product_data.php:180
 msgid "File path/URL"
 msgstr ""
 
@@ -3674,17 +3968,21 @@ msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:229
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:435
+#: admin/post-types/writepanels/writepanel-product_data.php:185
 msgid "Leave blank for unlimited re-downloads."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:247
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:448
-msgid "Enable this option if access is given to a downloadable file upon purchase of a product"
+msgid ""
+"Enable this option if access is given to a downloadable file upon purchase "
+"of a product"
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:249
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:450
-msgid "Enable this option if a product is not shipped or there is no shipping cost"
+msgid ""
+"Enable this option if a product is not shipped or there is no shipping cost"
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:265
@@ -3702,11 +4000,16 @@ msgid "No default"
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:316
-msgid "You must add some attributes via the \"Product Data\" panel and save before adding a new variation."
+msgid ""
+"You must add some attributes via the \"Product Data\" panel and save before "
+"adding a new variation."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:476
-msgid "Are you sure you want to link all variations? This will create a new variation for each and every possible combination of variation attributes (max 50 per run)."
+msgid ""
+"Are you sure you want to link all variations? This will create a new "
+"variation for each and every possible combination of variation attributes "
+"(max 50 per run)."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:497
@@ -3746,6 +4049,8 @@ msgid "Variable product"
 msgstr "Bekijk project"
 
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:790
+#: classes/class-wc-email.php:422 classes/class-wc-email.php:455
+#: classes/class-wc-email.php:500
 #, fuzzy, php-format
 msgid "Variation #%s of %s"
 msgstr "Realisatie"
@@ -3769,6 +4074,7 @@ msgid "Taxes"
 msgstr "Tax IDs"
 
 #: admin/post-types/writepanels/writepanel-product_data.php:81
+#: templates/single-product/related.php:33
 #, fuzzy
 msgid "Related Products"
 msgstr "Bekijk project"
@@ -3782,7 +4088,9 @@ msgid "Stock Keeping Unit"
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product_data.php:96
-msgid "SKU refers to a Stock-keeping unit, a unique identifier for each distinct product and service that can be purchased."
+msgid ""
+"SKU refers to a Stock-keeping unit, a unique identifier for each distinct "
+"product and service that can be purchased."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product_data.php:108
@@ -3841,6 +4149,7 @@ msgstr "Meer %s&hellip;"
 
 #: admin/post-types/writepanels/writepanel-product_data.php:137
 #: admin/post-types/writepanels/writepanel-product_data.php:1008
+#: templates/myaccount/my-orders.php:55
 #, fuzzy
 msgid "Cancel"
 msgstr "relevantie"
@@ -3850,6 +4159,7 @@ msgid "Weight in decimal form"
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product_data.php:156
+#: templates/single-product/product-attributes.php:35
 msgid "Dimensions"
 msgstr ""
 
@@ -3875,15 +4185,20 @@ msgid "Download Expiry"
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product_data.php:188
-msgid "Enter the number of days before a download link expires, or leave blank."
+msgid ""
+"Enter the number of days before a download link expires, or leave blank."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product_data.php:203
+#: classes/shipping/class-wc-flat-rate.php:127
+#: classes/shipping/class-wc-international-delivery.php:90
 #, fuzzy
 msgid "Tax Status"
 msgstr "Status"
 
 #: admin/post-types/writepanels/writepanel-product_data.php:204
+#: classes/shipping/class-wc-flat-rate.php:132
+#: classes/shipping/class-wc-international-delivery.php:95
 msgid "Taxable"
 msgstr ""
 
@@ -3895,12 +4210,16 @@ msgstr "Schepen in"
 #: admin/post-types/writepanels/writepanel-product_data.php:206
 #: admin/settings/settings-tax-rates.php:62
 #: admin/settings/settings-tax-rates.php:222
+#: classes/shipping/class-wc-flat-rate.php:133
+#: classes/shipping/class-wc-international-delivery.php:96
 #, fuzzy
 msgid "None"
 msgstr "Nieuws"
 
 #: admin/post-types/writepanels/writepanel-product_data.php:236
-msgid "Stock quantity. If this is a variable product this value will be used to control stock for all variations, unless you define stock at variation level."
+msgid ""
+"Stock quantity. If this is a variable product this value will be used to "
+"control stock for all variations, unless you define stock at variation level."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product_data.php:245
@@ -3909,7 +4228,9 @@ msgid "Stock status"
 msgstr "Status"
 
 #: admin/post-types/writepanels/writepanel-product_data.php:248
-msgid "Controls whether or not the product is listed as \"in stock\" or \"out of stock\" on the frontend."
+msgid ""
+"Controls whether or not the product is listed as \"in stock\" or \"out of "
+"stock\" on the frontend."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product_data.php:255
@@ -3930,7 +4251,9 @@ msgid "Allow"
 msgstr "Alles"
 
 #: admin/post-types/writepanels/writepanel-product_data.php:259
-msgid "If managing stock, this controls whether or not backorders are allowed for this product and variations. If enabled, stock quantity can go below 0."
+msgid ""
+"If managing stock, this controls whether or not backorders are allowed for "
+"this product and variations. If enabled, stock quantity can go below 0."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product_data.php:280
@@ -3944,7 +4267,9 @@ msgid "Shipping class"
 msgstr "Schepen in"
 
 #: admin/post-types/writepanels/writepanel-product_data.php:286
-msgid "Shipping classes are used by certain shipping methods to group similar products."
+msgid ""
+"Shipping classes are used by certain shipping methods to group similar "
+"products."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product_data.php:349
@@ -3980,7 +4305,10 @@ msgid "Up-Sells"
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product_data.php:486
-msgid "Up-sells are products which you recommend instead of the currently viewed product, for example, products that are more profitable or better quality or more expensive."
+msgid ""
+"Up-sells are products which you recommend instead of the currently viewed "
+"product, for example, products that are more profitable or better quality or "
+"more expensive."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product_data.php:488
@@ -3988,7 +4316,9 @@ msgid "Cross-Sells"
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product_data.php:505
-msgid "Cross-sells are products which you promote in the cart, based on the current product."
+msgid ""
+"Cross-sells are products which you promote in the cart, based on the current "
+"product."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product_data.php:518
@@ -4044,7 +4374,9 @@ msgid "Catalog visibility:"
 msgstr "Categorieën"
 
 #: admin/post-types/writepanels/writepanel-product_data.php:995
-msgid "Define the loops this product should be visible in. The product will still be accessible directly."
+msgid ""
+"Define the loops this product should be visible in. The product will still "
+"be accessible directly."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product_data.php:1001
@@ -4066,6 +4398,8 @@ msgid "Product Short Description"
 msgstr "Projectgegevens"
 
 #: admin/post-types/writepanels/writepanels-init.php:57
+#: templates/single-product-reviews.php:46
+#: templates/single-product/tabs/tab-reviews.php:11
 #, fuzzy
 msgid "Reviews"
 msgstr "Overzicht"
@@ -4076,7 +4410,9 @@ msgid "Order Data"
 msgstr "Beoordeling"
 
 #: admin/post-types/writepanels/writepanels-init.php:62
-msgid "Order Items <small>&ndash; Note: if you edit quantities or remove items from the order you will need to manually change the item's stock levels.</small>"
+msgid ""
+"Order Items <small>&ndash; Note: if you edit quantities or remove items from "
+"the order you will need to manually change the item's stock levels.</small>"
 msgstr ""
 
 #: admin/post-types/writepanels/writepanels-init.php:63
@@ -4084,7 +4420,10 @@ msgid "Order Totals"
 msgstr ""
 
 #: admin/post-types/writepanels/writepanels-init.php:65
-msgid "Downloadable Product Permissions <small>&ndash; Note: Permissions for order items will automatically be granted when the order status changes to processing/completed.</small>"
+msgid ""
+"Downloadable Product Permissions <small>&ndash; Note: Permissions for order "
+"items will automatically be granted when the order status changes to "
+"processing/completed.</small>"
 msgstr ""
 
 #: admin/post-types/writepanels/writepanels-init.php:66
@@ -4097,6 +4436,7 @@ msgid "Coupon Data"
 msgstr ""
 
 #: admin/post-types/writepanels/writepanels-init.php:93
+#: templates/checkout/form-coupon.php:20
 #, fuzzy
 msgid "Coupon code"
 msgstr "Plaats reactie"
@@ -4113,7 +4453,9 @@ msgstr "Alle evenementen"
 
 #: admin/post-types/writepanels/writepanels-init.php:163
 #, php-format
-msgid "Allow <a href=\"%s\" target=\"_blank\">trackbacks and pingbacks</a> on this page."
+msgid ""
+"Allow <a href=\"%s\" target=\"_blank\">trackbacks and pingbacks</a> on this "
+"page."
 msgstr ""
 
 #: admin/post-types/writepanels/writepanels-init.php:163
@@ -4169,7 +4511,11 @@ msgid "Used for certain text and asides - breadcrumbs, small text etc."
 msgstr ""
 
 #: admin/settings/settings-frontend-styles.php:49
-msgid "To edit colours <code>woocommerce/assets/css/woocommerce-base.less</code> and <code>woocommerce.css</code> need to be writable. See <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">the Codex</a> for more information."
+msgid ""
+"To edit colours <code>woocommerce/assets/css/woocommerce-base.less</code> "
+"and <code>woocommerce.css</code> need to be writable. See <a href=\"http://"
+"codex.wordpress.org/Changing_File_Permissions\">the Codex</a> for more "
+"information."
 msgstr ""
 
 #: admin/settings/settings-init.php:14
@@ -4192,7 +4538,9 @@ msgid "Base Country/Region"
 msgstr "Bovenliggende regio"
 
 #: admin/settings/settings-init.php:27
-msgid "This is the base country for your business. Tax rates will be based on this country."
+msgid ""
+"This is the base country for your business. Tax rates will be based on this "
+"country."
 msgstr ""
 
 #: admin/settings/settings-init.php:36
@@ -4200,7 +4548,9 @@ msgid "Currency"
 msgstr ""
 
 #: admin/settings/settings-init.php:37
-msgid "This controls what currency prices are listed at in the catalog and which currency gateways will take payments in."
+msgid ""
+"This controls what currency prices are listed at in the catalog and which "
+"currency gateways will take payments in."
 msgstr ""
 
 #: admin/settings/settings-init.php:45
@@ -4325,8 +4675,15 @@ msgstr ""
 msgid "All Countries"
 msgstr "Land"
 
-#: admin/settings/settings-init.php:87
-#: admin/settings/settings-init.php:92
+#: admin/settings/settings-init.php:87 admin/settings/settings-init.php:92
+#: classes/shipping/class-wc-flat-rate.php:104
+#: classes/shipping/class-wc-flat-rate.php:108
+#: classes/shipping/class-wc-free-shipping.php:94
+#: classes/shipping/class-wc-free-shipping.php:98
+#: classes/shipping/class-wc-local-delivery.php:138
+#: classes/shipping/class-wc-local-delivery.php:142
+#: classes/shipping/class-wc-local-pickup.php:90
+#: classes/shipping/class-wc-local-pickup.php:94
 #, fuzzy
 msgid "Specific Countries"
 msgstr "Land"
@@ -4337,7 +4694,9 @@ msgid "Checkout and Accounts"
 msgstr "Berichten"
 
 #: admin/settings/settings-init.php:104
-msgid "The following options control the behaviour of the checkout process and customer accounts."
+msgid ""
+"The following options control the behaviour of the checkout process and "
+"customer accounts."
 msgstr ""
 
 #: admin/settings/settings-init.php:108
@@ -4357,7 +4716,8 @@ msgid "Force secure checkout"
 msgstr ""
 
 #: admin/settings/settings-init.php:131
-msgid "Force SSL (HTTPS) on the checkout pages (an SSL Certificate is required)"
+msgid ""
+"Force SSL (HTTPS) on the checkout pages (an SSL Certificate is required)"
 msgstr ""
 
 #: admin/settings/settings-init.php:135
@@ -4416,7 +4776,9 @@ msgid "Styles and Scripts"
 msgstr ""
 
 #: admin/settings/settings-init.php:223
-msgid "The following options affect the styling of your store, as well as how certain features behave."
+msgid ""
+"The following options affect the styling of your store, as well as how "
+"certain features behave."
 msgstr ""
 
 #: admin/settings/settings-init.php:226
@@ -4470,7 +4832,11 @@ msgid "File download method"
 msgstr ""
 
 #: admin/settings/settings-init.php:285
-msgid "Forcing downloads will keep URLs hidden, but some servers may serve large files unreliably. If supported, <code>X-Accel-Redirect</code>/ <code>X-Sendfile</code> can be used to serve downloads instead (server requires <code>mod_xsendfile</code>)."
+msgid ""
+"Forcing downloads will keep URLs hidden, but some servers may serve large "
+"files unreliably. If supported, <code>X-Accel-Redirect</code>/ <code>X-"
+"Sendfile</code> can be used to serve downloads instead (server requires "
+"<code>mod_xsendfile</code>)."
 msgstr ""
 
 #: admin/settings/settings-init.php:293
@@ -4504,7 +4870,9 @@ msgid "Grant access to downloadable products after payment"
 msgstr ""
 
 #: admin/settings/settings-init.php:314
-msgid "Turn this option off to only grant access when an order is \"complete\", rather than \"processing\""
+msgid ""
+"Turn this option off to only grant access when an order is \"complete\", "
+"rather than \"processing\""
 msgstr ""
 
 #: admin/settings/settings-init.php:319
@@ -4516,7 +4884,9 @@ msgid "Limit the purchasable quantity of downloadable-virtual items to 1"
 msgstr ""
 
 #: admin/settings/settings-init.php:338
-msgid "Note: The shop page has children - child pages will not work if you enable this option."
+msgid ""
+"Note: The shop page has children - child pages will not work if you enable "
+"this option."
 msgstr ""
 
 #: admin/settings/settings-init.php:342
@@ -4529,7 +4899,9 @@ msgid "Shop Base Page"
 msgstr ""
 
 #: admin/settings/settings-init.php:346
-msgid "This sets the base page of your shop - this is where your product archive will be."
+msgid ""
+"This sets the base page of your shop - this is where your product archive "
+"will be."
 msgstr ""
 
 #: admin/settings/settings-init.php:356
@@ -4537,7 +4909,8 @@ msgid "Base Page Title"
 msgstr ""
 
 #: admin/settings/settings-init.php:357
-msgid "This title to show on the shop base page. Leave blank to use the page title."
+msgid ""
+"This title to show on the shop base page. Leave blank to use the page title."
 msgstr ""
 
 #: admin/settings/settings-init.php:366
@@ -4545,7 +4918,9 @@ msgid "Terms page ID"
 msgstr ""
 
 #: admin/settings/settings-init.php:367
-msgid "If you define a \"Terms\" page the customer will be asked if they accept them when checking out."
+msgid ""
+"If you define a \"Terms\" page the customer will be asked if they accept "
+"them when checking out."
 msgstr ""
 
 #: admin/settings/settings-init.php:378
@@ -4578,7 +4953,8 @@ msgid "Product category slug"
 msgstr "Project categorie"
 
 #: admin/settings/settings-init.php:399
-msgid "Shows in the product category URLs. Leave blank to use the default slug."
+msgid ""
+"Shows in the product category URLs. Leave blank to use the default slug."
 msgstr ""
 
 #: admin/settings/settings-init.php:408
@@ -4610,7 +4986,10 @@ msgid "Prepend product permalinks with product category"
 msgstr ""
 
 #: admin/settings/settings-init.php:437
-msgid "The following pages need selecting so that WooCommerce knows where they are. These pages should have been created upon installation of the plugin, if not you will need to create them."
+msgid ""
+"The following pages need selecting so that WooCommerce knows where they are. "
+"These pages should have been created upon installation of the plugin, if not "
+"you will need to create them."
 msgstr ""
 
 #: admin/settings/settings-init.php:441
@@ -4659,21 +5038,21 @@ msgstr "Land"
 msgid "This controls the default sort order of the catalog."
 msgstr ""
 
-#: admin/settings/settings-init.php:544
+#: admin/settings/settings-init.php:544 templates/loop/sorting.php:15
 #, fuzzy
 msgid "Default sorting"
 msgstr "Land"
 
-#: admin/settings/settings-init.php:545
+#: admin/settings/settings-init.php:545 templates/loop/sorting.php:16
 msgid "Sort alphabetically"
 msgstr ""
 
-#: admin/settings/settings-init.php:546
+#: admin/settings/settings-init.php:546 templates/loop/sorting.php:17
 #, fuzzy
 msgid "Sort by most recent"
 msgstr "Einddatum:"
 
-#: admin/settings/settings-init.php:547
+#: admin/settings/settings-init.php:547 templates/loop/sorting.php:18
 #, fuzzy
 msgid "Sort by price"
 msgstr "Einddatum:"
@@ -4701,7 +5080,8 @@ msgid "Redirects"
 msgstr "wijzigen"
 
 #: admin/settings/settings-init.php:579
-msgid "Redirect to cart after adding a product to the cart (on single product pages)"
+msgid ""
+"Redirect to cart after adding a product to the cart (on single product pages)"
 msgstr ""
 
 #: admin/settings/settings-init.php:587
@@ -4709,7 +5089,8 @@ msgid "Redirect to the product page on a single matching search result"
 msgstr ""
 
 #: admin/settings/settings-init.php:596
-msgid "The following options affect the fields available on the edit product page."
+msgid ""
+"The following options affect the fields available on the edit product page."
 msgstr ""
 
 #: admin/settings/settings-init.php:599
@@ -4862,7 +5243,9 @@ msgid "Trailing zeros"
 msgstr "Vaarprogramma’s"
 
 #: admin/settings/settings-init.php:748
-msgid "Remove zeros after the decimal point. e.g. <code>$10.00</code> becomes <code>$10</code>"
+msgid ""
+"Remove zeros after the decimal point. e.g. <code>$10.00</code> becomes <code>"
+"$10</code>"
 msgstr ""
 
 #: admin/settings/settings-init.php:756
@@ -4872,7 +5255,11 @@ msgstr "Acties"
 
 #: admin/settings/settings-init.php:756
 #, php-format
-msgid "These settings affect the actual dimensions of images in your catalog - the display on the front-end will still be affected by CSS styles. After changing these settings you may need to <a href=\"%s\">regenerate your thumbnails</a>."
+msgid ""
+"These settings affect the actual dimensions of images in your catalog - the "
+"display on the front-end will still be affected by CSS styles. After "
+"changing these settings you may need to <a href=\"%s\">regenerate your "
+"thumbnails</a>."
 msgstr ""
 
 #: admin/settings/settings-init.php:759
@@ -4898,7 +5285,8 @@ msgid "Product Thumbnails"
 msgstr "Miniatuur"
 
 #: admin/settings/settings-init.php:780
-msgid "This size is usually used for the gallery of images on the product page."
+msgid ""
+"This size is usually used for the gallery of images on the product page."
 msgstr ""
 
 #: admin/settings/settings-init.php:795
@@ -4989,7 +5377,8 @@ msgid "Shipping method display"
 msgstr "Weergavenaam"
 
 #: admin/settings/settings-init.php:901
-msgid "This controls how multiple shipping methods are displayed on the frontend."
+msgid ""
+"This controls how multiple shipping methods are displayed on the frontend."
 msgstr ""
 
 #: admin/settings/settings-init.php:907
@@ -5019,7 +5408,9 @@ msgid "Collect shipping address even when not required"
 msgstr ""
 
 #: admin/settings/settings-init.php:949
-msgid "Installed payment gateways are displayed below. Drag and drop payment gateways to control their display order on the checkout."
+msgid ""
+"Installed payment gateways are displayed below. Drag and drop payment "
+"gateways to control their display order on the checkout."
 msgstr ""
 
 #: admin/settings/settings-init.php:962
@@ -5069,11 +5460,13 @@ msgid "Additional Tax classes"
 msgstr ""
 
 #: admin/settings/settings-init.php:1027
-msgid "List 1 per line. This is in addition to the default <em>Standard Rate</em>."
+msgid ""
+"List 1 per line. This is in addition to the default <em>Standard Rate</em>."
 msgstr ""
 
 #: admin/settings/settings-init.php:1028
-msgid "List product and shipping tax classes here, e.g. Zero Tax, Reduced Rate."
+msgid ""
+"List product and shipping tax classes here, e.g. Zero Tax, Reduced Rate."
 msgstr ""
 
 #: admin/settings/settings-init.php:1032
@@ -5123,7 +5516,9 @@ msgid "Email Sender Options"
 msgstr "Rubriek"
 
 #: admin/settings/settings-init.php:1073
-msgid "The following options affect the sender (email address and name) used in WooCommerce emails."
+msgid ""
+"The following options affect the sender (email address and name) used in "
+"WooCommerce emails."
 msgstr ""
 
 #: admin/settings/settings-init.php:1076
@@ -5142,7 +5537,11 @@ msgstr ""
 
 #: admin/settings/settings-init.php:1095
 #, php-format
-msgid "This section lets you customise the WooCommerce emails. <a href=\"%s\" target=\"_blank\">Click here to preview your email template</a>. For more advanced control copy <code>woocommerce/templates/emails/</code> to <code>yourtheme/woocommerce/emails/</code>."
+msgid ""
+"This section lets you customise the WooCommerce emails. <a href=\"%s\" "
+"target=\"_blank\">Click here to preview your email template</a>. For more "
+"advanced control copy <code>woocommerce/templates/emails/</code> to "
+"<code>yourtheme/woocommerce/emails/</code>."
 msgstr ""
 
 #: admin/settings/settings-init.php:1098
@@ -5151,7 +5550,9 @@ msgstr ""
 
 #: admin/settings/settings-init.php:1099
 #, php-format
-msgid "Enter a URL to an image you want to show in the email's header. Upload your image using the <a href=\"%s\">media uploader</a>."
+msgid ""
+"Enter a URL to an image you want to show in the email's header. Upload your "
+"image using the <a href=\"%s\">media uploader</a>."
 msgstr ""
 
 #: admin/settings/settings-init.php:1107
@@ -5171,7 +5572,9 @@ msgid "Base colour"
 msgstr ""
 
 #: admin/settings/settings-init.php:1117
-msgid "The base colour for WooCommerce email templates. Default <code>#557da1</code>."
+msgid ""
+"The base colour for WooCommerce email templates. Default <code>#557da1</"
+"code>."
 msgstr ""
 
 #: admin/settings/settings-init.php:1125
@@ -5179,7 +5582,9 @@ msgid "Background colour"
 msgstr ""
 
 #: admin/settings/settings-init.php:1126
-msgid "The background colour for WooCommerce email templates. Default <code>#eeeeee</code>."
+msgid ""
+"The background colour for WooCommerce email templates. Default "
+"<code>#eeeeee</code>."
 msgstr ""
 
 #: admin/settings/settings-init.php:1134
@@ -5247,7 +5652,10 @@ msgstr "Importeer"
 
 #: admin/settings/settings-tax-rates.php:29
 #, php-format
-msgid "Define tax rates for countries and states below, or alternatively upload a CSV file containing your rates to <code>wp-content/woocommerce_tax_rates.csv</code> instead. <a href=\"%s\">Download sample csv.</a>"
+msgid ""
+"Define tax rates for countries and states below, or alternatively upload a "
+"CSV file containing your rates to <code>wp-content/woocommerce_tax_rates."
+"csv</code> instead. <a href=\"%s\">Download sample csv.</a>"
 msgstr ""
 
 #: admin/settings/settings-tax-rates.php:34
@@ -5267,7 +5675,9 @@ msgstr "Leeftijd"
 
 #: admin/settings/settings-tax-rates.php:36
 #: admin/settings/settings-tax-rates.php:105
-msgid "Optionally, enter a label for this rate - this will appear in the totals table"
+msgid ""
+"Optionally, enter a label for this rate - this will appear in the totals "
+"table"
 msgstr ""
 
 #: admin/settings/settings-tax-rates.php:37
@@ -5292,7 +5702,9 @@ msgstr ""
 
 #: admin/settings/settings-tax-rates.php:38
 #: admin/settings/settings-tax-rates.php:107
-msgid "Choose whether or not this is a compound rate. Compound tax rates are applied on top of other tax rates."
+msgid ""
+"Choose whether or not this is a compound rate. Compound tax rates are "
+"applied on top of other tax rates."
 msgstr ""
 
 #: admin/settings/settings-tax-rates.php:39
@@ -5307,7 +5719,8 @@ msgstr ""
 
 #: admin/settings/settings-tax-rates.php:46
 #: admin/settings/settings-tax-rates.php:115
-msgid "All matching rates will be applied, and non-compound rates will be summed."
+msgid ""
+"All matching rates will be applied, and non-compound rates will be summed."
 msgstr ""
 
 #: admin/settings/settings-tax-rates.php:47
@@ -5357,7 +5770,9 @@ msgid "Post/zip codes"
 msgstr "Plaats reactie"
 
 #: admin/settings/settings-tax-rates.php:103
-msgid "List postcodes/zips this rate applies to separated by semi-colons. You may also enter ranges for numeric zip codes. e.g. 12345-12349;23456;"
+msgid ""
+"List postcodes/zips this rate applies to separated by semi-colons. You may "
+"also enter ranges for numeric zip codes. e.g. 12345-12349;23456;"
 msgstr ""
 
 #: admin/settings/settings-tax-rates.php:127
@@ -5380,6 +5795,7 @@ msgid "No countries selected"
 msgstr ""
 
 #: admin/settings/settings-tax-rates.php:299
+#: classes/shipping/class-wc-flat-rate.php:487
 msgid "Delete the selected rates?"
 msgstr ""
 
@@ -5410,24 +5826,32 @@ msgstr[1] "Land"
 
 #: classes/class-wc-cart.php:322
 #, php-format
-msgid "Sorry, it seems the coupon \"%s\" is invalid - it has now been removed from your order."
+msgid ""
+"Sorry, it seems the coupon \"%s\" is invalid - it has now been removed from "
+"your order."
 msgstr ""
 
 #: classes/class-wc-cart.php:396
 #, php-format
-msgid "Sorry, it seems the coupon \"%s\" is not yours - it has now been removed from your order."
+msgid ""
+"Sorry, it seems the coupon \"%s\" is not yours - it has now been removed "
+"from your order."
 msgstr ""
 
-#: classes/class-wc-cart.php:432
-#: classes/class-wc-cart.php:442
+#: classes/class-wc-cart.php:432 classes/class-wc-cart.php:442
 #: classes/class-wc-cart.php:449
 #, php-format
-msgid "Sorry, we do not have enough \"%s\" in stock to fulfill your order (%s in stock). Please edit your cart and try again. We apologise for any inconvenience caused."
+msgid ""
+"Sorry, we do not have enough \"%s\" in stock to fulfill your order (%s in "
+"stock). Please edit your cart and try again. We apologise for any "
+"inconvenience caused."
 msgstr ""
 
 #: classes/class-wc-cart.php:460
 #, php-format
-msgid "Sorry, we do not have enough \"%s\" in stock to fulfill your order. Please edit your cart and try again. We apologise for any inconvenience caused."
+msgid ""
+"Sorry, we do not have enough \"%s\" in stock to fulfill your order. Please "
+"edit your cart and try again. We apologise for any inconvenience caused."
 msgstr ""
 
 #: classes/class-wc-cart.php:740
@@ -5437,25 +5861,30 @@ msgstr "Gebruikersnaam kan niet worden gewijzigd."
 
 #: classes/class-wc-cart.php:746
 #, php-format
-msgid "You cannot add that amount to the cart since there is not enough stock. We have %s in stock."
+msgid ""
+"You cannot add that amount to the cart since there is not enough stock. We "
+"have %s in stock."
 msgstr ""
 
 #: classes/class-wc-cart.php:749
-msgid "You cannot add that product to the cart since the product is out of stock."
+msgid ""
+"You cannot add that product to the cart since the product is out of stock."
 msgstr ""
 
 #: classes/class-wc-cart.php:759
 msgid "You already have this item in your cart."
 msgstr ""
 
-#: classes/class-wc-cart.php:773
-#: classes/class-wc-cart.php:781
+#: classes/class-wc-cart.php:773 classes/class-wc-cart.php:781
 #, php-format
-msgid "<a href=\"%s\" class=\"button\">%s</a> You cannot add that amount to the cart &mdash; we have %s in stock and you already have %s in your cart."
+msgid ""
+"<a href=\"%s\" class=\"button\">%s</a> You cannot add that amount to the "
+"cart &mdash; we have %s in stock and you already have %s in your cart."
 msgstr ""
 
-#: classes/class-wc-cart.php:1588
-#: classes/class-wc-order.php:785
+#: classes/class-wc-cart.php:1588 classes/class-wc-order.php:785
+#: classes/class-wc-product.php:965 classes/class-wc-product.php:974
+#: classes/class-wc-product.php:1005 classes/class-wc-product.php:1011
 #, fuzzy
 msgid "Free!"
 msgstr "Beoordeling"
@@ -5491,14 +5920,12 @@ msgctxt "placeholder"
 msgid "Username"
 msgstr "Gebruikersnaam"
 
-#: classes/class-wc-checkout.php:57
-#: classes/class-wc-checkout.php:64
+#: classes/class-wc-checkout.php:57 classes/class-wc-checkout.php:64
 #, fuzzy
 msgid "Account password"
 msgstr "Wachtwoord vergeten?"
 
-#: classes/class-wc-checkout.php:58
-#: classes/class-wc-checkout.php:65
+#: classes/class-wc-checkout.php:58 classes/class-wc-checkout.php:65
 #, fuzzy
 msgctxt "placeholder"
 msgid "Password"
@@ -5511,10 +5938,11 @@ msgstr ""
 
 #: classes/class-wc-checkout.php:132
 #, php-format
-msgid "Sorry, your session has expired. <a href=\"%s\">Return to homepage &rarr;</a>"
+msgid ""
+"Sorry, your session has expired. <a href=\"%s\">Return to homepage &rarr;</a>"
 msgstr ""
 
-#: classes/class-wc-checkout.php:183
+#: classes/class-wc-checkout.php:183 shortcodes/shortcode-my_account.php:169
 #, fuzzy
 msgid "is a required field."
 msgstr "Verplichte velden zijn gemarkeerd als %s"
@@ -5547,7 +5975,8 @@ msgid "Invalid email/username."
 msgstr ""
 
 #: classes/class-wc-checkout.php:295
-msgid "An account is already registered with that username. Please choose another."
+msgid ""
+"An account is already registered with that username. Please choose another."
 msgstr ""
 
 #: classes/class-wc-checkout.php:305
@@ -5933,8 +6362,7 @@ msgstr ""
 msgid "Gambia"
 msgstr "Wedstrijd"
 
-#: classes/class-wc-countries.php:113
-#: classes/class-wc-countries.php:404
+#: classes/class-wc-countries.php:113 classes/class-wc-countries.php:404
 msgid "Georgia"
 msgstr ""
 
@@ -6749,8 +7177,7 @@ msgstr ""
 msgid "Rio Grande do Norte"
 msgstr ""
 
-#: classes/class-wc-countries.php:310
-#: classes/class-wc-countries.php:323
+#: classes/class-wc-countries.php:310 classes/class-wc-countries.php:323
 msgid "Rio Grande do Sul"
 msgstr ""
 
@@ -7269,69 +7696,57 @@ msgstr ""
 msgid "(ex. VAT)"
 msgstr ""
 
-#: classes/class-wc-countries.php:832
-#: classes/class-wc-countries.php:833
-#: classes/class-wc-countries.php:855
-#: classes/class-wc-countries.php:856
-#: classes/class-wc-countries.php:971
-#: classes/class-wc-countries.php:972
-#: classes/class-wc-countries.php:997
-#: classes/class-wc-countries.php:998
+#: classes/class-wc-countries.php:832 classes/class-wc-countries.php:833
+#: classes/class-wc-countries.php:855 classes/class-wc-countries.php:856
+#: classes/class-wc-countries.php:971 classes/class-wc-countries.php:972
+#: classes/class-wc-countries.php:997 classes/class-wc-countries.php:998
 #, fuzzy
 msgid "Province"
 msgstr "Artikelen"
 
-#: classes/class-wc-countries.php:839
-#: classes/class-wc-countries.php:840
+#: classes/class-wc-countries.php:839 classes/class-wc-countries.php:840
 #, fuzzy
 msgid "Canton"
 msgstr "Pagina's: %s"
 
-#: classes/class-wc-countries.php:849
-#: classes/class-wc-countries.php:850
-#: classes/class-wc-countries.php:978
-#: classes/class-wc-countries.php:979
+#: classes/class-wc-countries.php:849 classes/class-wc-countries.php:850
+#: classes/class-wc-countries.php:978 classes/class-wc-countries.php:979
 msgid "Municipality"
 msgstr ""
 
-#: classes/class-wc-countries.php:898
-#: classes/class-wc-countries.php:899
+#: classes/class-wc-countries.php:898 classes/class-wc-countries.php:899
 #, fuzzy
 msgid "Town/District"
 msgstr "Regio"
 
-#: classes/class-wc-countries.php:902
-#: classes/class-wc-countries.php:903
+#: classes/class-wc-countries.php:902 classes/class-wc-countries.php:903
 #, fuzzy
 msgid "Region"
 msgstr "Regio"
 
-#: classes/class-wc-countries.php:1003
-#: classes/class-wc-countries.php:1004
+#: classes/class-wc-countries.php:1003 classes/class-wc-countries.php:1004
 msgid "Zip"
 msgstr ""
 
-#: classes/class-wc-countries.php:1007
-#: classes/class-wc-countries.php:1008
+#: classes/class-wc-countries.php:1007 classes/class-wc-countries.php:1008
+#: templates/cart/shipping-calculator.php:59
 #, fuzzy
 msgid "State"
 msgstr "Status"
 
-#: classes/class-wc-countries.php:1017
-#: classes/class-wc-countries.php:1018
+#: classes/class-wc-countries.php:1017 classes/class-wc-countries.php:1018
 #, fuzzy
 msgid "County"
 msgstr "Land"
 
-#: classes/class-wc-countries.php:1044
-#: classes/class-wc-countries.php:1045
+#: classes/class-wc-countries.php:1044 classes/class-wc-countries.php:1045
 #: classes/class-wc-countries.php:1115
+#: templates/cart/shipping-calculator.php:67
 #, fuzzy
 msgid "Postcode/Zip"
 msgstr "Plaats reactie"
 
-#: classes/class-wc-countries.php:1049
-#: classes/class-wc-countries.php:1050
+#: classes/class-wc-countries.php:1049 classes/class-wc-countries.php:1050
 #: classes/class-wc-countries.php:1109
 #, fuzzy
 msgid "Town/City"
@@ -7497,8 +7912,7 @@ msgstr ""
 msgid "Product low in stock"
 msgstr ""
 
-#: classes/class-wc-email.php:424
-#: classes/class-wc-email.php:457
+#: classes/class-wc-email.php:424 classes/class-wc-email.php:457
 #: classes/class-wc-email.php:502
 #, fuzzy, php-format
 msgid "Product #%s - %s"
@@ -7570,7 +7984,8 @@ msgstr "Schepen in"
 msgid "Subtotal:"
 msgstr "Titel"
 
-#: classes/class-wc-order.php:915
+#: classes/class-wc-order.php:915 templates/cart/totals.php:185
+#: templates/checkout/review-order.php:186
 msgctxt "Relating to tax"
 msgid "N/A"
 msgstr ""
@@ -7598,8 +8013,8 @@ msgstr ""
 msgid "(backorders allowed)"
 msgstr ""
 
-#: classes/class-wc-product.php:691
-#: classes/class-wc-product.php:704
+#: classes/class-wc-product.php:691 classes/class-wc-product.php:704
+#: templates/cart/cart.php:66
 msgid "Available on backorder"
 msgstr ""
 
@@ -7609,12 +8024,14 @@ msgctxt "min_price"
 msgid "From:"
 msgstr "Formulier"
 
-#: classes/class-wc-product.php:1090
+#: classes/class-wc-product.php:1090 templates/single-product-reviews.php:38
 #, php-format
 msgid "Rated %s out of 5"
 msgstr ""
 
 #: classes/class-wc-product.php:1526
+#: classes/integrations/google-analytics/class-wc-google-analytics.php:200
+#: templates/single-product/meta.php:15
 msgid "SKU:"
 msgstr ""
 
@@ -7629,6 +8046,11 @@ msgstr ""
 #: classes/gateways/bacs/class-wc-bacs.php:61
 #: classes/gateways/cheque/class-wc-cheque.php:56
 #: classes/gateways/mijireh/class-wc-mijireh-checkout.php:157
+#: classes/gateways/paypal/class-wc-paypal.php:116
+#: classes/integrations/shareyourcart/class-wc-shareyourcart.php:305
+#: classes/shipping/class-wc-flat-rate.php:80
+#: classes/shipping/class-wc-free-shipping.php:63
+#: classes/shipping/class-wc-international-delivery.php:49
 msgid "Enable/Disable"
 msgstr ""
 
@@ -7641,12 +8063,21 @@ msgstr "Juridische navigatie"
 #: classes/gateways/cheque/class-wc-cheque.php:62
 #: classes/gateways/cod/class-wc-cod.php:75
 #: classes/gateways/mijireh/class-wc-mijireh-checkout.php:169
+#: classes/gateways/paypal/class-wc-paypal.php:122
+#: classes/shipping/class-wc-local-delivery.php:103
+#: classes/shipping/class-wc-local-pickup.php:78
 msgid "Title"
 msgstr "Titel"
 
 #: classes/gateways/bacs/class-wc-bacs.php:69
 #: classes/gateways/cheque/class-wc-cheque.php:64
 #: classes/gateways/mijireh/class-wc-mijireh-checkout.php:171
+#: classes/gateways/paypal/class-wc-paypal.php:124
+#: classes/shipping/class-wc-flat-rate.php:88
+#: classes/shipping/class-wc-free-shipping.php:71
+#: classes/shipping/class-wc-international-delivery.php:57
+#: classes/shipping/class-wc-local-delivery.php:105
+#: classes/shipping/class-wc-local-pickup.php:80
 msgid "This controls the title which the user sees during checkout."
 msgstr ""
 
@@ -7661,11 +8092,16 @@ msgid "Customer Message"
 msgstr "Bouwschade"
 
 #: classes/gateways/bacs/class-wc-bacs.php:75
-msgid "Give the customer instructions for paying via BACS, and let them know that their order won't be shipping until the money is received."
+msgid ""
+"Give the customer instructions for paying via BACS, and let them know that "
+"their order won't be shipping until the money is received."
 msgstr ""
 
 #: classes/gateways/bacs/class-wc-bacs.php:76
-msgid "Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order wont be shipped until the funds have cleared in our account."
+msgid ""
+"Make your payment directly into our bank account. Please use your Order ID "
+"as the payment reference. Your order wont be shipped until the funds have "
+"cleared in our account."
 msgstr ""
 
 #: classes/gateways/bacs/class-wc-bacs.php:79
@@ -7725,7 +8161,9 @@ msgid "BACS Payment"
 msgstr ""
 
 #: classes/gateways/bacs/class-wc-bacs.php:136
-msgid "Allows payments by BACS (Bank Account Clearing System), more commonly known as direct bank/wire transfer."
+msgid ""
+"Allows payments by BACS (Bank Account Clearing System), more commonly known "
+"as direct bank/wire transfer."
 msgstr ""
 
 #: classes/gateways/bacs/class-wc-bacs.php:157
@@ -7757,15 +8195,22 @@ msgid "Cheque Payment"
 msgstr ""
 
 #: classes/gateways/cheque/class-wc-cheque.php:70
-msgid "Let the customer know the payee and where they should be sending the cheque to and that their order won't be shipping until you receive it."
+msgid ""
+"Let the customer know the payee and where they should be sending the cheque "
+"to and that their order won't be shipping until you receive it."
 msgstr ""
 
 #: classes/gateways/cheque/class-wc-cheque.php:71
-msgid "Please send your cheque to Store Name, Store Street, Store Town, Store State / County, Store Postcode."
+msgid ""
+"Please send your cheque to Store Name, Store Street, Store Town, Store "
+"State / County, Store Postcode."
 msgstr ""
 
 #: classes/gateways/cheque/class-wc-cheque.php:89
-msgid "Allows cheque payments. Why would you take cheques in this day and age? Well you probably wouldn't but it does allow you to make test purchases for testing order emails and the 'success' pages etc."
+msgid ""
+"Allows cheque payments. Why would you take cheques in this day and age? Well "
+"you probably wouldn't but it does allow you to make test purchases for "
+"testing order emails and the 'success' pages etc."
 msgstr ""
 
 #: classes/gateways/cheque/class-wc-cheque.php:145
@@ -7796,6 +8241,8 @@ msgstr ""
 
 #: classes/gateways/cod/class-wc-cod.php:81
 #: classes/gateways/mijireh/class-wc-mijireh-checkout.php:175
+#: classes/gateways/paypal/class-wc-paypal.php:128
+#: templates/single-product/tabs/tab-description.php:13
 #, fuzzy
 msgid "Description"
 msgstr "Projectgegevens"
@@ -7849,6 +8296,7 @@ msgid "Pay securely with you credit card."
 msgstr ""
 
 #: classes/gateways/mijireh/class-wc-mijireh-checkout.php:178
+#: classes/gateways/paypal/class-wc-paypal.php:130
 msgid "This controls the description which the user sees during checkout."
 msgstr ""
 
@@ -7857,7 +8305,11 @@ msgid "Get started with Mijireh Checkout"
 msgstr ""
 
 #: classes/gateways/mijireh/class-wc-mijireh-checkout.php:198
-msgid "provides a fully PCI Compliant, secure way to collect and transmit credit card data to your payment gateway while keeping you in control of the design of your site. Mijireh supports a wide variety of payment gateways: Stripe, Authorize.net, PayPal, eWay, SagePay, Braintree, PayLeap, and more."
+msgid ""
+"provides a fully PCI Compliant, secure way to collect and transmit credit "
+"card data to your payment gateway while keeping you in control of the design "
+"of your site. Mijireh supports a wide variety of payment gateways: Stripe, "
+"Authorize.net, PayPal, eWay, SagePay, Braintree, PayLeap, and more."
 msgstr ""
 
 #: classes/gateways/mijireh/class-wc-mijireh-checkout.php:200
@@ -7869,7 +8321,10 @@ msgid "Learn more about WooCommerce and Mijireh"
 msgstr ""
 
 #: classes/gateways/mijireh/class-wc-mijireh-checkout.php:204
-msgid "provides a fully PCI Compliant, secure way to collect and transmit credit card data to your payment gateway while keeping you in control of the design of your site."
+msgid ""
+"provides a fully PCI Compliant, secure way to collect and transmit credit "
+"card data to your payment gateway while keeping you in control of the design "
+"of your site."
 msgstr ""
 
 #: classes/gateways/paypal/class-wc-paypal.php:29
@@ -7883,7 +8338,9 @@ msgid "PayPal standard"
 msgstr "Straat"
 
 #: classes/gateways/paypal/class-wc-paypal.php:85
-msgid "PayPal standard works by sending the user to PayPal to enter their payment information."
+msgid ""
+"PayPal standard works by sending the user to PayPal to enter their payment "
+"information."
 msgstr ""
 
 #: classes/gateways/paypal/class-wc-paypal.php:96
@@ -7899,7 +8356,9 @@ msgid "Enable PayPal standard"
 msgstr ""
 
 #: classes/gateways/paypal/class-wc-paypal.php:131
-msgid "Pay via PayPal; you can pay with your credit card if you don't have a PayPal account"
+msgid ""
+"Pay via PayPal; you can pay with your credit card if you don't have a PayPal "
+"account"
 msgstr ""
 
 #: classes/gateways/paypal/class-wc-paypal.php:134
@@ -7908,8 +8367,12 @@ msgstr ""
 
 #: classes/gateways/paypal/class-wc-paypal.php:136
 #, fuzzy
-msgid "Please enter your PayPal email address; this is needed in order to take payment."
-msgstr "Gebruikersnaam of e-mailadres invoeren. Je zult per e-mail een link ontvangen waarna je een nieuw wachtwoord kunt aanmaken."
+msgid ""
+"Please enter your PayPal email address; this is needed in order to take "
+"payment."
+msgstr ""
+"Gebruikersnaam of e-mailadres invoeren. Je zult per e-mail een link "
+"ontvangen waarna je een nieuw wachtwoord kunt aanmaken."
 
 #: classes/gateways/paypal/class-wc-paypal.php:140
 #, fuzzy
@@ -7917,7 +8380,10 @@ msgid "Invoice Prefix"
 msgstr "Premium"
 
 #: classes/gateways/paypal/class-wc-paypal.php:142
-msgid "Please enter a prefix for your invoice numbers. If you use your PayPal account for multiple stores ensure this prefix is unqiue as PayPal will not allow orders with the same invoice number."
+msgid ""
+"Please enter a prefix for your invoice numbers. If you use your PayPal "
+"account for multiple stores ensure this prefix is unqiue as PayPal will not "
+"allow orders with the same invoice number."
 msgstr ""
 
 #: classes/gateways/paypal/class-wc-paypal.php:146
@@ -7930,7 +8396,9 @@ msgid "Use form submission method."
 msgstr ""
 
 #: classes/gateways/paypal/class-wc-paypal.php:149
-msgid "Enable this to post order data to PayPal via a form instead of using a redirect/querystring."
+msgid ""
+"Enable this to post order data to PayPal via a form instead of using a "
+"redirect/querystring."
 msgstr ""
 
 #: classes/gateways/paypal/class-wc-paypal.php:153
@@ -7939,7 +8407,9 @@ msgid "Page Style"
 msgstr "Nieuwe fase naam"
 
 #: classes/gateways/paypal/class-wc-paypal.php:155
-msgid "Optionally enter the name of the page style you wish to use. These are defined within your PayPal account."
+msgid ""
+"Optionally enter the name of the page style you wish to use. These are "
+"defined within your PayPal account."
 msgstr ""
 
 #: classes/gateways/paypal/class-wc-paypal.php:159
@@ -7958,7 +8428,9 @@ msgid "Send shipping details to PayPal instead of billing."
 msgstr "Schip details"
 
 #: classes/gateways/paypal/class-wc-paypal.php:168
-msgid "PayPal allows us to send 1 address. If you are using PayPal for shipping labels you may prefer to send the shipping address rather than billing."
+msgid ""
+"PayPal allows us to send 1 address. If you are using PayPal for shipping "
+"labels you may prefer to send the shipping address rather than billing."
 msgstr ""
 
 #: classes/gateways/paypal/class-wc-paypal.php:172
@@ -7967,11 +8439,15 @@ msgid "Address override"
 msgstr "Adres"
 
 #: classes/gateways/paypal/class-wc-paypal.php:174
-msgid "Enable \"address_override\" to prevent address information from being changed."
+msgid ""
+"Enable \"address_override\" to prevent address information from being "
+"changed."
 msgstr ""
 
 #: classes/gateways/paypal/class-wc-paypal.php:175
-msgid "PayPal verifies addresses therefore this setting can cause errors (we recommend keeping it disabled)."
+msgid ""
+"PayPal verifies addresses therefore this setting can cause errors (we "
+"recommend keeping it disabled)."
 msgstr ""
 
 #: classes/gateways/paypal/class-wc-paypal.php:179
@@ -7988,7 +8464,9 @@ msgstr ""
 
 #: classes/gateways/paypal/class-wc-paypal.php:188
 #, php-format
-msgid "PayPal sandbox can be used to test payments. Sign up for a developer account <a href=\"%s\">here</a>."
+msgid ""
+"PayPal sandbox can be used to test payments. Sign up for a developer account "
+"<a href=\"%s\">here</a>."
 msgstr ""
 
 #: classes/gateways/paypal/class-wc-paypal.php:191
@@ -8001,7 +8479,9 @@ msgid "Enable logging"
 msgstr "Juridische navigatie"
 
 #: classes/gateways/paypal/class-wc-paypal.php:195
-msgid "Log PayPal events, such as IPN requests, inside <code>woocommerce/logs/paypal.txt</code>"
+msgid ""
+"Log PayPal events, such as IPN requests, inside <code>woocommerce/logs/"
+"paypal.txt</code>"
 msgstr ""
 
 #: classes/gateways/paypal/class-wc-paypal.php:313
@@ -8011,7 +8491,9 @@ msgid "Shipping via"
 msgstr "Schepen in"
 
 #: classes/gateways/paypal/class-wc-paypal.php:391
-msgid "Thank you for your order. We are now redirecting you to PayPal to make payment."
+msgid ""
+"Thank you for your order. We are now redirecting you to PayPal to make "
+"payment."
 msgstr ""
 
 #: classes/gateways/paypal/class-wc-paypal.php:412
@@ -8023,34 +8505,40 @@ msgid "Cancel order &amp; restore cart"
 msgstr ""
 
 #: classes/gateways/paypal/class-wc-paypal.php:466
-msgid "Thank you for your order, please click the button below to pay with PayPal."
+msgid ""
+"Thank you for your order, please click the button below to pay with PayPal."
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-paypal.php:622
+#: classes/gateways/paypal/class-wc-paypal.php:616
+#, php-format
+msgid "Validation error: PayPal amounts do not match (gross %s)."
+msgstr ""
+
+#: classes/gateways/paypal/class-wc-paypal.php:634
 #, fuzzy
 msgid "IPN payment completed"
 msgstr "Speeldatum"
 
-#: classes/gateways/paypal/class-wc-paypal.php:633
-#: classes/gateways/paypal/class-wc-paypal.php:641
-#: classes/gateways/paypal/class-wc-paypal.php:659
+#: classes/gateways/paypal/class-wc-paypal.php:645
+#: classes/gateways/paypal/class-wc-paypal.php:653
+#: classes/gateways/paypal/class-wc-paypal.php:671
 #, php-format
 msgid "Payment %s via IPN."
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-paypal.php:646
-#: classes/gateways/paypal/class-wc-paypal.php:664
+#: classes/gateways/paypal/class-wc-paypal.php:658
+#: classes/gateways/paypal/class-wc-paypal.php:676
 msgid "Order refunded/reversed"
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-paypal.php:647
-#: classes/gateways/paypal/class-wc-paypal.php:665
+#: classes/gateways/paypal/class-wc-paypal.php:659
+#: classes/gateways/paypal/class-wc-paypal.php:677
 #, php-format
 msgid "Order %s has been marked as refunded - PayPal reason code: %s"
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-paypal.php:650
-#: classes/gateways/paypal/class-wc-paypal.php:668
+#: classes/gateways/paypal/class-wc-paypal.php:662
+#: classes/gateways/paypal/class-wc-paypal.php:680
 #, php-format
 msgid "Payment for order %s refunded/reversed"
 msgstr ""
@@ -8060,7 +8548,9 @@ msgid "Google Analytics"
 msgstr ""
 
 #: classes/integrations/google-analytics/class-wc-google-analytics.php:24
-msgid "Google Analytics is a free service offered by Google that generates detailed statistics about the visitors to a website."
+msgid ""
+"Google Analytics is a free service offered by Google that generates detailed "
+"statistics about the visitors to a website."
 msgstr ""
 
 #: classes/integrations/google-analytics/class-wc-google-analytics.php:61
@@ -8068,7 +8558,9 @@ msgid "Google Analytics ID"
 msgstr ""
 
 #: classes/integrations/google-analytics/class-wc-google-analytics.php:62
-msgid "Log into your google analytics account to find your ID. e.g. <code>UA-XXXXX-X</code>"
+msgid ""
+"Log into your google analytics account to find your ID. e.g. <code>UA-XXXXX-"
+"X</code>"
 msgstr ""
 
 #: classes/integrations/google-analytics/class-wc-google-analytics.php:67
@@ -8076,7 +8568,9 @@ msgid "Tracking code"
 msgstr ""
 
 #: classes/integrations/google-analytics/class-wc-google-analytics.php:68
-msgid "Add tracking code to your site's footer. You don't need to enable this if using a 3rd party analytics plugin."
+msgid ""
+"Add tracking code to your site's footer. You don't need to enable this if "
+"using a 3rd party analytics plugin."
 msgstr ""
 
 #: classes/integrations/google-analytics/class-wc-google-analytics.php:74
@@ -8114,7 +8608,9 @@ msgid "ShareThis"
 msgstr ""
 
 #: classes/integrations/sharethis/class-wc-sharethis.php:27
-msgid "ShareThis offers a sharing widget which will allow customers to share links to products with their friends."
+msgid ""
+"ShareThis offers a sharing widget which will allow customers to share links "
+"to products with their friends."
 msgstr ""
 
 #: classes/integrations/sharethis/class-wc-sharethis.php:64
@@ -8123,7 +8619,9 @@ msgstr ""
 
 #: classes/integrations/sharethis/class-wc-sharethis.php:65
 #, php-format
-msgid "Enter your %1$sShareThis publisher ID%2$s to show social sharing buttons on product pages."
+msgid ""
+"Enter your %1$sShareThis publisher ID%2$s to show social sharing buttons on "
+"product pages."
 msgstr ""
 
 #: classes/integrations/sharethis/class-wc-sharethis.php:70
@@ -8141,7 +8639,11 @@ msgstr ""
 
 #: classes/integrations/shareyourcart/class-wc-shareyourcart.php:26
 #, php-format
-msgid "Increase your social media exposure by 10 percent! ShareYourCart helps you get more customers by motivating satisfied customers to talk with their friends about your products. For help with ShareYourCart view the <a href=\"%s\">documentation</a>."
+msgid ""
+"Increase your social media exposure by 10 percent! ShareYourCart helps you "
+"get more customers by motivating satisfied customers to talk with their "
+"friends about your products. For help with ShareYourCart view the <a href="
+"\"%s\">documentation</a>."
 msgstr ""
 
 #: classes/integrations/shareyourcart/class-wc-shareyourcart.php:119
@@ -8196,7 +8698,11 @@ msgid "Configure ShareYourCart"
 msgstr ""
 
 #: classes/integrations/shareyourcart/class-wc-shareyourcart.php:259
-msgid "You can choose how much of a discount to give (in fixed amount, percentage, or free shipping) and to which social media channels it should it be applied. You can also define what the advertisement should say, so that it fully benefits your sales."
+msgid ""
+"You can choose how much of a discount to give (in fixed amount, percentage, "
+"or free shipping) and to which social media channels it should it be "
+"applied. You can also define what the advertisement should say, so that it "
+"fully benefits your sales."
 msgstr ""
 
 #: classes/integrations/shareyourcart/class-wc-shareyourcart.php:260
@@ -8362,12 +8868,14 @@ msgstr ""
 #: classes/shipping/class-wc-flat-rate.php:98
 #: classes/shipping/class-wc-free-shipping.php:88
 #: classes/shipping/class-wc-local-delivery.php:132
+#: classes/shipping/class-wc-local-pickup.php:84
 msgid "Method availability"
 msgstr ""
 
 #: classes/shipping/class-wc-flat-rate.php:103
 #: classes/shipping/class-wc-free-shipping.php:93
 #: classes/shipping/class-wc-local-delivery.php:137
+#: classes/shipping/class-wc-local-pickup.php:89
 #, fuzzy
 msgid "All allowed countries"
 msgstr "Categorieën"
@@ -8411,7 +8919,9 @@ msgstr ""
 
 #: classes/shipping/class-wc-flat-rate.php:145
 #: classes/shipping/class-wc-international-delivery.php:108
-msgid "Fee excluding tax. Enter an amount, e.g. 2.50, or a percentage, e.g. 5%. Leave blank to disable."
+msgid ""
+"Fee excluding tax. Enter an amount, e.g. 2.50, or a percentage, e.g. 5%. "
+"Leave blank to disable."
 msgstr ""
 
 #: classes/shipping/class-wc-flat-rate.php:149
@@ -8419,11 +8929,17 @@ msgid "Minimum Fee"
 msgstr ""
 
 #: classes/shipping/class-wc-flat-rate.php:151
-msgid "Enter a minimum fee amount. Fee's less than this will be increased. Leave blank to disable."
+msgid ""
+"Enter a minimum fee amount. Fee's less than this will be increased. Leave "
+"blank to disable."
 msgstr ""
 
 #: classes/shipping/class-wc-flat-rate.php:157
-msgid "Optional extra shipping options with additional costs (one per line). Example: <code>Option Name|Cost|Per-order (yes or no)</code>. Example: <code>Priority Mail|6.95|yes</code>. If per-order is set to no, it will use the \"Calculation Type\" setting."
+msgid ""
+"Optional extra shipping options with additional costs (one per line). "
+"Example: <code>Option Name|Cost|Per-order (yes or no)</code>. Example: "
+"<code>Priority Mail|6.95|yes</code>. If per-order is set to no, it will use "
+"the \"Calculation Type\" setting."
 msgstr ""
 
 #: classes/shipping/class-wc-flat-rate.php:413
@@ -8435,7 +8951,8 @@ msgid "Handling Fee"
 msgstr ""
 
 #: classes/shipping/class-wc-flat-rate.php:414
-msgid "Fee excluding tax. Enter an amount, e.g. 2.50, or a percentage, e.g. 5%."
+msgid ""
+"Fee excluding tax. Enter an amount, e.g. 2.50, or a percentage, e.g. 5%."
 msgstr ""
 
 #: classes/shipping/class-wc-flat-rate.php:419
@@ -8443,7 +8960,9 @@ msgid "+ Add Flat Rate"
 msgstr ""
 
 #: classes/shipping/class-wc-flat-rate.php:420
-msgid "Add rates for shipping classes here &mdash; they will override the default costs defined above."
+msgid ""
+"Add rates for shipping classes here &mdash; they will override the default "
+"costs defined above."
 msgstr ""
 
 #: classes/shipping/class-wc-flat-rate.php:420
@@ -8478,7 +8997,9 @@ msgid "Minimum Order Amount"
 msgstr ""
 
 #: classes/shipping/class-wc-free-shipping.php:77
-msgid "Users will need to spend this amount to get free shipping. Leave blank to disable."
+msgid ""
+"Users will need to spend this amount to get free shipping. Leave blank to "
+"disable."
 msgstr ""
 
 #: classes/shipping/class-wc-free-shipping.php:83
@@ -8486,7 +9007,9 @@ msgid "Free shipping requires a free shipping coupon"
 msgstr ""
 
 #: classes/shipping/class-wc-free-shipping.php:84
-msgid "Users will need to enter a valid free shipping coupon code to use this method. If a coupon is used, the minimum order amount will be ignored."
+msgid ""
+"Users will need to enter a valid free shipping coupon code to use this "
+"method. If a coupon is used, the minimum order amount will be ignored."
 msgstr ""
 
 #: classes/shipping/class-wc-free-shipping.php:122
@@ -8527,6 +9050,7 @@ msgid "Local Delivery"
 msgstr ""
 
 #: classes/shipping/class-wc-local-delivery.php:97
+#: classes/shipping/class-wc-local-pickup.php:72
 msgid "Enable"
 msgstr ""
 
@@ -8562,7 +9086,9 @@ msgid "Delivery Fee"
 msgstr ""
 
 #: classes/shipping/class-wc-local-delivery.php:122
-msgid "What fee do you want to charge for local delivery, disregarded if you choose free. Leave blank to disable."
+msgid ""
+"What fee do you want to charge for local delivery, disregarded if you choose "
+"free. Leave blank to disable."
 msgstr ""
 
 #: classes/shipping/class-wc-local-delivery.php:126
@@ -8571,11 +9097,14 @@ msgid "Zip/Post Codes"
 msgstr "Plaats reactie"
 
 #: classes/shipping/class-wc-local-delivery.php:128
-msgid "What zip/post codes would you like to offer delivery to? Separate codes with a comma."
+msgid ""
+"What zip/post codes would you like to offer delivery to? Separate codes with "
+"a comma."
 msgstr ""
 
 #: classes/shipping/class-wc-local-delivery.php:161
-msgid "Local delivery is a simple shipping method for delivering orders locally."
+msgid ""
+"Local delivery is a simple shipping method for delivering orders locally."
 msgstr ""
 
 #: classes/shipping/class-wc-local-pickup.php:22
@@ -8588,7 +9117,9 @@ msgid "Enable local pickup"
 msgstr ""
 
 #: classes/shipping/class-wc-local-pickup.php:113
-msgid "Local pickup is a simple method which allows the customer to pick up their order themselves."
+msgid ""
+"Local pickup is a simple method which allows the customer to pick up their "
+"order themselves."
 msgstr ""
 
 #: languages/strings.php:14
@@ -8621,27 +9152,31 @@ msgstr ""
 msgid "cancelled"
 msgstr ""
 
-#: shortcodes/shortcode-cart.php:66
-#: shortcodes/shortcode-my_account.php:174
+#: shortcodes/shortcode-cart.php:66 shortcodes/shortcode-my_account.php:174
 #, fuzzy
 msgid "Please enter a valid postcode/ZIP."
 msgstr "Bovenliggende fase:"
 
-#: shortcodes/shortcode-cart.php:77
-#: shortcodes/shortcode-cart.php:83
+#: shortcodes/shortcode-cart.php:77 shortcodes/shortcode-cart.php:83
 msgid "Shipping costs updated."
 msgstr ""
 
 #: shortcodes/shortcode-checkout.php:59
-msgid "The order totals have been updated. Please confirm your order by pressing the Place Order button at the bottom of the page."
+msgid ""
+"The order totals have been updated. Please confirm your order by pressing "
+"the Place Order button at the bottom of the page."
 msgstr ""
 
-#: shortcodes/shortcode-init.php:425
+#: shortcodes/shortcode-init.php:425 templates/loop/add-to-cart.php:38
+#: templates/single-product/add-to-cart/grouped.php:47
+#: templates/single-product/add-to-cart/grouped.php:77
+#: templates/single-product/add-to-cart/simple.php:37
+#: templates/single-product/add-to-cart/variable.php:65
 #, fuzzy
 msgid "Add to cart"
 msgstr "Nieuwe toevoegen"
 
-#: shortcodes/shortcode-my_account.php:248
+#: shortcodes/shortcode-my_account.php:248 widgets/widget-login.php:270
 #, fuzzy
 msgid "Please enter your password."
 msgstr "Bovenliggende fase:"
@@ -8652,7 +9187,9 @@ msgstr ""
 
 #: shortcodes/shortcode-my_account.php:295
 #, php-format
-msgid "Order <mark class=\"order-number\">%s</mark> made on <mark class=\"order-date\">%s</mark>"
+msgid ""
+"Order <mark class=\"order-number\">%s</mark> made on <mark class=\"order-date"
+"\">%s</mark>"
 msgstr ""
 
 #: shortcodes/shortcode-my_account.php:296
@@ -8660,7 +9197,7 @@ msgstr ""
 msgid "Order status: <mark class=\"order-status\">%s</mark>"
 msgstr ""
 
-#: shortcodes/shortcode-my_account.php:302
+#: shortcodes/shortcode-my_account.php:302 templates/order/tracking.php:29
 #, fuzzy
 msgid "Order Updates"
 msgstr "Update classificatie"
@@ -8679,17 +9216,18 @@ msgstr "Bovenliggende fase:"
 msgid "Sorry, we could not find that order id in our database."
 msgstr ""
 
-#: shortcodes/shortcode-pay.php:60
-#: shortcodes/shortcode-pay.php:113
-msgid "Your order has already been paid for. Please contact us if you need assistance."
+#: shortcodes/shortcode-pay.php:60 shortcodes/shortcode-pay.php:113
+msgid ""
+"Your order has already been paid for. Please contact us if you need "
+"assistance."
 msgstr ""
 
-#: shortcodes/shortcode-pay.php:89
+#: shortcodes/shortcode-pay.php:89 templates/checkout/thankyou.php:45
 #, fuzzy
 msgid "Date:"
 msgstr "datum"
 
-#: shortcodes/shortcode-pay.php:98
+#: shortcodes/shortcode-pay.php:98 templates/checkout/thankyou.php:54
 #, fuzzy
 msgid "Payment method:"
 msgstr "Pagina niet gevonden"
@@ -8701,12 +9239,12 @@ msgid_plural "%s reviews for %s"
 msgstr[0] "Registratieformulier"
 msgstr[1] "Registratieformulier"
 
-#: templates/single-product-reviews.php:62
+#: templates/single-product-reviews.php:62 templates/loop/pagination.php:17
 #, fuzzy
 msgid "<span class=\"meta-nav\">&larr;</span> Previous"
 msgstr "<span class=\"meta-nav\">&larr;</span> Vorige bijeenkomsten"
 
-#: templates/single-product-reviews.php:63
+#: templates/single-product-reviews.php:63 templates/loop/pagination.php:16
 #, fuzzy
 msgid "Next <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Volgende bijeenkomsten <span class=\"meta-nav\">&rarr;</span>"
@@ -8726,7 +9264,9 @@ msgid "Be the first to review"
 msgstr ""
 
 #: templates/single-product-reviews.php:75
-msgid "There are no reviews yet, would you like to <a href=\"#review_form\" class=\"inline show_review_form\">submit yours</a>?"
+msgid ""
+"There are no reviews yet, would you like to <a href=\"#review_form\" class="
+"\"inline show_review_form\">submit yours</a>?"
 msgstr ""
 
 #: templates/single-product-reviews.php:93
@@ -8777,8 +9317,7 @@ msgstr "Overzicht"
 msgid "Remove this item"
 msgstr "Verwijder bericht"
 
-#: templates/cart/cart.php:116
-#: templates/checkout/form-coupon.php:24
+#: templates/cart/cart.php:116 templates/checkout/form-coupon.php:24
 msgid "Apply Coupon"
 msgstr ""
 
@@ -8807,8 +9346,7 @@ msgstr ""
 msgid "No products in the cart."
 msgstr ""
 
-#: templates/cart/mini-cart.php:58
-#: templates/cart/totals.php:146
+#: templates/cart/mini-cart.php:58 templates/cart/totals.php:146
 #, fuzzy
 msgid "Subtotal"
 msgstr "Portaal"
@@ -8832,12 +9370,11 @@ msgstr "Update fase"
 msgid "Cart Totals"
 msgstr "Portaal"
 
-#: templates/cart/totals.php:25
+#: templates/cart/totals.php:25 templates/checkout/review-order.php:27
 msgid "Cart Subtotal"
 msgstr ""
 
-#: templates/cart/totals.php:32
-#: templates/cart/totals.php:195
+#: templates/cart/totals.php:32 templates/cart/totals.php:195
 msgid "[Remove]"
 msgstr ""
 
@@ -8845,16 +9382,20 @@ msgstr ""
 msgid "Please fill in your details to see available shipping methods."
 msgstr ""
 
-#: templates/cart/totals.php:106
-msgid "Sorry, it seems that there are no available shipping methods for your state. Please contact us if you require assistance or wish to make alternate arrangements."
+#: templates/cart/totals.php:106 templates/checkout/review-order.php:111
+msgid ""
+"Sorry, it seems that there are no available shipping methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
 msgstr ""
 
-#: templates/cart/totals.php:132
-#: templates/cart/totals.php:159
+#: templates/cart/totals.php:132 templates/cart/totals.php:159
+#: templates/checkout/review-order.php:138
+#: templates/checkout/review-order.php:162
 msgid "incl.&nbsp;"
 msgstr ""
 
-#: templates/cart/totals.php:195
+#: templates/cart/totals.php:195 templates/checkout/review-order.php:196
 msgid "Order Discount"
 msgstr ""
 
@@ -8865,24 +9406,35 @@ msgstr ""
 
 #: templates/cart/totals.php:222
 #, php-format
-msgid "Note: Shipping and taxes are estimated%s and will be updated during checkout based on your billing and shipping information."
+msgid ""
+"Note: Shipping and taxes are estimated%s and will be updated during checkout "
+"based on your billing and shipping information."
 msgstr ""
 
 #: templates/cart/totals.php:232
-msgid "No shipping methods were found; please recalculate your shipping and enter your state/county and zip/postcode to ensure their are no other available methods for your location."
+msgid ""
+"No shipping methods were found; please recalculate your shipping and enter "
+"your state/county and zip/postcode to ensure their are no other available "
+"methods for your location."
 msgstr ""
 
 #: templates/cart/totals.php:239
 #, php-format
-msgid "Sorry, it seems that there are no available shipping methods for your location (%s)."
+msgid ""
+"Sorry, it seems that there are no available shipping methods for your "
+"location (%s)."
 msgstr ""
 
 #: templates/cart/totals.php:241
-msgid "If you require assistance or wish to make alternate arrangements please contact us."
+msgid ""
+"If you require assistance or wish to make alternate arrangements please "
+"contact us."
 msgstr ""
 
 #: templates/checkout/cart-errors.php:13
-msgid "There are some issues with the items in your cart (shown above). Please go back to the cart page and resolve these issues before checking out."
+msgid ""
+"There are some issues with the items in your cart (shown above). Please go "
+"back to the cart page and resolve these issues before checking out."
 msgstr ""
 
 #: templates/checkout/cart-errors.php:17
@@ -8899,7 +9451,9 @@ msgid "Create an account?"
 msgstr ""
 
 #: templates/checkout/form-billing.php:47
-msgid "Create an account by entering the information below. If you are a returning customer please login at the top of the page."
+msgid ""
+"Create an account by entering the information below. If you are a returning "
+"customer please login at the top of the page."
 msgstr ""
 
 #: templates/checkout/form-checkout.php:19
@@ -8929,17 +9483,23 @@ msgid "Click here to login"
 msgstr ""
 
 #: templates/checkout/form-login.php:18
-msgid "If you have shopped with us before, please enter your details in the boxes below. If you are a new customer please proceed to the Billing &amp; Shipping section."
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer please proceed to the Billing &amp; "
+"Shipping section."
 msgstr ""
 
-#: templates/checkout/form-pay.php:19
-#: templates/checkout/review-order.php:21
+#: templates/checkout/form-pay.php:19 templates/checkout/review-order.php:21
+#: templates/order/order-details.php:20
 #, fuzzy
 msgid "Totals"
 msgstr "Portaal"
 
 #: templates/checkout/form-pay.php:75
-msgid "Sorry, it seems that there are no available payment methods for your location. Please contact us if you require assistance or wish to make alternate arrangements."
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
 msgstr ""
 
 #: templates/checkout/form-pay.php:84
@@ -8952,6 +9512,8 @@ msgid "Ship to billing address?"
 msgstr "Schepen in"
 
 #: templates/checkout/form-shipping.php:57
+#: templates/single-product/tabs/attributes.php:18
+#: templates/single-product/tabs/tab-attributes.php:16
 #, fuzzy
 msgid "Additional Information"
 msgstr "Aanvullende informatie"
@@ -8969,11 +9531,18 @@ msgid "Please fill in your details above to see available payment methods."
 msgstr ""
 
 #: templates/checkout/review-order.php:270
-msgid "Sorry, it seems that there are no available payment methods for your state. Please contact us if you require assistance or wish to make alternate arrangements."
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
 msgstr ""
 
 #: templates/checkout/review-order.php:280
-msgid "Since your browser does not support JavaScript, or it is disabled, please ensure you click the <em>Update Totals</em> button before placing your order. You may be charged more than the amount stated above if you fail to do so."
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your "
+"order. You may be charged more than the amount stated above if you fail to "
+"do so."
 msgstr ""
 
 #: templates/checkout/review-order.php:280
@@ -8994,7 +9563,9 @@ msgid "terms &amp; conditions"
 msgstr ""
 
 #: templates/checkout/thankyou.php:18
-msgid "Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction."
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction."
 msgstr ""
 
 #: templates/checkout/thankyou.php:22
@@ -9005,12 +9576,11 @@ msgstr ""
 msgid "Please attempt your purchase again."
 msgstr ""
 
-#: templates/checkout/thankyou.php:29
+#: templates/checkout/thankyou.php:29 templates/myaccount/my-orders.php:61
 msgid "Pay"
 msgstr ""
 
-#: templates/checkout/thankyou.php:37
-#: templates/checkout/thankyou.php:70
+#: templates/checkout/thankyou.php:37 templates/checkout/thankyou.php:70
 msgid "Thank you. Your order has been received."
 msgstr ""
 
@@ -9033,12 +9603,15 @@ msgstr ""
 
 #: templates/emails/customer-invoice.php:16
 #, php-format
-msgid "An order has been created for you on &ldquo;%s&rdquo;. To pay for this order please use the following link: <a href=\"%s\">Pay</a>"
+msgid ""
+"An order has been created for you on &ldquo;%s&rdquo;. To pay for this order "
+"please use the following link: <a href=\"%s\">Pay</a>"
 msgstr ""
 
 #: templates/emails/customer-new-account.php:14
 #, php-format
-msgid "Thanks for creating an account on %s. Your username is <strong>%s</strong>."
+msgid ""
+"Thanks for creating an account on %s. Your username is <strong>%s</strong>."
 msgstr ""
 
 #: templates/emails/customer-new-account.php:16
@@ -9058,8 +9631,7 @@ msgstr ""
 msgid "Download:"
 msgstr ""
 
-#: templates/loop/add-to-cart.php:17
-#: templates/loop/add-to-cart.php:34
+#: templates/loop/add-to-cart.php:17 templates/loop/add-to-cart.php:34
 #, fuzzy
 msgid "Read More"
 msgstr "Lees verder"
@@ -9074,7 +9646,7 @@ msgstr "Rubrieken"
 msgid "View options"
 msgstr "Bekijk alle tegenstanders"
 
-#: templates/loop/sale-flash.php:14
+#: templates/loop/sale-flash.php:14 templates/single-product/sale-flash.php:14
 #, fuzzy
 msgid "Sale!"
 msgstr "Zeilschip"
@@ -9099,32 +9671,28 @@ msgstr "Zeilschip"
 msgid "Save Address"
 msgstr "Adres"
 
-#: templates/myaccount/form-login.php:24
-#: templates/myaccount/form-login.php:38
+#: templates/myaccount/form-login.php:24 templates/myaccount/form-login.php:38
 #: templates/shop/form-login.php:29
 #, fuzzy
 msgid "Login"
 msgstr "Inloggen"
 
-#: templates/myaccount/form-login.php:27
-#: templates/shop/form-login.php:18
+#: templates/myaccount/form-login.php:27 templates/shop/form-login.php:18
+#: widgets/widget-login.php:107
 #, fuzzy
 msgid "Username or email"
 msgstr "Gebruikersnaam of e-mailadres:"
 
-#: templates/myaccount/form-login.php:31
-#: templates/myaccount/form-login.php:74
-#: templates/shop/form-login.php:22
+#: templates/myaccount/form-login.php:31 templates/myaccount/form-login.php:74
+#: templates/shop/form-login.php:22 widgets/widget-login.php:109
 msgid "Password"
 msgstr "Wachtwoord"
 
-#: templates/myaccount/form-login.php:39
-#: templates/shop/form-login.php:31
+#: templates/myaccount/form-login.php:39 templates/shop/form-login.php:31
 msgid "Lost Password?"
 msgstr "Wachtwoord vergeten?"
 
-#: templates/myaccount/form-login.php:49
-#: templates/myaccount/form-login.php:90
+#: templates/myaccount/form-login.php:49 templates/myaccount/form-login.php:90
 msgid "Register"
 msgstr "Registreren"
 
@@ -9140,7 +9708,10 @@ msgstr "Nieuw wachtwoord"
 
 #: templates/myaccount/my-account.php:15
 #, php-format
-msgid "Hello, <strong>%s</strong>. From your account dashboard you can view your recent orders, manage your shipping and billing addresses and <a href=\"%s\">change your password</a>."
+msgid ""
+"Hello, <strong>%s</strong>. From your account dashboard you can view your "
+"recent orders, manage your shipping and billing addresses and <a href=\"%s"
+"\">change your password</a>."
 msgstr ""
 
 #: templates/myaccount/my-account.php:20
@@ -9189,7 +9760,10 @@ msgid "You have no recent orders."
 msgstr ""
 
 #: templates/order/form-tracking.php:15
-msgid "To track your order please enter your Order ID in the box below and press return. This was given to you on your receipt and in the confirmation email you should have received."
+msgid ""
+"To track your order please enter your Order ID in the box below and press "
+"return. This was given to you on your receipt and in the confirmation email "
+"you should have received."
 msgstr ""
 
 #: templates/order/form-tracking.php:17
@@ -9256,8 +9830,7 @@ msgstr "Kop"
 msgid "Products tagged &ldquo;"
 msgstr ""
 
-#: templates/shop/breadcrumb.php:88
-#: templates/shop/breadcrumb.php:190
+#: templates/shop/breadcrumb.php:88 templates/shop/breadcrumb.php:190
 #, fuzzy
 msgid "Search results for &ldquo;"
 msgstr "Zoekresultaten voor: %s"
@@ -9334,15 +9907,28 @@ msgstr ""
 msgid "Best Sellers"
 msgstr ""
 
-#: widgets/widget-best_sellers.php:180
-#: widgets/widget-cart.php:108
-#: widgets/widget-featured_products.php:169
+#: widgets/widget-best_sellers.php:180 widgets/widget-cart.php:108
+#: widgets/widget-featured_products.php:169 widgets/widget-layered_nav.php:333
+#: widgets/widget-onsale.php:198 widgets/widget-price_filter.php:171
+#: widgets/widget-product_categories.php:180
+#: widgets/widget-product_search.php:88
+#: widgets/widget-product_tag_cloud.php:98
+#: widgets/widget-random_products.php:130
+#: widgets/widget-recently_viewed.php:153
+#: widgets/widget-recent_products.php:160
+#: widgets/widget-recent_reviews.php:159
+#: widgets/widget-top_rated_products.php:181
 #, fuzzy
 msgid "Title:"
 msgstr "Titel"
 
 #: widgets/widget-best_sellers.php:183
-#: widgets/widget-featured_products.php:172
+#: widgets/widget-featured_products.php:172 widgets/widget-onsale.php:201
+#: widgets/widget-random_products.php:135
+#: widgets/widget-recently_viewed.php:156
+#: widgets/widget-recent_products.php:163
+#: widgets/widget-recent_reviews.php:162
+#: widgets/widget-top_rated_products.php:184
 msgid "Number of products to show:"
 msgstr ""
 
@@ -9378,7 +9964,9 @@ msgid "Featured Products"
 msgstr "Projecten zoeken"
 
 #: widgets/widget-layered_nav.php:28
-msgid "Shows a custom attribute in a widget which lets you narrow down the list of products when viewing product categories."
+msgid ""
+"Shows a custom attribute in a widget which lets you narrow down the list of "
+"products when viewing product categories."
 msgstr ""
 
 #: widgets/widget-layered_nav.php:30
@@ -9430,14 +10018,12 @@ msgstr ""
 msgid "WooCommerce Login"
 msgstr "osCommerce import info"
 
-#: widgets/widget-login.php:56
-#: widgets/widget-login.php:214
+#: widgets/widget-login.php:56 widgets/widget-login.php:214
 #, fuzzy
 msgid "Customer Login"
 msgstr "Inloggen"
 
-#: widgets/widget-login.php:57
-#: widgets/widget-login.php:217
+#: widgets/widget-login.php:57 widgets/widget-login.php:217
 #, php-format
 msgid "Welcome %s"
 msgstr ""
@@ -9478,7 +10064,9 @@ msgid "On Sale"
 msgstr "Zeilschip"
 
 #: widgets/widget-price_filter.php:30
-msgid "Shows a price filter slider in a widget which lets you narrow down the list of shown products when viewing product categories."
+msgid ""
+"Shows a price filter slider in a widget which lets you narrow down the list "
+"of shown products when viewing product categories."
 msgstr ""
 
 #: widgets/widget-price_filter.php:32
@@ -9579,6 +10167,19 @@ msgstr "Project"
 msgid "Show hidden product variations"
 msgstr ""
 
+#: widgets/widget-recently_viewed.php:28
+msgid "Display a list of recently viewed products."
+msgstr ""
+
+#: widgets/widget-recently_viewed.php:30
+msgid "WooCommerce Recently Viewed Products"
+msgstr ""
+
+#: widgets/widget-recently_viewed.php:69
+#, fuzzy
+msgid "Recently viewed"
+msgstr "Recent nieuws"
+
 #: widgets/widget-recent_products.php:28
 msgid "Display a list of your most recent products on your site."
 msgstr ""
@@ -9607,19 +10208,6 @@ msgctxt "by comment author"
 msgid "by %1$s"
 msgstr ""
 
-#: widgets/widget-recently_viewed.php:28
-msgid "Display a list of recently viewed products."
-msgstr ""
-
-#: widgets/widget-recently_viewed.php:30
-msgid "WooCommerce Recently Viewed Products"
-msgstr ""
-
-#: widgets/widget-recently_viewed.php:69
-#, fuzzy
-msgid "Recently viewed"
-msgstr "Recent nieuws"
-
 #: widgets/widget-top_rated_products.php:30
 msgid "Display a list of top rated products on your site."
 msgstr ""
@@ -9646,7 +10234,6 @@ msgstr ""
 
 #, fuzzy
 #~ msgctxt "Admin menu name"
-
 #~ msgid "Product Categories"
 #~ msgstr "Alle project categorieën"
 
@@ -9728,7 +10315,6 @@ msgstr ""
 
 #, fuzzy
 #~ msgctxt "ordering"
-
 #~ msgid "Sort Order"
 #~ msgstr "Beoordeling"
 
@@ -10373,7 +10959,6 @@ msgstr ""
 #~ "reacties te bekijken."
 
 #~ msgid "One Response"
-
 #~ msgid_plural "%1$s Responses"
 #~ msgstr[0] "Eén reactie"
 #~ msgstr[1] "%1$s reacties"
@@ -10480,12 +11065,12 @@ msgstr ""
 
 #~ msgid "Arbitrary advertisement script, text or HTML"
 #~ msgstr "Willekeurige advertentie script, tekst of HTML"
-#~ msgctxt "post type general name"
 
+#~ msgctxt "post type general name"
 #~ msgid "Agenda"
 #~ msgstr "Agenda"
-#~ msgctxt "post type singular name"
 
+#~ msgctxt "post type singular name"
 #~ msgid "Event"
 #~ msgstr "Evenement"
 
@@ -10500,8 +11085,8 @@ msgstr ""
 
 #~ msgid "Parent Event:"
 #~ msgstr "Bovenliggende evenement:"
-#~ msgctxt "taxonomy general name"
 
+#~ msgctxt "taxonomy general name"
 #~ msgid "Project Types"
 #~ msgstr "Project types"
 
@@ -10516,8 +11101,8 @@ msgstr ""
 
 #~ msgid "Filter on subject:"
 #~ msgstr "Filter op onderwerp:"
-#~ msgctxt "class general name"
 
+#~ msgctxt "class general name"
 #~ msgid "Classes"
 #~ msgstr "Classificaties"
 
@@ -10544,12 +11129,12 @@ msgstr ""
 
 #~ msgid "Popular Project Categories"
 #~ msgstr "Populaire project categorieën"
-#~ msgctxt "post type general name"
 
+#~ msgctxt "post type general name"
 #~ msgid "Projects"
 #~ msgstr "Projecten"
-#~ msgctxt "project"
 
+#~ msgctxt "project"
 #~ msgid "Add New"
 #~ msgstr "Nieuwe toevoegen"
 
@@ -10655,12 +11240,12 @@ msgstr ""
 #, fuzzy
 #~ msgid "Class:"
 #~ msgstr "Classificatie"
-#~ msgctxt "taxonomy general name"
 
+#~ msgctxt "taxonomy general name"
 #~ msgid "Phases"
 #~ msgstr "Bouwfasen"
-#~ msgctxt "taxonomy singular name"
 
+#~ msgctxt "taxonomy singular name"
 #~ msgid "Phase"
 #~ msgstr "Bouwfout"
 
@@ -10675,8 +11260,8 @@ msgstr ""
 
 #~ msgid "Events"
 #~ msgstr "Evenementen"
-#~ msgctxt "post type general name"
 
+#~ msgctxt "post type general name"
 #~ msgid "Events"
 #~ msgstr "Evenementen"
 
@@ -10806,8 +11391,8 @@ msgstr ""
 #~ msgstr "Contact informatie"
 
 #~ msgid ""
-#~ "There is a pending change of your e-mail to <code>%1$s</code>. <a href=\"%"
-#~ "2$s\">Cancel</a>"
+#~ "There is a pending change of your e-mail to <code>%1$s</code>. <a href="
+#~ "\"%2$s\">Cancel</a>"
 #~ msgstr ""
 #~ "Er is een afwachtende verandering van je e-mailadres naar <code>%1$s</"
 #~ "code>. <a href=\"%2$s\">Annuleren</a>"
@@ -10875,8 +11460,8 @@ msgstr ""
 #~ "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s"
 #~ "\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
 #~ msgstr ""
-#~ "Dit bericht is geplaatst in %1$s en getagd %2$s. Bookmark de <a href=\"%3"
-#~ "$s\" title=\"Permalink naar %4$s\" rel=\"bookmark\">permalink</a>."
+#~ "Dit bericht is geplaatst in %1$s en getagd %2$s. Bookmark de <a href="
+#~ "\"%3$s\" title=\"Permalink naar %4$s\" rel=\"bookmark\">permalink</a>."
 
 #~ msgid ""
 #~ "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title="
@@ -10941,8 +11526,8 @@ msgstr ""
 
 #~ msgid "View all vacancies"
 #~ msgstr "Bekijk alle vacatures"
-#~ msgctxt "home"
 
+#~ msgctxt "home"
 #~ msgid "News"
 #~ msgstr "Actueel"
 
@@ -10960,8 +11545,8 @@ msgstr ""
 
 #~ msgid "View all articles"
 #~ msgstr "Bekijk alle artikelen"
-#~ msgctxt "teaser"
 
+#~ msgctxt "teaser"
 #~ msgid "Add New"
 #~ msgstr "Nieuwe toevoegen"
 
@@ -10976,12 +11561,12 @@ msgstr ""
 
 #~ msgid "Update Section"
 #~ msgstr "Update rubriek"
-#~ msgctxt "taxonomy general name"
 
+#~ msgctxt "taxonomy general name"
 #~ msgid "Levels"
 #~ msgstr "Leeftijden"
-#~ msgctxt "taxonomy singular name"
 
+#~ msgctxt "taxonomy singular name"
 #~ msgid "Level"
 #~ msgstr "Leeftijd"
 
@@ -10999,12 +11584,12 @@ msgstr ""
 
 #~ msgid "Add New Level"
 #~ msgstr "Nieuwe leeftijd toevoegen"
-#~ msgctxt "post type general name"
 
+#~ msgctxt "post type general name"
 #~ msgid "Exhibition Games"
 #~ msgstr "Oefenwedstrijden"
-#~ msgctxt "exhibition_game"
 
+#~ msgctxt "exhibition_game"
 #~ msgid "Add New"
 #~ msgstr "Nieuwe toevoegen"
 
@@ -11040,16 +11625,16 @@ msgstr ""
 
 #~ msgid "Login Page"
 #~ msgstr "Inloggen pagina"
-#~ msgctxt "post type general name"
 
+#~ msgctxt "post type general name"
 #~ msgid "Exercises"
 #~ msgstr "Oefenstof"
-#~ msgctxt "post type singular name"
 
+#~ msgctxt "post type singular name"
 #~ msgid "Exercise"
 #~ msgstr "Oefenstof"
-#~ msgctxt "exercise"
 
+#~ msgctxt "exercise"
 #~ msgid "Add New"
 #~ msgstr "Nieuwe toevoegen"
 
@@ -11073,12 +11658,12 @@ msgstr ""
 
 #~ msgid "Facebook Username"
 #~ msgstr "Facebook gebruikersnaam"
-#~ msgctxt "taxonomy general name"
 
+#~ msgctxt "taxonomy general name"
 #~ msgid "Magazines"
 #~ msgstr "Magazines"
-#~ msgctxt "taxonomy singular name"
 
+#~ msgctxt "taxonomy singular name"
 #~ msgid "Magazine"
 #~ msgstr "Magazine"
 
@@ -11096,16 +11681,16 @@ msgstr ""
 
 #~ msgid "New Magazine Name"
 #~ msgstr "Nieuw magazine naam"
-#~ msgctxt "post type general name"
 
+#~ msgctxt "post type general name"
 #~ msgid "Vacancies"
 #~ msgstr "Vacatures"
-#~ msgctxt "post type singular name"
 
+#~ msgctxt "post type singular name"
 #~ msgid "Vacancy"
 #~ msgstr "Vacature"
-#~ msgctxt "vacancy"
 
+#~ msgctxt "vacancy"
 #~ msgid "Add New"
 #~ msgstr "Nieuwe toevoegen"
 
@@ -11132,16 +11717,16 @@ msgstr ""
 
 #~ msgid "Large Rectangle Advertisement"
 #~ msgstr "Large rectangle advertentie"
-#~ msgctxt "post type general name"
 
+#~ msgctxt "post type general name"
 #~ msgid "Magazines"
 #~ msgstr "Magazines"
-#~ msgctxt "post type singular name"
 
+#~ msgctxt "post type singular name"
 #~ msgid "Magazine"
 #~ msgstr "Vakblad"
-#~ msgctxt "magazine"
 
+#~ msgctxt "magazine"
 #~ msgid "Add New"
 #~ msgstr "Nieuwe toevoegen"
 
@@ -11150,12 +11735,12 @@ msgstr ""
 
 #~ msgid "Magazines"
 #~ msgstr "Vakbladen"
-#~ msgctxt "taxonomy general name"
 
+#~ msgctxt "taxonomy general name"
 #~ msgid "Subjects"
 #~ msgstr "Onderwerpen"
-#~ msgctxt "taxonomy singular name"
 
+#~ msgctxt "taxonomy singular name"
 #~ msgid "Subject"
 #~ msgstr "Onderwerp"
 
@@ -11164,12 +11749,12 @@ msgstr ""
 
 #~ msgid "Update Subject"
 #~ msgstr "Update onderwerp"
-#~ msgctxt "post type general name"
 
+#~ msgctxt "post type general name"
 #~ msgid "Interviews"
 #~ msgstr "Interviews"
-#~ msgctxt "interview"
 
+#~ msgctxt "interview"
 #~ msgid "Add New"
 #~ msgstr "Nieuwe toevoegen"
 
@@ -11193,8 +11778,8 @@ msgstr ""
 
 #~ msgid "The footer widget area"
 #~ msgstr "De voettekst widget gebied"
-#~ msgctxt "taxonomy general name"
 
+#~ msgctxt "taxonomy general name"
 #~ msgid "Regions"
 #~ msgstr "Regio's"
 
@@ -11234,16 +11819,16 @@ msgstr ""
 
 #~ msgid "Next Opponents <span class=\"meta-nav\">&rarr;</span>"
 #~ msgstr "Volgende tegenstanders <span class=\"meta-nav\">&rarr;</span>"
-#~ msgctxt "post type general name"
 
+#~ msgctxt "post type general name"
 #~ msgid "Opponents"
 #~ msgstr "Tegenstanders"
-#~ msgctxt "post type singular name"
 
+#~ msgctxt "post type singular name"
 #~ msgid "Opponent"
 #~ msgstr "Tegenstander"
-#~ msgctxt "opponent"
 
+#~ msgctxt "opponent"
 #~ msgid "Add New"
 #~ msgstr "Nieuwe toevoegen"
 
@@ -11272,12 +11857,12 @@ msgstr ""
 #, fuzzy
 #~ msgid "The Voetbaltrainer"
 #~ msgstr "De Voetbaltrainer"
-#~ msgctxt "post type general name"
 
+#~ msgctxt "post type general name"
 #~ msgid "Meetings"
 #~ msgstr "Bijeenkomsten"
-#~ msgctxt "meeting"
 
+#~ msgctxt "meeting"
 #~ msgid "Add New"
 #~ msgstr "Nieuwe toevoegen"
 
@@ -11295,16 +11880,16 @@ msgstr ""
 
 #~ msgid "Games"
 #~ msgstr "Wedstrijden"
-#~ msgctxt "post type general name"
 
+#~ msgctxt "post type general name"
 #~ msgid "Games"
 #~ msgstr "Wedstrijden"
-#~ msgctxt "game"
 
+#~ msgctxt "game"
 #~ msgid "Add New"
 #~ msgstr "Nieuwe toevoegen"
-#~ msgctxt "taxonomy singular name"
 
+#~ msgctxt "taxonomy singular name"
 #~ msgid "District"
 #~ msgstr "Regio"
 
@@ -11420,8 +12005,8 @@ msgstr ""
 
 #~ msgid "More info"
 #~ msgstr "Meer informatie"
-#~ msgctxt "ship"
 
+#~ msgctxt "ship"
 #~ msgid "Add New"
 #~ msgstr "Schip toevoegen"
 
@@ -11475,8 +12060,8 @@ msgstr ""
 
 #~ msgid "Ships specifications"
 #~ msgstr "Schepen specificaties"
-#~ msgctxt "ship specifications"
 
+#~ msgctxt "ship specifications"
 #~ msgid "Add New"
 #~ msgstr "Schip specificaties toevoegen"
 
@@ -11497,7 +12082,7 @@ msgstr ""
 
 #~ msgid "No ships specifications found in Trash"
 #~ msgstr "Geen schepen specificaties gevonden in prullenbak"
-#~ msgctxt "ship details"
 
+#~ msgctxt "ship details"
 #~ msgid "Add New"
 #~ msgstr "Schip details toevoegen"
