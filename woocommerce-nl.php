@@ -2,14 +2,20 @@
 /*
 Plugin Name: WooCommerce (nl)
 Plugin URI: http://pronamic.eu/wp-plugins/woocommerce-nl/
-Description: Extends the WooCommerce plugin and add-ons with the Dutch language: <strong>WooCommerce</strong> 1.6.5.2
+Description: Extends the WooCommerce plugin and add-ons with the Dutch language: <strong>WooCommerce</strong> 1.6.5.2 | <strong>WooCommerce EU VAT Number</strong> 1.4
 
-Version: 0.3.17
+Version: 0.3.18
 Requires at least: 3.0
 
 Author: Pronamic
 Author URI: http://pronamic.eu/
+
+Text Domain: woocommerce_nl
+Domain Path: /languages/
+
 License: GPL
+
+GitHub URI: https://github.com/pronamic/wp-woocommerce-nl
 */
 
 class WooCommerceNL {
@@ -34,6 +40,32 @@ class WooCommerceNL {
 	 */
 	public static function bootstrap() {
 		add_filter( 'load_textdomain_mofile', array( __CLASS__, 'load_mo_file' ), 10, 2 );
+
+		/*
+		 * WooThemes/WooCommerce don't execute the load_plugin_textdomain() in the 'init'
+		 * action, therefor we have to make sure this plugin will load first
+		 * 
+		 * @see http://stv.whtly.com/2011/09/03/forcing-a-wordpress-plugin-to-be-loaded-before-all-other-plugins/
+		 */ 
+		add_action( 'activated_plugin',       array( __CLASS__, 'activated_plugin' ) );
+	}
+
+	////////////////////////////////////////////////////////////
+
+	/**
+	 * Activated plugin
+	 */
+	function activated_plugin() {
+		$path = str_replace( WP_PLUGIN_DIR . '/', '', __FILE__ );
+
+		if ( $plugins = get_option( 'active_plugins' ) ) {
+			if ( $key = array_search( $path, $plugins ) ) {
+				array_splice( $plugins, $key, 1 );
+				array_unshift( $plugins, $path );
+
+				update_option( 'active_plugins', $plugins );
+			}
+		}
 	}
 
 	////////////////////////////////////////////////////////////
@@ -54,29 +86,39 @@ class WooCommerceNL {
 			}
 		}
 
-		$new_mo_file = null;
-
-		// WooCommerce
-		$is_woocommerce_domain = ($domain == 'woocommerce');
-
-		if ( $is_woocommerce_domain ) {
-			$is_woocommerce = strpos( $mo_file, '/woocommerce/' ) !== false;
-
-			if ( $is_woocommerce ) {
-				$version = get_option( 'woocommerce_db_version', null );
-
-				if ( strpos( $mo_file, '/woocommerce/languages/woocommerce-' ) !== false ) {
-					$new_mo_file = self::get_mo_file( 'woocommerce', $version );
-				} elseif ( strpos( $mo_file, '/woocommerce/languages/formal/woocommerce-' ) !== false ) {
-					$new_mo_file = self::get_mo_file( 'woocommerce', $version, 'formal/' );
-				} elseif ( strpos( $mo_file, '/woocommerce/languages/informal/woocommerce-' ) !== false ) {
-					$new_mo_file = self::get_mo_file( 'woocommerce', $version, 'informal/' );
+		if ( self::$is_dutch ) {
+			$new_mo_file = null;
+	
+			// WooCommerce
+			$is_woocommerce_domain = ( $domain == 'woocommerce' );
+	
+			if ( $is_woocommerce_domain ) {
+				$is_woocommerce = strpos( $mo_file, '/woocommerce/' ) !== false;
+	
+				if ( $is_woocommerce ) {
+					$version = get_option( 'woocommerce_db_version', null );
+	
+					if ( strpos( $mo_file, '/woocommerce/languages/woocommerce-' ) !== false ) {
+						$new_mo_file = self::get_mo_file( 'woocommerce', $version );
+					} elseif ( strpos( $mo_file, '/woocommerce/languages/formal/woocommerce-' ) !== false ) {
+						$new_mo_file = self::get_mo_file( 'woocommerce', $version, 'formal/' );
+					} elseif ( strpos( $mo_file, '/woocommerce/languages/informal/woocommerce-' ) !== false ) {
+						$new_mo_file = self::get_mo_file( 'woocommerce', $version, 'informal/' );
+					}
 				}
 			}
-		}
-
-		if ( is_readable( $new_mo_file ) ) {
-			$mo_file = $new_mo_file;
+	
+			// WooCommerce EU VAT Number
+			$is_woocommerce_domain = ( $domain == 'wc_eu_vat_number' );
+	
+			if ( $domain == 'wc_eu_vat_number' ) {
+				$new_mo_file = self::get_mo_file( 'woocommerce-eu-vat-number', 'cpr' );
+			}
+	
+			// Check if the new file is readable
+			if ( is_readable( $new_mo_file ) ) {
+				$mo_file = $new_mo_file;
+			}
 		}
 
 		return $mo_file;
