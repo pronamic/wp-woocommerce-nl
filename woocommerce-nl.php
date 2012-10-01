@@ -109,10 +109,13 @@ class WooCommerceNL {
 			}
 	
 			// WooCommerce EU VAT Number
-			$is_woocommerce_domain = ( $domain == 'wc_eu_vat_number' );
-	
 			if ( $domain == 'wc_eu_vat_number' ) {
 				$new_mo_file = self::get_mo_file( 'woocommerce-eu-vat-number', 'cpr' );
+			}
+
+			// WooCommerce - Gravity Forms Product Add-Ons
+			if ( $domain == 'wc_gf_addons' ) {
+				$new_mo_file = self::get_mo_file( 'woocommerce-gravityforms-product-addons', 'cpr' );
 			}
 	
 			// Check if the new file is readable
