@@ -117,6 +117,11 @@ class WooCommerceNL {
 			if ( $domain == 'wc_gf_addons' ) {
 				$new_mo_file = self::get_mo_file( 'woocommerce-gravityforms-product-addons', 'cpr' );
 			}
+
+			// WooCommerce Subscribe to Newsletter
+			if ( $domain == 'wc_subscribe_to_newsletter' ) {
+				$new_mo_file = self::get_mo_file( 'woocommerce-subscribe-to-newsletter', 'cpr' );
+			}
 	
 			// Check if the new file is readable
 			if ( is_readable( $new_mo_file ) ) {
