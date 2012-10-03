@@ -12,6 +12,7 @@ This WordPress plugin extends the WooCommerce plugin with the Dutch translation.
 
 <strong>WooCommerce</strong> 1.6.5.2
 <strong>WooCommerce EU VAT Number</strong> 1.4
+<strong>WooCommerce Subscribe to Newsletter</strong> 1.0.4
 
 > This plugin requires the <a href="http://wordpress.org/extend/plugins/woocommerce/">WooCommerce plugin</a>
 
@@ -23,6 +24,10 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 
 == Changelog ==
+
+= 0.3.19 =
+*	Added translation for WooCommerce Subscribe to Newsletter v1.0.4
+*	Added translation for WooCommerce EU VAT Number v1.4
 
 = 0.3.18 =
 *	Added translation for WooCommerce EU VAT Number v1.4
