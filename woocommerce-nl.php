@@ -80,10 +80,12 @@ class WooCommerceNL {
 		if ( self::$language == null ) {
 			self::$language = get_option( 'WPLANG', WPLANG );
 			self::$is_dutch = ( self::$language == 'nl' || self::$language == 'nl_NL' );
+		}
 
-			if ( defined( 'ICL_LANGUAGE_CODE' ) ) {
-				self::$is_dutch = ( ICL_LANGUAGE_CODE == 'nl' );
-			}
+		// The ICL_LANGUAGE_CODE constant is defined from an plugin, so this constant
+		// is not always defined in the first 'load_textdomain_mofile' filter call
+		if ( defined( 'ICL_LANGUAGE_CODE' ) ) {
+			self::$is_dutch = ( ICL_LANGUAGE_CODE == 'nl' );
 		}
 
 		if ( self::$is_dutch ) {
