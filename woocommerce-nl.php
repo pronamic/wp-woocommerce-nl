@@ -124,6 +124,11 @@ class WooCommerceNL {
 			if ( $domain == 'wc_subscribe_to_newsletter' ) {
 				$new_mo_file = self::get_mo_file( 'woocommerce-subscribe-to-newsletter', 'cpr' );
 			}
+
+			// WooCommerce Subscribe to Newsletter
+			if ( $domain == 'x3m_gf' ) {
+				$new_mo_file = self::get_mo_file( 'woocommerce-gateway-fees', 'cpr' );
+			}
 	
 			// Check if the new file is readable
 			if ( is_readable( $new_mo_file ) ) {
