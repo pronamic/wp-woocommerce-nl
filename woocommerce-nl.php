@@ -89,50 +89,16 @@ class WooCommerceNL {
 		}
 
 		if ( self::$is_dutch ) {
-			$new_mo_file = null;
-	
-			// WooCommerce
-			$is_woocommerce_domain = ( $domain == 'woocommerce' );
-	
-			if ( $is_woocommerce_domain ) {
-				$is_woocommerce = strpos( $mo_file, '/woocommerce/' ) !== false;
-	
-				if ( $is_woocommerce ) {
-					$version = get_option( 'woocommerce_db_version', null );
-	
-					if ( strpos( $mo_file, '/woocommerce/languages/woocommerce-' ) !== false ) {
-						$new_mo_file = self::get_mo_file( 'woocommerce', $version );
-					} elseif ( strpos( $mo_file, '/woocommerce/languages/formal/woocommerce-' ) !== false ) {
-						$new_mo_file = self::get_mo_file( 'woocommerce', $version, 'formal/' );
-					} elseif ( strpos( $mo_file, '/woocommerce/languages/informal/woocommerce-' ) !== false ) {
-						$new_mo_file = self::get_mo_file( 'woocommerce', $version, 'informal/' );
-					}
-				}
-			}
-	
-			// WooCommerce EU VAT Number
-			if ( $domain == 'wc_eu_vat_number' ) {
-				$new_mo_file = self::get_mo_file( 'woocommerce-eu-vat-number', 'cpr' );
-			}
-
-			// WooCommerce - Gravity Forms Product Add-Ons
-			if ( $domain == 'wc_gf_addons' ) {
-				$new_mo_file = self::get_mo_file( 'woocommerce-gravityforms-product-addons', 'cpr' );
-			}
-
-			// WooCommerce Subscribe to Newsletter
-			if ( $domain == 'wc_subscribe_to_newsletter' ) {
-				$new_mo_file = self::get_mo_file( 'woocommerce-subscribe-to-newsletter', 'cpr' );
-			}
-
-			// WooCommerce Subscribe to Newsletter
-			if ( $domain == 'x3m_gf' ) {
-				$new_mo_file = self::get_mo_file( 'woocommerce-gateway-fees', 'cpr' );
-			}
-	
-			// Check if the new file is readable
-			if ( is_readable( $new_mo_file ) ) {
-				$mo_file = $new_mo_file;
+			$domains = array(
+					'woocommerce',
+					'wc_eu_vat_number',
+					'wc_gf_addons',
+					'wc_subscribe_to_newsletter',
+					'x3m_gf'
+			);
+			
+			if ( in_array( $domain, $domains ) ) {
+				$mo_file = self::get_mo_file( $domain );
 			}
 		}
 
@@ -144,15 +110,10 @@ class WooCommerceNL {
 	/**
 	 * Get the MO file for the specified domain, version and language
 	 */
-	public static function get_mo_file( $domain, $version, $path = '' ) {
+	public static function get_mo_file( $domain ) {
 		$dir = dirname( __FILE__ );
 
-		$mo_file = $dir . '/languages/' . $domain . '/' . $version . '/' . $path . self::$language . '.mo';
-
-		// if specific version MO file is not available point to the current public release (cpr) version
-		if( ! is_readable( $mo_file ) ) {
-			$mo_file = $dir . '/languages/' . $domain . '/cpr/' . $path . self::$language . '.mo';
-		}
+		$mo_file = $dir . '/languages/' . $domain . '/' . self::$language . '.mo';
 
 		return $mo_file;
 	}
