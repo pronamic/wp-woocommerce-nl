@@ -28,9 +28,10 @@ WordPress installation and then activate the Plugin from Plugins page.
 == Changelog ==
 
 = 0.4 =
-*	Added translation for WooCommerce v2.0.2
-*	Added translation for WooCommerce v2.0.1
-*	Added translation for WooCommerce v2.0.0
+*	Updated translation to WooCommerce v2.0.2
+*	Updated translation to WooCommerce v2.0.1
+*	Updated translation to WooCommerce v2.0.0
+*	Removed translations of older plugin versions
 
 = 0.3.21 =
 *	Added translation for WooCommerce Gateway Fees v1.2.1
