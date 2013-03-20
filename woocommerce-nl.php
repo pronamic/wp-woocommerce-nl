@@ -113,7 +113,7 @@ class WooCommerceNL {
 	public static function get_mo_file( $domain ) {
 		$dir = dirname( __FILE__ );
 
-		$mo_file = $dir . '/languages/' . $domain . '/' . self::$language . '.mo';
+		$mo_file = $dir . '/languages/' . $domain . '/nl_NL.mo';
 
 		return $mo_file;
 	}
