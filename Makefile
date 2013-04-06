@@ -42,6 +42,10 @@ extract:
 	--exclude-file=$(CURDIR)/languages/woocommerce/woocommerce-admin.pot \
 	--output=$(CURDIR)/languages/woocommerce/woocommerce.pot
 
-	wget -O languages/nl_NL.po http://glotpress.pronamic.nl/projects/woocommerce/$(WOOCOMMERCE_VERSION)-formal/nl/nl_NL/export-translations
+	wget -O languages/woocommerce/nl_NL.po http://glotpress.pronamic.nl/projects/woocommerce/$(WOOCOMMERCE_VERSION)-formal/nl/nl_NL/export-translations
 
-	wget -O languages/admin-nl_NL.po http://glotpress.pronamic.nl/projects/woocommerce/$(WOOCOMMERCE_VERSION)-formal/admin/nl/nl_NL/export-translations
+	msgfmt languages/woocommerce/nl_NL.po -o languages/woocommerce/nl_NL.mo
+
+	wget -O languages/woocommerce/admin-nl_NL.po http://glotpress.pronamic.nl/projects/woocommerce/$(WOOCOMMERCE_VERSION)-formal/admin/nl/nl_NL/export-translations
+	
+	msgfmt languages/woocommerce/admin-nl_NL.po -o languages/woocommerce/admin-nl_NL.mo
