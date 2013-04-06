@@ -119,8 +119,6 @@ class WooCommerceNLPlugin {
 					if ( substr( $mo_file, -strlen( $path ) ) == $path ) {
 						$new_file = dirname( $this->file ) . '/languages/' . $file;
 
-						$mo_file = $new_file;
-
 						if ( is_readable( $new_file ) ) {
 							$mo_file = $new_file;
 						}
