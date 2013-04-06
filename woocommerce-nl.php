@@ -90,11 +90,11 @@ class WooCommerceNL {
 
 		if ( self::$is_dutch ) {
 			$domains = array(
-					'woocommerce',
-					'wc_eu_vat_number',
-					'wc_gf_addons',
-					'wc_subscribe_to_newsletter',
-					'x3m_gf'
+				'woocommerce',
+				'wc_eu_vat_number',
+				'wc_gf_addons',
+				'wc_subscribe_to_newsletter',
+				'x3m_gf'
 			);
 			
 			if ( in_array( $domain, $domains ) ) {
