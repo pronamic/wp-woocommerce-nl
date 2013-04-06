@@ -1,4 +1,5 @@
 WOOCOMMERCE_DIR=../woocommerce/
+WOOCOMMERCE_VERSION=2.0.5
 
 # https://github.com/brotchie/keepnote/blob/master/Makefile.gettext
 
@@ -17,7 +18,7 @@ extract:
 	--language=PHP \
 	--copyright-holder="Remco Tolsma" \
 	--package-name=WooCommerce \
-	--package-version=2.0.5 \
+	--package-version=$(WOOCOMMERCE_VERSION) \
 	--msgid-bugs-address="Remco Tolsma <info@remcotolsma.nl>" \
 	--files-from=- \
 	--output=$(CURDIR)/languages/woocommerce/woocommerce-admin.pot \
@@ -35,8 +36,12 @@ extract:
 	--language=PHP \
 	--copyright-holder="Remco Tolsma" \
 	--package-name=WooCommerce \
-	--package-version=2.0.5 \
+	--package-version=$(WOOCOMMERCE_VERSION) \
 	--msgid-bugs-address="Remco Tolsma &lt;info@remcotolsma.nl&gt;" \
 	--files-from=- \
 	--exclude-file=$(CURDIR)/languages/woocommerce/woocommerce-admin.pot \
 	--output=$(CURDIR)/languages/woocommerce/woocommerce.pot
+
+	wget -O languages/nl_NL.po http://glotpress.pronamic.nl/projects/woocommerce/$(WOOCOMMERCE_VERSION)-formal/nl/nl_NL/export-translations
+
+	wget -O languages/admin-nl_NL.po http://glotpress.pronamic.nl/projects/woocommerce/$(WOOCOMMERCE_VERSION)-formal/admin/nl/nl_NL/export-translations
