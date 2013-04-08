@@ -95,20 +95,20 @@ class WooCommerceNLPlugin {
 			$domains = array(
 				// @see https://github.com/woothemes/woocommerce/tree/v2.0.5
 				'woocommerce'                => array(
-					'i18n/languages/woocommerce-nl_NL.mo'           => 'woocommerce/nl_NL.mo',
-					'i18n/languages/woocommerce-admin-nl_NL.mo'     => 'woocommerce/admin-nl_NL.mo'
+					'i18n/languages/woocommerce-nl_NL.mo'       => 'woocommerce/nl_NL.mo',
+					'i18n/languages/woocommerce-admin-nl_NL.mo' => 'woocommerce/admin-nl_NL.mo'
 				),
 				'wc_eu_vat_number'           => array(
-					'languages/wc_eu_vat_number-nl_NL.mo'           => 'woocommerce-eu-vat-number/nl_NL.mo'
+					'wc_eu_vat_number-nl_NL.mo'                 => 'woocommerce-eu-vat-number/nl_NL.mo'
 				),
 				'wc_gf_addons'               => array(
-					'languages/wc_gf_addons-nl_NL.mo'               => 'woocommerce-gravityforms-product-addons/nl_NL.mo'
+					'languages/wc_gf_addons-nl_NL.mo'           => 'woocommerce-gravityforms-product-addons/nl_NL.mo'
 				),
 				'wc_subscribe_to_newsletter' => array(
-					'languages/wc_subscribe_to_newsletter-nl_NL.mo' => 'woocommerce-subscribe-to-newsletter/nl_NL.mo'
+					'wc_subscribe_to_newsletter-nl_NL.mo'       => 'woocommerce-subscribe-to-newsletter/nl_NL.mo'
 				),
 				'x3m_gf'                     => array(
-					'languages/x3m_gf-nl_NL.mo'                     => 'woocommerce-gateway-fees/nl_NL.mo'
+					'languages/x3m_gf-nl_NL.mo'                 => 'woocommerce-gateway-fees/nl_NL.mo'
 				)
 			);
 
