@@ -24,7 +24,7 @@ extract:
 	--output=$(CURDIR)/languages/woocommerce/woocommerce-admin.pot \
 
 	cd $(WOOCOMMERCE_DIR) && \
-	find ./ -iname "*.php" -type f | xgettext \
+	find . -iname "*.php" -type f -not -path "./admin/*" | xgettext \
 	--from-code=UTF-8 \
 	--keyword=__ \
 	--keyword=_e \
@@ -39,7 +39,6 @@ extract:
 	--package-version=$(WOOCOMMERCE_VERSION) \
 	--msgid-bugs-address="Remco Tolsma &lt;info@remcotolsma.nl&gt;" \
 	--files-from=- \
-	--exclude-file=$(CURDIR)/languages/woocommerce/woocommerce-admin.pot \
 	--output=$(CURDIR)/languages/woocommerce/woocommerce.pot
 
 	wget -O languages/woocommerce/nl_NL.po http://glotpress.pronamic.nl/projects/woocommerce/$(WOOCOMMERCE_VERSION)-formal/nl/nl_NL/export-translations
