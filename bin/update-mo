@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ $# -lt 1 ]; then
+	echo 'usage: update-mo gravityforms'
+exit
+fi
+
+PLUGIN_DIR=`pwd`/..
+
+cd $PLUGIN_DIR
+
+PLUGIN_NAME=$1
+
+msgfmt languages/$PLUGIN_NAME/nl_NL.po -o languages/$PLUGIN_NAME/nl_NL.mo

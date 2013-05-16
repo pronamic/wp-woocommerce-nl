@@ -1,0 +1,19 @@
+#!/bin/bash
+
+if [ $# -lt 2 ]; then
+	echo 'usage: download-po gravityforms 1.6.12'
+exit
+fi
+
+PLUGIN_DIR=`pwd`/..
+
+cd $PLUGIN_DIR
+
+PLUGIN_NAME=$1
+PLUGIN_VERSION=$2
+
+PO_FILE=languages/$PLUGIN_NAME/nl_NL.po
+
+touch $PO_FILE
+
+wget -O $PO_FILE http://glotpress.pronamic.nl/projects/$PLUGIN_NAME/$PLUGIN_VERSION/nl/nl_NL/export-translations
