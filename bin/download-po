@@ -1,19 +1,33 @@
 #!/bin/bash
 
 if [ $# -lt 2 ]; then
-	echo 'usage: download-po gravityforms 1.6.12'
+	echo 'usage: download-po woocommerce 2.0.10'
+	echo 'usage: download-po woocommerce 2.0.10 admin'
 exit
 fi
+
+PROJECT_SLUG=$1
+PROJECT_VERSION=$2
+PROJECT_SUB_SLUG=$3
+
+GLOTPRESS_URL="http://glotpress.pronamic.nl/projects/$PROJECT_SLUG/$PROJECT_VERSION"
+
+if [[ $PROJECT_SUB_SLUG ]]; then
+	GLOTPRESS_URL="$GLOTPRESS_URL/$PROJECT_SUB_SLUG"
+fi
+
+GLOTPRESS_URL="$GLOTPRESS_URL/nl/nl_NL/export-translations"
 
 PLUGIN_DIR=`pwd`/..
 
 cd $PLUGIN_DIR
 
-PLUGIN_NAME=$1
-PLUGIN_VERSION=$2
-
-PO_FILE=languages/$PLUGIN_NAME/nl_NL.po
+if [[ $PROJECT_SUB_SLUG ]]; then
+	PO_FILE=languages/$PROJECT_SLUG/$PROJECT_SUB_SLUG-nl_NL.po
+else 
+	PO_FILE=languages/$PROJECT_SLUG/nl_NL.po
+fi
 
 touch $PO_FILE
 
-wget -O $PO_FILE http://glotpress.pronamic.nl/projects/$PLUGIN_NAME/$PLUGIN_VERSION/nl/nl_NL/export-translations
+wget -O $PO_FILE $GLOTPRESS_URL
