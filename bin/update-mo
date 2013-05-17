@@ -1,7 +1,8 @@
 #!/bin/bash
 
 if [ $# -lt 1 ]; then
-	echo 'usage: update-mo gravityforms'
+	echo 'usage: update-mo woocommerce'
+	echo 'usage: update-mo woocommerce admin'
 exit
 fi
 
@@ -9,6 +10,16 @@ PLUGIN_DIR=`pwd`/..
 
 cd $PLUGIN_DIR
 
-PLUGIN_NAME=$1
+PROJECT_SLUG=$1
+PROJECT_SUB_SLUG=$2
 
-msgfmt languages/$PLUGIN_NAME/nl_NL.po -o languages/$PLUGIN_NAME/nl_NL.mo
+if [[ $PROJECT_SUB_SLUG ]]; then
+	FILE=languages/$PROJECT_SLUG/$PROJECT_SUB_SLUG-nl_NL
+else 
+	FILE=languages/$PROJECT_SLUG/nl_NL
+fi
+
+PO_FILE=$FILE.po
+MO_FILE=$FILE.mo
+
+msgfmt $PO_FILE -o $MO_FILE
