@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-04-08 10:03:16+0000\n"
+"PO-Revision-Date: 2013-05-17 12:05:40+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,61 +10,570 @@ msgstr ""
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: Administration\n"
 
-#: admin/includes/updates/woocommerce-update-2.0.php:49
-#: admin/woocommerce-admin-init.php:881
-msgctxt "slug"
-msgid "product-category"
-msgstr "product-categorie"
+#: admin/settings/settings-init.php:967
+msgid "Optionally control which tax class shipping gets, or leave it so shipping tax is based on the cart items themselves."
+msgstr "Bepaal optioneel welke belasting klasse verzending krijgt, of laat het zodat verzending belasting is gebaseerd op de winkelwagen items zelf."
 
-#: admin/includes/updates/woocommerce-update-2.0.php:50
-#: admin/woocommerce-admin-init.php:894
-msgctxt "slug"
-msgid "product-tag"
-msgstr "product-tag"
+#: admin/settings/settings-init.php:972
+msgid "Shipping tax class based on cart items"
+msgstr "Verzending belasting klasse gebaseerd op winkelwagen items"
 
-#: admin/includes/updates/woocommerce-update-2.0.php:58
-msgctxt "slug"
-msgid "product"
-msgstr "product"
+#: admin/settings/settings-init.php:977
+msgid "Rounding"
+msgstr "Afronding"
 
-#: admin/includes/updates/woocommerce-update-2.0.php:179
-#: admin/woocommerce-admin-install.php:207
-msgctxt "page_slug"
-msgid "lost-password"
-msgstr "wachtwoord-vergeten"
+#: admin/settings/settings-init.php:978
+msgid "Round tax at subtotal level, instead of rounding per line"
+msgstr "Belasting afronden op subtotaal niveau, in plaats van afronden per regel"
 
-#: admin/post-types/writepanels/order-download-permission-html.php:9
-msgid "Downloaded %s time"
-msgid_plural "Downloaded %s times"
-msgstr[0] "%s keer gedownload"
-msgstr[1] "%s keer gedownload"
+#: admin/settings/settings-init.php:985
+msgid "Additional Tax Classes"
+msgstr "Extra belasting klassen"
 
-#: admin/post-types/writepanels/variation-admin-html.php:84
-#: admin/post-types/writepanels/writepanel-product_data.php:136
-msgctxt "placeholder"
-msgid "From&hellip;"
-msgstr "Van&hellip;"
+#: admin/settings/settings-init.php:986
+msgid "List additonal tax classes below (1 per line). This is in addition to the default <code>Standard Rate</code>. Tax classes can be assigned to products."
+msgstr "Plaats aanvullende belasting klassen hieronder (1 per regel). Dit is een aanvulling op de standaard <code>Standaard tarief</code>. Belasting klassen kunnen worden toegewezen aan producten."
 
-#: admin/post-types/writepanels/variation-admin-html.php:88
-#: admin/post-types/writepanels/writepanel-product_data.php:137
-msgctxt "placeholder"
-msgid "To&hellip;"
-msgstr "Tot&hellip;"
+#: admin/settings/settings-init.php:990
+msgid "Reduced Rate%sZero Rate"
+msgstr "Gereduceerd tarief%sNultarief"
 
-#: admin/post-types/writepanels/writepanel-coupon_data.php:152
-msgctxt "placeholder"
-msgid "Unlimited usage"
-msgstr "Onbeperkt gebruik"
+#: admin/settings/settings-init.php:994
+msgid "Display prices during cart/checkout:"
+msgstr "Weergave prijzen tijdens winkelwagen/afrekenen:"
 
-#: admin/post-types/writepanels/writepanel-coupon_data.php:158
-msgctxt "placeholder"
-msgid "Never expire"
-msgstr "Vervalt nooit"
+#: admin/settings/settings-init.php:999
+msgid "Including tax"
+msgstr "Inclusief belasting"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:112
-msgctxt "placeholder"
-msgid "Buy product"
-msgstr "Koop product"
+#: admin/settings/settings-init.php:1000
+msgid "Excluding tax"
+msgstr "Exclusief belasting"
+
+#: admin/settings/settings-init.php:1012
+msgid "Email Sender Options"
+msgstr "E-mail afzender opties"
+
+#: admin/settings/settings-init.php:1012
+msgid "The following options affect the sender (email address and name) used in WooCommerce emails."
+msgstr "De volgende opties hebben invloed op de zender (e-mailadres en naam) gebruikt in WooCommerce e-mails."
+
+#: admin/settings/settings-init.php:1015
+msgid "\"From\" Name"
+msgstr "\"Van\" naam"
+
+#: admin/settings/settings-init.php:1024
+msgid "\"From\" Email Address"
+msgstr "\"Van\" e-mailadres"
+
+#: admin/settings/settings-init.php:1037
+msgid "Email Template"
+msgstr "E-mail template"
+
+#: admin/settings/settings-init.php:1037
+msgid "This section lets you customise the WooCommerce emails. <a href=\"%s\" target=\"_blank\">Click here to preview your email template</a>. For more advanced control copy <code>woocommerce/templates/emails/</code> to <code>yourtheme/woocommerce/emails/</code>."
+msgstr "Via deze sectie kunt u de WooCommerce e-mails aanpassen. <a href=\"%s\" target=\"_blank\">Klik hier voor een preview van uw e-mail template</a>. Voor meer geavanceerde controle kopieer <code>woocommerce/templates/emails/</code> naar <code>uwthema/woocommerce/emails/</code>."
+
+#: admin/settings/settings-init.php:1040
+msgid "Header Image"
+msgstr "Header afbeelding"
+
+#: admin/settings/settings-init.php:1041
+msgid "Enter a URL to an image you want to show in the email's header. Upload your image using the <a href=\"%s\">media uploader</a>."
+msgstr "Voer een URL in naar een afbeelding die u wilt tonen in de e-mail's header. Upload uw afbeelding met behulp van de <a href=\"%s\">media uploader</a>."
+
+#: admin/settings/settings-init.php:1049
+msgid "Email Footer Text"
+msgstr "E-mail footer tekst"
+
+#: admin/settings/settings-init.php:1050
+msgid "The text to appear in the footer of WooCommerce emails."
+msgstr "De tekst die zal verschijnen in de footer van WooCommerce e-mails."
+
+#: admin/settings/settings-init.php:1054
+msgid "Powered by WooCommerce"
+msgstr "Powered by ik wil een professionele webwinkel"
+
+#: admin/settings/settings-init.php:1058
+msgid "Base Colour"
+msgstr "Basiskleur"
+
+#: admin/settings/settings-init.php:1059
+msgid "The base colour for WooCommerce email templates. Default <code>#557da1</code>."
+msgstr "De basis kleur voor WooCommerce e-mail sjablonen. Standaard <code>#557da1</code>."
+
+#: admin/settings/settings-init.php:1067
+msgid "Background Colour"
+msgstr "Achtergrondkleur"
+
+#: admin/settings/settings-init.php:1068
+msgid "The background colour for WooCommerce email templates. Default <code>#f5f5f5</code>."
+msgstr "De achtergrondkleur voor WooCommerce e-mail templates. Standaard <code>#f5f5f5</code>."
+
+#: admin/settings/settings-init.php:1076
+msgid "Email Body Background Colour"
+msgstr "E-mail hoofdgedeelte achtergrondkleur"
+
+#: admin/settings/settings-init.php:1077
+msgid "The main body background colour. Default <code>#fdfdfd</code>."
+msgstr "Het hoofdgedeelte achtergrondkleur. Standaard <code>#fdfdfd</code>."
+
+#: admin/settings/settings-init.php:1085
+msgid "Email Body Text Colour"
+msgstr "E-mail hoofdgedeelte tekst kleur"
+
+#: admin/settings/settings-init.php:1086
+msgid "The main body text colour. Default <code>#505050</code>."
+msgstr "Het hoofdgedeelte tekst kleur. Standaard <code>#505050</code>."
+
+#: admin/settings/settings-payment-gateways.php:27
+#: admin/settings/settings-shipping-methods.php:29
+#: admin/woocommerce-admin-init.php:757
+#: admin/woocommerce-admin-taxonomies.php:27
+#: admin/woocommerce-admin-taxonomies.php:121
+msgid "Default"
+msgstr "Standaard"
+
+#: admin/settings/settings-payment-gateways.php:28
+msgid "Gateway"
+msgstr "Gateway"
+
+#: admin/settings/settings-payment-gateways.php:45
+msgid "Gateway ID"
+msgstr "Gateway ID"
+
+#: admin/settings/settings-shipping-methods.php:23
+msgid "Shipping Methods"
+msgstr "Verzendmethoden"
+
+#: admin/settings/settings-shipping-methods.php:25
+msgid "Drag and drop methods to control their display order."
+msgstr "Versleep methoden om hun weergave volgorde te wijzigen."
+
+#: admin/settings/settings-shipping-methods.php:30
+msgid "Shipping Method"
+msgstr "Verzendmethode"
+
+#: admin/settings/settings-shipping-methods.php:46
+msgid "Method ID"
+msgstr "Methode ID"
+
+#: admin/settings/settings-tax-rates.php:29
+msgid "Tax Rates for the \"%s\" Class"
+msgstr "Belastingtarieven voor de \"%s\" klasse"
+
+#: admin/settings/settings-tax-rates.php:30
+msgid "Define tax rates for countries and states below. <a href=\"%s\">See here</a> for available alpha-2 country codes."
+msgstr "Definieer hieronder belastingtarieven voor landen en staten. <a href=\"%s\">Zie hier</a> voor beschikbaar alpha-2 landcodes."
+
+#: admin/settings/settings-tax-rates.php:36
+msgid "Country&nbsp;Code"
+msgstr "Landcode"
+
+#: admin/settings/settings-tax-rates.php:36
+msgid "A 2 digit country code, e.g. US. Leave blank to apply to all."
+msgstr "Een 2 tekens landcode, bijvoorbeeld US. Laat leeg om op alles toe te passen."
+
+#: admin/settings/settings-tax-rates.php:38
+msgid "State&nbsp;Code"
+msgstr "Staat&nbsp;code"
+
+#: admin/settings/settings-tax-rates.php:38
+msgid "A 2 digit state code, e.g. AL. Leave blank to apply to all."
+msgstr "Een 2 tekens staatcode, bijvoorbeeld AL. Laat leeg om op alles toe te passen."
+
+#: admin/settings/settings-tax-rates.php:40
+#: admin/settings/settings-tax-rates.php:217
+msgid "ZIP/Postcode"
+msgstr "Postcode"
+
+#: admin/settings/settings-tax-rates.php:40
+msgid "Postcode for this rule. Semi-colon (;) separate multiple values. Leave blank to apply to all areas. Wildcards (*) can be used. Ranges for numeric postcodes (e.g. 12345-12350) will be expanded into individual postcodes."
+msgstr "Postcode voor deze regel. Puntkomma (;) gescheiden meerdere waarden. Laat leeg om toe te passen op alle gebieden. Jokertekens (*) kunnen gebruikt worden. Reeksen voor numerieke postcode (bijvoorbeeld 12345-12350) zullen worden uitgebreid worden in individuele postcodes."
+
+#: admin/settings/settings-tax-rates.php:42
+msgid "Cities for this rule. Semi-colon (;) separate multiple values. Leave blank to apply to all cities."
+msgstr "Steden voor deze regel. Puntkomma (;) gescheiden meerdere waarden. Laat leeg om toe te passen op alle steden."
+
+#: admin/settings/settings-tax-rates.php:44
+msgid "Rate&nbsp;%"
+msgstr "Tarief&nbsp;%"
+
+#: admin/settings/settings-tax-rates.php:44
+msgid "Enter a tax rate (percentage) to 4 decimal places."
+msgstr "Voor een belastingtarief (percentage) in tot 4 decimalen."
+
+#: admin/settings/settings-tax-rates.php:46
+msgid "Tax&nbsp;Name"
+msgstr "Belasting&nbsp;naam"
+
+#: admin/settings/settings-tax-rates.php:46
+msgid "Enter a name for this tax rate."
+msgstr "Voer een naam in voor dit belastingtarief."
+
+#: admin/settings/settings-tax-rates.php:48
+#: admin/settings/settings-tax-rates.php:217
+msgid "Priority"
+msgstr "Prioriteit"
+
+#: admin/settings/settings-tax-rates.php:48
+msgid "Choose a priority for this tax rate. Only 1 matching rate per priority will be used. To define multiple tax rates for a single area you need to specify a different priority per rate."
+msgstr "Kies een prioriteit voor dit belastingtarief. Er zal slechts 1 overeenkomend tarief per prioriteit gebruikt worden. Om meerdere belastingtarieven te definiëren voor één gebied dient u verschillende prioriteiten per tarief op te geven."
+
+#: admin/settings/settings-tax-rates.php:50
+#: admin/settings/settings-tax-rates.php:217
+msgid "Compound"
+msgstr "Samenstelling"
+
+#: admin/settings/settings-tax-rates.php:50
+msgid "Choose whether or not this is a compound rate. Compound tax rates are applied on top of other tax rates."
+msgstr "Geef aan of dit een samengestelde rente is. Samengestelde belastingtarieven worden toegepast bovenop andere belastingtarieven."
+
+#: admin/settings/settings-tax-rates.php:52
+msgid "Choose whether or not this tax rate also gets applied to shipping."
+msgstr "Kies of dit belastingtarief toegepast moet worden op verzending."
+
+#: admin/settings/settings-tax-rates.php:59
+msgid "Insert row"
+msgstr "Rij invoegen"
+
+#: admin/settings/settings-tax-rates.php:60
+msgid "Remove selected row(s)"
+msgstr "Verwijder geselecteerde rij(en)"
+
+#: admin/settings/settings-tax-rates.php:62
+msgid "Export CSV"
+msgstr "Exporteer CSV"
+
+#: admin/settings/settings-tax-rates.php:63
+msgid "Import CSV"
+msgstr "Importeer CSV"
+
+#: admin/settings/settings-tax-rates.php:163
+msgid "No row(s) selected"
+msgstr "Geen rij(en) geselecteerd"
+
+#: admin/settings/settings-tax-rates.php:217
+msgid "Country Code"
+msgstr "Landcode"
+
+#: admin/settings/settings-tax-rates.php:217
+msgid "State Code"
+msgstr "Staatcode"
+
+#: admin/settings/settings-tax-rates.php:217
+msgid "Rate %"
+msgstr "Tarief %"
+
+#: admin/settings/settings-tax-rates.php:217
+msgid "Tax Name"
+msgstr "Belasting naam"
+
+#: admin/woocommerce-admin-attributes.php:77
+msgid "Please, provide an attribute name, slug and type."
+msgstr "Voer een attribuut naam, slug en type in."
+
+#: admin/woocommerce-admin-attributes.php:79
+msgid "Slug “%s” is too long (28 characters max). Shorten it, please."
+msgstr "Slug “%s” is te lang (28 tekens max). Maak korter, alstublieft."
+
+#: admin/woocommerce-admin-attributes.php:81
+msgid "Slug “%s” is not allowed because it is a reserved term. Change it, please."
+msgstr "Slug “%s” is niet toegestaan omdat dit een gereserveerd term is. Wijzig deze, alstublieft."
+
+#: admin/woocommerce-admin-attributes.php:86
+#: admin/woocommerce-admin-attributes.php:91
+msgid "Slug “%s” is already in use. Change it, please."
+msgstr "Slug “%s” is al gebruik. Wijzig deze, alstublieft."
+
+#: admin/woocommerce-admin-attributes.php:227
+msgid "Edit Attribute"
+msgstr "Attribuut bewerken"
+
+#: admin/woocommerce-admin-attributes.php:237
+#: admin/woocommerce-admin-attributes.php:376
+msgid "Name for the attribute (shown on the front-end)."
+msgstr "Naam voor het attribuut (weergegeven op de frontend)."
+
+#: admin/woocommerce-admin-attributes.php:242
+#: admin/woocommerce-admin-attributes.php:308
+#: admin/woocommerce-admin-attributes.php:380
+msgid "Slug"
+msgstr "Slug"
+
+#: admin/woocommerce-admin-attributes.php:246
+#: admin/woocommerce-admin-attributes.php:382
+msgid "Unique slug/reference for the attribute; must be shorter than 28 characters."
+msgstr "Unieke slug/referentie voor het attribuut, moet korter zijn dan 28 tekens."
+
+#: admin/woocommerce-admin-attributes.php:255
+#: admin/woocommerce-admin-attributes.php:388
+msgid "Select"
+msgstr "Selecteer"
+
+#: admin/woocommerce-admin-attributes.php:256
+#: admin/woocommerce-admin-attributes.php:389
+msgid "Text"
+msgstr "Tekst"
+
+#: admin/woocommerce-admin-attributes.php:259
+#: admin/woocommerce-admin-attributes.php:392
+msgid "Determines how you select attributes for products. <strong>Text</strong> allows manual entry via the product page, whereas <strong>select</strong> attribute terms can be defined from this section. If you plan on using an attribute for variations use <strong>select</strong>."
+msgstr "Bepaalt hoe u attributen voor producten selecteert. <strong>Tekst</strong> maakt handmatige invoer via de product pagina mogelijk, terwijl <strong>selectie</strong> attribuut termen kunnen worden gedefinieerd via deze sectie. Als u van plan bent om een attribuut te gebruiken voor variaties gebruik dan <strong>selectie</strong>."
+
+#: admin/woocommerce-admin-attributes.php:264
+#: admin/woocommerce-admin-attributes.php:396
+msgid "Default sort order"
+msgstr "Standaard sorteervolgorde"
+
+#: admin/woocommerce-admin-attributes.php:268
+#: admin/woocommerce-admin-attributes.php:336
+#: admin/woocommerce-admin-attributes.php:398
+msgid "Custom ordering"
+msgstr "Aangepaste volgorde"
+
+#: admin/woocommerce-admin-attributes.php:270
+#: admin/woocommerce-admin-attributes.php:333
+#: admin/woocommerce-admin-attributes.php:400
+msgid "Term ID"
+msgstr "Term ID"
+
+#: admin/woocommerce-admin-attributes.php:272
+#: admin/woocommerce-admin-attributes.php:402
+msgid "Determines the sort order on the frontend for this attribute. If using custom ordering, you can drag and drop the terms in this attribute"
+msgstr "Bepaalt de sorteervolgorde op de frontend voor dit attribuut. Wanneer u gebruik maakt van aangepaste volgorde kunt de termen verslepen in dit attribuut"
+
+#: admin/woocommerce-admin-attributes.php:277
+msgid "Update"
+msgstr "Bijwerken"
+
+#: admin/woocommerce-admin-attributes.php:310
+msgid "Order by"
+msgstr "Sorteer op"
+
+#: admin/woocommerce-admin-attributes.php:311
+msgid "Terms"
+msgstr "Termen"
+
+#: admin/woocommerce-admin-attributes.php:356
+msgid "Configure&nbsp;terms"
+msgstr "Configureer&nbsp;voorwaarden"
+
+#: admin/woocommerce-admin-attributes.php:360
+msgid "No attributes currently exist."
+msgstr "Er bestaan op dit moment geen attributen."
+
+#: admin/woocommerce-admin-attributes.php:370
+msgid "Add New Attribute"
+msgstr "Nieuw attribuut toevoegen"
+
+#: admin/woocommerce-admin-attributes.php:371
+msgid "Attributes let you define extra product data, such as size or colour. You can use these attributes in the shop sidebar using the \"layered nav\" widgets. Please note: you cannot rename an attribute later on."
+msgstr "Met behulp van attributen kunt u extra product gegevens definiëren, zoals formaat of kleur. U kunt deze attributen in de winkel zijbalk gebruiken met de \"gelaagde navigatie\" widgets. Let op: een attribuut naam kan later niet gewijzigd worden."
+
+#: admin/woocommerce-admin-attributes.php:405
+msgid "Add Attribute"
+msgstr "Attribuut toevoegen"
+
+#: admin/woocommerce-admin-attributes.php:416
+msgid "Are you sure you want to delete this attribute?"
+msgstr "Weet u zeker dat u deze attribuut wilt verwijderen?"
+
+#: admin/woocommerce-admin-content.php:26
+#: admin/woocommerce-admin-reports.php:26
+#: admin/woocommerce-admin-reports.php:66
+#: admin/woocommerce-admin-reports.php:82
+#: admin/woocommerce-admin-reports.php:93
+msgid "Overview"
+msgstr "Overzicht"
+
+#: admin/woocommerce-admin-content.php:29
+msgid "Thank you for using WooCommerce :) Should you need help using or extending WooCommerce please <a href=\"%s\">read the documentation</a>. For further assistance you can use the <a href=\"%s\">community forum</a> or if you have access, <a href=\"%s\">our support desk</a>."
+msgstr "Bedankt voor het gebruik van WooCommerce :) Mocht u hulp nodig hebben met het gebruik of uitbreiden van WooCommerce <a href=\"%s\">lees dan de documentatie</a>. Voor verdere hulp kunt u gebruik maken van het <a href=\"%s\">community forum</a> of als u toegang hebt, <a href=\"%s\"> onze support desk</a>."
+
+#: admin/woocommerce-admin-content.php:31
+msgid "If you are having problems, or to assist us with support, please check the status page to identify any problems with your configuration:"
+msgstr "Als u problemen heeft, of om ons te helpen met ondersteuning, kijk dan op de status pagina om problemen met je configuratie te identificeren:"
+
+#: admin/woocommerce-admin-content.php:33 admin/woocommerce-admin-init.php:89
+#: admin/woocommerce-admin-status.php:26
+msgid "System Status"
+msgstr "Systeem status"
+
+#: admin/woocommerce-admin-content.php:35
+msgid "If you come across a bug, or wish to contribute to the project you can also <a href=\"%s\">get involved on GitHub</a>."
+msgstr "Als u u een bug tegen komt of een bijdrage wilt leveren aan het project kunt u ook <a href=\"%s\">meedoen op GitHub</a>."
+
+#: admin/woocommerce-admin-content.php:43
+msgid "Here you can set up your store and customise it to fit your needs. The sections available from the settings page include:"
+msgstr "Hier kunt u uw webwinkel instellen en aanpassen naar uw behoeften. De secties beschikbaar op de instellingen pagina bevatten:"
+
+#: admin/woocommerce-admin-content.php:44
+msgid "General settings such as your shop base, currency, and script/styling options which affect features used in your store."
+msgstr "Algemene instellingen zoals uw winkel basis, valuta en script/opmaak opties welke functionaliteiten in uw winkel beïnvloeden."
+
+#: admin/woocommerce-admin-content.php:45
+#: admin/woocommerce-admin-settings.php:184
+msgid "Pages"
+msgstr "Pagina's"
+
+#: admin/woocommerce-admin-content.php:45
+msgid "This is where important store page are defined. You can also set up other pages (such as a Terms page) here."
+msgstr "Hier worden belangrijke winkelpagina's gedefinieerd. U kunt ook andere pagina's (zoals een Algemene voorwaarden pagina) hier instellen."
+
+#: admin/woocommerce-admin-content.php:46
+msgid "Options for how things like price, images and weights appear in your product catalog."
+msgstr "Opties voor hoe zaken zoals zoals prijs, afbeeldingen en gewichten verschijnen in uw product catalogus."
+
+#: admin/woocommerce-admin-content.php:47
+msgid "Options concerning stock and stock notices."
+msgstr "Opties met betrekking tot voorraad en voorraad meldingen."
+
+#: admin/woocommerce-admin-content.php:48
+msgid "Options concerning tax, including international and local tax rates."
+msgstr "Opties met betrekking tot belastingen, inclusief internationale en lokale belastingtarieven."
+
+#: admin/woocommerce-admin-content.php:49
+msgid "This is where shipping options are defined, and shipping methods are set up."
+msgstr "Hier worden verzending opties gedefinieerd en verzendmethoden ingesteld."
+
+#: admin/woocommerce-admin-content.php:50
+msgid "Payment Methods"
+msgstr "Betaalmethoden"
+
+#: admin/woocommerce-admin-content.php:50
+msgid "This is where payment gateway options are defined, and individual payment gateways are set up."
+msgstr "Hier worden betaalmethoden opties gedefinieerd en individuele betaalmethoden ingesteld."
+
+#: admin/woocommerce-admin-content.php:51
+#: admin/woocommerce-admin-settings.php:189
+msgid "Emails"
+msgstr "E-mails"
+
+#: admin/woocommerce-admin-content.php:51
+msgid "Here you can customise the way WooCommerce emails appear."
+msgstr "Hier kunt u de de weergave van WooCommerce e-mails aanpassen."
+
+#: admin/woocommerce-admin-content.php:52
+#: admin/woocommerce-admin-settings.php:190
+msgid "Integration"
+msgstr "Integratie"
+
+#: admin/woocommerce-admin-content.php:52
+msgid "The integration section contains options for third party services which integrate with WooCommerce."
+msgstr "De integratie sectie bevat opties voor diensten van derden die integreren met WooCommerce."
+
+#: admin/woocommerce-admin-content.php:57 admin/woocommerce-admin-init.php:64
+msgid "Reports"
+msgstr "Rapporten"
+
+#: admin/woocommerce-admin-content.php:59
+msgid "The reports section can be accessed from the left-hand navigation menu. Here you can generate reports for sales and customers."
+msgstr "De rapporten sectie kan worden geopend vanuit het linker navigatiemenu. Hier kunt u rapporten genereren van omzet en klanten."
+
+#: admin/woocommerce-admin-content.php:60
+#: admin/woocommerce-admin-reports.php:23
+#: admin/woocommerce-admin-reports.php:997
+#: admin/woocommerce-admin-reports.php:1095
+#: admin/woocommerce-admin-reports.php:1214
+msgid "Sales"
+msgstr "Omzet"
+
+#: admin/woocommerce-admin-content.php:60
+msgid "Reports for sales based on date, top sellers and top earners."
+msgstr "Rapporten voor omzet gebaseerd op datum, top verkopers en top verdieners."
+
+#: admin/woocommerce-admin-content.php:61
+msgid "Coupon usage reports."
+msgstr "Coupon gebruik rapporten"
+
+#: admin/woocommerce-admin-content.php:62
+#: admin/woocommerce-admin-reports.php:79
+msgid "Customers"
+msgstr "Klanten"
+
+#: admin/woocommerce-admin-content.php:62
+msgid "Customer reports, such as signups per day."
+msgstr "Klant rapporten, zoals aanmeldingen per dag."
+
+#: admin/woocommerce-admin-content.php:63
+msgid "Stock reports for low stock and out of stock items."
+msgstr "Voorraad rapporten voor lage voorraad en niet in voorraad items."
+
+#: admin/woocommerce-admin-content.php:68
+#: admin/woocommerce-admin-dashboard.php:142
+msgid "Orders"
+msgstr "Bestellingen"
+
+#: admin/woocommerce-admin-content.php:70
+msgid "The orders section can be accessed from the left-hand navigation menu. Here you can view and manage customer orders."
+msgstr "De bestellingen sectie kan geopend worden vanuit het linker navigatiemenu. Hier kunt u klant bestellingen bekijken en beheren."
+
+#: admin/woocommerce-admin-content.php:71
+msgid "Orders can also be added from this section if you want to set them up for a customer manually."
+msgstr "Bestellingen kunnen ook toegevoegd worden in deze sectie als u deze handmatig voor een klant wilt opzetten."
+
+#: admin/woocommerce-admin-content.php:78
+msgid "Coupons can be managed from this section. Once added, customers will be able to enter coupon codes on the cart/checkout page. If a customer uses a coupon code they will be viewable when viewing orders."
+msgstr "Coupons kunnen worden beheerd vanuit deze sectie. Eenmaal toegevoegd zullen klanten in staat zijn om coupon codes in te voeren op de winkelwagen/afrekenen pagina. Als een klant gebruik maakt van een kortingscode zal dit zichtbaar zijn bij het bekijken van bestellingen."
+
+#: admin/woocommerce-admin-content.php:82
+msgid "For more information:"
+msgstr "Voor meer informatie:"
+
+#: admin/woocommerce-admin-content.php:83 admin/woocommerce-admin-init.php:62
+#: admin/woocommerce-admin-init.php:71 admin/woocommerce-admin-init.php:404
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: admin/woocommerce-admin-content.php:84
+msgid "Project on WordPress.org"
+msgstr "Project op WordPress.org"
+
+#: admin/woocommerce-admin-content.php:85
+msgid "Project on Github"
+msgstr "Project op Github"
+
+#: admin/woocommerce-admin-content.php:86
+msgid "WooCommerce Docs"
+msgstr "WooCommerce documentatie"
+
+#: admin/woocommerce-admin-content.php:87
+msgid "Official Extensions"
+msgstr "Officiële extensies"
+
+#: admin/woocommerce-admin-content.php:88
+msgid "Official Themes"
+msgstr "Officiële thema's"
+
+#: admin/woocommerce-admin-dashboard.php:40
+msgid "Monthly Sales"
+msgstr "Maandelijkse omzet"
+
+#: admin/woocommerce-admin-dashboard.php:43
+msgid "WooCommerce Right Now"
+msgstr "WooCommerce op dit moment"
+
+#: admin/woocommerce-admin-dashboard.php:44
+msgid "WooCommerce Recent Orders"
+msgstr "WooCommerce recente bestellingen"
+
+#: admin/woocommerce-admin-dashboard.php:45
+msgid "WooCommerce Recent Reviews"
+msgstr "WooCommerce recente reviews"
+
+#: admin/woocommerce-admin-dashboard.php:78
+msgid "Shop Content"
+msgstr "Winkel inhoud"
+
+#: admin/woocommerce-admin-dashboard.php:84
+#: admin/woocommerce-admin-functions.php:200
+#: admin/woocommerce-admin-init.php:761 admin/woocommerce-admin-reports.php:996
+#: admin/woocommerce-admin-reports.php:1094
+msgid "Product"
+msgid_plural "Products"
+msgstr[0] "Product"
+msgstr[1] "Producten"
 
 #: admin/woocommerce-admin-dashboard.php:98
 msgid "Product Category"
@@ -84,11 +593,106 @@ msgid_plural "Attributes"
 msgstr[0] "Attribuut"
 msgstr[1] "Attributen"
 
+#: admin/woocommerce-admin-dashboard.php:148
+msgid "Pending"
+msgstr "In behandeling"
+
+#: admin/woocommerce-admin-dashboard.php:162
+msgid "On-Hold"
+msgstr "In de wacht"
+
+#: admin/woocommerce-admin-dashboard.php:190
+msgid "Completed"
+msgstr "Voltooid"
+
+#: admin/woocommerce-admin-dashboard.php:207
+msgid "You are using <strong>WooCommerce %s</strong>."
+msgstr "U gebruikt <strong>WooCommerce %s</strong>."
+
+#: admin/woocommerce-admin-dashboard.php:238
+msgid "l jS \\of F Y h:i:s A"
+msgstr "j F Y H:i:s"
+
 #: admin/woocommerce-admin-dashboard.php:239
 msgid "item"
 msgid_plural "items"
 msgstr[0] "item"
 msgstr[1] "items"
+
+#: admin/woocommerce-admin-dashboard.php:239
+msgid "Total:"
+msgstr "Totaal:"
+
+#: admin/woocommerce-admin-dashboard.php:245
+msgid "There are no product orders yet."
+msgstr "Er zijn momenteel nog geen product bestellingen."
+
+#: admin/woocommerce-admin-dashboard.php:279
+msgid "out of 5"
+msgstr "van 5"
+
+#: admin/woocommerce-admin-dashboard.php:287
+msgid "There are no product reviews yet."
+msgstr "Er zijn nog geen product reviews."
+
+#: admin/woocommerce-admin-dashboard.php:428
+msgid "Sold"
+msgstr "Verkocht"
+
+#: admin/woocommerce-admin-dashboard.php:429
+msgid "Earned"
+msgstr "Verdiend"
+
+#: admin/woocommerce-admin-functions.php:190
+#: admin/woocommerce-admin-install.php:225
+msgid "Order Received"
+msgstr "Bestelling ontvangen"
+
+#: admin/woocommerce-admin-functions.php:192
+msgid "Thank you, we are now processing your order. Your order's details are below."
+msgstr "Bedankt, we verwerken nu uw bestelling. Uw bestelling gegevens vindt u hieronder."
+
+#: admin/woocommerce-admin-functions.php:194
+msgid "Order:"
+msgstr "Bestelling:"
+
+#: admin/woocommerce-admin-functions.php:201
+msgid "Quantity"
+msgstr "Aantal"
+
+#: admin/woocommerce-admin-functions.php:214
+msgid "Order total:"
+msgstr "Bestelling totaal:"
+
+#: admin/woocommerce-admin-functions.php:220
+msgid "Customer details"
+msgstr "Klantgegevens"
+
+#: admin/woocommerce-admin-functions.php:226
+msgid "Billing address"
+msgstr "Factuuradres"
+
+#: admin/woocommerce-admin-functions.php:233
+msgid "Shipping address"
+msgstr "Verzendadres"
+
+#: admin/woocommerce-admin-functions.php:465
+msgid "Could not compile woocommerce.less:"
+msgstr "Kon woocommerce.less niet compileren:"
+
+#: admin/woocommerce-admin-functions.php:486
+#: admin/woocommerce-admin-functions.php:487
+msgid "Mark processing"
+msgstr "Markeer in verwerking"
+
+#: admin/woocommerce-admin-functions.php:489
+#: admin/woocommerce-admin-functions.php:490
+msgid "Mark completed"
+msgstr "Markeer voltooid"
+
+#: admin/woocommerce-admin-functions.php:527
+msgid "Order status changed by bulk edit:"
+msgstr "Bestelling status gewijzigd door bulk bewerken:"
 
 #: admin/woocommerce-admin-functions.php:550
 msgid "Order status changed."
@@ -96,30 +700,228 @@ msgid_plural "%s order statuses changed."
 msgstr[0] "Bestelling status gewijzigd."
 msgstr[1] "%s bestelling statussen gewijzigd."
 
-#: admin/woocommerce-admin-init.php:140 admin/woocommerce-admin-init.php:142
+#: admin/woocommerce-admin-init.php:88
+msgid "WooCommerce Settings"
+msgstr "WooCommerce instellingen"
+
+#: admin/woocommerce-admin-init.php:89
+msgid "WooCommerce Status"
+msgstr "WooCommerce status"
+
+#: admin/woocommerce-admin-init.php:142 admin/woocommerce-admin-init.php:144
 msgctxt "Admin menu name"
 msgid "Orders"
 msgstr "Bestellingen"
 
-#: admin/woocommerce-admin-init.php:740
+#: admin/woocommerce-admin-init.php:433
+msgid "Are you sure you want to remove the selected items? If you have previously reduced this item's stock, or this order was submitted by a customer, you will need to manually restore the item's stock."
+msgstr "Weet u zeker dat u de geselecteerde items wilt verwijderen? Als u al eerder de voorraad van dit item heeft verlaagd of deze bestelling werd ingediend door een klant moet u handmatig de voorraad van dit item herstellen."
+
+#: admin/woocommerce-admin-init.php:434
+msgid "Please select some items."
+msgstr "Selecteer een aantal items."
+
+#: admin/woocommerce-admin-init.php:435
+msgid "Remove this item meta?"
+msgstr "Verwijder dit item meta?"
+
+#: admin/woocommerce-admin-init.php:436
+msgid "Remove this attribute?"
+msgstr "Verwijder dit attribuut?"
+
+#: admin/woocommerce-admin-init.php:444
+msgid "Enter a name for the new attribute term:"
+msgstr "Voer een naam in voor de nieuwe attribuut term:"
+
+#: admin/woocommerce-admin-init.php:445
+msgid "Calculate totals based on order items, discounts, and shipping?"
+msgstr "Bereken totalen gebaseerd op bestelling items, kortingen en verzending?"
+
+#: admin/woocommerce-admin-init.php:446
+msgid "Calculate line taxes? This will calculate taxes based on the customers country. If no billing/shipping is set it will use the store base country."
+msgstr "Bereken regel belastingen? Dit berekent belastingen op basis van het land van de klanten. Als geen factuur/verzending is ingesteld zal de winkel basis land gebruikt worden."
+
+#: admin/woocommerce-admin-init.php:447
+msgid "Copy billing information to shipping information? This will remove any currently entered shipping information."
+msgstr "Kopieer factuurgegevens naar de verzendgegevens? Dit verwijderd alle reeds ingevoerde verzendgegevens."
+
+#: admin/woocommerce-admin-init.php:448
+msgid "Load the customer's billing information? This will remove any currently entered billing information."
+msgstr "De klant factuurgegevens inladen? Dit verwijdert alle momenteel ingevoerde factuurgegevens."
+
+#: admin/woocommerce-admin-init.php:449
+msgid "Load the customer's shipping information? This will remove any currently entered shipping information."
+msgstr "De klant verzendgegevens inladen? Dit verwijdert alle momenteel ingevoerde verzendgegevens. "
+
+#: admin/woocommerce-admin-init.php:453
+msgid "No customer selected"
+msgstr "Geen klant geselecteerd"
+
+#: admin/woocommerce-admin-init.php:665
+msgid "Product updated. <a href=\"%s\">View Product</a>"
+msgstr "Product bijgewerkt. <a href=\"%s\">Bekijk product</a>"
+
+#: admin/woocommerce-admin-init.php:666 admin/woocommerce-admin-init.php:681
+#: admin/woocommerce-admin-init.php:696
+msgid "Custom field updated."
+msgstr "Maatwerk veld bijgewerkt."
+
+#: admin/woocommerce-admin-init.php:667 admin/woocommerce-admin-init.php:682
+#: admin/woocommerce-admin-init.php:697
+msgid "Custom field deleted."
+msgstr "Maatwerk veld verwijderd."
+
+#: admin/woocommerce-admin-init.php:668
+msgid "Product updated."
+msgstr "Product bijgewerkt."
+
+#: admin/woocommerce-admin-init.php:669
+msgid "Product restored to revision from %s"
+msgstr "Product hersteld naar revisie van %s"
+
+#: admin/woocommerce-admin-init.php:670
+msgid "Product published. <a href=\"%s\">View Product</a>"
+msgstr "Product gepubliceerd. <a href=\"%s\">Bekijk product</a>"
+
+#: admin/woocommerce-admin-init.php:671
+msgid "Product saved."
+msgstr "Product opgeslagen."
+
+#: admin/woocommerce-admin-init.php:672
+msgid "Product submitted. <a target=\"_blank\" href=\"%s\">Preview Product</a>"
+msgstr "Product geplaatst. <a target=\"_blank\" href=\"%s\">Preview product</a>"
+
+#: admin/woocommerce-admin-init.php:673
+msgid "Product scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview Product</a>"
+msgstr "Product ingepland voor: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview product</a>"
+
+#: admin/woocommerce-admin-init.php:674 admin/woocommerce-admin-init.php:689
+#: admin/woocommerce-admin-init.php:704
+msgid "M j, Y @ G:i"
+msgstr "j M Y @ G:i"
+
+#: admin/woocommerce-admin-init.php:675
+msgid "Product draft updated. <a target=\"_blank\" href=\"%s\">Preview Product</a>"
+msgstr "Product concept bijgewerkt. <a target=\"_blank\" href=\"%s\">Preview product</a>"
+
+#: admin/woocommerce-admin-init.php:680 admin/woocommerce-admin-init.php:683
+#: admin/woocommerce-admin-init.php:685
+msgid "Order updated."
+msgstr "Bestelling bijgewerkt."
+
+#: admin/woocommerce-admin-init.php:684
+msgid "Order restored to revision from %s"
+msgstr "Bestelling hersteld naar revisie van %s"
+
+#: admin/woocommerce-admin-init.php:686
+msgid "Order saved."
+msgstr "Bestelling opgeslagen."
+
+#: admin/woocommerce-admin-init.php:687
+msgid "Order submitted."
+msgstr "Bestelling geplaatst."
+
+#: admin/woocommerce-admin-init.php:688
+msgid "Order scheduled for: <strong>%1$s</strong>."
+msgstr "Bestelling ingepland voor: <strong>%1$s</strong>."
+
+#: admin/woocommerce-admin-init.php:690
+msgid "Order draft updated."
+msgstr "Bestelling concept bijgewerkt."
+
+#: admin/woocommerce-admin-init.php:695 admin/woocommerce-admin-init.php:698
+#: admin/woocommerce-admin-init.php:700
+msgid "Coupon updated."
+msgstr "Coupon bijgewerkt."
+
+#: admin/woocommerce-admin-init.php:699
+msgid "Coupon restored to revision from %s"
+msgstr "Coupon hersteld naar revisie van %s"
+
+#: admin/woocommerce-admin-init.php:701
+msgid "Coupon saved."
+msgstr "Coupon opgeslagen."
+
+#: admin/woocommerce-admin-init.php:702
+msgid "Coupon submitted."
+msgstr "Coupon geplaatst."
+
+#: admin/woocommerce-admin-init.php:703
+msgid "Coupon scheduled for: <strong>%1$s</strong>."
+msgstr "Coupon gepland voor:<strong>%1$s</strong>."
+
+#: admin/woocommerce-admin-init.php:705
+msgid "Coupon draft updated."
+msgstr "Coupon concept bijgewerkt."
+
+#: admin/woocommerce-admin-init.php:722
+msgid "Order notes"
+msgstr "Bestelling opmerkingen"
+
+#: admin/woocommerce-admin-init.php:737
+msgid "These settings control the permalinks used for products. These settings only apply when <strong>not using \"default\" permalinks above</strong>."
+msgstr "Deze instellingen bepalen de permalinks gebruikt voor producten. Deze instellingen zijn alleen van toepassing als u <strong>hierboven niet \"standaard\" permalinks gebruikt</strong>."
+
+#: admin/woocommerce-admin-init.php:744
 msgctxt "default-slug"
 msgid "shop"
 msgstr "winkel"
 
-#: admin/woocommerce-admin-init.php:741
+#: admin/woocommerce-admin-init.php:745
 msgctxt "default-slug"
 msgid "product"
 msgstr "product"
+
+#: admin/woocommerce-admin-init.php:766
+msgid "Shop base"
+msgstr "Winkel basis"
+
+#: admin/woocommerce-admin-init.php:770
+msgid "Shop base with category"
+msgstr "Winkel basis met categorie"
+
+#: admin/woocommerce-admin-init.php:776
+msgid "Custom Base"
+msgstr "Maatwerk basis"
+
+#: admin/woocommerce-admin-init.php:778
+msgid "Enter a custom base to use. A base <strong>must</strong> be set or WordPress will use default instead."
+msgstr "Voer een aangepaste basis in om te gebruiken. Een basis <strong>moet</strong> ingesteld worden anders zal WordPress de standaard gebruiken."
+
+#: admin/woocommerce-admin-init.php:806
+msgid "Product permalink base"
+msgstr "Product permalink basis"
+
+#: admin/woocommerce-admin-init.php:811
+msgid "Product category base"
+msgstr "Product categorie basis"
+
+#: admin/woocommerce-admin-init.php:818
+msgid "Product tag base"
+msgstr "Product tag basis"
+
+#: admin/woocommerce-admin-init.php:825
+msgid "Product attribute base"
+msgstr "Product attribuut basis"
 
 #: admin/woocommerce-admin-install.php:195
 msgctxt "page_slug"
 msgid "shop"
 msgstr "winkel"
 
+#: admin/woocommerce-admin-install.php:195
+msgid "Shop"
+msgstr "Winkel"
+
 #: admin/woocommerce-admin-install.php:198
 msgctxt "page_slug"
 msgid "cart"
 msgstr "winkelwagen"
+
+#: admin/woocommerce-admin-install.php:198
+#: admin/woocommerce-admin-status.php:303
+msgid "Cart"
+msgstr "Winkelwagen"
 
 #: admin/woocommerce-admin-install.php:201
 msgctxt "page_slug"
@@ -131,48 +933,901 @@ msgctxt "page_slug"
 msgid "my-account"
 msgstr "mijn-account"
 
+#: admin/woocommerce-admin-install.php:204
+#: admin/woocommerce-admin-status.php:319
+msgid "My Account"
+msgstr "Mijn account"
+
 #: admin/woocommerce-admin-install.php:210
 msgctxt "page_slug"
 msgid "edit-address"
 msgstr "bewerk-adres"
+
+#: admin/woocommerce-admin-install.php:210
+msgid "Edit My Address"
+msgstr "Wijzig mijn adres"
 
 #: admin/woocommerce-admin-install.php:213
 msgctxt "page_slug"
 msgid "view-order"
 msgstr "bekijk-bestelling"
 
+#: admin/woocommerce-admin-install.php:213
+#: admin/woocommerce-admin-status.php:327
+msgid "View Order"
+msgstr "Bekijk bestelling"
+
 #: admin/woocommerce-admin-install.php:216
 msgctxt "page_slug"
 msgid "change-password"
 msgstr "wachtwoord-wijzigen"
+
+#: admin/woocommerce-admin-install.php:216
+#: admin/woocommerce-admin-status.php:331
+msgid "Change Password"
+msgstr "Wachtwoord wijzigen"
 
 #: admin/woocommerce-admin-install.php:219
 msgctxt "page_slug"
 msgid "logout"
 msgstr "uitloggen"
 
+#: admin/woocommerce-admin-install.php:219
+msgid "Logout"
+msgstr "Uitloggen"
+
 #: admin/woocommerce-admin-install.php:222
 msgctxt "page_slug"
 msgid "pay"
 msgstr "betalen"
+
+#: admin/woocommerce-admin-install.php:222
+msgid "Checkout &rarr; Pay"
+msgstr "Afrekenen &rarr; Betaal"
 
 #: admin/woocommerce-admin-install.php:225
 msgctxt "page_slug"
 msgid "order-received"
 msgstr "bestelling-ontvangen"
 
-#: admin/woocommerce-admin-reports.php:1403
+#: admin/woocommerce-admin-reports.php:32
+msgid "Sales by day"
+msgstr "Omzet per dag"
+
+#: admin/woocommerce-admin-reports.php:37
+msgid "Sales by month"
+msgstr "Omzet per maand"
+
+#: admin/woocommerce-admin-reports.php:42
+msgid "Product Sales"
+msgstr "Product omzet"
+
+#: admin/woocommerce-admin-reports.php:47
+msgid "Top sellers"
+msgstr "Top verkopers"
+
+#: admin/woocommerce-admin-reports.php:52
+msgid "Top earners"
+msgstr "Top verdieners"
+
+#: admin/woocommerce-admin-reports.php:57
+msgid "Sales by category"
+msgstr "Verkopen per categorie"
+
+#: admin/woocommerce-admin-reports.php:72
+msgid "Discounts by coupon"
+msgstr "Kortingen per coupon"
+
+#: admin/woocommerce-admin-reports.php:104
+msgid "Taxes by month"
+msgstr "Belastingen per maand"
+
+#: admin/woocommerce-admin-reports.php:243
+#: admin/woocommerce-admin-reports.php:508
+#: admin/woocommerce-admin-reports.php:713
+#: admin/woocommerce-admin-reports.php:894
+msgid "Sales amount"
+msgstr "Omzet hoeveelheid"
+
+#: admin/woocommerce-admin-reports.php:248
+#: admin/woocommerce-admin-reports.php:508
+#: admin/woocommerce-admin-reports.php:713
+#: admin/woocommerce-admin-reports.php:894
+msgid "Number of sales"
+msgstr "Aantal verkopen"
+
+#: admin/woocommerce-admin-reports.php:380
+msgid "Total sales"
+msgstr "Totale omzet"
+
+#: admin/woocommerce-admin-reports.php:382
+#: admin/woocommerce-admin-reports.php:388
+#: admin/woocommerce-admin-reports.php:394
+#: admin/woocommerce-admin-reports.php:400
+#: admin/woocommerce-admin-reports.php:406
+#: admin/woocommerce-admin-reports.php:412
+#: admin/woocommerce-admin-reports.php:655
+#: admin/woocommerce-admin-reports.php:661
+#: admin/woocommerce-admin-reports.php:667
+#: admin/woocommerce-admin-reports.php:673
+#: admin/woocommerce-admin-reports.php:839
+#: admin/woocommerce-admin-reports.php:845
+#: admin/woocommerce-admin-reports.php:851
+#: admin/woocommerce-admin-reports.php:857
+#: admin/woocommerce-admin-reports.php:1380
+#: admin/woocommerce-admin-reports.php:1386
+#: admin/woocommerce-admin-reports.php:1392
+#: admin/woocommerce-admin-reports.php:1826
+#: admin/woocommerce-admin-reports.php:1832
+#: admin/woocommerce-admin-reports.php:1838
+#: admin/woocommerce-admin-reports.php:1844
+#: admin/woocommerce-admin-reports.php:1850
+#: admin/woocommerce-admin-reports.php:1856
+#: admin/woocommerce-admin-reports.php:2320
+#: admin/woocommerce-admin-reports.php:2331
+#: admin/woocommerce-admin-reports.php:2342
+msgid "n/a"
+msgstr "niet beschikbaar"
+
+#: admin/woocommerce-admin-reports.php:386
+msgid "Total orders"
+msgstr "Totaal aantal bestellingen"
+
+#: admin/woocommerce-admin-reports.php:388
+#: admin/woocommerce-admin-reports.php:661
+#: admin/woocommerce-admin-reports.php:845
+msgid "items"
+msgstr "items"
+
+#: admin/woocommerce-admin-reports.php:392
+msgid "Average order total"
+msgstr "Gemiddelde bestelling in totaal"
+
+#: admin/woocommerce-admin-reports.php:398
+msgid "Average order items"
+msgstr "Gemiddelde bestelling items"
+
+#: admin/woocommerce-admin-reports.php:404
+msgid "Discounts used"
+msgstr "Gebruikte kortingen"
+
+#: admin/woocommerce-admin-reports.php:410
+msgid "Total shipping costs"
+msgstr "Totale verzending kosten"
+
+#: admin/woocommerce-admin-reports.php:418
+msgid "This month's sales"
+msgstr "Deze maand verkopen"
+
+#: admin/woocommerce-admin-reports.php:647
+#: admin/woocommerce-admin-reports.php:991
+#: admin/woocommerce-admin-reports.php:1089
+#: admin/woocommerce-admin-reports.php:1372
+msgid "From:"
+msgstr "Van:"
+
+#: admin/woocommerce-admin-reports.php:647
+#: admin/woocommerce-admin-reports.php:991
+#: admin/woocommerce-admin-reports.php:1089
+#: admin/woocommerce-admin-reports.php:1372
+msgid "To:"
+msgstr "Naar:"
+
+#: admin/woocommerce-admin-reports.php:647
+#: admin/woocommerce-admin-reports.php:832
+#: admin/woocommerce-admin-reports.php:991
+#: admin/woocommerce-admin-reports.php:1089
+#: admin/woocommerce-admin-reports.php:1245
+#: admin/woocommerce-admin-reports.php:1372
+#: admin/woocommerce-admin-reports.php:1505
+#: admin/woocommerce-admin-reports.php:2309
+#: admin/woocommerce-admin-reports.php:2492
+msgid "Show"
+msgstr "Tonen"
+
+#: admin/woocommerce-admin-reports.php:653
+msgid "Total sales in range"
+msgstr "Totale omzet in periode"
+
+#: admin/woocommerce-admin-reports.php:659
+msgid "Total orders in range"
+msgstr "Totaal aantal bestellingen in bereik"
+
+#: admin/woocommerce-admin-reports.php:665
+msgid "Average order total in range"
+msgstr "Gemiddelde bestelling totaal in periode"
+
+#: admin/woocommerce-admin-reports.php:671
+msgid "Average order items in range"
+msgstr "Gemiddelde bestelling items in periode"
+
+#: admin/woocommerce-admin-reports.php:679
+msgid "Sales in range"
+msgstr "Omzet in periode"
+
+#: admin/woocommerce-admin-reports.php:826
+#: admin/woocommerce-admin-reports.php:2303
+msgid "Year:"
+msgstr "Jaar:"
+
+#: admin/woocommerce-admin-reports.php:837
+msgid "Total sales for year"
+msgstr "Totaal omzet per jaar"
+
+#: admin/woocommerce-admin-reports.php:843
+msgid "Total orders for year"
+msgstr "Totaal bestellingen voor jaar"
+
+#: admin/woocommerce-admin-reports.php:849
+msgid "Average order total for year"
+msgstr "Gemiddelde bestelling totaal voor jaar"
+
+#: admin/woocommerce-admin-reports.php:855
+msgid "Average order items for year"
+msgstr "Gemiddelde bestelling items voor jaar"
+
+#: admin/woocommerce-admin-reports.php:863
+msgid "Monthly sales for year"
+msgstr "Maandelijkse omzet voor jaar"
+
+#: admin/woocommerce-admin-reports.php:1011
+msgid "Product does not exist"
+msgstr "Product bestaat niet"
+
+#: admin/woocommerce-admin-reports.php:1110
+msgid "Product no longer exists"
+msgstr "Product bestaat niet meer"
+
+#: admin/woocommerce-admin-reports.php:1209
+msgid "Sales for %s:"
+msgstr "Omzet voor %s:"
+
+#: admin/woocommerce-admin-reports.php:1213
+#: admin/woocommerce-admin-reports.php:2351
+msgid "Month"
+msgstr "Maand"
+
+#: admin/woocommerce-admin-reports.php:1235
+msgid "No sales :("
+msgstr "Geen omzet :("
+
+#: admin/woocommerce-admin-reports.php:1378
+msgid "Total orders containing coupons"
+msgstr "Totaal aantal bestellingen met coupons"
+
+#: admin/woocommerce-admin-reports.php:1384
+msgid "Percent of orders containing coupons"
+msgstr "Percentage bestellingen met coupons"
+
+#: admin/woocommerce-admin-reports.php:1390
+msgid "Total coupon discount"
+msgstr "Totale coupon korting"
+
+#: admin/woocommerce-admin-reports.php:1399
+msgid "Most popular coupons"
+msgstr "Meest populaire coupons"
+
+#: admin/woocommerce-admin-reports.php:1409
 msgid "Used 1 time"
 msgid_plural "Used %d times"
 msgstr[0] "1 keer gebruikt"
 msgstr[1] "%d keer gebruikt"
 
-#: admin/woocommerce-admin-reports.php:2100
-#: admin/woocommerce-admin-reports.php:2139
+#: admin/woocommerce-admin-reports.php:1412
+#: admin/woocommerce-admin-reports.php:1434
+msgid "No coupons found"
+msgstr "Geen coupons gevonden"
+
+#: admin/woocommerce-admin-reports.php:1421
+msgid "Greatest discount amount"
+msgstr "Grootste kortingsbedrag"
+
+#: admin/woocommerce-admin-reports.php:1431
+msgid "Discounted %s"
+msgstr "Korting %s"
+
+#: admin/woocommerce-admin-reports.php:1490
+#: admin/woocommerce-admin-reports.php:2469
+msgid "Show:"
+msgstr "Toon:"
+
+#: admin/woocommerce-admin-reports.php:1547
+msgid "Coupon"
+msgstr "Coupon"
+
+#: admin/woocommerce-admin-reports.php:1630
+msgid "Top coupon"
+msgstr "Beste coupon"
+
+#: admin/woocommerce-admin-reports.php:1638
+msgid "Worst coupon"
+msgstr "Slechtste coupon"
+
+#: admin/woocommerce-admin-reports.php:1646
+msgid "Discount average"
+msgstr "Korting gemiddelde"
+
+#: admin/woocommerce-admin-reports.php:1654
+msgid "Discount median"
+msgstr "Korting mediaan"
+
+#: admin/woocommerce-admin-reports.php:1674
+msgid "Monthly discounts by coupon"
+msgstr "Maandelijkse kortingen per coupon"
+
+#: admin/woocommerce-admin-reports.php:1824
+msgid "Total customers"
+msgstr "Totaal aantal klanten"
+
+#: admin/woocommerce-admin-reports.php:1830
+msgid "Total customer sales"
+msgstr "Totale klanten omzet"
+
+#: admin/woocommerce-admin-reports.php:1836
+msgid "Total guest sales"
+msgstr "Totale gasten omzet"
+
+#: admin/woocommerce-admin-reports.php:1842
+msgid "Total customer orders"
+msgstr "Totaal aantal bestellingen van klanten"
+
+#: admin/woocommerce-admin-reports.php:1848
+msgid "Total guest orders"
+msgstr "Totaal aantal bestellingen van gasten"
+
+#: admin/woocommerce-admin-reports.php:1854
+msgid "Average orders per customer"
+msgstr "Gemiddelde bestelling per klant"
+
+#: admin/woocommerce-admin-reports.php:1862
+msgid "Signups per day"
+msgstr "Aanmeldingen per dag"
+
+#: admin/woocommerce-admin-reports.php:2083
+msgid "Low stock"
+msgstr "Lage voorraad"
+
+#: admin/woocommerce-admin-reports.php:2106
+#: admin/woocommerce-admin-reports.php:2145
 msgid "%d in stock"
 msgid_plural "%d in stock"
 msgstr[0] "%d in voorraad"
 msgstr[1] "%d in voorraad"
+
+#: admin/woocommerce-admin-reports.php:2111
+msgid "No products are low in stock."
+msgstr "Geen producten met een lage voorraad."
+
+#: admin/woocommerce-admin-reports.php:2143
+msgid "Marked out of stock"
+msgstr "Gemarkeerd als niet in voorraad"
+
+#: admin/woocommerce-admin-reports.php:2150
+msgid "No products are out in stock."
+msgstr "Geen producten zijn uit voorraad."
+
+#: admin/woocommerce-admin-reports.php:2314
+msgid "Total taxes for year"
+msgstr "Totaal belastingen voor jaar"
+
+#: admin/woocommerce-admin-reports.php:2325
+msgid "Total product taxes for year"
+msgstr "Totaal product belastingen voor jaar"
+
+#: admin/woocommerce-admin-reports.php:2336
+msgid "Total shipping tax for year"
+msgstr "Totaal verzending belastingen voor jaar"
+
+#: admin/woocommerce-admin-reports.php:2352
+msgid "Total Sales"
+msgstr "Totale omzet"
+
+#: admin/woocommerce-admin-reports.php:2352
+msgid "This is the sum of the 'Order Total' field within your orders."
+msgstr "Dit is de som van het 'Bestelling totaal' veld binnen uw bestellingen."
+
+#: admin/woocommerce-admin-reports.php:2353
+msgid "Total Shipping"
+msgstr "Totale verzending"
+
+#: admin/woocommerce-admin-reports.php:2353
+msgid "This is the sum of the 'Shipping Total' field within your orders."
+msgstr "Dit is de som van het 'Verzending totaal' veld binnen uw bestellingen."
+
+#: admin/woocommerce-admin-reports.php:2354
+msgid "Total Product Taxes"
+msgstr "Totaal product belastingen"
+
+#: admin/woocommerce-admin-reports.php:2354
+msgid "This is the sum of the 'Cart Tax' field within your orders."
+msgstr "Dit is de som van het 'Winkelwagen belasting' veld binnen uw bestellingen."
+
+#: admin/woocommerce-admin-reports.php:2355
+msgid "Total Shipping Taxes"
+msgstr "Totaal verzending belastingen"
+
+#: admin/woocommerce-admin-reports.php:2355
+msgid "This is the sum of the 'Shipping Tax' field within your orders."
+msgstr "Dit is de som van het 'Verzending belasting' veld binnen uw bestellingen."
+
+#: admin/woocommerce-admin-reports.php:2356
+msgid "Total Taxes"
+msgstr "Totaal belastingen"
+
+#: admin/woocommerce-admin-reports.php:2356
+msgid "This is the sum of the 'Cart Tax' and 'Shipping Tax' fields within your orders."
+msgstr "Dit is de som van de 'Winkelwagen belasting' en 'Verzending belasting' velden binnen uw bestellingen."
+
+#: admin/woocommerce-admin-reports.php:2357
+msgid "Net profit"
+msgstr "Nettowinst"
+
+#: admin/woocommerce-admin-reports.php:2357
+msgid "Total sales minus shipping and tax."
+msgstr "Totale omzet minus verzending en belasting."
+
+#: admin/woocommerce-admin-reports.php:2402
+msgid "Toggle tax rows"
+msgstr "Belasting rijen omschakelen"
+
+#: admin/woocommerce-admin-reports.php:2545
+msgid "Category"
+msgstr "Categorie"
+
+#: admin/woocommerce-admin-reports.php:2648
+msgid "Top category"
+msgstr "Top categorie"
+
+#: admin/woocommerce-admin-reports.php:2657
+msgid "Worst category"
+msgstr "Slechtste categorie"
+
+#: admin/woocommerce-admin-reports.php:2665
+msgid "Category sales average"
+msgstr "Categorie verkoop gemiddelde"
+
+#: admin/woocommerce-admin-reports.php:2676
+msgid "Category sales median"
+msgstr "Categorie verkoop mediaan"
+
+#: admin/woocommerce-admin-reports.php:2696
+msgid "Monthly sales by category"
+msgstr "Maandelijkse verkopen per categorie"
+
+#: admin/woocommerce-admin-settings.php:45
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Actie mislukt. Vernieuw de pagina en probeer het opnieuw."
+
+#: admin/woocommerce-admin-settings.php:164
+msgid "Your settings have been saved."
+msgstr "Uw instellingen zijn opgeslagen."
+
+#: admin/woocommerce-admin-settings.php:210
+msgid "More functionality and gateway options available via <a href=\"%s\" target=\"_blank\">WC official extensions</a>."
+msgstr "Meer functionaliteiten en gateway opties beschikbaar via <a href=\"%s\" target=\"_blank\">WC officiële extensies</a>."
+
+#: admin/woocommerce-admin-settings.php:228
+msgid "Tax Rates"
+msgstr "Belastingtarieven"
+
+#: admin/woocommerce-admin-settings.php:255
+msgid "Email Options"
+msgstr "E-mail opties"
+
+#: admin/woocommerce-admin-settings.php:388
+msgid "Save changes"
+msgstr "Wijzigingen opslaan"
+
+#: admin/woocommerce-admin-settings.php:429
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr "De wijzigingen die u gemaakt heeft zullen verloren gaan als u deze pagina verlaat."
+
+#: admin/woocommerce-admin-settings.php:801
+msgid "Hard Crop"
+msgstr "Hard bijsnijden"
+
+#: admin/woocommerce-admin-settings.php:826
+msgid "Select a page&hellip;"
+msgstr "Selecteer een pagina&hellip;"
+
+#: admin/woocommerce-admin-settings.php:849
+msgid "Choose a country&hellip;"
+msgstr "Kies een land&hellip;"
+
+#: admin/woocommerce-admin-settings.php:869
+msgid "Choose countries&hellip;"
+msgstr "Kies landen&hellip;"
+
+#: admin/woocommerce-admin-status.php:27 admin/woocommerce-admin-status.php:664
+msgid "Tools"
+msgstr "Tools"
+
+#: admin/woocommerce-admin-status.php:62
+msgid "Please include this information when requesting support:"
+msgstr "Gelieve deze informatie bijvoegen bij het aanvragen van ondersteuning:"
+
+#: admin/woocommerce-admin-status.php:63
+msgid "Download System Report File"
+msgstr "Download systeemrapport bestand"
+
+#: admin/woocommerce-admin-status.php:71
+msgid "Environment"
+msgstr "Omgeving"
+
+#: admin/woocommerce-admin-status.php:77
+msgid "Home URL"
+msgstr "Home URL"
+
+#: admin/woocommerce-admin-status.php:81
+msgid "Site URL"
+msgstr "Site URL"
+
+#: admin/woocommerce-admin-status.php:85
+msgid "WC Version"
+msgstr "Versie"
+
+#: admin/woocommerce-admin-status.php:89
+msgid "WC Database Version"
+msgstr "WC database versie"
+
+#: admin/woocommerce-admin-status.php:93
+msgid "WP Version"
+msgstr "WP versie"
+
+#: admin/woocommerce-admin-status.php:97
+msgid "Web Server Info"
+msgstr "Webserver info"
+
+#: admin/woocommerce-admin-status.php:101
+msgid "PHP Version"
+msgstr "PHP versie"
+
+#: admin/woocommerce-admin-status.php:105
+msgid "MySQL Version"
+msgstr "MySQL versie"
+
+#: admin/woocommerce-admin-status.php:109
+msgid "WP Memory Limit"
+msgstr "WP geheugen limiet"
+
+#: admin/woocommerce-admin-status.php:114
+msgid "%s - We recommend setting memory to at least 64MB. See: <a href=\"%s\">Increasing memory allocated to PHP</a>"
+msgstr "%s - Wij raden het aan om het geheugen minimaal op 64 MB in te stellen. Zie: <a href=\"%s\">Verhoog toegewezen geheugen aan PHP</a>"
+
+#: admin/woocommerce-admin-status.php:121
+msgid "WP Debug Mode"
+msgstr "WP debug mode"
+
+#: admin/woocommerce-admin-status.php:125
+msgid "WP Max Upload Size"
+msgstr "WP maximale upload grootte"
+
+#: admin/woocommerce-admin-status.php:129
+msgid "PHP Post Max Size"
+msgstr "PHP Post Max Size"
+
+#: admin/woocommerce-admin-status.php:133
+msgid "PHP Time Limit"
+msgstr "PHP Time Limit"
+
+#: admin/woocommerce-admin-status.php:137
+msgid "WC Logging"
+msgstr "WC logboek"
+
+#: admin/woocommerce-admin-status.php:140
+msgid "Log directory is writable."
+msgstr "Logboek map is beschrijfbaar."
+
+#: admin/woocommerce-admin-status.php:142
+msgid "Log directory (<code>woocommerce/logs/</code>) is not writable. Logging will not be possible."
+msgstr "Logboek map (<code>woocommerce/logs/</code>) is niet beschrijfbaar. Logboek bijhouden is niet mogelijk."
+
+#: admin/woocommerce-admin-status.php:149
+msgid "fsockopen/cURL"
+msgstr "fsockopen/cURL"
+
+#: admin/woocommerce-admin-status.php:152
+msgid "Your server has fsockopen and cURL enabled."
+msgstr "Uw server heeft fsockopen en cURL ingeschakeld."
+
+#: admin/woocommerce-admin-status.php:154
+msgid "Your server has fsockopen enabled, cURL is disabled."
+msgstr "Uw server heeft fsockopen ingeschakeld, cURL is uitgeschakeld."
+
+#: admin/woocommerce-admin-status.php:156
+msgid "Your server has cURL enabled, fsockopen is disabled."
+msgstr "Uw server heeft cURL ingeschakeld, fsockopen is uitgeschakeld."
+
+#: admin/woocommerce-admin-status.php:160
+msgid "Your server does not have fsockopen or cURL enabled - PayPal IPN and other scripts which communicate with other servers will not work. Contact your hosting provider."
+msgstr "Uw server heeft fsockopen of cURL niet ingeschakeld - PayPal IPN en andere scripts die communiceren ​​met andere servers zullen niet werken. Neem contact op met uw hosting provider."
+
+#: admin/woocommerce-admin-status.php:165
+msgid "SOAP Client"
+msgstr "SOAP Client"
+
+#: admin/woocommerce-admin-status.php:167
+msgid "Your server has the SOAP Client class enabled."
+msgstr "Uw server heeft de SOAP Client klasse ingeschakeld."
+
+#: admin/woocommerce-admin-status.php:170
+msgid "Your server does not have the <a href=\"%s\">SOAP Client</a> class enabled - some gateway plugins which use SOAP may not work as expected."
+msgstr "Uw server heeft niet de <a href=\"%s\">SOAP Client</a> klasse ingeschakeld - enkele gateway plugins die SOAP gebruiken werken mogelijk niet zoals verwacht."
+
+#: admin/woocommerce-admin-status.php:175
+msgid "WP Remote Post"
+msgstr "WP Remote Post"
+
+#: admin/woocommerce-admin-status.php:186
+msgid "wp_remote_post() was successful - PayPal IPN is working."
+msgstr "wp_remote_post () was succesvol - PayPal IPN werkt."
+
+#: admin/woocommerce-admin-status.php:189
+msgid "wp_remote_post() failed. PayPal IPN won't work with your server. Contact your hosting provider. Error:"
+msgstr "wp_remote_post() mislukt. PayPal IPN werkt niet met uw server. Neem contact op met uw hosting provider. Fout:"
+
+#: admin/woocommerce-admin-status.php:192
+msgid "wp_remote_post() failed. PayPal IPN may not work with your server."
+msgstr "wp_remote_post() mislukt. PayPal IPN werkt niet met uw server."
+
+#: admin/woocommerce-admin-status.php:215
+msgid "Plugins"
+msgstr "Plugins"
+
+#: admin/woocommerce-admin-status.php:221
+msgid "Installed Plugins"
+msgstr "Geïnstalleerde plugins"
+
+#: admin/woocommerce-admin-status.php:259
+msgid "is available"
+msgstr "is beschikbaar"
+
+#: admin/woocommerce-admin-status.php:262
+msgid "by"
+msgstr "door"
+
+#: admin/woocommerce-admin-status.php:262
+msgid "version"
+msgstr "versie"
+
+#: admin/woocommerce-admin-status.php:285
+msgid "Force SSL"
+msgstr "Forceer SSL"
+
+#: admin/woocommerce-admin-status.php:292
+msgid "WC Pages"
+msgstr "WC pagina's"
+
+#: admin/woocommerce-admin-status.php:299
+msgid "Shop Base"
+msgstr "Winkel basis"
+
+#: admin/woocommerce-admin-status.php:311
+msgid "Pay"
+msgstr "Betalen"
+
+#: admin/woocommerce-admin-status.php:315
+msgid "Thanks"
+msgstr "Bedankt"
+
+#: admin/woocommerce-admin-status.php:323
+msgid "Edit Address"
+msgstr "Bewerk adres"
+
+#: admin/woocommerce-admin-status.php:355
+msgid "Page not set"
+msgstr "Pagina niet ingesteld"
+
+#: admin/woocommerce-admin-status.php:365
+msgid "Page does not exist"
+msgstr "Pagina bestaat niet"
+
+#: admin/woocommerce-admin-status.php:370
+msgid "Page does not contain the shortcode: %s"
+msgstr "Pagina bevat niet de shortcode: %s"
+
+#: admin/woocommerce-admin-status.php:389
+msgid "WC Taxonomies"
+msgstr "WC taxonomieën"
+
+#: admin/woocommerce-admin-status.php:395
+msgid "Order Statuses"
+msgstr "Bestelling statussen"
+
+#: admin/woocommerce-admin-status.php:405
+msgid "Product Types"
+msgstr "Product types"
+
+#: admin/woocommerce-admin-status.php:418
+msgid "Templates"
+msgstr "Sjablonen"
+
+#: admin/woocommerce-admin-status.php:424
+msgid "Template Overrides"
+msgstr "Template overschrijvingen"
+
+#: admin/woocommerce-admin-status.php:442
+msgid "No core overrides present in theme."
+msgstr "Geen kern overschrijvingen aanwezig in thema."
+
+#: admin/woocommerce-admin-status.php:537
+msgid "WC Transients"
+msgstr "WC transiënte"
+
+#: admin/woocommerce-admin-status.php:538
+msgid "Clear transients"
+msgstr "Wis transiënte"
+
+#: admin/woocommerce-admin-status.php:539
+msgid "This tool will clear the product/shop transients cache."
+msgstr "Deze tool zal de product/winkel transiënte cache wissen."
+
+#: admin/woocommerce-admin-status.php:542
+msgid "Expired Transients"
+msgstr "Verlopen transiënte"
+
+#: admin/woocommerce-admin-status.php:543
+msgid "Clear expired transients"
+msgstr "Wis verlopen transiënte"
+
+#: admin/woocommerce-admin-status.php:544
+msgid "This tool will clear ALL expired transients from Wordpress."
+msgstr "Deze tool zal ALLE verlopen transiënte wissen van WordPress."
+
+#: admin/woocommerce-admin-status.php:547
+msgid "Term counts"
+msgstr "Term teller"
+
+#: admin/woocommerce-admin-status.php:548
+msgid "Recount terms"
+msgstr "Termen opnieuw tellen"
+
+#: admin/woocommerce-admin-status.php:549
+msgid "This tool will recount product terms - useful when changing your settings in a way which hides products from the catalog."
+msgstr "Deze tool zal product termen opnieuw tellen - handig voor wanneer u instellingen wijzigt in de manier waarop producten verborgen worden uit de catalogus."
+
+#: admin/woocommerce-admin-status.php:552
+msgid "Capabilities"
+msgstr "Capabiliteiten"
+
+#: admin/woocommerce-admin-status.php:553
+msgid "Reset capabilities"
+msgstr "Capabiliteiten opnieuw instellen"
+
+#: admin/woocommerce-admin-status.php:554
+msgid "This tool will reset the admin, customer and shop_manager roles to default. Use this if your users cannot access all of the WooCommerce admin pages."
+msgstr "Deze tool zal de admin, customer en shop_manager rollen herstellen naar de standaardinstellingen. Gebruik dit als uw gebruikers niet toegang hebben tot alle WooCommerce beheerder pagina's."
+
+#: admin/woocommerce-admin-status.php:557
+msgid "Customer Sessions"
+msgstr "Klant sessies"
+
+#: admin/woocommerce-admin-status.php:558
+msgid "Clear all sessions"
+msgstr "Alle sessies wissen"
+
+#: admin/woocommerce-admin-status.php:559
+msgid "<strong class=\"red\">Warning</strong> This tool will delete all customer session data from the database, including any current live carts."
+msgstr "<strong class=\"red\">Waarschuwing</strong> Deze tool zal alle klant sessie data verwijderen uit de database, inclusief huidige live winkelwagens."
+
+#: admin/woocommerce-admin-status.php:569
+msgid "Product Transients Cleared"
+msgstr "Product transiënte gewist"
+
+#: admin/woocommerce-admin-status.php:610
+msgid "%d Transients Rows Cleared"
+msgstr "%d transiënte rijen gewist"
+
+#: admin/woocommerce-admin-status.php:618
+msgid "Roles successfully reset"
+msgstr "Rollen succesvol herstelt"
+
+#: admin/woocommerce-admin-status.php:630
+msgid "Terms successfully recounted"
+msgstr "Termen succesvol opnieuw geteld"
+
+#: admin/woocommerce-admin-status.php:649
+msgid "There was an error calling %s::%s"
+msgstr "Er was een fout bij het aanroepen van %s::%s"
+
+#: admin/woocommerce-admin-status.php:652
+msgid "There was an error calling %s"
+msgstr "Er was een fout bij het aanroepen van %s"
+
+#: admin/woocommerce-admin-taxonomies.php:25
+#: admin/woocommerce-admin-taxonomies.php:118
+msgid "Display type"
+msgstr "Weergave type"
+
+#: admin/woocommerce-admin-taxonomies.php:29
+#: admin/woocommerce-admin-taxonomies.php:123
+msgid "Subcategories"
+msgstr "Subcategorieën"
+
+#: admin/woocommerce-admin-taxonomies.php:30
+#: admin/woocommerce-admin-taxonomies.php:124
+msgid "Both"
+msgstr "Beide"
+
+#: admin/woocommerce-admin-taxonomies.php:34
+#: admin/woocommerce-admin-taxonomies.php:129
+msgid "Thumbnail"
+msgstr "Miniatuur"
+
+#: admin/woocommerce-admin-taxonomies.php:38
+#: admin/woocommerce-admin-taxonomies.php:134
+msgid "Upload/Add image"
+msgstr "Afbeelding uploaden / toevoegen"
+
+#: admin/woocommerce-admin-taxonomies.php:39
+#: admin/woocommerce-admin-taxonomies.php:135
+msgid "Remove image"
+msgstr "Verwijder afbeelding"
+
+#: admin/woocommerce-admin-taxonomies.php:64
+#: admin/woocommerce-admin-taxonomies.php:156
+msgid "Use image"
+msgstr "Gebruik afbeelding"
+
+#: admin/woocommerce-admin-taxonomies.php:222
+msgid "Product categories for your store can be managed here. To change the order of categories on the front-end you can drag and drop to sort them. To see more categories listed click the \"screen options\" link at the top of the page."
+msgstr "Product categorieën voor uw winkel kunnen hier beheerd worden. Om de volgorde van de categorieën op de frontend te wijzigen kunt u drag en drop gebruiken om ze te sorteren. Om meer categorieën weer te geven klik de \"schermopties\" link aan de bovenkant van de pagina."
+
+#: admin/woocommerce-admin-taxonomies.php:237
+msgid "Shipping classes can be used to group products of similar type. These groups can then be used by certain shipping methods to provide different rates to different products."
+msgstr "Verzending klassen kunnen gebruikt worden om producten van dezelfde type te groeperen. Deze groepen kunnen vervolgens gebruikt worden bij bepaalde verzendmethoden om verschillende tarieven voor verschillende producten te hanteren."
+
+#: admin/woocommerce-admin-taxonomies.php:365
+msgid "Edit Class"
+msgstr "Klasse bewerken"
+
+#: admin/woocommerce-admin-users.php:26
+msgid "Billing Address"
+msgstr "Factuuradres"
+
+#: admin/woocommerce-admin-users.php:27
+msgid "Shipping Address"
+msgstr "Verzendadres"
+
+#: admin/woocommerce-admin-users.php:28
+msgid "Paying Customer?"
+msgstr "Betalende klant?"
+
+#: admin/woocommerce-admin-users.php:29
+msgid "Completed Orders"
+msgstr "Voltooide bestellingen"
+
+#: admin/woocommerce-admin-users.php:144
+msgid "Customer Billing Address"
+msgstr "Klant factuuradres"
+
+#: admin/woocommerce-admin-users.php:147 admin/woocommerce-admin-users.php:196
+msgid "First name"
+msgstr "Voornaam"
+
+#: admin/woocommerce-admin-users.php:151 admin/woocommerce-admin-users.php:200
+msgid "Last name"
+msgstr "Achternaam"
+
+#: admin/woocommerce-admin-users.php:176
+msgid "Country or state code"
+msgstr "Land- of staatcode"
+
+#: admin/woocommerce-admin-users.php:180 admin/woocommerce-admin-users.php:229
+msgid "2 letter Country code"
+msgstr "2-letterige landcode"
+
+#: admin/woocommerce-admin-users.php:183
+msgid "Telephone"
+msgstr "Telefoon"
+
+#: admin/woocommerce-admin-users.php:193
+msgid "Customer Shipping Address"
+msgstr "Klant verzendadres"
+
+#: admin/woocommerce-admin-users.php:225
+msgid "State/County or state code"
+msgstr "Staat/provincie of staatcode"
 
 #: admin/importers/importers-init.php:13
 msgid "WooCommerce Tax Rates (CSV)"
@@ -183,9 +1838,9 @@ msgid "Import <strong>tax rates</strong> to your store via a csv file."
 msgstr "Importeer <strong>belastingtarieven</strong> naar uw winkel via een CSV-bestand."
 
 #: admin/importers/tax-rates-importer.php:103
-#: admin/importers/tax-rates-importer.php:186
-#: admin/importers/tax-rates-importer.php:226
-#: admin/importers/tax-rates-importer.php:241
+#: admin/importers/tax-rates-importer.php:188
+#: admin/importers/tax-rates-importer.php:228
+#: admin/importers/tax-rates-importer.php:243
 msgid "Sorry, there has been an error."
 msgstr "Sorry, er is een fout opgetreden."
 
@@ -193,51 +1848,51 @@ msgstr "Sorry, er is een fout opgetreden."
 msgid "The file does not exist, please try again."
 msgstr "Dit bestand bestaat niet, probeer het opnieuw."
 
-#: admin/importers/tax-rates-importer.php:187
+#: admin/importers/tax-rates-importer.php:189
 msgid "The CSV is invalid."
 msgstr "De CSV is ongeldig."
 
-#: admin/importers/tax-rates-importer.php:198
+#: admin/importers/tax-rates-importer.php:200
 msgid "Import complete - imported <strong>%s</strong> tax rates and skipped <strong>%s</strong>."
 msgstr "Import voltooid - <strong>%s</strong> belastingtarieven geïmporteerd en <strong>%s</strong> overgeslagen."
 
-#: admin/importers/tax-rates-importer.php:208
+#: admin/importers/tax-rates-importer.php:210
 msgid "All done!"
 msgstr "Helemaal klaar!"
 
-#: admin/importers/tax-rates-importer.php:208
+#: admin/importers/tax-rates-importer.php:210
 msgid "View Tax Rates"
 msgstr "Bekijk belastingtarieven"
 
-#: admin/importers/tax-rates-importer.php:259
+#: admin/importers/tax-rates-importer.php:261
 msgid "Import Tax Rates"
 msgstr "Importeer belastingtarieven"
 
-#: admin/importers/tax-rates-importer.php:282
+#: admin/importers/tax-rates-importer.php:284
 msgid "Hi there! Upload a CSV file containing tax rates to import the contents into your shop. Choose a .csv file to upload, then click \"Upload file and import\"."
 msgstr "Hallo! Upload een CSV bestand met belastingtarieven om de inhoud te importeren naar uw winkel. Kies een .csv bestand om te uploaden en klik vervolgens op \"Upload bestand en importeer\"."
 
-#: admin/importers/tax-rates-importer.php:284
+#: admin/importers/tax-rates-importer.php:286
 msgid "Tax rates need to be defined with columns in a specific order (10 columns). <a href=\"%s\">Click here to download a sample</a>."
 msgstr "Belastingtarieven moeten worden gedefinieerd met kolommen in een specifieke volgorde (10 kolommen). <a href=\"%s\">Klik hier om een ​​voorbeeld te downloaden</a>."
 
-#: admin/importers/tax-rates-importer.php:292
+#: admin/importers/tax-rates-importer.php:294
 msgid "Before you can upload your import file, you will need to fix the following error:"
 msgstr "Voordat u een import bestand kunt uploaden moet u de volgende fouten corrigeren:"
 
-#: admin/importers/tax-rates-importer.php:301
+#: admin/importers/tax-rates-importer.php:303
 msgid "Choose a file from your computer:"
 msgstr "Kies een bestand van uw computer:"
 
-#: admin/importers/tax-rates-importer.php:307
+#: admin/importers/tax-rates-importer.php:309
 msgid "Maximum size: %s"
 msgstr "Maximum grootte: %s"
 
-#: admin/importers/tax-rates-importer.php:312
+#: admin/importers/tax-rates-importer.php:314
 msgid "OR enter path to file:"
 msgstr "OF voer bestandspad in:"
 
-#: admin/importers/tax-rates-importer.php:319
+#: admin/importers/tax-rates-importer.php:321
 msgid "Delimiter"
 msgstr "Scheidingsteken"
 
@@ -289,6 +1944,29 @@ msgstr "Voer de updater uit"
 msgid "It is strongly recommended that you backup your database before proceeding. Are you sure you wish to run the updater now?"
 msgstr "Het wordt geadviseerd om eerst een database back-up te maken voordat u verder gaat. Weet u zeker dat u nu de updater wilt uitvoeren?"
 
+#: admin/includes/updates/woocommerce-update-2.0.php:49
+#: admin/woocommerce-admin-init.php:885
+msgctxt "slug"
+msgid "product-category"
+msgstr "product-categorie"
+
+#: admin/includes/updates/woocommerce-update-2.0.php:50
+#: admin/woocommerce-admin-init.php:898
+msgctxt "slug"
+msgid "product-tag"
+msgstr "product-tag"
+
+#: admin/includes/updates/woocommerce-update-2.0.php:58
+msgctxt "slug"
+msgid "product"
+msgstr "product"
+
+#: admin/includes/updates/woocommerce-update-2.0.php:179
+#: admin/woocommerce-admin-install.php:207
+msgctxt "page_slug"
+msgid "lost-password"
+msgstr "wachtwoord-vergeten"
+
 #: admin/includes/updates/woocommerce-update-2.0.php:179
 #: admin/woocommerce-admin-install.php:207
 #: admin/woocommerce-admin-status.php:335
@@ -324,7 +2002,7 @@ msgid "Version %s"
 msgstr "Versie %s"
 
 #: admin/includes/welcome.php:153 admin/woocommerce-admin-content.php:41
-#: admin/woocommerce-admin-init.php:86 admin/woocommerce-admin-status.php:278
+#: admin/woocommerce-admin-init.php:88 admin/woocommerce-admin-status.php:278
 msgid "Settings"
 msgstr "Instellingen"
 
@@ -533,30 +2211,30 @@ msgid "Image"
 msgstr "Afbeelding"
 
 #: admin/post-types/product.php:88
-#: admin/post-types/writepanels/writepanel-product_data.php:375
-#: admin/post-types/writepanels/writepanel-product_data.php:469
-#: admin/woocommerce-admin-attributes.php:232
-#: admin/woocommerce-admin-attributes.php:268
-#: admin/woocommerce-admin-attributes.php:306
-#: admin/woocommerce-admin-attributes.php:329
-#: admin/woocommerce-admin-attributes.php:373
-#: admin/woocommerce-admin-attributes.php:398
-#: admin/woocommerce-admin-init.php:434
+#: admin/post-types/writepanels/writepanel-product_data.php:376
+#: admin/post-types/writepanels/writepanel-product_data.php:470
+#: admin/woocommerce-admin-attributes.php:233
+#: admin/woocommerce-admin-attributes.php:269
+#: admin/woocommerce-admin-attributes.php:307
+#: admin/woocommerce-admin-attributes.php:330
+#: admin/woocommerce-admin-attributes.php:374
+#: admin/woocommerce-admin-attributes.php:399
+#: admin/woocommerce-admin-init.php:437
 msgid "Name"
 msgstr "Naam"
 
 #: admin/post-types/product.php:91 admin/post-types/product.php:557
 #: admin/post-types/writepanels/variation-admin-html.php:52
 #: admin/post-types/writepanels/writepanel-product_data.php:98
-#: admin/woocommerce-admin-reports.php:2093
-#: admin/woocommerce-admin-reports.php:2129
+#: admin/woocommerce-admin-reports.php:2099
+#: admin/woocommerce-admin-reports.php:2135
 msgid "SKU"
 msgstr "SKU"
 
 #: admin/post-types/product.php:94
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:83
 #: admin/woocommerce-admin-content.php:63
-#: admin/woocommerce-admin-reports.php:94
+#: admin/woocommerce-admin-reports.php:90
 msgid "Stock"
 msgstr "Voorraad"
 
@@ -575,14 +2253,14 @@ msgstr "Tags"
 
 #: admin/post-types/product.php:100 admin/post-types/product.php:632
 #: admin/post-types/product.php:906
-#: admin/post-types/writepanels/writepanel-product_data.php:1056
-#: admin/woocommerce-admin-init.php:447
+#: admin/post-types/writepanels/writepanel-product_data.php:1058
+#: admin/woocommerce-admin-init.php:450
 msgid "Featured"
 msgstr "Uitgelicht"
 
-#: admin/post-types/product.php:101 admin/woocommerce-admin-attributes.php:250
-#: admin/woocommerce-admin-attributes.php:308
-#: admin/woocommerce-admin-attributes.php:385
+#: admin/post-types/product.php:101 admin/woocommerce-admin-attributes.php:251
+#: admin/woocommerce-admin-attributes.php:309
+#: admin/woocommerce-admin-attributes.php:386
 msgid "Type"
 msgstr "Type"
 
@@ -597,9 +2275,9 @@ msgstr "Bewerk dit item"
 #: admin/post-types/product.php:151
 #: admin/post-types/writepanels/writepanel-order_data.php:140
 #: admin/post-types/writepanels/writepanel-order_data.php:230
-#: admin/post-types/writepanels/writepanel-order_data.php:388
-#: admin/post-types/writepanels/writepanel-product_data.php:1059
-#: admin/woocommerce-admin-attributes.php:322
+#: admin/post-types/writepanels/writepanel-order_data.php:387
+#: admin/post-types/writepanels/writepanel-product_data.php:1061
+#: admin/woocommerce-admin-attributes.php:323
 msgid "Edit"
 msgstr "Bewerken"
 
@@ -632,7 +2310,7 @@ msgid "Delete this item permanently"
 msgstr "Verwijder dit item permanent"
 
 #: admin/post-types/product.php:160 admin/post-types/shop_coupon.php:69
-#: admin/post-types/writepanels/writepanel-order_data.php:464
+#: admin/post-types/writepanels/writepanel-order_data.php:463
 msgid "Delete Permanently"
 msgstr "Verwijder permanent"
 
@@ -701,7 +2379,7 @@ msgstr "In voorraad"
 #: admin/post-types/product.php:264 admin/post-types/product.php:642
 #: admin/post-types/product.php:931
 #: admin/post-types/writepanels/writepanel-product_data.php:232
-#: admin/woocommerce-admin-reports.php:2113
+#: admin/woocommerce-admin-reports.php:2119
 msgid "Out of stock"
 msgstr "Niet in voorraad"
 
@@ -774,14 +2452,14 @@ msgstr "Lengte"
 #: admin/post-types/product.php:602 admin/post-types/product.php:880
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:86
 #: admin/post-types/writepanels/writepanel-product_data.php:287
-#: admin/woocommerce-admin-settings.php:795
+#: admin/woocommerce-admin-settings.php:797
 msgid "Width"
 msgstr "Breedte"
 
 #: admin/post-types/product.php:603 admin/post-types/product.php:881
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:87
 #: admin/post-types/writepanels/writepanel-product_data.php:288
-#: admin/woocommerce-admin-settings.php:797
+#: admin/woocommerce-admin-settings.php:799
 msgid "Height"
 msgstr "Hoogte"
 
@@ -794,19 +2472,19 @@ msgid "Catalog &amp; search"
 msgstr "Catalogus &amp; zoeken"
 
 #: admin/post-types/product.php:619 admin/post-types/product.php:894
-#: admin/post-types/writepanels/writepanel-product_data.php:1045
+#: admin/post-types/writepanels/writepanel-product_data.php:1047
 #: admin/woocommerce-admin-content.php:46
-#: admin/woocommerce-admin-settings.php:181
+#: admin/woocommerce-admin-settings.php:183
 msgid "Catalog"
 msgstr "Catalogus"
 
 #: admin/post-types/product.php:620 admin/post-types/product.php:895
-#: admin/post-types/writepanels/writepanel-product_data.php:1046
+#: admin/post-types/writepanels/writepanel-product_data.php:1048
 msgid "Search"
 msgstr "Zoeken"
 
 #: admin/post-types/product.php:621 admin/post-types/product.php:896
-#: admin/post-types/writepanels/writepanel-product_data.php:1047
+#: admin/post-types/writepanels/writepanel-product_data.php:1049
 msgid "Hidden"
 msgstr "Verborgen"
 
@@ -921,9 +2599,9 @@ msgstr "%s / %s"
 msgid "%s / &infin;"
 msgstr "%s / &infin;"
 
-#: admin/post-types/shop_coupon.php:149 admin/post-types/shop_order.php:282
-msgid "Show all statuses"
-msgstr "Alle statussen tonen"
+#: admin/post-types/shop_coupon.php:149
+msgid "Show all types"
+msgstr "Alle types tonen"
 
 #: admin/post-types/shop_order.php:43
 #: admin/settings/settings-payment-gateways.php:29
@@ -940,12 +2618,12 @@ msgid "Billing"
 msgstr "Facturering"
 
 #: admin/post-types/shop_order.php:46
-#: admin/post-types/writepanels/writepanel-order_data.php:540
+#: admin/post-types/writepanels/writepanel-order_data.php:539
 #: admin/post-types/writepanels/writepanel-product_data.php:81
 #: admin/settings/settings-tax-rates.php:52
 #: admin/settings/settings-tax-rates.php:217
 #: admin/woocommerce-admin-content.php:49
-#: admin/woocommerce-admin-settings.php:185
+#: admin/woocommerce-admin-settings.php:187
 msgid "Shipping"
 msgstr "Verzending"
 
@@ -963,8 +2641,8 @@ msgid "Customer Notes"
 msgstr "Klant opmerkingen"
 
 #: admin/post-types/shop_order.php:51
-#: admin/post-types/writepanels/writepanel-order_data.php:387
-#: admin/post-types/writepanels/writepanel-order_data.php:434
+#: admin/post-types/writepanels/writepanel-order_data.php:386
+#: admin/post-types/writepanels/writepanel-order_data.php:433
 msgid "Actions"
 msgstr "Acties"
 
@@ -1018,6 +2696,10 @@ msgstr "In verwerking"
 msgid "Complete"
 msgstr "Voltooid"
 
+#: admin/post-types/shop_order.php:282
+msgid "Show all statuses"
+msgstr "Alle statussen tonen"
+
 #: admin/post-types/shop_order.php:301 admin/post-types/shop_order.php:326
 msgid "Show all customers"
 msgstr "Alle klanten tonen"
@@ -1028,15 +2710,21 @@ msgstr "Toegang intrekken"
 
 #: admin/post-types/writepanels/order-download-permission-html.php:7
 #: admin/post-types/writepanels/variation-admin-html.php:7
-#: admin/post-types/writepanels/writepanel-product_data.php:368
-#: admin/post-types/writepanels/writepanel-product_data.php:462
-#: admin/woocommerce-admin-init.php:436
+#: admin/post-types/writepanels/writepanel-product_data.php:369
+#: admin/post-types/writepanels/writepanel-product_data.php:463
+#: admin/woocommerce-admin-init.php:439
 msgid "Click to toggle"
 msgstr "Klik om te schakelen"
 
 #: admin/post-types/writepanels/order-download-permission-html.php:9
 msgid "File %d: %s"
 msgstr "Bestand %d: %s"
+
+#: admin/post-types/writepanels/order-download-permission-html.php:9
+msgid "Downloaded %s time"
+msgid_plural "Downloaded %s times"
+msgstr[0] "%s keer gedownload"
+msgstr[1] "%s keer gedownload"
 
 #: admin/post-types/writepanels/order-download-permission-html.php:16
 msgid "Downloads Remaining"
@@ -1063,17 +2751,17 @@ msgid "Fee Name"
 msgstr "Kosten naam"
 
 #: admin/post-types/writepanels/order-fee-html.php:17
-#: admin/post-types/writepanels/order-item-html.php:84
+#: admin/post-types/writepanels/order-item-html.php:89
 msgid "Tax class"
 msgstr "Belastingtarief"
 
 #: admin/post-types/writepanels/order-fee-html.php:19
 #: admin/post-types/writepanels/order-tax-html.php:8
-#: admin/post-types/writepanels/writepanel-order_data.php:562
-#: admin/post-types/writepanels/writepanel-order_data.php:667
-#: admin/woocommerce-admin-reports.php:1652
-#: admin/woocommerce-admin-reports.php:2665
-#: admin/woocommerce-admin-reports.php:2674
+#: admin/post-types/writepanels/writepanel-order_data.php:561
+#: admin/post-types/writepanels/writepanel-order_data.php:666
+#: admin/woocommerce-admin-reports.php:1658
+#: admin/woocommerce-admin-reports.php:2671
+#: admin/woocommerce-admin-reports.php:2680
 #: admin/woocommerce-admin-users.php:90 admin/woocommerce-admin-users.php:112
 msgid "N/A"
 msgstr "niet beschikbaar"
@@ -1084,42 +2772,42 @@ msgid "Taxable"
 msgstr "Belastbaar"
 
 #: admin/post-types/writepanels/order-fee-html.php:25
-#: admin/post-types/writepanels/order-item-html.php:91
+#: admin/post-types/writepanels/order-item-html.php:96
 #: admin/post-types/writepanels/writepanel-product-type-variable.php:54
 #: admin/post-types/writepanels/writepanel-product_data.php:186
 #: admin/settings/settings-init.php:972
 #: admin/settings/settings-tax-rates.php:29
-#: admin/woocommerce-admin-settings.php:226
+#: admin/woocommerce-admin-settings.php:228
 msgid "Standard"
 msgstr "Standaard"
 
 #: admin/post-types/writepanels/order-fee-html.php:43
-#: admin/post-types/writepanels/order-item-html.php:110
-#: admin/woocommerce-admin-reports.php:1556
-#: admin/woocommerce-admin-reports.php:1609
-#: admin/woocommerce-admin-reports.php:2380
-#: admin/woocommerce-admin-reports.php:2549
-#: admin/woocommerce-admin-reports.php:2627
+#: admin/post-types/writepanels/order-item-html.php:115
+#: admin/woocommerce-admin-reports.php:1562
+#: admin/woocommerce-admin-reports.php:1615
+#: admin/woocommerce-admin-reports.php:2386
+#: admin/woocommerce-admin-reports.php:2555
+#: admin/woocommerce-admin-reports.php:2633
 msgid "Total"
 msgstr "Totaal"
 
-#: admin/post-types/writepanels/order-item-html.php:9
+#: admin/post-types/writepanels/order-item-html.php:10
 msgid "Product ID:"
 msgstr "Product ID:"
 
-#: admin/post-types/writepanels/order-item-html.php:12
+#: admin/post-types/writepanels/order-item-html.php:13
 msgid "Variation ID:"
 msgstr "Variatie ID:"
 
-#: admin/post-types/writepanels/order-item-html.php:15
+#: admin/post-types/writepanels/order-item-html.php:16
 msgid "Product SKU:"
 msgstr "Product SKU:"
 
-#: admin/post-types/writepanels/order-item-html.php:33
+#: admin/post-types/writepanels/order-item-html.php:44
 msgid "Add&nbsp;meta"
 msgstr "Meta&nbsp;toevoegen"
 
-#: admin/post-types/writepanels/order-item-html.php:112
+#: admin/post-types/writepanels/order-item-html.php:117
 msgid "Subtotal"
 msgstr "Subtotaal"
 
@@ -1128,19 +2816,19 @@ msgid "Tax Rate:"
 msgstr "Belastingtarief:"
 
 #: admin/post-types/writepanels/order-tax-html.php:16
-#: admin/post-types/writepanels/writepanel-order_data.php:631
+#: admin/post-types/writepanels/writepanel-order_data.php:630
 msgid "Sales Tax:"
 msgstr "Sales belasting:"
 
 #: admin/post-types/writepanels/order-tax-html.php:20
-#: admin/post-types/writepanels/writepanel-order_data.php:639
+#: admin/post-types/writepanels/writepanel-order_data.php:638
 msgid "Shipping Tax:"
 msgstr "Verzending belasting:"
 
 #: admin/post-types/writepanels/variation-admin-html.php:6
-#: admin/post-types/writepanels/writepanel-product_data.php:367
-#: admin/post-types/writepanels/writepanel-product_data.php:461
-#: admin/woocommerce-admin-init.php:435
+#: admin/post-types/writepanels/writepanel-product_data.php:368
+#: admin/post-types/writepanels/writepanel-product_data.php:462
+#: admin/woocommerce-admin-init.php:438
 msgid "Remove"
 msgstr "Verwijder"
 
@@ -1185,9 +2873,21 @@ msgstr "Annuleer planning"
 msgid "Sale start date:"
 msgstr "Sale startdatum:"
 
+#: admin/post-types/writepanels/variation-admin-html.php:84
+#: admin/post-types/writepanels/writepanel-product_data.php:136
+msgctxt "placeholder"
+msgid "From&hellip;"
+msgstr "Van&hellip;"
+
 #: admin/post-types/writepanels/variation-admin-html.php:87
 msgid "Sale end date:"
 msgstr "Sale einddatum:"
+
+#: admin/post-types/writepanels/variation-admin-html.php:88
+#: admin/post-types/writepanels/writepanel-product_data.php:137
+msgctxt "placeholder"
+msgid "To&hellip;"
+msgstr "Tot&hellip;"
 
 #: admin/post-types/writepanels/variation-admin-html.php:96
 msgid "Enter a weight for this variation or leave blank to use the parent product weight."
@@ -1334,10 +3034,10 @@ msgid "Products"
 msgstr "Producten"
 
 #: admin/post-types/writepanels/writepanel-coupon_data.php:75
-#: admin/post-types/writepanels/writepanel-order_data.php:401
-#: admin/post-types/writepanels/writepanel-product_data.php:522
-#: admin/post-types/writepanels/writepanel-product_data.php:539
-#: admin/woocommerce-admin-reports.php:1239
+#: admin/post-types/writepanels/writepanel-order_data.php:400
+#: admin/post-types/writepanels/writepanel-product_data.php:523
+#: admin/post-types/writepanels/writepanel-product_data.php:540
+#: admin/woocommerce-admin-reports.php:1245
 msgid "Search for a product&hellip;"
 msgstr "Zoek naar een product&hellip;"
 
@@ -1382,24 +3082,34 @@ msgid "Product must not be in this category for the coupon to remain valid or, f
 msgstr "De coupon blijft geldig zolang het product niet in deze categorie staat, voor \"Product kortingen\" krijgen producten in deze categorie geen korting."
 
 #: admin/post-types/writepanels/writepanel-coupon_data.php:145
-msgid "Customer emails"
-msgstr "Klant e-mails"
+msgid "Email restrictions"
+msgstr "E-mail beperkingen"
 
 #: admin/post-types/writepanels/writepanel-coupon_data.php:145
-msgid "Any customer"
-msgstr "Elke klant"
+msgid "No restrictions"
+msgstr "Geen beperkingen"
 
 #: admin/post-types/writepanels/writepanel-coupon_data.php:145
-msgid "Comma separate email addresses to restrict this coupon to specific billing and user emails."
-msgstr "Komma gescheiden e-mailadressen om het gebruik van deze coupon te beperken tot specifieke factuur en gebruiker e-mails."
+msgid "List of emails to check against the customer's billing email when an order is placed."
+msgstr "Lijst van e-mails om te controleren tegen de klant zijn factuur e-mail wanneer een bestelling wordt geplaatst."
 
 #: admin/post-types/writepanels/writepanel-coupon_data.php:152
 msgid "Usage limit"
 msgstr "Gebruikslimiet"
 
 #: admin/post-types/writepanels/writepanel-coupon_data.php:152
+msgctxt "placeholder"
+msgid "Unlimited usage"
+msgstr "Onbeperkt gebruik"
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:152
 msgid "How many times this coupon can be used before it is void."
 msgstr "Hoe vaak deze coupon kan worden gebruikt voordat deze ongeldig is."
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:158
+msgctxt "placeholder"
+msgid "Never expire"
+msgstr "Vervalt nooit"
 
 #: admin/post-types/writepanels/writepanel-coupon_data.php:158
 msgid "The date this coupon will expire, <code>YYYY-MM-DD</code>."
@@ -1576,8 +3286,8 @@ msgid "Qty"
 msgstr "Aantal"
 
 #: admin/post-types/writepanels/writepanel-order_data.php:349
-msgid "Cost"
-msgstr "Kosten"
+msgid "Totals"
+msgstr "Totalen"
 
 #: admin/post-types/writepanels/writepanel-order_data.php:349
 msgid "Line subtotals are before pre-tax discounts, totals are after."
@@ -1587,140 +3297,140 @@ msgstr "Regel subtotalen zijn voor belasting kortingen, totalen zijn achteraf."
 #: admin/settings/settings-tax-rates.php:387
 #: admin/settings/settings-tax-rates.php:475
 #: admin/woocommerce-admin-content.php:48
-#: admin/woocommerce-admin-settings.php:184
+#: admin/woocommerce-admin-settings.php:186
 msgid "Tax"
 msgstr "Belasting"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:389
+#: admin/post-types/writepanels/writepanel-order_data.php:388
 msgid "Delete Lines"
 msgstr "Verwijder regels"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:391
+#: admin/post-types/writepanels/writepanel-order_data.php:390
 msgid "Stock Actions"
 msgstr "Voorraad acties"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:392
+#: admin/post-types/writepanels/writepanel-order_data.php:391
 msgid "Reduce Line Stock"
 msgstr "Verminder regel voorraad"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:393
+#: admin/post-types/writepanels/writepanel-order_data.php:392
 msgid "Increase Line Stock"
 msgstr "Verhoog regel voorraad"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:397
-#: admin/post-types/writepanels/writepanel-order_data.php:457
+#: admin/post-types/writepanels/writepanel-order_data.php:396
+#: admin/post-types/writepanels/writepanel-order_data.php:456
 msgid "Apply"
 msgstr "Toepassen"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:403
+#: admin/post-types/writepanels/writepanel-order_data.php:402
 msgid "Add item(s)"
 msgstr "Item(s) toevoegen"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:404
+#: admin/post-types/writepanels/writepanel-order_data.php:403
 msgid "Add fee"
 msgstr "Kosten toevoegen"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:435
+#: admin/post-types/writepanels/writepanel-order_data.php:434
 msgid "Resend order emails"
 msgstr "Bestelling e-mails opnieuw versturen"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:466
+#: admin/post-types/writepanels/writepanel-order_data.php:465
 msgid "Move to Trash"
 msgstr "Verplaats naar prullenbak"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:471
+#: admin/post-types/writepanels/writepanel-order_data.php:470
 msgid "Save Order"
 msgstr "Bestelling opslaan"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:471
+#: admin/post-types/writepanels/writepanel-order_data.php:470
 msgid "Save/update the order"
 msgstr "De bestelling opslaan / bijwerken"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:499
+#: admin/post-types/writepanels/writepanel-order_data.php:498
 msgid "Discounts"
 msgstr "Kortingen"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:503
+#: admin/post-types/writepanels/writepanel-order_data.php:502
 msgid "Cart Discount:"
 msgstr "Winkelwagen korting:"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:503
+#: admin/post-types/writepanels/writepanel-order_data.php:502
 msgid "Discounts before tax - calculated by comparing subtotals to totals."
 msgstr "Kortingen voor belasting - berekend door subtotalen en totalen te vergelijken."
 
-#: admin/post-types/writepanels/writepanel-order_data.php:511
+#: admin/post-types/writepanels/writepanel-order_data.php:510
 msgid "Order Discount:"
 msgstr "Bestelling korting:"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:511
+#: admin/post-types/writepanels/writepanel-order_data.php:510
 msgid "Discounts after tax - user defined."
 msgstr "Kortingen na belastingen - gebruiker gedefinieerd."
 
-#: admin/post-types/writepanels/writepanel-order_data.php:544
+#: admin/post-types/writepanels/writepanel-order_data.php:543
 msgid "Label:"
 msgstr "Label:"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:545
+#: admin/post-types/writepanels/writepanel-order_data.php:544
 msgid "The shipping title the customer sees"
 msgstr "De verzending titel die de klant ziet"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:552
+#: admin/post-types/writepanels/writepanel-order_data.php:551
 msgid "Cost:"
 msgstr "Kosten:"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:553
+#: admin/post-types/writepanels/writepanel-order_data.php:552
 msgid "(ex. tax)"
 msgstr "(excl. belasting)"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:560
+#: admin/post-types/writepanels/writepanel-order_data.php:559
 msgid "Method:"
 msgstr "Methode:"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:582
-#: admin/post-types/writepanels/writepanel-order_data.php:584
-#: admin/post-types/writepanels/writepanel-order_data.php:683
-#: admin/post-types/writepanels/writepanel-order_data.php:685
+#: admin/post-types/writepanels/writepanel-order_data.php:581
+#: admin/post-types/writepanels/writepanel-order_data.php:583
+#: admin/post-types/writepanels/writepanel-order_data.php:682
+#: admin/post-types/writepanels/writepanel-order_data.php:684
 msgid "Other"
 msgstr "Anders"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:598
+#: admin/post-types/writepanels/writepanel-order_data.php:597
 msgid "Tax Rows"
 msgstr "Belasting rijen"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:623
+#: admin/post-types/writepanels/writepanel-order_data.php:622
 msgid "+ Add tax row"
 msgstr "+ Belasting rij toevoegen"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:623
+#: admin/post-types/writepanels/writepanel-order_data.php:622
 msgid "These rows contain taxes for this order. This allows you to display multiple or compound taxes rather than a single total."
 msgstr "Deze rijen bevatten belastingen voor deze bestellingen. Hiermee is het mogelijk om meerdere of samengestelde belastingen te tonen in plaats van een enkel totaal."
 
-#: admin/post-types/writepanels/writepanel-order_data.php:627
+#: admin/post-types/writepanels/writepanel-order_data.php:626
 msgid "Tax Totals"
 msgstr "Belasting totalen"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:631
+#: admin/post-types/writepanels/writepanel-order_data.php:630
 msgid "Total tax for line items + fees."
 msgstr "Totale belasting voor regel items + kosten."
 
-#: admin/post-types/writepanels/writepanel-order_data.php:653
+#: admin/post-types/writepanels/writepanel-order_data.php:652
 #: admin/post-types/writepanels/writepanels-init.php:70
 msgid "Order Totals"
 msgstr "Bestelling totalen"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:657
+#: admin/post-types/writepanels/writepanel-order_data.php:656
 msgid "Order Total:"
 msgstr "Bestelling totaal:"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:665
+#: admin/post-types/writepanels/writepanel-order_data.php:664
 msgid "Payment Method:"
 msgstr "Betaalmethode:"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:696
+#: admin/post-types/writepanels/writepanel-order_data.php:695
 msgid "Calc taxes"
 msgstr "Bereken belastingen"
 
-#: admin/post-types/writepanels/writepanel-order_data.php:698
+#: admin/post-types/writepanels/writepanel-order_data.php:697
 msgid "Calc totals"
 msgstr "Bereken totalen"
 
@@ -1765,7 +3475,7 @@ msgid "Private note"
 msgstr "Privé opmerking"
 
 #: admin/post-types/writepanels/writepanel-order_notes.php:65
-#: admin/post-types/writepanels/writepanel-product_data.php:500
+#: admin/post-types/writepanels/writepanel-product_data.php:501
 msgid "Add"
 msgstr "Toevoegen"
 
@@ -1920,13 +3630,13 @@ msgstr "Downloadbare producten geven toegang tot een bestand na aankoop."
 
 #: admin/post-types/writepanels/writepanel-product_data.php:77
 #: admin/woocommerce-admin-content.php:44
-#: admin/woocommerce-admin-settings.php:180
+#: admin/woocommerce-admin-settings.php:182
 msgid "General"
 msgstr "Algemeen"
 
 #: admin/post-types/writepanels/writepanel-product_data.php:79
 #: admin/woocommerce-admin-content.php:47
-#: admin/woocommerce-admin-settings.php:183
+#: admin/woocommerce-admin-settings.php:185
 msgid "Inventory"
 msgstr "Inventaris"
 
@@ -1935,7 +3645,7 @@ msgid "Linked Products"
 msgstr "Gekoppelde producten"
 
 #: admin/post-types/writepanels/writepanel-product_data.php:85
-#: admin/woocommerce-admin-attributes.php:298
+#: admin/woocommerce-admin-attributes.php:299
 #: admin/woocommerce-admin-init.php:66
 msgid "Attributes"
 msgstr "Attributen"
@@ -1965,6 +3675,11 @@ msgid "Button text"
 msgstr "Button tekst"
 
 #: admin/post-types/writepanels/writepanel-product_data.php:112
+msgctxt "placeholder"
+msgid "Buy product"
+msgstr "Koop product"
+
+#: admin/post-types/writepanels/writepanel-product_data.php:112
 msgid "This text will be shown on the button linking to the external product."
 msgstr "Deze tekst zal weergegeven worden op de button die linkt naar het externe product."
 
@@ -1981,7 +3696,7 @@ msgid "Sale Price Dates"
 msgstr "Sale prijs data"
 
 #: admin/post-types/writepanels/writepanel-product_data.php:138
-#: admin/post-types/writepanels/writepanel-product_data.php:1080
+#: admin/post-types/writepanels/writepanel-product_data.php:1082
 msgid "Cancel"
 msgstr "Annuleren"
 
@@ -2073,153 +3788,153 @@ msgstr "Verzending klasse"
 msgid "Shipping classes are used by certain shipping methods to group similar products."
 msgstr "Verzending klassen worden gebruikt door bepaalde verzendmethoden om soortgelijke producten te groeperen."
 
-#: admin/post-types/writepanels/writepanel-product_data.php:383
-#: admin/post-types/writepanels/writepanel-product_data.php:475
-#: admin/woocommerce-admin-init.php:437
+#: admin/post-types/writepanels/writepanel-product_data.php:384
+#: admin/post-types/writepanels/writepanel-product_data.php:476
+#: admin/woocommerce-admin-init.php:440
 msgid "Value(s)"
 msgstr "Waarde(n)"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:385
+#: admin/post-types/writepanels/writepanel-product_data.php:386
 msgid "Select terms"
 msgstr "Selecteer termen"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:397
+#: admin/post-types/writepanels/writepanel-product_data.php:398
 msgid "Select all"
 msgstr "Alles selecteren"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:397
+#: admin/post-types/writepanels/writepanel-product_data.php:398
 msgid "Select none"
 msgstr "Niets selecteren"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:399
+#: admin/post-types/writepanels/writepanel-product_data.php:400
 msgid "Add new"
 msgstr "Nieuwe toevoegen"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:412
+#: admin/post-types/writepanels/writepanel-product_data.php:413
 msgid "Pipe (|) separate terms"
 msgstr "Sluisteken (|) gescheiden termen"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:426
-#: admin/post-types/writepanels/writepanel-product_data.php:481
-#: admin/woocommerce-admin-init.php:439
+#: admin/post-types/writepanels/writepanel-product_data.php:427
+#: admin/post-types/writepanels/writepanel-product_data.php:482
+#: admin/woocommerce-admin-init.php:442
 msgid "Visible on the product page"
 msgstr "Zichtbaar op de product pagina"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:439
-#: admin/post-types/writepanels/writepanel-product_data.php:487
-#: admin/woocommerce-admin-init.php:440
+#: admin/post-types/writepanels/writepanel-product_data.php:440
+#: admin/post-types/writepanels/writepanel-product_data.php:488
+#: admin/woocommerce-admin-init.php:443
 msgid "Used for variations"
 msgstr "Gebruikt voor variaties"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:476
-#: admin/woocommerce-admin-init.php:438
+#: admin/post-types/writepanels/writepanel-product_data.php:477
+#: admin/woocommerce-admin-init.php:441
 msgid "Enter some text, or some attributes by pipe (|) separating values."
 msgstr "Voer tekst in of een aantal attributen met sluisteken (|) gescheiden waarden."
 
-#: admin/post-types/writepanels/writepanel-product_data.php:502
+#: admin/post-types/writepanels/writepanel-product_data.php:503
 msgid "Custom product attribute"
 msgstr "Maatwerk product attribuut"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:514
+#: admin/post-types/writepanels/writepanel-product_data.php:515
 msgid "Save attributes"
 msgstr "Attributen opslaan"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:521
+#: admin/post-types/writepanels/writepanel-product_data.php:522
 msgid "Up-Sells"
 msgstr "Up-sells"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:536
+#: admin/post-types/writepanels/writepanel-product_data.php:537
 msgid "Up-sells are products which you recommend instead of the currently viewed product, for example, products that are more profitable or better quality or more expensive."
 msgstr "Up-sells zijn producten die u adviseert in plaats van de momenteel bekeken product. Bijvoorbeeld: producten die meer rendabel zijn, een betere kwaliteit hebben of duurder zijn."
 
-#: admin/post-types/writepanels/writepanel-product_data.php:538
+#: admin/post-types/writepanels/writepanel-product_data.php:539
 msgid "Cross-Sells"
 msgstr "Cross-sells"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:553
+#: admin/post-types/writepanels/writepanel-product_data.php:554
 msgid "Cross-sells are products which you promote in the cart, based on the current product."
 msgstr "Cross-sells zijn producten die u in de winkelwagen promoot, op basis van het huidige product."
 
-#: admin/post-types/writepanels/writepanel-product_data.php:563
+#: admin/post-types/writepanels/writepanel-product_data.php:564
 msgid "Choose a grouped product&hellip;"
 msgstr "Kies een gegroepeerd product&hellip;"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:589
+#: admin/post-types/writepanels/writepanel-product_data.php:590
 msgid "Grouping"
 msgstr "Groeperen"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:589
+#: admin/post-types/writepanels/writepanel-product_data.php:590
 msgid "Set this option to make this product part of a grouped product."
 msgstr "Configureer deze optie om dit product onderdeel te maken van een gegroepeerd product."
 
-#: admin/post-types/writepanels/writepanel-product_data.php:609
+#: admin/post-types/writepanels/writepanel-product_data.php:610
 msgid "Purchase Note"
 msgstr "Aankoop opmerking"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:609
+#: admin/post-types/writepanels/writepanel-product_data.php:610
 msgid "Enter an optional note to send the customer after purchase."
 msgstr "Voer een optionele opmerking in om aan de klant te sturen na aankoop."
 
-#: admin/post-types/writepanels/writepanel-product_data.php:616
+#: admin/post-types/writepanels/writepanel-product_data.php:617
 msgid "Menu order"
 msgstr "Menu volgorde"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:616
+#: admin/post-types/writepanels/writepanel-product_data.php:617
 msgid "Custom ordering position."
 msgstr "Aangepast volgorde positie."
 
-#: admin/post-types/writepanels/writepanel-product_data.php:624
+#: admin/post-types/writepanels/writepanel-product_data.php:625
 msgid "Enable reviews"
 msgstr "Reviews inschakelen"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:713
+#: admin/post-types/writepanels/writepanel-product_data.php:714
 msgid "Product SKU must be unique."
 msgstr "Product SKU moet uniek zijn."
 
-#: admin/post-types/writepanels/writepanel-product_data.php:1044
+#: admin/post-types/writepanels/writepanel-product_data.php:1046
 msgid "Catalog/search"
 msgstr "Catalogus/zoeken"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:1051
+#: admin/post-types/writepanels/writepanel-product_data.php:1053
 msgid "Catalog visibility:"
 msgstr "Catalogus zichtbaarheid:"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:1067
+#: admin/post-types/writepanels/writepanel-product_data.php:1069
 msgid "Define the loops this product should be visible in. The product will still be accessible directly."
 msgstr "Definieer de loop waarin dit product zichtbaar moet zijn. Het product blijft direct toegankelijk."
 
-#: admin/post-types/writepanels/writepanel-product_data.php:1073
+#: admin/post-types/writepanels/writepanel-product_data.php:1075
 msgid "Enable this option to feature this product."
 msgstr "Deze optie inschakelen om het product uit te lichten."
 
-#: admin/post-types/writepanels/writepanel-product_data.php:1075
+#: admin/post-types/writepanels/writepanel-product_data.php:1077
 msgid "Featured Product"
 msgstr "Uitgelicht product"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:1079
+#: admin/post-types/writepanels/writepanel-product_data.php:1081
 msgid "OK"
 msgstr "Ok"
 
-#: admin/post-types/writepanels/writepanel-product_images.php:42
-#: admin/post-types/writepanels/writepanel-product_images.php:102
+#: admin/post-types/writepanels/writepanel-product_images.php:43
+#: admin/post-types/writepanels/writepanel-product_images.php:103
 msgid "Delete image"
 msgstr "Verwijder afbeelding"
 
-#: admin/post-types/writepanels/writepanel-product_images.php:42
-#: admin/post-types/writepanels/writepanel-product_images.php:102
-#: admin/woocommerce-admin-attributes.php:322
+#: admin/post-types/writepanels/writepanel-product_images.php:43
+#: admin/post-types/writepanels/writepanel-product_images.php:103
+#: admin/woocommerce-admin-attributes.php:323
 msgid "Delete"
 msgstr "Verwijderen"
 
-#: admin/post-types/writepanels/writepanel-product_images.php:53
+#: admin/post-types/writepanels/writepanel-product_images.php:54
 msgid "Add product gallery images"
 msgstr "Product galerij afbeeldingen toevoegen"
 
-#: admin/post-types/writepanels/writepanel-product_images.php:79
+#: admin/post-types/writepanels/writepanel-product_images.php:80
 msgid "Add Images to Product Gallery"
 msgstr "Afbeeldingen toevoegen aan product galerij"
 
-#: admin/post-types/writepanels/writepanel-product_images.php:81
+#: admin/post-types/writepanels/writepanel-product_images.php:82
 msgid "Add to gallery"
 msgstr "Toevoegen aan galerij"
 
@@ -2397,7 +4112,7 @@ msgstr "Winkelwagen, afrekenen en accounts"
 
 #: admin/settings/settings-init.php:105 admin/woocommerce-admin-content.php:61
 #: admin/woocommerce-admin-content.php:76
-#: admin/woocommerce-admin-reports.php:67
+#: admin/woocommerce-admin-reports.php:63
 msgid "Coupons"
 msgstr "Coupons"
 
@@ -2991,7 +4706,7 @@ msgid "Never show stock amount"
 msgstr "Voorraad aantal nooit tonen"
 
 #: admin/settings/settings-init.php:823
-#: admin/woocommerce-admin-settings.php:290
+#: admin/woocommerce-admin-settings.php:292
 msgid "Shipping Options"
 msgstr "Verzendopties"
 
@@ -3044,8 +4759,8 @@ msgid "Collect shipping address even when not required"
 msgstr "Verzendadres ook opvragen wanneer deze niet verplicht is"
 
 #: admin/settings/settings-init.php:900
-#: admin/woocommerce-admin-settings.php:186
-#: admin/woocommerce-admin-settings.php:327
+#: admin/woocommerce-admin-settings.php:188
+#: admin/woocommerce-admin-settings.php:329
 msgid "Payment Gateways"
 msgstr "Betaalmethoden"
 
@@ -3054,7 +4769,7 @@ msgid "Installed payment gateways are displayed below. Drag and drop payment gat
 msgstr "Geïnstalleerde betaalmethoden worden hieronder weergegeven. Versleep betaalmethoden om hun weergave volgorde bij het afrekenen te wijzigen."
 
 #: admin/settings/settings-init.php:918
-#: admin/woocommerce-admin-settings.php:220
+#: admin/woocommerce-admin-settings.php:222
 msgid "Tax Options"
 msgstr "Belasting opties"
 
@@ -3117,1701 +4832,3 @@ msgstr "Geen adres"
 #: admin/settings/settings-init.php:966
 msgid "Shipping Tax Class:"
 msgstr "Verzending belasting klasse:"
-
-#: admin/settings/settings-init.php:967
-msgid "Optionally control which tax class shipping gets, or leave it so shipping tax is based on the cart items themselves."
-msgstr "Bepaal optioneel welke belasting klasse verzending krijgt, of laat het zodat verzending belasting is gebaseerd op de winkelwagen items zelf."
-
-#: admin/settings/settings-init.php:972
-msgid "Shipping tax class based on cart items"
-msgstr "Verzending belasting klasse gebaseerd op winkelwagen items"
-
-#: admin/settings/settings-init.php:977
-msgid "Rounding"
-msgstr "Afronding"
-
-#: admin/settings/settings-init.php:978
-msgid "Round tax at subtotal level, instead of rounding per line"
-msgstr "Belasting afronden op subtotaal niveau, in plaats van afronden per regel"
-
-#: admin/settings/settings-init.php:985
-msgid "Additional Tax Classes"
-msgstr "Extra belasting klassen"
-
-#: admin/settings/settings-init.php:986
-msgid "List additonal tax classes below (1 per line). This is in addition to the default <code>Standard Rate</code>. Tax classes can be assigned to products."
-msgstr "Plaats aanvullende belasting klassen hieronder (1 per regel). Dit is een aanvulling op de standaard <code>Standaard tarief</code>. Belasting klassen kunnen worden toegewezen aan producten."
-
-#: admin/settings/settings-init.php:990
-msgid "Reduced Rate%sZero Rate"
-msgstr "Gereduceerd tarief%sNultarief"
-
-#: admin/settings/settings-init.php:994
-msgid "Display prices during cart/checkout:"
-msgstr "Weergave prijzen tijdens winkelwagen/afrekenen:"
-
-#: admin/settings/settings-init.php:999
-msgid "Including tax"
-msgstr "Inclusief belasting"
-
-#: admin/settings/settings-init.php:1000
-msgid "Excluding tax"
-msgstr "Exclusief belasting"
-
-#: admin/settings/settings-init.php:1012
-msgid "Email Sender Options"
-msgstr "E-mail afzender opties"
-
-#: admin/settings/settings-init.php:1012
-msgid "The following options affect the sender (email address and name) used in WooCommerce emails."
-msgstr "De volgende opties hebben invloed op de zender (e-mailadres en naam) gebruikt in WooCommerce e-mails."
-
-#: admin/settings/settings-init.php:1015
-msgid "\"From\" Name"
-msgstr "\"Van\" naam"
-
-#: admin/settings/settings-init.php:1024
-msgid "\"From\" Email Address"
-msgstr "\"Van\" e-mailadres"
-
-#: admin/settings/settings-init.php:1037
-msgid "Email Template"
-msgstr "E-mail template"
-
-#: admin/settings/settings-init.php:1037
-msgid "This section lets you customise the WooCommerce emails. <a href=\"%s\" target=\"_blank\">Click here to preview your email template</a>. For more advanced control copy <code>woocommerce/templates/emails/</code> to <code>yourtheme/woocommerce/emails/</code>."
-msgstr "Via deze sectie kunt u de WooCommerce e-mails aanpassen. <a href=\"%s\" target=\"_blank\">Klik hier voor een preview van uw e-mail template</a>. Voor meer geavanceerde controle kopieer <code>woocommerce/templates/emails/</code> naar <code>uwthema/woocommerce/emails/</code>."
-
-#: admin/settings/settings-init.php:1040
-msgid "Header Image"
-msgstr "Header afbeelding"
-
-#: admin/settings/settings-init.php:1041
-msgid "Enter a URL to an image you want to show in the email's header. Upload your image using the <a href=\"%s\">media uploader</a>."
-msgstr "Voer een URL in naar een afbeelding die u wilt tonen in de e-mail's header. Upload uw afbeelding met behulp van de <a href=\"%s\">media uploader</a>."
-
-#: admin/settings/settings-init.php:1049
-msgid "Email Footer Text"
-msgstr "E-mail footer tekst"
-
-#: admin/settings/settings-init.php:1050
-msgid "The text to appear in the footer of WooCommerce emails."
-msgstr "De tekst die zal verschijnen in de footer van WooCommerce e-mails."
-
-#: admin/settings/settings-init.php:1054
-msgid "Powered by WooCommerce"
-msgstr "Powered by ik wil een professionele webwinkel"
-
-#: admin/settings/settings-init.php:1058
-msgid "Base Colour"
-msgstr "Basiskleur"
-
-#: admin/settings/settings-init.php:1059
-msgid "The base colour for WooCommerce email templates. Default <code>#557da1</code>."
-msgstr "De basis kleur voor WooCommerce e-mail sjablonen. Standaard <code>#557da1</code>."
-
-#: admin/settings/settings-init.php:1067
-msgid "Background Colour"
-msgstr "Achtergrondkleur"
-
-#: admin/settings/settings-init.php:1068
-msgid "The background colour for WooCommerce email templates. Default <code>#f5f5f5</code>."
-msgstr "De achtergrondkleur voor WooCommerce e-mail templates. Standaard <code>#f5f5f5</code>."
-
-#: admin/settings/settings-init.php:1076
-msgid "Email Body Background Colour"
-msgstr "E-mail hoofdgedeelte achtergrondkleur"
-
-#: admin/settings/settings-init.php:1077
-msgid "The main body background colour. Default <code>#fdfdfd</code>."
-msgstr "Het hoofdgedeelte achtergrondkleur. Standaard <code>#fdfdfd</code>."
-
-#: admin/settings/settings-init.php:1085
-msgid "Email Body Text Colour"
-msgstr "E-mail hoofdgedeelte tekst kleur"
-
-#: admin/settings/settings-init.php:1086
-msgid "The main body text colour. Default <code>#505050</code>."
-msgstr "Het hoofdgedeelte tekst kleur. Standaard <code>#505050</code>."
-
-#: admin/settings/settings-payment-gateways.php:27
-#: admin/settings/settings-shipping-methods.php:29
-#: admin/woocommerce-admin-init.php:753
-#: admin/woocommerce-admin-taxonomies.php:27
-#: admin/woocommerce-admin-taxonomies.php:121
-msgid "Default"
-msgstr "Standaard"
-
-#: admin/settings/settings-payment-gateways.php:28
-msgid "Gateway"
-msgstr "Gateway"
-
-#: admin/settings/settings-payment-gateways.php:45
-msgid "Gateway ID"
-msgstr "Gateway ID"
-
-#: admin/settings/settings-shipping-methods.php:23
-msgid "Shipping Methods"
-msgstr "Verzendmethoden"
-
-#: admin/settings/settings-shipping-methods.php:25
-msgid "Drag and drop methods to control their display order."
-msgstr "Versleep methoden om hun weergave volgorde te wijzigen."
-
-#: admin/settings/settings-shipping-methods.php:30
-msgid "Shipping Method"
-msgstr "Verzendmethode"
-
-#: admin/settings/settings-shipping-methods.php:46
-msgid "Method ID"
-msgstr "Methode ID"
-
-#: admin/settings/settings-tax-rates.php:29
-msgid "Tax Rates for the \"%s\" Class"
-msgstr "Belastingtarieven voor de \"%s\" klasse"
-
-#: admin/settings/settings-tax-rates.php:30
-msgid "Define tax rates for countries and states below. <a href=\"%s\">See here</a> for available alpha-2 country codes."
-msgstr "Definieer hieronder belastingtarieven voor landen en staten. <a href=\"%s\">Zie hier</a> voor beschikbaar alpha-2 landcodes."
-
-#: admin/settings/settings-tax-rates.php:36
-msgid "Country&nbsp;Code"
-msgstr "Landcode"
-
-#: admin/settings/settings-tax-rates.php:36
-msgid "A 2 digit country code, e.g. US. Leave blank to apply to all."
-msgstr "Een 2 tekens landcode, bijvoorbeeld US. Laat leeg om op alles toe te passen."
-
-#: admin/settings/settings-tax-rates.php:38
-msgid "State&nbsp;Code"
-msgstr "Staat&nbsp;code"
-
-#: admin/settings/settings-tax-rates.php:38
-msgid "A 2 digit state code, e.g. AL. Leave blank to apply to all."
-msgstr "Een 2 tekens staatcode, bijvoorbeeld AL. Laat leeg om op alles toe te passen."
-
-#: admin/settings/settings-tax-rates.php:40
-#: admin/settings/settings-tax-rates.php:217
-msgid "ZIP/Postcode"
-msgstr "Postcode"
-
-#: admin/settings/settings-tax-rates.php:40
-msgid "Postcode for this rule. Semi-colon (;) separate multiple values. Leave blank to apply to all areas. Wildcards (*) can be used. Ranges for numeric postcodes (e.g. 12345-12350) will be expanded into individual postcodes."
-msgstr "Postcode voor deze regel. Puntkomma (;) gescheiden meerdere waarden. Laat leeg om toe te passen op alle gebieden. Jokertekens (*) kunnen gebruikt worden. Reeksen voor numerieke postcode (bijvoorbeeld 12345-12350) zullen worden uitgebreid worden in individuele postcodes."
-
-#: admin/settings/settings-tax-rates.php:42
-msgid "Cities for this rule. Semi-colon (;) separate multiple values. Leave blank to apply to all cities."
-msgstr "Steden voor deze regel. Puntkomma (;) gescheiden meerdere waarden. Laat leeg om toe te passen op alle steden."
-
-#: admin/settings/settings-tax-rates.php:44
-msgid "Rate&nbsp;%"
-msgstr "Tarief&nbsp;%"
-
-#: admin/settings/settings-tax-rates.php:44
-msgid "Enter a tax rate (percentage) to 4 decimal places."
-msgstr "Voor een belastingtarief (percentage) in tot 4 decimalen."
-
-#: admin/settings/settings-tax-rates.php:46
-msgid "Tax&nbsp;Name"
-msgstr "Belasting&nbsp;naam"
-
-#: admin/settings/settings-tax-rates.php:46
-msgid "Enter a name for this tax rate."
-msgstr "Voer een naam in voor dit belastingtarief."
-
-#: admin/settings/settings-tax-rates.php:48
-#: admin/settings/settings-tax-rates.php:217
-msgid "Priority"
-msgstr "Prioriteit"
-
-#: admin/settings/settings-tax-rates.php:48
-msgid "Choose a priority for this tax rate. Only 1 matching rate per priority will be used. To define multiple tax rates for a single area you need to specify a different priority per rate."
-msgstr "Kies een prioriteit voor dit belastingtarief. Er zal slechts 1 overeenkomend tarief per prioriteit gebruikt worden. Om meerdere belastingtarieven te definiëren voor één gebied dient u verschillende prioriteiten per tarief op te geven."
-
-#: admin/settings/settings-tax-rates.php:50
-#: admin/settings/settings-tax-rates.php:217
-msgid "Compound"
-msgstr "Samenstelling"
-
-#: admin/settings/settings-tax-rates.php:50
-msgid "Choose whether or not this is a compound rate. Compound tax rates are applied on top of other tax rates."
-msgstr "Geef aan of dit een samengestelde rente is. Samengestelde belastingtarieven worden toegepast bovenop andere belastingtarieven."
-
-#: admin/settings/settings-tax-rates.php:52
-msgid "Choose whether or not this tax rate also gets applied to shipping."
-msgstr "Kies of dit belastingtarief toegepast moet worden op verzending."
-
-#: admin/settings/settings-tax-rates.php:59
-msgid "Insert row"
-msgstr "Rij invoegen"
-
-#: admin/settings/settings-tax-rates.php:60
-msgid "Remove selected row(s)"
-msgstr "Verwijder geselecteerde rij(en)"
-
-#: admin/settings/settings-tax-rates.php:62
-msgid "Export CSV"
-msgstr "Exporteer CSV"
-
-#: admin/settings/settings-tax-rates.php:63
-msgid "Import CSV"
-msgstr "Importeer CSV"
-
-#: admin/settings/settings-tax-rates.php:163
-msgid "No row(s) selected"
-msgstr "Geen rij(en) geselecteerd"
-
-#: admin/settings/settings-tax-rates.php:217
-msgid "Country Code"
-msgstr "Landcode"
-
-#: admin/settings/settings-tax-rates.php:217
-msgid "State Code"
-msgstr "Staatcode"
-
-#: admin/settings/settings-tax-rates.php:217
-msgid "Rate %"
-msgstr "Tarief %"
-
-#: admin/settings/settings-tax-rates.php:217
-msgid "Tax Name"
-msgstr "Belasting naam"
-
-#: admin/woocommerce-admin-attributes.php:77
-msgid "Please, provide an attribute name, slug and type."
-msgstr "Voer een attribuut naam, slug en type in."
-
-#: admin/woocommerce-admin-attributes.php:79
-msgid "Slug “%s” is too long (28 characters max). Shorten it, please."
-msgstr "Slug “%s” is te lang (28 tekens max). Maak korter, alstublieft."
-
-#: admin/woocommerce-admin-attributes.php:81
-msgid "Slug “%s” is not allowed because it is a reserved term. Change it, please."
-msgstr "Slug “%s” is niet toegestaan omdat dit een gereserveerd term is. Wijzig deze, alstublieft."
-
-#: admin/woocommerce-admin-attributes.php:85
-#: admin/woocommerce-admin-attributes.php:90
-msgid "Slug “%s” is already in use. Change it, please."
-msgstr "Slug “%s” is al gebruik. Wijzig deze, alstublieft."
-
-#: admin/woocommerce-admin-attributes.php:226
-msgid "Edit Attribute"
-msgstr "Attribuut bewerken"
-
-#: admin/woocommerce-admin-attributes.php:236
-#: admin/woocommerce-admin-attributes.php:375
-msgid "Name for the attribute (shown on the front-end)."
-msgstr "Naam voor het attribuut (weergegeven op de frontend)."
-
-#: admin/woocommerce-admin-attributes.php:241
-#: admin/woocommerce-admin-attributes.php:307
-#: admin/woocommerce-admin-attributes.php:379
-msgid "Slug"
-msgstr "Slug"
-
-#: admin/woocommerce-admin-attributes.php:245
-#: admin/woocommerce-admin-attributes.php:381
-msgid "Unique slug/reference for the attribute; must be shorter than 28 characters."
-msgstr "Unieke slug/referentie voor het attribuut, moet korter zijn dan 28 tekens."
-
-#: admin/woocommerce-admin-attributes.php:254
-#: admin/woocommerce-admin-attributes.php:387
-msgid "Select"
-msgstr "Selecteer"
-
-#: admin/woocommerce-admin-attributes.php:255
-#: admin/woocommerce-admin-attributes.php:388
-msgid "Text"
-msgstr "Tekst"
-
-#: admin/woocommerce-admin-attributes.php:258
-#: admin/woocommerce-admin-attributes.php:391
-msgid "Determines how you select attributes for products. <strong>Text</strong> allows manual entry via the product page, whereas <strong>select</strong> attribute terms can be defined from this section. If you plan on using an attribute for variations use <strong>select</strong>."
-msgstr "Bepaalt hoe u attributen voor producten selecteert. <strong>Tekst</strong> maakt handmatige invoer via de product pagina mogelijk, terwijl <strong>selectie</strong> attribuut termen kunnen worden gedefinieerd via deze sectie. Als u van plan bent om een attribuut te gebruiken voor variaties gebruik dan <strong>selectie</strong>."
-
-#: admin/woocommerce-admin-attributes.php:263
-#: admin/woocommerce-admin-attributes.php:395
-msgid "Default sort order"
-msgstr "Standaard sorteervolgorde"
-
-#: admin/woocommerce-admin-attributes.php:267
-#: admin/woocommerce-admin-attributes.php:335
-#: admin/woocommerce-admin-attributes.php:397
-msgid "Custom ordering"
-msgstr "Aangepaste volgorde"
-
-#: admin/woocommerce-admin-attributes.php:269
-#: admin/woocommerce-admin-attributes.php:332
-#: admin/woocommerce-admin-attributes.php:399
-msgid "Term ID"
-msgstr "Term ID"
-
-#: admin/woocommerce-admin-attributes.php:271
-#: admin/woocommerce-admin-attributes.php:401
-msgid "Determines the sort order on the frontend for this attribute. If using custom ordering, you can drag and drop the terms in this attribute"
-msgstr "Bepaalt de sorteervolgorde op de frontend voor dit attribuut. Wanneer u gebruik maakt van aangepaste volgorde kunt de termen verslepen in dit attribuut"
-
-#: admin/woocommerce-admin-attributes.php:276
-msgid "Update"
-msgstr "Bijwerken"
-
-#: admin/woocommerce-admin-attributes.php:309
-msgid "Order by"
-msgstr "Sorteer op"
-
-#: admin/woocommerce-admin-attributes.php:310
-msgid "Terms"
-msgstr "Termen"
-
-#: admin/woocommerce-admin-attributes.php:355
-msgid "Configure&nbsp;terms"
-msgstr "Configureer&nbsp;voorwaarden"
-
-#: admin/woocommerce-admin-attributes.php:359
-msgid "No attributes currently exist."
-msgstr "Er bestaan op dit moment geen attributen."
-
-#: admin/woocommerce-admin-attributes.php:369
-msgid "Add New Attribute"
-msgstr "Nieuw attribuut toevoegen"
-
-#: admin/woocommerce-admin-attributes.php:370
-msgid "Attributes let you define extra product data, such as size or colour. You can use these attributes in the shop sidebar using the \"layered nav\" widgets. Please note: you cannot rename an attribute later on."
-msgstr "Met behulp van attributen kunt u extra product gegevens definiëren, zoals formaat of kleur. U kunt deze attributen in de winkel zijbalk gebruiken met de \"gelaagde navigatie\" widgets. Let op: een attribuut naam kan later niet gewijzigd worden."
-
-#: admin/woocommerce-admin-attributes.php:404
-msgid "Add Attribute"
-msgstr "Attribuut toevoegen"
-
-#: admin/woocommerce-admin-attributes.php:415
-msgid "Are you sure you want to delete this attribute?"
-msgstr "Weet u zeker dat u deze attribuut wilt verwijderen?"
-
-#: admin/woocommerce-admin-content.php:26
-#: admin/woocommerce-admin-reports.php:30
-#: admin/woocommerce-admin-reports.php:70
-#: admin/woocommerce-admin-reports.php:86
-#: admin/woocommerce-admin-reports.php:97
-msgid "Overview"
-msgstr "Overzicht"
-
-#: admin/woocommerce-admin-content.php:29
-msgid "Thank you for using WooCommerce :) Should you need help using or extending WooCommerce please <a href=\"%s\">read the documentation</a>. For further assistance you can use the <a href=\"%s\">community forum</a> or if you have access, <a href=\"%s\">our support desk</a>."
-msgstr "Bedankt voor het gebruik van WooCommerce :) Mocht u hulp nodig hebben met het gebruik of uitbreiden van WooCommerce <a href=\"%s\">lees dan de documentatie</a>. Voor verdere hulp kunt u gebruik maken van het <a href=\"%s\">community forum</a> of als u toegang hebt, <a href=\"%s\"> onze support desk</a>."
-
-#: admin/woocommerce-admin-content.php:31
-msgid "If you are having problems, or to assist us with support, please check the status page to identify any problems with your configuration:"
-msgstr "Als u problemen heeft, of om ons te helpen met ondersteuning, kijk dan op de status pagina om problemen met je configuratie te identificeren:"
-
-#: admin/woocommerce-admin-content.php:33 admin/woocommerce-admin-init.php:87
-#: admin/woocommerce-admin-status.php:26
-msgid "System Status"
-msgstr "Systeem status"
-
-#: admin/woocommerce-admin-content.php:35
-msgid "If you come across a bug, or wish to contribute to the project you can also <a href=\"%s\">get involved on GitHub</a>."
-msgstr "Als u u een bug tegen komt of een bijdrage wilt leveren aan het project kunt u ook <a href=\"%s\">meedoen op GitHub</a>."
-
-#: admin/woocommerce-admin-content.php:43
-msgid "Here you can set up your store and customise it to fit your needs. The sections available from the settings page include:"
-msgstr "Hier kunt u uw webwinkel instellen en aanpassen naar uw behoeften. De secties beschikbaar op de instellingen pagina bevatten:"
-
-#: admin/woocommerce-admin-content.php:44
-msgid "General settings such as your shop base, currency, and script/styling options which affect features used in your store."
-msgstr "Algemene instellingen zoals uw winkel basis, valuta en script/opmaak opties welke functionaliteiten in uw winkel beïnvloeden."
-
-#: admin/woocommerce-admin-content.php:45
-#: admin/woocommerce-admin-settings.php:182
-msgid "Pages"
-msgstr "Pagina's"
-
-#: admin/woocommerce-admin-content.php:45
-msgid "This is where important store page are defined. You can also set up other pages (such as a Terms page) here."
-msgstr "Hier worden belangrijke winkelpagina's gedefinieerd. U kunt ook andere pagina's (zoals een Algemene voorwaarden pagina) hier instellen."
-
-#: admin/woocommerce-admin-content.php:46
-msgid "Options for how things like price, images and weights appear in your product catalog."
-msgstr "Opties voor hoe zaken zoals zoals prijs, afbeeldingen en gewichten verschijnen in uw product catalogus."
-
-#: admin/woocommerce-admin-content.php:47
-msgid "Options concerning stock and stock notices."
-msgstr "Opties met betrekking tot voorraad en voorraad meldingen."
-
-#: admin/woocommerce-admin-content.php:48
-msgid "Options concerning tax, including international and local tax rates."
-msgstr "Opties met betrekking tot belastingen, inclusief internationale en lokale belastingtarieven."
-
-#: admin/woocommerce-admin-content.php:49
-msgid "This is where shipping options are defined, and shipping methods are set up."
-msgstr "Hier worden verzending opties gedefinieerd en verzendmethoden ingesteld."
-
-#: admin/woocommerce-admin-content.php:50
-msgid "Payment Methods"
-msgstr "Betaalmethoden"
-
-#: admin/woocommerce-admin-content.php:50
-msgid "This is where payment gateway options are defined, and individual payment gateways are set up."
-msgstr "Hier worden betaalmethoden opties gedefinieerd en individuele betaalmethoden ingesteld."
-
-#: admin/woocommerce-admin-content.php:51
-#: admin/woocommerce-admin-settings.php:187
-msgid "Emails"
-msgstr "E-mails"
-
-#: admin/woocommerce-admin-content.php:51
-msgid "Here you can customise the way WooCommerce emails appear."
-msgstr "Hier kunt u de de weergave van WooCommerce e-mails aanpassen."
-
-#: admin/woocommerce-admin-content.php:52
-#: admin/woocommerce-admin-settings.php:188
-msgid "Integration"
-msgstr "Integratie"
-
-#: admin/woocommerce-admin-content.php:52
-msgid "The integration section contains options for third party services which integrate with WooCommerce."
-msgstr "De integratie sectie bevat opties voor diensten van derden die integreren met WooCommerce."
-
-#: admin/woocommerce-admin-content.php:57 admin/woocommerce-admin-init.php:64
-msgid "Reports"
-msgstr "Rapporten"
-
-#: admin/woocommerce-admin-content.php:59
-msgid "The reports section can be accessed from the left-hand navigation menu. Here you can generate reports for sales and customers."
-msgstr "De rapporten sectie kan worden geopend vanuit het linker navigatiemenu. Hier kunt u rapporten genereren van omzet en klanten."
-
-#: admin/woocommerce-admin-content.php:60
-#: admin/woocommerce-admin-reports.php:27
-#: admin/woocommerce-admin-reports.php:991
-#: admin/woocommerce-admin-reports.php:1089
-#: admin/woocommerce-admin-reports.php:1208
-msgid "Sales"
-msgstr "Omzet"
-
-#: admin/woocommerce-admin-content.php:60
-msgid "Reports for sales based on date, top sellers and top earners."
-msgstr "Rapporten voor omzet gebaseerd op datum, top verkopers en top verdieners."
-
-#: admin/woocommerce-admin-content.php:61
-msgid "Coupon usage reports."
-msgstr "Coupon gebruik rapporten"
-
-#: admin/woocommerce-admin-content.php:62
-#: admin/woocommerce-admin-reports.php:83
-msgid "Customers"
-msgstr "Klanten"
-
-#: admin/woocommerce-admin-content.php:62
-msgid "Customer reports, such as signups per day."
-msgstr "Klant rapporten, zoals aanmeldingen per dag."
-
-#: admin/woocommerce-admin-content.php:63
-msgid "Stock reports for low stock and out of stock items."
-msgstr "Voorraad rapporten voor lage voorraad en niet in voorraad items."
-
-#: admin/woocommerce-admin-content.php:68
-#: admin/woocommerce-admin-dashboard.php:142
-msgid "Orders"
-msgstr "Bestellingen"
-
-#: admin/woocommerce-admin-content.php:70
-msgid "The orders section can be accessed from the left-hand navigation menu. Here you can view and manage customer orders."
-msgstr "De bestellingen sectie kan geopend worden vanuit het linker navigatiemenu. Hier kunt u klant bestellingen bekijken en beheren."
-
-#: admin/woocommerce-admin-content.php:71
-msgid "Orders can also be added from this section if you want to set them up for a customer manually."
-msgstr "Bestellingen kunnen ook toegevoegd worden in deze sectie als u deze handmatig voor een klant wilt opzetten."
-
-#: admin/woocommerce-admin-content.php:78
-msgid "Coupons can be managed from this section. Once added, customers will be able to enter coupon codes on the cart/checkout page. If a customer uses a coupon code they will be viewable when viewing orders."
-msgstr "Coupons kunnen worden beheerd vanuit deze sectie. Eenmaal toegevoegd zullen klanten in staat zijn om coupon codes in te voeren op de winkelwagen/afrekenen pagina. Als een klant gebruik maakt van een kortingscode zal dit zichtbaar zijn bij het bekijken van bestellingen."
-
-#: admin/woocommerce-admin-content.php:82
-msgid "For more information:"
-msgstr "Voor meer informatie:"
-
-#: admin/woocommerce-admin-content.php:83 admin/woocommerce-admin-init.php:62
-msgid "WooCommerce"
-msgstr "WooCommerce"
-
-#: admin/woocommerce-admin-content.php:84
-msgid "Project on WordPress.org"
-msgstr "Project op WordPress.org"
-
-#: admin/woocommerce-admin-content.php:85
-msgid "Project on Github"
-msgstr "Project op Github"
-
-#: admin/woocommerce-admin-content.php:86
-msgid "WooCommerce Docs"
-msgstr "WooCommerce documentatie"
-
-#: admin/woocommerce-admin-content.php:87
-msgid "Official Extensions"
-msgstr "Officiële extensies"
-
-#: admin/woocommerce-admin-content.php:88
-msgid "Official Themes"
-msgstr "Officiële thema's"
-
-#: admin/woocommerce-admin-dashboard.php:40
-msgid "Monthly Sales"
-msgstr "Maandelijkse omzet"
-
-#: admin/woocommerce-admin-dashboard.php:43
-msgid "WooCommerce Right Now"
-msgstr "WooCommerce op dit moment"
-
-#: admin/woocommerce-admin-dashboard.php:44
-msgid "WooCommerce Recent Orders"
-msgstr "WooCommerce recente bestellingen"
-
-#: admin/woocommerce-admin-dashboard.php:45
-msgid "WooCommerce Recent Reviews"
-msgstr "WooCommerce recente reviews"
-
-#: admin/woocommerce-admin-dashboard.php:78
-msgid "Shop Content"
-msgstr "Winkel inhoud"
-
-#: admin/woocommerce-admin-dashboard.php:148
-msgid "Pending"
-msgstr "In behandeling"
-
-#: admin/woocommerce-admin-dashboard.php:162
-msgid "On-Hold"
-msgstr "In de wacht"
-
-#: admin/woocommerce-admin-dashboard.php:190
-msgid "Completed"
-msgstr "Voltooid"
-
-#: admin/woocommerce-admin-dashboard.php:207
-msgid "You are using <strong>WooCommerce %s</strong>."
-msgstr "U gebruikt <strong>WooCommerce %s</strong>."
-
-#: admin/woocommerce-admin-dashboard.php:238
-msgid "l jS \\of F Y h:i:s A"
-msgstr "j F Y H:i:s"
-
-#: admin/woocommerce-admin-dashboard.php:239
-msgid "Total:"
-msgstr "Totaal:"
-
-#: admin/woocommerce-admin-dashboard.php:245
-msgid "There are no product orders yet."
-msgstr "Er zijn momenteel nog geen product bestellingen."
-
-#: admin/woocommerce-admin-dashboard.php:279
-msgid "out of 5"
-msgstr "van 5"
-
-#: admin/woocommerce-admin-dashboard.php:287
-msgid "There are no product reviews yet."
-msgstr "Er zijn nog geen product reviews."
-
-#: admin/woocommerce-admin-dashboard.php:428
-msgid "Sold"
-msgstr "Verkocht"
-
-#: admin/woocommerce-admin-dashboard.php:429
-msgid "Earned"
-msgstr "Verdiend"
-
-#: admin/woocommerce-admin-functions.php:190
-#: admin/woocommerce-admin-install.php:225
-msgid "Order Received"
-msgstr "Bestelling ontvangen"
-
-#: admin/woocommerce-admin-functions.php:192
-msgid "Thank you, we are now processing your order. Your order's details are below."
-msgstr "Bedankt, we verwerken nu uw bestelling. Uw bestelling gegevens vindt u hieronder."
-
-#: admin/woocommerce-admin-functions.php:194
-msgid "Order:"
-msgstr "Bestelling:"
-
-#: admin/woocommerce-admin-dashboard.php:84
-#: admin/woocommerce-admin-functions.php:200
-#: admin/woocommerce-admin-init.php:757 admin/woocommerce-admin-reports.php:990
-#: admin/woocommerce-admin-reports.php:1088
-msgid "Product"
-msgid_plural "Products"
-msgstr[0] "Product"
-msgstr[1] "Producten"
-
-#: admin/woocommerce-admin-functions.php:201
-msgid "Quantity"
-msgstr "Aantal"
-
-#: admin/woocommerce-admin-functions.php:214
-msgid "Order total:"
-msgstr "Bestelling totaal:"
-
-#: admin/woocommerce-admin-functions.php:220
-msgid "Customer details"
-msgstr "Klantgegevens"
-
-#: admin/woocommerce-admin-functions.php:226
-msgid "Billing address"
-msgstr "Factuuradres"
-
-#: admin/woocommerce-admin-functions.php:233
-msgid "Shipping address"
-msgstr "Verzendadres"
-
-#: admin/woocommerce-admin-functions.php:465
-msgid "Could not compile woocommerce.less:"
-msgstr "Kon woocommerce.less niet compileren:"
-
-#: admin/woocommerce-admin-functions.php:486
-#: admin/woocommerce-admin-functions.php:487
-msgid "Mark processing"
-msgstr "Markeer in verwerking"
-
-#: admin/woocommerce-admin-functions.php:489
-#: admin/woocommerce-admin-functions.php:490
-msgid "Mark completed"
-msgstr "Markeer voltooid"
-
-#: admin/woocommerce-admin-functions.php:527
-msgid "Order status changed by bulk edit:"
-msgstr "Bestelling status gewijzigd door bulk bewerken:"
-
-#: admin/woocommerce-admin-init.php:86
-msgid "WooCommerce Settings"
-msgstr "WooCommerce instellingen"
-
-#: admin/woocommerce-admin-init.php:87
-msgid "WooCommerce Status"
-msgstr "WooCommerce status"
-
-#: admin/woocommerce-admin-init.php:430
-msgid "Are you sure you want to remove the selected items? If you have previously reduced this item's stock, or this order was submitted by a customer, you will need to manually restore the item's stock."
-msgstr "Weet u zeker dat u de geselecteerde items wilt verwijderen? Als u al eerder de voorraad van dit item heeft verlaagd of deze bestelling werd ingediend door een klant moet u handmatig de voorraad van dit item herstellen."
-
-#: admin/woocommerce-admin-init.php:431
-msgid "Please select some items."
-msgstr "Selecteer een aantal items."
-
-#: admin/woocommerce-admin-init.php:432
-msgid "Remove this item meta?"
-msgstr "Verwijder dit item meta?"
-
-#: admin/woocommerce-admin-init.php:433
-msgid "Remove this attribute?"
-msgstr "Verwijder dit attribuut?"
-
-#: admin/woocommerce-admin-init.php:441
-msgid "Enter a name for the new attribute term:"
-msgstr "Voer een naam in voor de nieuwe attribuut term:"
-
-#: admin/woocommerce-admin-init.php:442
-msgid "Calculate totals based on order items, discounts, and shipping?"
-msgstr "Bereken totalen gebaseerd op bestelling items, kortingen en verzending?"
-
-#: admin/woocommerce-admin-init.php:443
-msgid "Calculate line taxes? This will calculate taxes based on the customers country. If no billing/shipping is set it will use the store base country."
-msgstr "Bereken regel belastingen? Dit berekent belastingen op basis van het land van de klanten. Als geen factuur/verzending is ingesteld zal de winkel basis land gebruikt worden."
-
-#: admin/woocommerce-admin-init.php:444
-msgid "Copy billing information to shipping information? This will remove any currently entered shipping information."
-msgstr "Kopieer factuurgegevens naar de verzendgegevens? Dit verwijderd alle reeds ingevoerde verzendgegevens."
-
-#: admin/woocommerce-admin-init.php:445
-msgid "Load the customer's billing information? This will remove any currently entered billing information."
-msgstr "De klant factuurgegevens inladen? Dit verwijdert alle momenteel ingevoerde factuurgegevens."
-
-#: admin/woocommerce-admin-init.php:446
-msgid "Load the customer's shipping information? This will remove any currently entered shipping information."
-msgstr "De klant verzendgegevens inladen? Dit verwijdert alle momenteel ingevoerde verzendgegevens. "
-
-#: admin/woocommerce-admin-init.php:450
-msgid "No customer selected"
-msgstr "Geen klant geselecteerd"
-
-#: admin/woocommerce-admin-init.php:661
-msgid "Product updated. <a href=\"%s\">View Product</a>"
-msgstr "Product bijgewerkt. <a href=\"%s\">Bekijk product</a>"
-
-#: admin/woocommerce-admin-init.php:662 admin/woocommerce-admin-init.php:677
-#: admin/woocommerce-admin-init.php:692
-msgid "Custom field updated."
-msgstr "Maatwerk veld bijgewerkt."
-
-#: admin/woocommerce-admin-init.php:663 admin/woocommerce-admin-init.php:678
-#: admin/woocommerce-admin-init.php:693
-msgid "Custom field deleted."
-msgstr "Maatwerk veld verwijderd."
-
-#: admin/woocommerce-admin-init.php:664
-msgid "Product updated."
-msgstr "Product bijgewerkt."
-
-#: admin/woocommerce-admin-init.php:665
-msgid "Product restored to revision from %s"
-msgstr "Product hersteld naar revisie van %s"
-
-#: admin/woocommerce-admin-init.php:666
-msgid "Product published. <a href=\"%s\">View Product</a>"
-msgstr "Product gepubliceerd. <a href=\"%s\">Bekijk product</a>"
-
-#: admin/woocommerce-admin-init.php:667
-msgid "Product saved."
-msgstr "Product opgeslagen."
-
-#: admin/woocommerce-admin-init.php:668
-msgid "Product submitted. <a target=\"_blank\" href=\"%s\">Preview Product</a>"
-msgstr "Product geplaatst. <a target=\"_blank\" href=\"%s\">Preview product</a>"
-
-#: admin/woocommerce-admin-init.php:669
-msgid "Product scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview Product</a>"
-msgstr "Product ingepland voor: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview product</a>"
-
-#: admin/woocommerce-admin-init.php:670 admin/woocommerce-admin-init.php:685
-#: admin/woocommerce-admin-init.php:700
-msgid "M j, Y @ G:i"
-msgstr "j M Y @ G:i"
-
-#: admin/woocommerce-admin-init.php:671
-msgid "Product draft updated. <a target=\"_blank\" href=\"%s\">Preview Product</a>"
-msgstr "Product concept bijgewerkt. <a target=\"_blank\" href=\"%s\">Preview product</a>"
-
-#: admin/woocommerce-admin-init.php:676 admin/woocommerce-admin-init.php:679
-#: admin/woocommerce-admin-init.php:681
-msgid "Order updated."
-msgstr "Bestelling bijgewerkt."
-
-#: admin/woocommerce-admin-init.php:680
-msgid "Order restored to revision from %s"
-msgstr "Bestelling hersteld naar revisie van %s"
-
-#: admin/woocommerce-admin-init.php:682
-msgid "Order saved."
-msgstr "Bestelling opgeslagen."
-
-#: admin/woocommerce-admin-init.php:683
-msgid "Order submitted."
-msgstr "Bestelling geplaatst."
-
-#: admin/woocommerce-admin-init.php:684
-msgid "Order scheduled for: <strong>%1$s</strong>."
-msgstr "Bestelling ingepland voor: <strong>%1$s</strong>."
-
-#: admin/woocommerce-admin-init.php:686
-msgid "Order draft updated."
-msgstr "Bestelling concept bijgewerkt."
-
-#: admin/woocommerce-admin-init.php:691 admin/woocommerce-admin-init.php:694
-#: admin/woocommerce-admin-init.php:696
-msgid "Coupon updated."
-msgstr "Coupon bijgewerkt."
-
-#: admin/woocommerce-admin-init.php:695
-msgid "Coupon restored to revision from %s"
-msgstr "Coupon hersteld naar revisie van %s"
-
-#: admin/woocommerce-admin-init.php:697
-msgid "Coupon saved."
-msgstr "Coupon opgeslagen."
-
-#: admin/woocommerce-admin-init.php:698
-msgid "Coupon submitted."
-msgstr "Coupon geplaatst."
-
-#: admin/woocommerce-admin-init.php:699
-msgid "Coupon scheduled for: <strong>%1$s</strong>."
-msgstr "Coupon gepland voor:<strong>%1$s</strong>."
-
-#: admin/woocommerce-admin-init.php:701
-msgid "Coupon draft updated."
-msgstr "Coupon concept bijgewerkt."
-
-#: admin/woocommerce-admin-init.php:718
-msgid "Order notes"
-msgstr "Bestelling opmerkingen"
-
-#: admin/woocommerce-admin-init.php:733
-msgid "These settings control the permalinks used for products. These settings only apply when <strong>not using \"default\" permalinks above</strong>."
-msgstr "Deze instellingen bepalen de permalinks gebruikt voor producten. Deze instellingen zijn alleen van toepassing als u <strong>hierboven niet \"standaard\" permalinks gebruikt</strong>."
-
-#: admin/woocommerce-admin-init.php:762
-msgid "Shop base"
-msgstr "Winkel basis"
-
-#: admin/woocommerce-admin-init.php:766
-msgid "Shop base with category"
-msgstr "Winkel basis met categorie"
-
-#: admin/woocommerce-admin-init.php:772
-msgid "Custom Base"
-msgstr "Maatwerk basis"
-
-#: admin/woocommerce-admin-init.php:774
-msgid "Enter a custom base to use. A base <strong>must</strong> be set or WordPress will use default instead."
-msgstr "Voer een aangepaste basis in om te gebruiken. Een basis <strong>moet</strong> ingesteld worden anders zal WordPress de standaard gebruiken."
-
-#: admin/woocommerce-admin-init.php:802
-msgid "Product permalink base"
-msgstr "Product permalink basis"
-
-#: admin/woocommerce-admin-init.php:807
-msgid "Product category base"
-msgstr "Product categorie basis"
-
-#: admin/woocommerce-admin-init.php:814
-msgid "Product tag base"
-msgstr "Product tag basis"
-
-#: admin/woocommerce-admin-init.php:821
-msgid "Product attribute base"
-msgstr "Product attribuut basis"
-
-#: admin/woocommerce-admin-install.php:195
-msgid "Shop"
-msgstr "Winkel"
-
-#: admin/woocommerce-admin-install.php:198
-#: admin/woocommerce-admin-status.php:303
-msgid "Cart"
-msgstr "Winkelwagen"
-
-#: admin/woocommerce-admin-install.php:204
-#: admin/woocommerce-admin-status.php:319
-msgid "My Account"
-msgstr "Mijn account"
-
-#: admin/woocommerce-admin-install.php:210
-msgid "Edit My Address"
-msgstr "Wijzig mijn adres"
-
-#: admin/woocommerce-admin-install.php:213
-#: admin/woocommerce-admin-status.php:327
-msgid "View Order"
-msgstr "Bekijk bestelling"
-
-#: admin/woocommerce-admin-install.php:216
-#: admin/woocommerce-admin-status.php:331
-msgid "Change Password"
-msgstr "Wachtwoord wijzigen"
-
-#: admin/woocommerce-admin-install.php:219
-msgid "Logout"
-msgstr "Uitloggen"
-
-#: admin/woocommerce-admin-install.php:222
-msgid "Checkout &rarr; Pay"
-msgstr "Afrekenen &rarr; Betaal"
-
-#: admin/woocommerce-admin-reports.php:36
-msgid "Sales by day"
-msgstr "Omzet per dag"
-
-#: admin/woocommerce-admin-reports.php:41
-msgid "Sales by month"
-msgstr "Omzet per maand"
-
-#: admin/woocommerce-admin-reports.php:46
-msgid "Product Sales"
-msgstr "Product omzet"
-
-#: admin/woocommerce-admin-reports.php:51
-msgid "Top sellers"
-msgstr "Top verkopers"
-
-#: admin/woocommerce-admin-reports.php:56
-msgid "Top earners"
-msgstr "Top verdieners"
-
-#: admin/woocommerce-admin-reports.php:61
-msgid "Sales by category"
-msgstr "Verkopen per categorie"
-
-#: admin/woocommerce-admin-reports.php:76
-msgid "Discounts by coupon"
-msgstr "Kortingen per coupon"
-
-#: admin/woocommerce-admin-reports.php:108
-msgid "Taxes by month"
-msgstr "Belastingen per maand"
-
-#: admin/woocommerce-admin-reports.php:237
-#: admin/woocommerce-admin-reports.php:502
-#: admin/woocommerce-admin-reports.php:707
-#: admin/woocommerce-admin-reports.php:888
-msgid "Sales amount"
-msgstr "Omzet hoeveelheid"
-
-#: admin/woocommerce-admin-reports.php:242
-#: admin/woocommerce-admin-reports.php:502
-#: admin/woocommerce-admin-reports.php:707
-#: admin/woocommerce-admin-reports.php:888
-msgid "Number of sales"
-msgstr "Aantal verkopen"
-
-#: admin/woocommerce-admin-reports.php:374
-msgid "Total sales"
-msgstr "Totale omzet"
-
-#: admin/woocommerce-admin-reports.php:376
-#: admin/woocommerce-admin-reports.php:382
-#: admin/woocommerce-admin-reports.php:388
-#: admin/woocommerce-admin-reports.php:394
-#: admin/woocommerce-admin-reports.php:400
-#: admin/woocommerce-admin-reports.php:406
-#: admin/woocommerce-admin-reports.php:649
-#: admin/woocommerce-admin-reports.php:655
-#: admin/woocommerce-admin-reports.php:661
-#: admin/woocommerce-admin-reports.php:667
-#: admin/woocommerce-admin-reports.php:833
-#: admin/woocommerce-admin-reports.php:839
-#: admin/woocommerce-admin-reports.php:845
-#: admin/woocommerce-admin-reports.php:851
-#: admin/woocommerce-admin-reports.php:1374
-#: admin/woocommerce-admin-reports.php:1380
-#: admin/woocommerce-admin-reports.php:1386
-#: admin/woocommerce-admin-reports.php:1820
-#: admin/woocommerce-admin-reports.php:1826
-#: admin/woocommerce-admin-reports.php:1832
-#: admin/woocommerce-admin-reports.php:1838
-#: admin/woocommerce-admin-reports.php:1844
-#: admin/woocommerce-admin-reports.php:1850
-#: admin/woocommerce-admin-reports.php:2314
-#: admin/woocommerce-admin-reports.php:2325
-#: admin/woocommerce-admin-reports.php:2336
-msgid "n/a"
-msgstr "niet beschikbaar"
-
-#: admin/woocommerce-admin-reports.php:380
-msgid "Total orders"
-msgstr "Totaal aantal bestellingen"
-
-#: admin/woocommerce-admin-reports.php:382
-#: admin/woocommerce-admin-reports.php:655
-#: admin/woocommerce-admin-reports.php:839
-msgid "items"
-msgstr "items"
-
-#: admin/woocommerce-admin-reports.php:386
-msgid "Average order total"
-msgstr "Gemiddelde bestelling in totaal"
-
-#: admin/woocommerce-admin-reports.php:392
-msgid "Average order items"
-msgstr "Gemiddelde bestelling items"
-
-#: admin/woocommerce-admin-reports.php:398
-msgid "Discounts used"
-msgstr "Gebruikte kortingen"
-
-#: admin/woocommerce-admin-reports.php:404
-msgid "Total shipping costs"
-msgstr "Totale verzending kosten"
-
-#: admin/woocommerce-admin-reports.php:412
-msgid "This month's sales"
-msgstr "Deze maand verkopen"
-
-#: admin/woocommerce-admin-reports.php:641
-#: admin/woocommerce-admin-reports.php:985
-#: admin/woocommerce-admin-reports.php:1083
-#: admin/woocommerce-admin-reports.php:1366
-msgid "From:"
-msgstr "Van:"
-
-#: admin/woocommerce-admin-reports.php:641
-#: admin/woocommerce-admin-reports.php:985
-#: admin/woocommerce-admin-reports.php:1083
-#: admin/woocommerce-admin-reports.php:1366
-msgid "To:"
-msgstr "Naar:"
-
-#: admin/woocommerce-admin-reports.php:641
-#: admin/woocommerce-admin-reports.php:826
-#: admin/woocommerce-admin-reports.php:985
-#: admin/woocommerce-admin-reports.php:1083
-#: admin/woocommerce-admin-reports.php:1239
-#: admin/woocommerce-admin-reports.php:1366
-#: admin/woocommerce-admin-reports.php:1499
-#: admin/woocommerce-admin-reports.php:2303
-#: admin/woocommerce-admin-reports.php:2486
-msgid "Show"
-msgstr "Tonen"
-
-#: admin/woocommerce-admin-reports.php:647
-msgid "Total sales in range"
-msgstr "Totale omzet in periode"
-
-#: admin/woocommerce-admin-reports.php:653
-msgid "Total orders in range"
-msgstr "Totaal aantal bestellingen in bereik"
-
-#: admin/woocommerce-admin-reports.php:659
-msgid "Average order total in range"
-msgstr "Gemiddelde bestelling totaal in periode"
-
-#: admin/woocommerce-admin-reports.php:665
-msgid "Average order items in range"
-msgstr "Gemiddelde bestelling items in periode"
-
-#: admin/woocommerce-admin-reports.php:673
-msgid "Sales in range"
-msgstr "Omzet in periode"
-
-#: admin/woocommerce-admin-reports.php:820
-#: admin/woocommerce-admin-reports.php:2297
-msgid "Year:"
-msgstr "Jaar:"
-
-#: admin/woocommerce-admin-reports.php:831
-msgid "Total sales for year"
-msgstr "Totaal omzet per jaar"
-
-#: admin/woocommerce-admin-reports.php:837
-msgid "Total orders for year"
-msgstr "Totaal bestellingen voor jaar"
-
-#: admin/woocommerce-admin-reports.php:843
-msgid "Average order total for year"
-msgstr "Gemiddelde bestelling totaal voor jaar"
-
-#: admin/woocommerce-admin-reports.php:849
-msgid "Average order items for year"
-msgstr "Gemiddelde bestelling items voor jaar"
-
-#: admin/woocommerce-admin-reports.php:857
-msgid "Monthly sales for year"
-msgstr "Maandelijkse omzet voor jaar"
-
-#: admin/woocommerce-admin-reports.php:1005
-msgid "Product does not exist"
-msgstr "Product bestaat niet"
-
-#: admin/woocommerce-admin-reports.php:1104
-msgid "Product no longer exists"
-msgstr "Product bestaat niet meer"
-
-#: admin/woocommerce-admin-reports.php:1203
-msgid "Sales for %s:"
-msgstr "Omzet voor %s:"
-
-#: admin/woocommerce-admin-reports.php:1207
-#: admin/woocommerce-admin-reports.php:2345
-msgid "Month"
-msgstr "Maand"
-
-#: admin/woocommerce-admin-reports.php:1229
-msgid "No sales :("
-msgstr "Geen omzet :("
-
-#: admin/woocommerce-admin-reports.php:1372
-msgid "Total orders containing coupons"
-msgstr "Totaal aantal bestellingen met coupons"
-
-#: admin/woocommerce-admin-reports.php:1378
-msgid "Percent of orders containing coupons"
-msgstr "Percentage bestellingen met coupons"
-
-#: admin/woocommerce-admin-reports.php:1384
-msgid "Total coupon discount"
-msgstr "Totale coupon korting"
-
-#: admin/woocommerce-admin-reports.php:1393
-msgid "Most popular coupons"
-msgstr "Meest populaire coupons"
-
-#: admin/woocommerce-admin-reports.php:1406
-#: admin/woocommerce-admin-reports.php:1428
-msgid "No coupons found"
-msgstr "Geen coupons gevonden"
-
-#: admin/woocommerce-admin-reports.php:1415
-msgid "Greatest discount amount"
-msgstr "Grootste kortingsbedrag"
-
-#: admin/woocommerce-admin-reports.php:1425
-msgid "Discounted %s"
-msgstr "Korting %s"
-
-#: admin/woocommerce-admin-reports.php:1484
-#: admin/woocommerce-admin-reports.php:2463
-msgid "Show:"
-msgstr "Toon:"
-
-#: admin/woocommerce-admin-reports.php:1541
-msgid "Coupon"
-msgstr "Coupon"
-
-#: admin/woocommerce-admin-reports.php:1624
-msgid "Top coupon"
-msgstr "Beste coupon"
-
-#: admin/woocommerce-admin-reports.php:1632
-msgid "Worst coupon"
-msgstr "Slechtste coupon"
-
-#: admin/woocommerce-admin-reports.php:1640
-msgid "Discount average"
-msgstr "Korting gemiddelde"
-
-#: admin/woocommerce-admin-reports.php:1648
-msgid "Discount median"
-msgstr "Korting mediaan"
-
-#: admin/woocommerce-admin-reports.php:1668
-msgid "Monthly discounts by coupon"
-msgstr "Maandelijkse kortingen per coupon"
-
-#: admin/woocommerce-admin-reports.php:1818
-msgid "Total customers"
-msgstr "Totaal aantal klanten"
-
-#: admin/woocommerce-admin-reports.php:1824
-msgid "Total customer sales"
-msgstr "Totale klanten omzet"
-
-#: admin/woocommerce-admin-reports.php:1830
-msgid "Total guest sales"
-msgstr "Totale gasten omzet"
-
-#: admin/woocommerce-admin-reports.php:1836
-msgid "Total customer orders"
-msgstr "Totaal aantal bestellingen van klanten"
-
-#: admin/woocommerce-admin-reports.php:1842
-msgid "Total guest orders"
-msgstr "Totaal aantal bestellingen van gasten"
-
-#: admin/woocommerce-admin-reports.php:1848
-msgid "Average orders per customer"
-msgstr "Gemiddelde bestelling per klant"
-
-#: admin/woocommerce-admin-reports.php:1856
-msgid "Signups per day"
-msgstr "Aanmeldingen per dag"
-
-#: admin/woocommerce-admin-reports.php:2077
-msgid "Low stock"
-msgstr "Lage voorraad"
-
-#: admin/woocommerce-admin-reports.php:2105
-msgid "No products are low in stock."
-msgstr "Geen producten met een lage voorraad."
-
-#: admin/woocommerce-admin-reports.php:2137
-msgid "Marked out of stock"
-msgstr "Gemarkeerd als niet in voorraad"
-
-#: admin/woocommerce-admin-reports.php:2144
-msgid "No products are out in stock."
-msgstr "Geen producten zijn uit voorraad."
-
-#: admin/woocommerce-admin-reports.php:2308
-msgid "Total taxes for year"
-msgstr "Totaal belastingen voor jaar"
-
-#: admin/woocommerce-admin-reports.php:2319
-msgid "Total product taxes for year"
-msgstr "Totaal product belastingen voor jaar"
-
-#: admin/woocommerce-admin-reports.php:2330
-msgid "Total shipping tax for year"
-msgstr "Totaal verzending belastingen voor jaar"
-
-#: admin/woocommerce-admin-reports.php:2346
-msgid "Total Sales"
-msgstr "Totale omzet"
-
-#: admin/woocommerce-admin-reports.php:2346
-msgid "This is the sum of the 'Order Total' field within your orders."
-msgstr "Dit is de som van het 'Bestelling totaal' veld binnen uw bestellingen."
-
-#: admin/woocommerce-admin-reports.php:2347
-msgid "Total Shipping"
-msgstr "Totale verzending"
-
-#: admin/woocommerce-admin-reports.php:2347
-msgid "This is the sum of the 'Shipping Total' field within your orders."
-msgstr "Dit is de som van het 'Verzending totaal' veld binnen uw bestellingen."
-
-#: admin/woocommerce-admin-reports.php:2348
-msgid "Total Product Taxes"
-msgstr "Totaal product belastingen"
-
-#: admin/woocommerce-admin-reports.php:2348
-msgid "This is the sum of the 'Cart Tax' field within your orders."
-msgstr "Dit is de som van het 'Winkelwagen belasting' veld binnen uw bestellingen."
-
-#: admin/woocommerce-admin-reports.php:2349
-msgid "Total Shipping Taxes"
-msgstr "Totaal verzending belastingen"
-
-#: admin/woocommerce-admin-reports.php:2349
-msgid "This is the sum of the 'Shipping Tax' field within your orders."
-msgstr "Dit is de som van het 'Verzending belasting' veld binnen uw bestellingen."
-
-#: admin/woocommerce-admin-reports.php:2350
-msgid "Total Taxes"
-msgstr "Totaal belastingen"
-
-#: admin/woocommerce-admin-reports.php:2350
-msgid "This is the sum of the 'Cart Tax' and 'Shipping Tax' fields within your orders."
-msgstr "Dit is de som van de 'Winkelwagen belasting' en 'Verzending belasting' velden binnen uw bestellingen."
-
-#: admin/woocommerce-admin-reports.php:2351
-msgid "Net profit"
-msgstr "Nettowinst"
-
-#: admin/woocommerce-admin-reports.php:2351
-msgid "Total sales minus shipping and tax."
-msgstr "Totale omzet minus verzending en belasting."
-
-#: admin/woocommerce-admin-reports.php:2396
-msgid "Toggle tax rows"
-msgstr "Belasting rijen omschakelen"
-
-#: admin/woocommerce-admin-reports.php:2539
-msgid "Category"
-msgstr "Categorie"
-
-#: admin/woocommerce-admin-reports.php:2642
-msgid "Top category"
-msgstr "Top categorie"
-
-#: admin/woocommerce-admin-reports.php:2651
-msgid "Worst category"
-msgstr "Slechtste categorie"
-
-#: admin/woocommerce-admin-reports.php:2659
-msgid "Category sales average"
-msgstr "Categorie verkoop gemiddelde"
-
-#: admin/woocommerce-admin-reports.php:2670
-msgid "Category sales median"
-msgstr "Categorie verkoop mediaan"
-
-#: admin/woocommerce-admin-reports.php:2690
-msgid "Monthly sales by category"
-msgstr "Maandelijkse verkopen per categorie"
-
-#: admin/woocommerce-admin-settings.php:45
-msgid "Action failed. Please refresh the page and retry."
-msgstr "Actie mislukt. Vernieuw de pagina en probeer het opnieuw."
-
-#: admin/woocommerce-admin-settings.php:162
-msgid "Your settings have been saved."
-msgstr "Uw instellingen zijn opgeslagen."
-
-#: admin/woocommerce-admin-settings.php:208
-msgid "More functionality and gateway options available via <a href=\"%s\" target=\"_blank\">WC official extensions</a>."
-msgstr "Meer functionaliteiten en gateway opties beschikbaar via <a href=\"%s\" target=\"_blank\">WC officiële extensies</a>."
-
-#: admin/woocommerce-admin-settings.php:226
-msgid "Tax Rates"
-msgstr "Belastingtarieven"
-
-#: admin/woocommerce-admin-settings.php:253
-msgid "Email Options"
-msgstr "E-mail opties"
-
-#: admin/woocommerce-admin-settings.php:386
-msgid "Save changes"
-msgstr "Wijzigingen opslaan"
-
-#: admin/woocommerce-admin-settings.php:427
-msgid "The changes you made will be lost if you navigate away from this page."
-msgstr "De wijzigingen die u gemaakt heeft zullen verloren gaan als u deze pagina verlaat."
-
-#: admin/woocommerce-admin-settings.php:799
-msgid "Hard Crop"
-msgstr "Hard bijsnijden"
-
-#: admin/woocommerce-admin-settings.php:824
-msgid "Select a page&hellip;"
-msgstr "Selecteer een pagina&hellip;"
-
-#: admin/woocommerce-admin-settings.php:847
-msgid "Choose a country&hellip;"
-msgstr "Kies een land&hellip;"
-
-#: admin/woocommerce-admin-settings.php:867
-msgid "Choose countries&hellip;"
-msgstr "Kies landen&hellip;"
-
-#: admin/woocommerce-admin-status.php:27 admin/woocommerce-admin-status.php:649
-msgid "Tools"
-msgstr "Tools"
-
-#: admin/woocommerce-admin-status.php:62
-msgid "Please include this information when requesting support:"
-msgstr "Gelieve deze informatie bijvoegen bij het aanvragen van ondersteuning:"
-
-#: admin/woocommerce-admin-status.php:63
-msgid "Download System Report File"
-msgstr "Download systeemrapport bestand"
-
-#: admin/woocommerce-admin-status.php:71
-msgid "Environment"
-msgstr "Omgeving"
-
-#: admin/woocommerce-admin-status.php:77
-msgid "Home URL"
-msgstr "Home URL"
-
-#: admin/woocommerce-admin-status.php:81
-msgid "Site URL"
-msgstr "Site URL"
-
-#: admin/woocommerce-admin-status.php:85
-msgid "WC Version"
-msgstr "Versie"
-
-#: admin/woocommerce-admin-status.php:89
-msgid "WC Database Version"
-msgstr "WC database versie"
-
-#: admin/woocommerce-admin-status.php:93
-msgid "WP Version"
-msgstr "WP versie"
-
-#: admin/woocommerce-admin-status.php:97
-msgid "Web Server Info"
-msgstr "Webserver info"
-
-#: admin/woocommerce-admin-status.php:101
-msgid "PHP Version"
-msgstr "PHP versie"
-
-#: admin/woocommerce-admin-status.php:105
-msgid "MySQL Version"
-msgstr "MySQL versie"
-
-#: admin/woocommerce-admin-status.php:109
-msgid "WP Memory Limit"
-msgstr "WP geheugen limiet"
-
-#: admin/woocommerce-admin-status.php:114
-msgid "%s - We recommend setting memory to at least 64MB. See: <a href=\"%s\">Increasing memory allocated to PHP</a>"
-msgstr "%s - Wij raden het aan om het geheugen minimaal op 64 MB in te stellen. Zie: <a href=\"%s\">Verhoog toegewezen geheugen aan PHP</a>"
-
-#: admin/woocommerce-admin-status.php:121
-msgid "WP Debug Mode"
-msgstr "WP debug mode"
-
-#: admin/woocommerce-admin-status.php:125
-msgid "WP Max Upload Size"
-msgstr "WP maximale upload grootte"
-
-#: admin/woocommerce-admin-status.php:129
-msgid "PHP Post Max Size"
-msgstr "PHP Post Max Size"
-
-#: admin/woocommerce-admin-status.php:133
-msgid "PHP Time Limit"
-msgstr "PHP Time Limit"
-
-#: admin/woocommerce-admin-status.php:137
-msgid "WC Logging"
-msgstr "WC logboek"
-
-#: admin/woocommerce-admin-status.php:140
-msgid "Log directory is writable."
-msgstr "Logboek map is beschrijfbaar."
-
-#: admin/woocommerce-admin-status.php:142
-msgid "Log directory (<code>woocommerce/logs/</code>) is not writable. Logging will not be possible."
-msgstr "Logboek map (<code>woocommerce/logs/</code>) is niet beschrijfbaar. Logboek bijhouden is niet mogelijk."
-
-#: admin/woocommerce-admin-status.php:149
-msgid "fsockopen/cURL"
-msgstr "fsockopen/cURL"
-
-#: admin/woocommerce-admin-status.php:152
-msgid "Your server has fsockopen and cURL enabled."
-msgstr "Uw server heeft fsockopen en cURL ingeschakeld."
-
-#: admin/woocommerce-admin-status.php:154
-msgid "Your server has fsockopen enabled, cURL is disabled."
-msgstr "Uw server heeft fsockopen ingeschakeld, cURL is uitgeschakeld."
-
-#: admin/woocommerce-admin-status.php:156
-msgid "Your server has cURL enabled, fsockopen is disabled."
-msgstr "Uw server heeft cURL ingeschakeld, fsockopen is uitgeschakeld."
-
-#: admin/woocommerce-admin-status.php:160
-msgid "Your server does not have fsockopen or cURL enabled - PayPal IPN and other scripts which communicate with other servers will not work. Contact your hosting provider."
-msgstr "Uw server heeft fsockopen of cURL niet ingeschakeld - PayPal IPN en andere scripts die communiceren ​​met andere servers zullen niet werken. Neem contact op met uw hosting provider."
-
-#: admin/woocommerce-admin-status.php:165
-msgid "SOAP Client"
-msgstr "SOAP Client"
-
-#: admin/woocommerce-admin-status.php:167
-msgid "Your server has the SOAP Client class enabled."
-msgstr "Uw server heeft de SOAP Client klasse ingeschakeld."
-
-#: admin/woocommerce-admin-status.php:170
-msgid "Your server does not have the <a href=\"%s\">SOAP Client</a> class enabled - some gateway plugins which use SOAP may not work as expected."
-msgstr "Uw server heeft niet de <a href=\"%s\">SOAP Client</a> klasse ingeschakeld - enkele gateway plugins die SOAP gebruiken werken mogelijk niet zoals verwacht."
-
-#: admin/woocommerce-admin-status.php:175
-msgid "WP Remote Post"
-msgstr "WP Remote Post"
-
-#: admin/woocommerce-admin-status.php:186
-msgid "wp_remote_post() was successful - PayPal IPN is working."
-msgstr "wp_remote_post () was succesvol - PayPal IPN werkt."
-
-#: admin/woocommerce-admin-status.php:189
-msgid "wp_remote_post() failed. PayPal IPN won't work with your server. Contact your hosting provider. Error:"
-msgstr "wp_remote_post() mislukt. PayPal IPN werkt niet met uw server. Neem contact op met uw hosting provider. Fout:"
-
-#: admin/woocommerce-admin-status.php:192
-msgid "wp_remote_post() failed. PayPal IPN may not work with your server."
-msgstr "wp_remote_post() mislukt. PayPal IPN werkt niet met uw server."
-
-#: admin/woocommerce-admin-status.php:215
-msgid "Plugins"
-msgstr "Plugins"
-
-#: admin/woocommerce-admin-status.php:221
-msgid "Installed Plugins"
-msgstr "Geïnstalleerde plugins"
-
-#: admin/woocommerce-admin-status.php:259
-msgid "is available"
-msgstr "is beschikbaar"
-
-#: admin/woocommerce-admin-status.php:262
-msgid "by"
-msgstr "door"
-
-#: admin/woocommerce-admin-status.php:262
-msgid "version"
-msgstr "versie"
-
-#: admin/woocommerce-admin-status.php:285
-msgid "Force SSL"
-msgstr "Forceer SSL"
-
-#: admin/woocommerce-admin-status.php:292
-msgid "WC Pages"
-msgstr "WC pagina's"
-
-#: admin/woocommerce-admin-status.php:299
-msgid "Shop Base"
-msgstr "Winkel basis"
-
-#: admin/woocommerce-admin-status.php:311
-msgid "Pay"
-msgstr "Betalen"
-
-#: admin/woocommerce-admin-status.php:315
-msgid "Thanks"
-msgstr "Bedankt"
-
-#: admin/woocommerce-admin-status.php:323
-msgid "Edit Address"
-msgstr "Bewerk adres"
-
-#: admin/woocommerce-admin-status.php:355
-msgid "Page not set"
-msgstr "Pagina niet ingesteld"
-
-#: admin/woocommerce-admin-status.php:365
-msgid "Page does not exist"
-msgstr "Pagina bestaat niet"
-
-#: admin/woocommerce-admin-status.php:370
-msgid "Page does not contain the shortcode: %s"
-msgstr "Pagina bevat niet de shortcode: %s"
-
-#: admin/woocommerce-admin-status.php:389
-msgid "WC Taxonomies"
-msgstr "WC taxonomieën"
-
-#: admin/woocommerce-admin-status.php:395
-msgid "Order Statuses"
-msgstr "Bestelling statussen"
-
-#: admin/woocommerce-admin-status.php:405
-msgid "Product Types"
-msgstr "Product types"
-
-#: admin/woocommerce-admin-status.php:418
-msgid "Templates"
-msgstr "Sjablonen"
-
-#: admin/woocommerce-admin-status.php:424
-msgid "Template Overrides"
-msgstr "Template overschrijvingen"
-
-#: admin/woocommerce-admin-status.php:442
-msgid "No core overrides present in theme."
-msgstr "Geen kern overschrijvingen aanwezig in thema."
-
-#: admin/woocommerce-admin-status.php:537
-msgid "WC Transients"
-msgstr "WC transiënte"
-
-#: admin/woocommerce-admin-status.php:538
-msgid "Clear transients"
-msgstr "Wis transiënte"
-
-#: admin/woocommerce-admin-status.php:539
-msgid "This tool will clear the product/shop transients cache."
-msgstr "Deze tool zal de product/winkel transiënte cache wissen."
-
-#: admin/woocommerce-admin-status.php:542
-msgid "Expired Transients"
-msgstr "Verlopen transiënte"
-
-#: admin/woocommerce-admin-status.php:543
-msgid "Clear expired transients"
-msgstr "Wis verlopen transiënte"
-
-#: admin/woocommerce-admin-status.php:544
-msgid "This tool will clear ALL expired transients from Wordpress."
-msgstr "Deze tool zal ALLE verlopen transiënte wissen van WordPress."
-
-#: admin/woocommerce-admin-status.php:547
-msgid "Term counts"
-msgstr "Term teller"
-
-#: admin/woocommerce-admin-status.php:548
-msgid "Recount terms"
-msgstr "Termen opnieuw tellen"
-
-#: admin/woocommerce-admin-status.php:549
-msgid "This tool will recount product terms - useful when changing your settings in a way which hides products from the catalog."
-msgstr "Deze tool zal product termen opnieuw tellen - handig voor wanneer u instellingen wijzigt in de manier waarop producten verborgen worden uit de catalogus."
-
-#: admin/woocommerce-admin-status.php:552
-msgid "Capabilities"
-msgstr "Capabiliteiten"
-
-#: admin/woocommerce-admin-status.php:553
-msgid "Reset capabilities"
-msgstr "Capabiliteiten opnieuw instellen"
-
-#: admin/woocommerce-admin-status.php:554
-msgid "This tool will reset the admin, customer and shop_manager roles to default. Use this if your users cannot access all of the WooCommerce admin pages."
-msgstr "Deze tool zal de admin, customer en shop_manager rollen herstellen naar de standaardinstellingen. Gebruik dit als uw gebruikers niet toegang hebben tot alle WooCommerce beheerder pagina's."
-
-#: admin/woocommerce-admin-status.php:564
-msgid "Product Transients Cleared"
-msgstr "Product transiënte gewist"
-
-#: admin/woocommerce-admin-status.php:605
-msgid "%d Transients Rows Cleared"
-msgstr "%d transiënte rijen gewist"
-
-#: admin/woocommerce-admin-status.php:613
-msgid "Roles successfully reset"
-msgstr "Rollen succesvol herstelt"
-
-#: admin/woocommerce-admin-status.php:625
-msgid "Terms successfully recounted"
-msgstr "Termen succesvol opnieuw geteld"
-
-#: admin/woocommerce-admin-status.php:634
-msgid "There was an error calling %s::%s"
-msgstr "Er was een fout bij het aanroepen van %s::%s"
-
-#: admin/woocommerce-admin-status.php:637
-msgid "There was an error calling %s"
-msgstr "Er was een fout bij het aanroepen van %s"
-
-#: admin/woocommerce-admin-taxonomies.php:25
-#: admin/woocommerce-admin-taxonomies.php:118
-msgid "Display type"
-msgstr "Weergave type"
-
-#: admin/woocommerce-admin-taxonomies.php:29
-#: admin/woocommerce-admin-taxonomies.php:123
-msgid "Subcategories"
-msgstr "Subcategorieën"
-
-#: admin/woocommerce-admin-taxonomies.php:30
-#: admin/woocommerce-admin-taxonomies.php:124
-msgid "Both"
-msgstr "Beide"
-
-#: admin/woocommerce-admin-taxonomies.php:34
-#: admin/woocommerce-admin-taxonomies.php:129
-msgid "Thumbnail"
-msgstr "Miniatuur"
-
-#: admin/woocommerce-admin-taxonomies.php:38
-#: admin/woocommerce-admin-taxonomies.php:134
-msgid "Upload/Add image"
-msgstr "Afbeelding uploaden / toevoegen"
-
-#: admin/woocommerce-admin-taxonomies.php:39
-#: admin/woocommerce-admin-taxonomies.php:135
-msgid "Remove image"
-msgstr "Verwijder afbeelding"
-
-#: admin/woocommerce-admin-taxonomies.php:64
-#: admin/woocommerce-admin-taxonomies.php:156
-msgid "Use image"
-msgstr "Gebruik afbeelding"
-
-#: admin/woocommerce-admin-taxonomies.php:222
-msgid "Product categories for your store can be managed here. To change the order of categories on the front-end you can drag and drop to sort them. To see more categories listed click the \"screen options\" link at the top of the page."
-msgstr "Product categorieën voor uw winkel kunnen hier beheerd worden. Om de volgorde van de categorieën op de frontend te wijzigen kunt u drag en drop gebruiken om ze te sorteren. Om meer categorieën weer te geven klik de \"schermopties\" link aan de bovenkant van de pagina."
-
-#: admin/woocommerce-admin-taxonomies.php:237
-msgid "Shipping classes can be used to group products of similar type. These groups can then be used by certain shipping methods to provide different rates to different products."
-msgstr "Verzending klassen kunnen gebruikt worden om producten van dezelfde type te groeperen. Deze groepen kunnen vervolgens gebruikt worden bij bepaalde verzendmethoden om verschillende tarieven voor verschillende producten te hanteren."
-
-#: admin/woocommerce-admin-taxonomies.php:365
-msgid "Edit Class"
-msgstr "Klasse bewerken"
-
-#: admin/woocommerce-admin-users.php:26
-msgid "Billing Address"
-msgstr "Factuuradres"
-
-#: admin/woocommerce-admin-users.php:27
-msgid "Shipping Address"
-msgstr "Verzendadres"
-
-#: admin/woocommerce-admin-users.php:28
-msgid "Paying Customer?"
-msgstr "Betalende klant?"
-
-#: admin/woocommerce-admin-users.php:29
-msgid "Completed Orders"
-msgstr "Voltooide bestellingen"
-
-#: admin/woocommerce-admin-users.php:144
-msgid "Customer Billing Address"
-msgstr "Klant factuuradres"
-
-#: admin/woocommerce-admin-users.php:147 admin/woocommerce-admin-users.php:196
-msgid "First name"
-msgstr "Voornaam"
-
-#: admin/woocommerce-admin-users.php:151 admin/woocommerce-admin-users.php:200
-msgid "Last name"
-msgstr "Achternaam"
-
-#: admin/woocommerce-admin-users.php:176
-msgid "Country or state code"
-msgstr "Land- of staatcode"
-
-#: admin/woocommerce-admin-users.php:180 admin/woocommerce-admin-users.php:229
-msgid "2 letter Country code"
-msgstr "2-letterige landcode"
-
-#: admin/woocommerce-admin-users.php:183
-msgid "Telephone"
-msgstr "Telefoon"
-
-#: admin/woocommerce-admin-users.php:193
-msgid "Customer Shipping Address"
-msgstr "Klant verzendadres"
-
-#: admin/woocommerce-admin-users.php:225
-msgid "State/County or state code"
-msgstr "Staat/provincie of staatcode"
