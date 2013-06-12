@@ -7,11 +7,17 @@ fi
 
 PLUGIN_DIR=`pwd`/..
 
+if [[ $2 ]]; then
+	TRANSLATE_DIR=$2
+else 
+	TRANSLATE_DIR=../$PLUGIN_DIR_NAME
+fi
+
 PLUGIN_DIR_NAME=$1
 
 cd $PLUGIN_DIR
 
-cd ../$PLUGIN_DIR_NAME && \
+cd $TRANSLATE_DIR && \
 	find ./admin -iname "*.php" -type f | xgettext \
 	--from-code=UTF-8 \
 	--keyword=__ \
@@ -27,7 +33,7 @@ cd ../$PLUGIN_DIR_NAME && \
 	--files-from=- \
 	--output=$PLUGIN_DIR/languages/$PLUGIN_DIR_NAME/$PLUGIN_DIR_NAME-admin.pot
 
-cd ../$PLUGIN_DIR_NAME && \
+cd $TRANSLATE_DIR && \
 	find . -iname "*.php" -type f -not -path "./admin/*" | xgettext \
 	--from-code=UTF-8 \
 	--keyword=__ \
