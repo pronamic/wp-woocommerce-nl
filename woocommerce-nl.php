@@ -2,9 +2,9 @@
 /*
 Plugin Name: WooCommerce (nl)
 Plugin URI: http://pronamic.eu/wp-plugins/woocommerce-nl/
-Description: Extends the WooCommerce plugin and add-ons with the Dutch language: <strong>WooCommerce</strong> 2.0.10 | <strong>WooCommerce EU VAT Number</strong> 1.4 | <strong>WooCommerce Subscribe to Newsletter</strong> 1.0.4 | <strong>WooCommerce Gateway Fees</strong> 1.2.1 | <strong>WooCommerce - Gravity Forms Product Add-Ons</strong> 1.3.6
+Description: Extends the WooCommerce plugin and add-ons with the Dutch language: <strong>WooCommerce</strong> 2.0.10 | <strong>WooCommerce EU VAT Number</strong> 1.4 | <strong>WooCommerce Subscribe to Newsletter</strong> 1.0.4 | <strong>WooCommerce Gateway Fees</strong> 1.2.1 | <strong>WooCommerce - Gravity Forms Product Add-Ons</strong> 2.4.2
 
-Version: 0.4.5
+Version: 0.4.6
 Requires at least: 3.0
 
 Author: Pronamic
@@ -42,6 +42,8 @@ class WooCommerceNLPlugin {
 		$this->file = $file;
 
 		// Filters and actions
+		add_action( 'plugins_loaded', array( $this, 'plugins_loaded' ) );
+
 		add_filter( 'load_textdomain_mofile', array( $this, 'load_mo_file' ), 10, 2 );
 
 		/*
@@ -69,6 +71,19 @@ class WooCommerceNLPlugin {
 				update_option( 'active_plugins', $plugins );
 			}
 		}
+	}
+
+	////////////////////////////////////////////////////////////
+
+	/**
+	 * Plugins loaded
+	 */
+	public function plugins_loaded() {
+		$rel_path = dirname( plugin_basename( $this->file ) ) . '/languages/';
+
+		// Load plugin text domain - WooCommerce Gravity Forms
+		// WooCommerce mixed use of 'wc_gf_addons' and 'wc_gravityforms'
+		load_plugin_textdomain( 'wc_gravityforms', false, $rel_path );
 	}
 
 	////////////////////////////////////////////////////////////
@@ -103,6 +118,9 @@ class WooCommerceNLPlugin {
 				),
 				'wc_gf_addons'               => array(
 					'languages/wc_gf_addons-nl_NL.mo'           => 'woocommerce-gravityforms-product-addons/nl_NL.mo'
+				),
+				'wc_gravityforms'            => array(
+					'languages/wc_gravityforms-nl_NL.mo'        => 'woocommerce-gravityforms-product-addons/nl_NL.mo'
 				),
 				'wc_subscribe_to_newsletter' => array(
 					'wc_subscribe_to_newsletter-nl_NL.mo'       => 'woocommerce-subscribe-to-newsletter/nl_NL.mo'
