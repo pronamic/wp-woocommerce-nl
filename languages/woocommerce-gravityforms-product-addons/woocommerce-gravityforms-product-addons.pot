@@ -1,0 +1,142 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Remco Tolsma
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#: gravityforms-product-addons.php:208
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: Remco Tolsma &lt;info@remcotolsma.nl&gt;\n"
+"POT-Creation-Date: 2013-06-12 09:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: gravityforms-product-addons-form.php:35 gravityforms-product-addons.php:228
+msgid "Subtotal"
+msgstr ""
+
+#: gravityforms-product-addons-form.php:36 gravityforms-product-addons.php:237
+msgid "Options"
+msgstr ""
+
+#: gravityforms-product-addons-form.php:37 gravityforms-product-addons.php:246
+msgid "Total"
+msgstr ""
+
+#: gravityforms-product-addons.php:104
+msgid "Select options"
+msgstr ""
+
+#: gravityforms-product-addons.php:130
+msgid "Gravity Forms Product Add-Ons"
+msgstr ""
+
+#: gravityforms-product-addons.php:148
+msgid "General"
+msgstr ""
+
+#: gravityforms-product-addons.php:164
+msgid "Choose Form"
+msgstr ""
+
+#: gravityforms-product-addons.php:166
+msgid "None"
+msgstr ""
+
+#: gravityforms-product-addons.php:177
+msgid "Display Title"
+msgstr ""
+
+#: gravityforms-product-addons.php:182
+msgid "Display Description"
+msgstr ""
+
+#: gravityforms-product-addons.php:194
+msgid "Price Labels"
+msgstr ""
+
+#: gravityforms-product-addons.php:199
+msgid "Remove WooCommerce Price?"
+msgstr ""
+
+#: gravityforms-product-addons.php:202
+msgid "Price Before"
+msgstr ""
+
+#: gravityforms-product-addons.php:204
+msgid "Base Price:"
+msgstr ""
+
+#: gravityforms-product-addons.php:204
+msgid "Enter text you would like printed before the price of the product."
+msgstr ""
+
+#: gravityforms-product-addons.php:206
+msgid "Price After"
+msgstr ""
+
+#: gravityforms-product-addons.php:208
+msgid "Enter text you would like printed after the price of the product."
+msgstr ""
+
+#: gravityforms-product-addons.php:213
+msgid "Total Calculations"
+msgstr ""
+
+#: gravityforms-product-addons.php:218
+msgid "Disable Calculations?"
+msgstr ""
+
+#: gravityforms-product-addons.php:223
+msgid "Disable Subtotal?"
+msgstr ""
+
+#: gravityforms-product-addons.php:226
+msgid "Subtotal Label"
+msgstr ""
+
+#: gravityforms-product-addons.php:228
+msgid "Enter \"Subtotal\" label to display on for single products."
+msgstr ""
+
+#: gravityforms-product-addons.php:232
+msgid "Disable Options Label?"
+msgstr ""
+
+#: gravityforms-product-addons.php:235
+msgid "Options Label"
+msgstr ""
+
+#: gravityforms-product-addons.php:237
+msgid "Enter the \"Options\" label to display for single products."
+msgstr ""
+
+#: gravityforms-product-addons.php:241
+msgid "Disable Total Label?"
+msgstr ""
+
+#: gravityforms-product-addons.php:244
+msgid "Total Label"
+msgstr ""
+
+#: gravityforms-product-addons.php:246
+msgid "Enter the \"Total\" label to display for single products."
+msgstr ""
+
+#: gravityforms-product-addons.php:268
+msgid ""
+"You must set a price for the product before the gravity form will be "
+"visible.  Set the price to 0 if you are performing all price calculations "
+"with the attached Gravity Form."
+msgstr ""
+
+#: gravityforms-product-addons.php:550
+msgid " is invalid.  Please remove and try readding to the cart"
+msgstr ""
