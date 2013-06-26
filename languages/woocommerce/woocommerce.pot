@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: Remco Tolsma &lt;info@remcotolsma.nl&gt;\n"
-"POT-Creation-Date: 2013-05-16 20:04+0200\n"
+"POT-Creation-Date: 2013-06-26 11:48+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -442,74 +442,74 @@ msgid ""
 "Sorry, your session has expired. <a href=\"%s\">Return to homepage &rarr;</a>"
 msgstr ""
 
-#: classes/class-wc-checkout.php:440 woocommerce-functions.php:1698
+#: classes/class-wc-checkout.php:445 woocommerce-functions.php:1698
 msgid "is a required field."
 msgstr ""
 
-#: classes/class-wc-checkout.php:453
+#: classes/class-wc-checkout.php:458
 #, php-format
 msgid "(%s) is not a valid postcode/ZIP."
 msgstr ""
 
-#: classes/class-wc-checkout.php:474
+#: classes/class-wc-checkout.php:479
 msgid "is not valid. Please enter one of the following:"
 msgstr ""
 
-#: classes/class-wc-checkout.php:482
+#: classes/class-wc-checkout.php:487
 msgid "is not a valid number."
 msgstr ""
 
-#: classes/class-wc-checkout.php:489
+#: classes/class-wc-checkout.php:494
 msgid "is not a valid email address."
 msgstr ""
 
-#: classes/class-wc-checkout.php:545
+#: classes/class-wc-checkout.php:550
 msgid "Please enter an account username."
 msgstr ""
 
-#: classes/class-wc-checkout.php:549
+#: classes/class-wc-checkout.php:554
 msgid "Invalid email/username."
 msgstr ""
 
-#: classes/class-wc-checkout.php:552
+#: classes/class-wc-checkout.php:557
 msgid ""
 "An account is already registered with that username. Please choose another."
 msgstr ""
 
-#: classes/class-wc-checkout.php:562
+#: classes/class-wc-checkout.php:567
 msgid "Please enter an account password."
 msgstr ""
 
-#: classes/class-wc-checkout.php:565
+#: classes/class-wc-checkout.php:570
 #: classes/shortcodes/class-wc-shortcode-lost-password.php:83
 #: woocommerce-functions.php:760 woocommerce-functions.php:1628
 msgid "Passwords do not match."
 msgstr ""
 
-#: classes/class-wc-checkout.php:569
+#: classes/class-wc-checkout.php:574
 msgid "An account is already registered with your email address. Please login."
 msgstr ""
 
-#: classes/class-wc-checkout.php:575
+#: classes/class-wc-checkout.php:580
 msgid "You must accept our Terms &amp; Conditions."
 msgstr ""
 
-#: classes/class-wc-checkout.php:584
+#: classes/class-wc-checkout.php:589
 msgid "Invalid shipping method."
 msgstr ""
 
-#: classes/class-wc-checkout.php:597
+#: classes/class-wc-checkout.php:602
 msgid "Invalid payment method."
 msgstr ""
 
-#: classes/class-wc-checkout.php:637 woocommerce-functions.php:732
+#: classes/class-wc-checkout.php:642 woocommerce-functions.php:732
 #: woocommerce-functions.php:734 woocommerce-functions.php:737
 #: woocommerce-functions.php:749 woocommerce-functions.php:751
 #: woocommerce-functions.php:754 woocommerce-functions.php:788
 msgid "ERROR"
 msgstr ""
 
-#: classes/class-wc-checkout.php:637 woocommerce-functions.php:788
+#: classes/class-wc-checkout.php:642 woocommerce-functions.php:788
 msgid ""
 "Couldn&#8217;t register you&hellip; please contact us if you continue to "
 "have problems."
@@ -3162,35 +3162,35 @@ msgstr ""
 msgid "Best Sellers"
 msgstr ""
 
-#: classes/widgets/class-wc-widget-best-sellers.php:189
+#: classes/widgets/class-wc-widget-best-sellers.php:191
 #: classes/widgets/class-wc-widget-cart.php:109
 #: classes/widgets/class-wc-widget-featured-products.php:169
 #: classes/widgets/class-wc-widget-layered-nav.php:352
-#: classes/widgets/class-wc-widget-onsale.php:176
+#: classes/widgets/class-wc-widget-onsale.php:178
 #: classes/widgets/class-wc-widget-price-filter.php:179
 #: classes/widgets/class-wc-widget-product-categories.php:185
 #: classes/widgets/class-wc-widget-product-search.php:91
 #: classes/widgets/class-wc-widget-product-tag-cloud.php:101
-#: classes/widgets/class-wc-widget-random-products.php:134
-#: classes/widgets/class-wc-widget-recent-products.php:170
+#: classes/widgets/class-wc-widget-random-products.php:136
+#: classes/widgets/class-wc-widget-recent-products.php:172
 #: classes/widgets/class-wc-widget-recent-reviews.php:158
-#: classes/widgets/class-wc-widget-recently-viewed.php:166
+#: classes/widgets/class-wc-widget-recently-viewed.php:168
 #: classes/widgets/class-wc-widget-top-rated-products.php:156
 msgid "Title:"
 msgstr ""
 
-#: classes/widgets/class-wc-widget-best-sellers.php:192
+#: classes/widgets/class-wc-widget-best-sellers.php:194
 #: classes/widgets/class-wc-widget-featured-products.php:172
-#: classes/widgets/class-wc-widget-onsale.php:179
-#: classes/widgets/class-wc-widget-random-products.php:139
-#: classes/widgets/class-wc-widget-recent-products.php:173
+#: classes/widgets/class-wc-widget-onsale.php:181
+#: classes/widgets/class-wc-widget-random-products.php:141
+#: classes/widgets/class-wc-widget-recent-products.php:175
 #: classes/widgets/class-wc-widget-recent-reviews.php:161
-#: classes/widgets/class-wc-widget-recently-viewed.php:169
+#: classes/widgets/class-wc-widget-recently-viewed.php:171
 #: classes/widgets/class-wc-widget-top-rated-products.php:159
 msgid "Number of products to show:"
 msgstr ""
 
-#: classes/widgets/class-wc-widget-best-sellers.php:196
+#: classes/widgets/class-wc-widget-best-sellers.php:198
 msgid "Hide free products"
 msgstr ""
 
@@ -3408,8 +3408,8 @@ msgstr ""
 msgid "Random Products"
 msgstr ""
 
-#: classes/widgets/class-wc-widget-random-products.php:145
-#: classes/widgets/class-wc-widget-recent-products.php:177
+#: classes/widgets/class-wc-widget-random-products.php:147
+#: classes/widgets/class-wc-widget-recent-products.php:179
 msgid "Show hidden product variations"
 msgstr ""
 
