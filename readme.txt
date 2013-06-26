@@ -29,12 +29,15 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 ./update-pot woocommerce
 ./update-pot woocommerce-gravityforms-product-addons
+./update-pot woocommerce-delivery-notes ~/Sites/example.com/wp-content/plugins/woocommerce-delivery-notes
 
 ./download-po woocommerce 1.6.12
 ./download-po woocommerce-gravityforms-product-addons 2.4.2
+./download-po woocommerce-delivery-notes 2.0.2
 
 ./update-mo woocommerce
 ./update-mo woocommerce-gravityforms-product-addons
+./update-mo woocommerce-delivery-notes
 
 
 == Changelog ==

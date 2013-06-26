@@ -127,6 +127,9 @@ class WooCommerceNLPlugin {
 				),
 				'x3m_gf'                     => array(
 					'languages/x3m_gf-nl_NL.mo'                 => 'woocommerce-gateway-fees/nl_NL.mo'
+				),
+				'woocommerce-delivery-notes' => array(
+					'languages/woocommerce-delivery-notes-nl_NL.mo' => 'woocommerce-delivery-notes/nl_NL.mo'
 				)
 			);
 
