@@ -1,14 +1,14 @@
-# Translation of 2.0.10 (formal) in Dutch
-# This file is distributed under the same license as the 2.0.10 (formal) package.
+# Translation of 2.0.12 (formal) in Dutch
+# This file is distributed under the same license as the 2.0.12 (formal) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-05-17 11:39:40+0000\n"
+"PO-Revision-Date: 2013-06-26 11:59:48+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/0.1\n"
-"Project-Id-Version: 2.0.10 (formal)\n"
+"Project-Id-Version: 2.0.12 (formal)\n"
 
 #: assets/js/admin/editor_plugin_lang.php:5
 msgid "Insert Shortcode"
@@ -387,72 +387,72 @@ msgstr "Nabesteld"
 msgid "Sorry, your session has expired. <a href=\"%s\">Return to homepage &rarr;</a>"
 msgstr "Sorry, uw sessie is verlopen. <a href=\"%s\">Terug naar homepagina &rarr;</a>"
 
-#: classes/class-wc-checkout.php:440 woocommerce-functions.php:1698
+#: classes/class-wc-checkout.php:445 woocommerce-functions.php:1698
 msgid "is a required field."
 msgstr "is een verplicht veld."
 
-#: classes/class-wc-checkout.php:453
+#: classes/class-wc-checkout.php:458
 msgid "(%s) is not a valid postcode/ZIP."
 msgstr "(%s) is een ongeldige postcode."
 
-#: classes/class-wc-checkout.php:474
+#: classes/class-wc-checkout.php:479
 msgid "is not valid. Please enter one of the following:"
 msgstr "is niet geldig. Voer één van de volgende in:"
 
-#: classes/class-wc-checkout.php:482
+#: classes/class-wc-checkout.php:487
 msgid "is not a valid number."
 msgstr "is een ongeldig nummer."
 
-#: classes/class-wc-checkout.php:489
+#: classes/class-wc-checkout.php:494
 msgid "is not a valid email address."
 msgstr "is een ongeldig e-mailadres."
 
-#: classes/class-wc-checkout.php:545
+#: classes/class-wc-checkout.php:550
 msgid "Please enter an account username."
 msgstr "Voer een account gebruikersnaam in."
 
-#: classes/class-wc-checkout.php:549
+#: classes/class-wc-checkout.php:554
 msgid "Invalid email/username."
 msgstr "Ongeldige e-mail/gebruikersnaam."
 
-#: classes/class-wc-checkout.php:552
+#: classes/class-wc-checkout.php:557
 msgid "An account is already registered with that username. Please choose another."
 msgstr "Er is al een account geregistreerd met deze gebruikersnaam. Kies een andere."
 
-#: classes/class-wc-checkout.php:562
+#: classes/class-wc-checkout.php:567
 msgid "Please enter an account password."
 msgstr "Voer een account wachtwoord in."
 
-#: classes/class-wc-checkout.php:565
+#: classes/class-wc-checkout.php:570
 #: classes/shortcodes/class-wc-shortcode-lost-password.php:83
 #: woocommerce-functions.php:760 woocommerce-functions.php:1628
 msgid "Passwords do not match."
 msgstr "Wachtwoorden komen niet overeen."
 
-#: classes/class-wc-checkout.php:569
+#: classes/class-wc-checkout.php:574
 msgid "An account is already registered with your email address. Please login."
 msgstr "Er is al een account geregistreerd met dit e-mailadres. Log alstublieft in."
 
-#: classes/class-wc-checkout.php:575
+#: classes/class-wc-checkout.php:580
 msgid "You must accept our Terms &amp; Conditions."
 msgstr "U moet akkoord gaan met onze algemene voorwaarden."
 
-#: classes/class-wc-checkout.php:584
+#: classes/class-wc-checkout.php:589
 msgid "Invalid shipping method."
 msgstr "Ongeldige verzendmethode."
 
-#: classes/class-wc-checkout.php:597
+#: classes/class-wc-checkout.php:602
 msgid "Invalid payment method."
 msgstr "Ongeldige betaalmethode."
 
-#: classes/class-wc-checkout.php:637 woocommerce-functions.php:732
+#: classes/class-wc-checkout.php:642 woocommerce-functions.php:732
 #: woocommerce-functions.php:734 woocommerce-functions.php:737
 #: woocommerce-functions.php:749 woocommerce-functions.php:751
 #: woocommerce-functions.php:754 woocommerce-functions.php:788
 msgid "ERROR"
 msgstr "FOUT"
 
-#: classes/class-wc-checkout.php:637 woocommerce-functions.php:788
+#: classes/class-wc-checkout.php:642 woocommerce-functions.php:788
 msgid "Couldn&#8217;t register you&hellip; please contact us if you continue to have problems."
 msgstr "Konden uw niet registreren&hellip; neem contact met ons op als de problemen blijven aanhouden."
 
@@ -2953,35 +2953,35 @@ msgstr "WooCommerce bestsellers"
 msgid "Best Sellers"
 msgstr "Bestsellers"
 
-#: classes/widgets/class-wc-widget-best-sellers.php:189
+#: classes/widgets/class-wc-widget-best-sellers.php:191
 #: classes/widgets/class-wc-widget-cart.php:109
 #: classes/widgets/class-wc-widget-featured-products.php:169
 #: classes/widgets/class-wc-widget-layered-nav.php:352
-#: classes/widgets/class-wc-widget-onsale.php:176
+#: classes/widgets/class-wc-widget-onsale.php:178
 #: classes/widgets/class-wc-widget-price-filter.php:179
 #: classes/widgets/class-wc-widget-product-categories.php:185
 #: classes/widgets/class-wc-widget-product-search.php:91
 #: classes/widgets/class-wc-widget-product-tag-cloud.php:101
-#: classes/widgets/class-wc-widget-random-products.php:134
-#: classes/widgets/class-wc-widget-recent-products.php:170
+#: classes/widgets/class-wc-widget-random-products.php:136
+#: classes/widgets/class-wc-widget-recent-products.php:172
 #: classes/widgets/class-wc-widget-recent-reviews.php:158
-#: classes/widgets/class-wc-widget-recently-viewed.php:166
+#: classes/widgets/class-wc-widget-recently-viewed.php:168
 #: classes/widgets/class-wc-widget-top-rated-products.php:156
 msgid "Title:"
 msgstr "Titel:"
 
-#: classes/widgets/class-wc-widget-best-sellers.php:192
+#: classes/widgets/class-wc-widget-best-sellers.php:194
 #: classes/widgets/class-wc-widget-featured-products.php:172
-#: classes/widgets/class-wc-widget-onsale.php:179
-#: classes/widgets/class-wc-widget-random-products.php:139
-#: classes/widgets/class-wc-widget-recent-products.php:173
+#: classes/widgets/class-wc-widget-onsale.php:181
+#: classes/widgets/class-wc-widget-random-products.php:141
+#: classes/widgets/class-wc-widget-recent-products.php:175
 #: classes/widgets/class-wc-widget-recent-reviews.php:161
-#: classes/widgets/class-wc-widget-recently-viewed.php:169
+#: classes/widgets/class-wc-widget-recently-viewed.php:171
 #: classes/widgets/class-wc-widget-top-rated-products.php:159
 msgid "Number of products to show:"
 msgstr "Aantal te tonen producten:"
 
-#: classes/widgets/class-wc-widget-best-sellers.php:196
+#: classes/widgets/class-wc-widget-best-sellers.php:198
 msgid "Hide free products"
 msgstr "Verberg gratis producten"
 
@@ -3194,8 +3194,8 @@ msgstr "Toon een lijst van willekeurige producten op uw website."
 msgid "Random Products"
 msgstr "Willekeurige producten"
 
-#: classes/widgets/class-wc-widget-random-products.php:145
-#: classes/widgets/class-wc-widget-recent-products.php:177
+#: classes/widgets/class-wc-widget-random-products.php:147
+#: classes/widgets/class-wc-widget-recent-products.php:179
 msgid "Show hidden product variations"
 msgstr "Verborgen product variaties tonen"
 
@@ -5268,7 +5268,7 @@ msgstr "Mijn adres"
 
 #: templates/myaccount/my-address.php:35
 msgid "The following addresses will be used on the checkout page by default."
-msgstr "De volgende adressen worden standaard gebruikt op de afrekenen pagina."
+msgstr "De volgende adressen worden standaard gebruikt op de afrekenpagina."
 
 #: templates/myaccount/my-address.php:45 woocommerce.php:951
 #: woocommerce.php:987 woocommerce.php:1024 woocommerce.php:1062

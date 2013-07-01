@@ -4,17 +4,18 @@ Tags: woocommerce, translation, dutch, nl, nl_NL, webshop, ecommerce, e-commerce
 Donate link: http://pronamic.eu/donate/?for=wp-plugin-woocommerce-nl&source=wp-plugin-readme-txt
 Requires at least: 3.0
 Tested up to: 3.5.1
-Stable tag: 0.4.6
+Stable tag: 0.4.7
 
 This WordPress plugin extends the WooCommerce plugin with the Dutch translation.
 
 == Description ==
 
-<strong>WooCommerce</strong> 2.0.10
+<strong>WooCommerce</strong> 2.0.12
 <strong>WooCommerce EU VAT Number</strong> 1.4
 <strong>WooCommerce Subscribe to Newsletter</strong> 1.0.4
 <strong>WooCommerce Gateway Fees</strong> 1.2.1
 <strong>WooCommerce - Gravity Forms Product Add-Ons</strong> 2.4.2
+<strong>WooCommerce Print Invoices & Delivery Notes</strong> 2.0.2
 
 > This plugin requires the <a href="http://wordpress.org/extend/plugins/woocommerce/">WooCommerce plugin</a>
 
@@ -29,15 +30,24 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 ./update-pot woocommerce
 ./update-pot woocommerce-gravityforms-product-addons
+./update-pot woocommerce-delivery-notes ~/Sites/example.com/wp-content/plugins/woocommerce-delivery-notes
 
-./download-po woocommerce 1.6.12
+./download-po woocommerce 2.0.12
+./download-po woocommerce 2.0.12 admin
 ./download-po woocommerce-gravityforms-product-addons 2.4.2
+./download-po woocommerce-delivery-notes 2.0.2
 
 ./update-mo woocommerce
+./update-mo woocommerce admin
 ./update-mo woocommerce-gravityforms-product-addons
+./update-mo woocommerce-delivery-notes
 
 
 == Changelog ==
+
+= 0.4.7 =
+*	Updated translation to WooCommerce v2.0.12
+*	Added translations for WooCommerce - Gravity Forms Product Add-Ons v2.4.2
 
 = 0.4.6 =
 *	Updated translations for WooCommerce - Gravity Forms Product Add-Ons v2.4.2

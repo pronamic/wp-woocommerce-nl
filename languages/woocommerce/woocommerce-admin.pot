@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: Pronamic <info@pronamic.nl>\n"
-"POT-Creation-Date: 2013-05-16 20:04+0200\n"
+"POT-Creation-Date: 2013-06-26 11:48+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -473,12 +473,12 @@ msgstr ""
 #: admin/post-types/product.php:88
 #: admin/post-types/writepanels/writepanel-product_data.php:376
 #: admin/post-types/writepanels/writepanel-product_data.php:470
-#: admin/woocommerce-admin-attributes.php:233
-#: admin/woocommerce-admin-attributes.php:269
-#: admin/woocommerce-admin-attributes.php:307
-#: admin/woocommerce-admin-attributes.php:330
-#: admin/woocommerce-admin-attributes.php:374
-#: admin/woocommerce-admin-attributes.php:399
+#: admin/woocommerce-admin-attributes.php:238
+#: admin/woocommerce-admin-attributes.php:274
+#: admin/woocommerce-admin-attributes.php:312
+#: admin/woocommerce-admin-attributes.php:335
+#: admin/woocommerce-admin-attributes.php:379
+#: admin/woocommerce-admin-attributes.php:404
 #: admin/woocommerce-admin-init.php:437
 msgid "Name"
 msgstr ""
@@ -492,7 +492,7 @@ msgid "SKU"
 msgstr ""
 
 #: admin/post-types/product.php:94
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:83
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:82
 #: admin/woocommerce-admin-content.php:63
 #: admin/woocommerce-admin-reports.php:90
 msgid "Stock"
@@ -513,14 +513,14 @@ msgstr ""
 
 #: admin/post-types/product.php:100 admin/post-types/product.php:632
 #: admin/post-types/product.php:906
-#: admin/post-types/writepanels/writepanel-product_data.php:1058
+#: admin/post-types/writepanels/writepanel-product_data.php:1059
 #: admin/woocommerce-admin-init.php:450
 msgid "Featured"
 msgstr ""
 
-#: admin/post-types/product.php:101 admin/woocommerce-admin-attributes.php:251
-#: admin/woocommerce-admin-attributes.php:309
-#: admin/woocommerce-admin-attributes.php:386
+#: admin/post-types/product.php:101 admin/woocommerce-admin-attributes.php:256
+#: admin/woocommerce-admin-attributes.php:314
+#: admin/woocommerce-admin-attributes.php:391
 msgid "Type"
 msgstr ""
 
@@ -536,8 +536,8 @@ msgstr ""
 #: admin/post-types/writepanels/writepanel-order_data.php:140
 #: admin/post-types/writepanels/writepanel-order_data.php:230
 #: admin/post-types/writepanels/writepanel-order_data.php:387
-#: admin/post-types/writepanels/writepanel-product_data.php:1061
-#: admin/woocommerce-admin-attributes.php:323
+#: admin/post-types/writepanels/writepanel-product_data.php:1062
+#: admin/woocommerce-admin-attributes.php:328
 msgid "Edit"
 msgstr ""
 
@@ -601,13 +601,13 @@ msgid "External/Affiliate"
 msgstr ""
 
 #: admin/post-types/product.php:220 admin/post-types/product.php:407
-#: admin/post-types/writepanels/variation-admin-html.php:174
+#: admin/post-types/writepanels/variation-admin-html.php:176
 #: admin/post-types/writepanels/writepanel-product_data.php:52
 msgid "Virtual"
 msgstr ""
 
 #: admin/post-types/product.php:222 admin/post-types/product.php:403
-#: admin/post-types/writepanels/variation-admin-html.php:172
+#: admin/post-types/writepanels/variation-admin-html.php:174
 #: admin/post-types/writepanels/writepanel-product_data.php:58
 msgid "Downloadable"
 msgstr ""
@@ -698,7 +698,7 @@ msgstr ""
 
 #: admin/post-types/product.php:588 admin/post-types/product.php:839
 #: admin/post-types/writepanels/variation-admin-html.php:96
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:84
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:83
 #: admin/post-types/writepanels/writepanel-product_data.php:273
 msgid "Weight"
 msgstr ""
@@ -708,20 +708,20 @@ msgid "L/W/H"
 msgstr ""
 
 #: admin/post-types/product.php:601 admin/post-types/product.php:879
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:85
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:84
 #: admin/post-types/writepanels/writepanel-product_data.php:286
 msgid "Length"
 msgstr ""
 
 #: admin/post-types/product.php:602 admin/post-types/product.php:880
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:86
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:85
 #: admin/post-types/writepanels/writepanel-product_data.php:287
 #: admin/woocommerce-admin-settings.php:797
 msgid "Width"
 msgstr ""
 
 #: admin/post-types/product.php:603 admin/post-types/product.php:881
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:87
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:86
 #: admin/post-types/writepanels/writepanel-product_data.php:288
 #: admin/woocommerce-admin-settings.php:799
 msgid "Height"
@@ -736,19 +736,19 @@ msgid "Catalog &amp; search"
 msgstr ""
 
 #: admin/post-types/product.php:619 admin/post-types/product.php:894
-#: admin/post-types/writepanels/writepanel-product_data.php:1047
+#: admin/post-types/writepanels/writepanel-product_data.php:1048
 #: admin/woocommerce-admin-content.php:46
 #: admin/woocommerce-admin-settings.php:183
 msgid "Catalog"
 msgstr ""
 
 #: admin/post-types/product.php:620 admin/post-types/product.php:895
-#: admin/post-types/writepanels/writepanel-product_data.php:1048
+#: admin/post-types/writepanels/writepanel-product_data.php:1049
 msgid "Search"
 msgstr ""
 
 #: admin/post-types/product.php:621 admin/post-types/product.php:896
-#: admin/post-types/writepanels/writepanel-product_data.php:1049
+#: admin/post-types/writepanels/writepanel-product_data.php:1050
 msgid "Hidden"
 msgstr ""
 
@@ -1001,8 +1001,8 @@ msgid "Downloads Remaining"
 msgstr ""
 
 #: admin/post-types/writepanels/order-download-permission-html.php:19
-#: admin/post-types/writepanels/variation-admin-html.php:149
-#: admin/post-types/writepanels/variation-admin-html.php:157
+#: admin/post-types/writepanels/variation-admin-html.php:151
+#: admin/post-types/writepanels/variation-admin-html.php:159
 #: admin/post-types/writepanels/writepanel-product_data.php:158
 msgid "Unlimited"
 msgstr ""
@@ -1043,7 +1043,7 @@ msgstr ""
 
 #: admin/post-types/writepanels/order-fee-html.php:25
 #: admin/post-types/writepanels/order-item-html.php:96
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:54
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:53
 #: admin/post-types/writepanels/writepanel-product_data.php:186
 #: admin/settings/settings-init.php:972
 #: admin/settings/settings-tax-rates.php:29
@@ -1177,7 +1177,7 @@ msgid "Shipping class:"
 msgstr ""
 
 #: admin/post-types/writepanels/variation-admin-html.php:119
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:53
+#: admin/post-types/writepanels/variation-admin-html.php:132
 msgid "Same as parent"
 msgstr ""
 
@@ -1185,65 +1185,65 @@ msgstr ""
 msgid "Tax class:"
 msgstr ""
 
-#: admin/post-types/writepanels/variation-admin-html.php:141
+#: admin/post-types/writepanels/variation-admin-html.php:143
 msgid "File paths:"
 msgstr ""
 
-#: admin/post-types/writepanels/variation-admin-html.php:141
+#: admin/post-types/writepanels/variation-admin-html.php:143
 msgid ""
 "Enter one or more File Paths, one per line, to make this variation a "
 "downloadable product, or leave blank."
 msgstr ""
 
-#: admin/post-types/writepanels/variation-admin-html.php:142
+#: admin/post-types/writepanels/variation-admin-html.php:144
 #: admin/post-types/writepanels/writepanel-product_data.php:153
 msgid "File paths/URLs, one per line"
 msgstr ""
 
-#: admin/post-types/writepanels/variation-admin-html.php:143
+#: admin/post-types/writepanels/variation-admin-html.php:145
 #: admin/post-types/writepanels/writepanel-product_data.php:154
 msgid "Choose a file"
 msgstr ""
 
-#: admin/post-types/writepanels/variation-admin-html.php:143
+#: admin/post-types/writepanels/variation-admin-html.php:145
 msgid "Upload"
 msgstr ""
 
-#: admin/post-types/writepanels/variation-admin-html.php:143
+#: admin/post-types/writepanels/variation-admin-html.php:145
 #: admin/post-types/writepanels/writepanel-product_data.php:154
 msgid "Insert file URL"
 msgstr ""
 
-#: admin/post-types/writepanels/variation-admin-html.php:148
+#: admin/post-types/writepanels/variation-admin-html.php:150
 msgid "Download Limit:"
 msgstr ""
 
-#: admin/post-types/writepanels/variation-admin-html.php:148
+#: admin/post-types/writepanels/variation-admin-html.php:150
 #: admin/post-types/writepanels/writepanel-product_data.php:158
 msgid "Leave blank for unlimited re-downloads."
 msgstr ""
 
-#: admin/post-types/writepanels/variation-admin-html.php:156
+#: admin/post-types/writepanels/variation-admin-html.php:158
 msgid "Download Expiry:"
 msgstr ""
 
-#: admin/post-types/writepanels/variation-admin-html.php:156
+#: admin/post-types/writepanels/variation-admin-html.php:158
 #: admin/post-types/writepanels/writepanel-product_data.php:164
 msgid ""
 "Enter the number of days before a download link expires, or leave blank."
 msgstr ""
 
-#: admin/post-types/writepanels/variation-admin-html.php:170
+#: admin/post-types/writepanels/variation-admin-html.php:172
 msgid "Enabled"
 msgstr ""
 
-#: admin/post-types/writepanels/variation-admin-html.php:172
+#: admin/post-types/writepanels/variation-admin-html.php:174
 msgid ""
 "Enable this option if access is given to a downloadable file upon purchase "
 "of a product"
 msgstr ""
 
-#: admin/post-types/writepanels/variation-admin-html.php:174
+#: admin/post-types/writepanels/variation-admin-html.php:176
 msgid ""
 "Enable this option if a product is not shipped or there is no shipping cost"
 msgstr ""
@@ -1797,137 +1797,137 @@ msgstr ""
 msgid "Variations"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:65
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:64
 msgid ""
 "Before adding variations, add and save some attributes on the "
 "<strong>Attributes</strong> tab."
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:67
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:66
 msgid "Learn more"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:74
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:73
 #: admin/post-types/writepanels/writepanel-product_data.php:329
 msgid "Close all"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:74
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:73
 #: admin/post-types/writepanels/writepanel-product_data.php:329
 msgid "Expand all"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:75
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:74
 msgid "Bulk edit:"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:77
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:76
 msgid "Toggle &quot;Enabled&quot;"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:78
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:77
 msgid "Toggle &quot;Downloadable&quot;"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:79
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:78
 msgid "Toggle &quot;Virtual&quot;"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:80
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:79
 msgid "Delete all variations"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:81
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:80
 msgid "Prices"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:82
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:81
 msgid "Sale prices"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:88
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:87
 msgid "File Path"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:89
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:88
 msgid "Download limit"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:90
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:89
 #: admin/post-types/writepanels/writepanel-product_data.php:164
 msgid "Download Expiry"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:93
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:92
 msgid "Go"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:193
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:194
 msgid "Add Variation"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:195
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:196
 msgid "Link all variations"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:197
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:198
 msgid "Default selections:"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:210
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:211
 msgid "No default"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:299
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:300
 msgid ""
 "Are you sure you want to link all variations? This will create a new "
 "variation for each and every possible combination of variation attributes "
 "(max 50 per run)."
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:316
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:317
 msgid "variation added"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:318
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:319
 msgid "variations added"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:320
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:321
 msgid "No variations added"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:343
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:344
 msgid "Are you sure you want to remove this variation?"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:399
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:400
 msgid "Are you sure you want to delete all variations? This cannot be undone."
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:402
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:403
 msgid "Last warning, are you sure?"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:439
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:440
 msgid "Enter a value"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:517
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:518
 #: admin/woocommerce-admin-taxonomies.php:62
 #: admin/woocommerce-admin-taxonomies.php:154
 msgid "Choose an image"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:519
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:520
 msgid "Set variation image"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:563
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:564
 msgid "Variable product"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:629
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:630
 #, php-format
 msgid "Variation #%s of %s"
 msgstr ""
@@ -1961,7 +1961,7 @@ msgid "Linked Products"
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product_data.php:85
-#: admin/woocommerce-admin-attributes.php:299
+#: admin/woocommerce-admin-attributes.php:304
 #: admin/woocommerce-admin-init.php:66
 msgid "Attributes"
 msgstr ""
@@ -2014,7 +2014,7 @@ msgid "Sale Price Dates"
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product_data.php:138
-#: admin/post-types/writepanels/writepanel-product_data.php:1082
+#: admin/post-types/writepanels/writepanel-product_data.php:1083
 msgid "Cancel"
 msgstr ""
 
@@ -2181,71 +2181,71 @@ msgstr ""
 msgid "Cross-Sells"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product_data.php:554
+#: admin/post-types/writepanels/writepanel-product_data.php:555
 msgid ""
 "Cross-sells are products which you promote in the cart, based on the current "
 "product."
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product_data.php:564
+#: admin/post-types/writepanels/writepanel-product_data.php:565
 msgid "Choose a grouped product&hellip;"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product_data.php:590
+#: admin/post-types/writepanels/writepanel-product_data.php:591
 msgid "Grouping"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product_data.php:590
+#: admin/post-types/writepanels/writepanel-product_data.php:591
 msgid "Set this option to make this product part of a grouped product."
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product_data.php:610
+#: admin/post-types/writepanels/writepanel-product_data.php:611
 msgid "Purchase Note"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product_data.php:610
+#: admin/post-types/writepanels/writepanel-product_data.php:611
 msgid "Enter an optional note to send the customer after purchase."
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product_data.php:617
+#: admin/post-types/writepanels/writepanel-product_data.php:618
 msgid "Menu order"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product_data.php:617
+#: admin/post-types/writepanels/writepanel-product_data.php:618
 msgid "Custom ordering position."
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product_data.php:625
+#: admin/post-types/writepanels/writepanel-product_data.php:626
 msgid "Enable reviews"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product_data.php:714
+#: admin/post-types/writepanels/writepanel-product_data.php:715
 msgid "Product SKU must be unique."
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product_data.php:1046
+#: admin/post-types/writepanels/writepanel-product_data.php:1047
 msgid "Catalog/search"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product_data.php:1053
+#: admin/post-types/writepanels/writepanel-product_data.php:1054
 msgid "Catalog visibility:"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product_data.php:1069
+#: admin/post-types/writepanels/writepanel-product_data.php:1070
 msgid ""
 "Define the loops this product should be visible in. The product will still "
 "be accessible directly."
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product_data.php:1075
+#: admin/post-types/writepanels/writepanel-product_data.php:1076
 msgid "Enable this option to feature this product."
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product_data.php:1077
+#: admin/post-types/writepanels/writepanel-product_data.php:1078
 msgid "Featured Product"
 msgstr ""
 
-#: admin/post-types/writepanels/writepanel-product_data.php:1081
+#: admin/post-types/writepanels/writepanel-product_data.php:1082
 msgid "OK"
 msgstr ""
 
@@ -2256,7 +2256,7 @@ msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product_images.php:43
 #: admin/post-types/writepanels/writepanel-product_images.php:103
-#: admin/woocommerce-admin-attributes.php:323
+#: admin/woocommerce-admin-attributes.php:328
 msgid "Delete"
 msgstr ""
 
@@ -3544,39 +3544,39 @@ msgstr ""
 msgid "Slug “%s” is already in use. Change it, please."
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:227
+#: admin/woocommerce-admin-attributes.php:232
 msgid "Edit Attribute"
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:237
-#: admin/woocommerce-admin-attributes.php:376
+#: admin/woocommerce-admin-attributes.php:242
+#: admin/woocommerce-admin-attributes.php:381
 msgid "Name for the attribute (shown on the front-end)."
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:242
-#: admin/woocommerce-admin-attributes.php:308
-#: admin/woocommerce-admin-attributes.php:380
+#: admin/woocommerce-admin-attributes.php:247
+#: admin/woocommerce-admin-attributes.php:313
+#: admin/woocommerce-admin-attributes.php:385
 msgid "Slug"
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:246
-#: admin/woocommerce-admin-attributes.php:382
+#: admin/woocommerce-admin-attributes.php:251
+#: admin/woocommerce-admin-attributes.php:387
 msgid ""
 "Unique slug/reference for the attribute; must be shorter than 28 characters."
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:255
-#: admin/woocommerce-admin-attributes.php:388
+#: admin/woocommerce-admin-attributes.php:260
+#: admin/woocommerce-admin-attributes.php:393
 msgid "Select"
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:256
-#: admin/woocommerce-admin-attributes.php:389
+#: admin/woocommerce-admin-attributes.php:261
+#: admin/woocommerce-admin-attributes.php:394
 msgid "Text"
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:259
-#: admin/woocommerce-admin-attributes.php:392
+#: admin/woocommerce-admin-attributes.php:264
+#: admin/woocommerce-admin-attributes.php:397
 msgid ""
 "Determines how you select attributes for products. <strong>Text</strong> "
 "allows manual entry via the product page, whereas <strong>select</strong> "
@@ -3584,66 +3584,66 @@ msgid ""
 "attribute for variations use <strong>select</strong>."
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:264
-#: admin/woocommerce-admin-attributes.php:396
+#: admin/woocommerce-admin-attributes.php:269
+#: admin/woocommerce-admin-attributes.php:401
 msgid "Default sort order"
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:268
-#: admin/woocommerce-admin-attributes.php:336
-#: admin/woocommerce-admin-attributes.php:398
+#: admin/woocommerce-admin-attributes.php:273
+#: admin/woocommerce-admin-attributes.php:341
+#: admin/woocommerce-admin-attributes.php:403
 msgid "Custom ordering"
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:270
-#: admin/woocommerce-admin-attributes.php:333
-#: admin/woocommerce-admin-attributes.php:400
+#: admin/woocommerce-admin-attributes.php:275
+#: admin/woocommerce-admin-attributes.php:338
+#: admin/woocommerce-admin-attributes.php:405
 msgid "Term ID"
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:272
-#: admin/woocommerce-admin-attributes.php:402
+#: admin/woocommerce-admin-attributes.php:277
+#: admin/woocommerce-admin-attributes.php:407
 msgid ""
 "Determines the sort order on the frontend for this attribute. If using "
 "custom ordering, you can drag and drop the terms in this attribute"
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:277
+#: admin/woocommerce-admin-attributes.php:282
 msgid "Update"
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:310
+#: admin/woocommerce-admin-attributes.php:315
 msgid "Order by"
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:311
+#: admin/woocommerce-admin-attributes.php:316
 msgid "Terms"
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:356
+#: admin/woocommerce-admin-attributes.php:361
 msgid "Configure&nbsp;terms"
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:360
+#: admin/woocommerce-admin-attributes.php:365
 msgid "No attributes currently exist."
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:370
+#: admin/woocommerce-admin-attributes.php:375
 msgid "Add New Attribute"
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:371
+#: admin/woocommerce-admin-attributes.php:376
 msgid ""
 "Attributes let you define extra product data, such as size or colour. You "
 "can use these attributes in the shop sidebar using the \"layered nav\" "
 "widgets. Please note: you cannot rename an attribute later on."
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:405
+#: admin/woocommerce-admin-attributes.php:410
 msgid "Add Attribute"
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:416
+#: admin/woocommerce-admin-attributes.php:421
 msgid "Are you sure you want to delete this attribute?"
 msgstr ""
 
