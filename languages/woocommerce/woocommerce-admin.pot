@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: Pronamic <info@pronamic.nl>\n"
-"POT-Creation-Date: 2013-06-26 11:48+0200\n"
+"POT-Creation-Date: 2013-07-26 11:11+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -473,12 +473,12 @@ msgstr ""
 #: admin/post-types/product.php:88
 #: admin/post-types/writepanels/writepanel-product_data.php:376
 #: admin/post-types/writepanels/writepanel-product_data.php:470
-#: admin/woocommerce-admin-attributes.php:238
-#: admin/woocommerce-admin-attributes.php:274
-#: admin/woocommerce-admin-attributes.php:312
-#: admin/woocommerce-admin-attributes.php:335
-#: admin/woocommerce-admin-attributes.php:379
-#: admin/woocommerce-admin-attributes.php:404
+#: admin/woocommerce-admin-attributes.php:240
+#: admin/woocommerce-admin-attributes.php:276
+#: admin/woocommerce-admin-attributes.php:314
+#: admin/woocommerce-admin-attributes.php:337
+#: admin/woocommerce-admin-attributes.php:381
+#: admin/woocommerce-admin-attributes.php:406
 #: admin/woocommerce-admin-init.php:437
 msgid "Name"
 msgstr ""
@@ -518,9 +518,9 @@ msgstr ""
 msgid "Featured"
 msgstr ""
 
-#: admin/post-types/product.php:101 admin/woocommerce-admin-attributes.php:256
-#: admin/woocommerce-admin-attributes.php:314
-#: admin/woocommerce-admin-attributes.php:391
+#: admin/post-types/product.php:101 admin/woocommerce-admin-attributes.php:258
+#: admin/woocommerce-admin-attributes.php:316
+#: admin/woocommerce-admin-attributes.php:393
 msgid "Type"
 msgstr ""
 
@@ -537,7 +537,7 @@ msgstr ""
 #: admin/post-types/writepanels/writepanel-order_data.php:230
 #: admin/post-types/writepanels/writepanel-order_data.php:387
 #: admin/post-types/writepanels/writepanel-product_data.php:1062
-#: admin/woocommerce-admin-attributes.php:328
+#: admin/woocommerce-admin-attributes.php:330
 msgid "Edit"
 msgstr ""
 
@@ -1961,7 +1961,7 @@ msgid "Linked Products"
 msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product_data.php:85
-#: admin/woocommerce-admin-attributes.php:304
+#: admin/woocommerce-admin-attributes.php:306
 #: admin/woocommerce-admin-init.php:66
 msgid "Attributes"
 msgstr ""
@@ -2256,7 +2256,7 @@ msgstr ""
 
 #: admin/post-types/writepanels/writepanel-product_images.php:43
 #: admin/post-types/writepanels/writepanel-product_images.php:103
-#: admin/woocommerce-admin-attributes.php:328
+#: admin/woocommerce-admin-attributes.php:330
 msgid "Delete"
 msgstr ""
 
@@ -3544,39 +3544,39 @@ msgstr ""
 msgid "Slug “%s” is already in use. Change it, please."
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:232
+#: admin/woocommerce-admin-attributes.php:234
 msgid "Edit Attribute"
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:242
-#: admin/woocommerce-admin-attributes.php:381
+#: admin/woocommerce-admin-attributes.php:244
+#: admin/woocommerce-admin-attributes.php:383
 msgid "Name for the attribute (shown on the front-end)."
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:247
-#: admin/woocommerce-admin-attributes.php:313
-#: admin/woocommerce-admin-attributes.php:385
+#: admin/woocommerce-admin-attributes.php:249
+#: admin/woocommerce-admin-attributes.php:315
+#: admin/woocommerce-admin-attributes.php:387
 msgid "Slug"
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:251
-#: admin/woocommerce-admin-attributes.php:387
+#: admin/woocommerce-admin-attributes.php:253
+#: admin/woocommerce-admin-attributes.php:389
 msgid ""
 "Unique slug/reference for the attribute; must be shorter than 28 characters."
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:260
-#: admin/woocommerce-admin-attributes.php:393
+#: admin/woocommerce-admin-attributes.php:262
+#: admin/woocommerce-admin-attributes.php:395
 msgid "Select"
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:261
-#: admin/woocommerce-admin-attributes.php:394
+#: admin/woocommerce-admin-attributes.php:263
+#: admin/woocommerce-admin-attributes.php:396
 msgid "Text"
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:264
-#: admin/woocommerce-admin-attributes.php:397
+#: admin/woocommerce-admin-attributes.php:266
+#: admin/woocommerce-admin-attributes.php:399
 msgid ""
 "Determines how you select attributes for products. <strong>Text</strong> "
 "allows manual entry via the product page, whereas <strong>select</strong> "
@@ -3584,66 +3584,66 @@ msgid ""
 "attribute for variations use <strong>select</strong>."
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:269
-#: admin/woocommerce-admin-attributes.php:401
+#: admin/woocommerce-admin-attributes.php:271
+#: admin/woocommerce-admin-attributes.php:403
 msgid "Default sort order"
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:273
-#: admin/woocommerce-admin-attributes.php:341
-#: admin/woocommerce-admin-attributes.php:403
+#: admin/woocommerce-admin-attributes.php:275
+#: admin/woocommerce-admin-attributes.php:343
+#: admin/woocommerce-admin-attributes.php:405
 msgid "Custom ordering"
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:275
-#: admin/woocommerce-admin-attributes.php:338
-#: admin/woocommerce-admin-attributes.php:405
+#: admin/woocommerce-admin-attributes.php:277
+#: admin/woocommerce-admin-attributes.php:340
+#: admin/woocommerce-admin-attributes.php:407
 msgid "Term ID"
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:277
-#: admin/woocommerce-admin-attributes.php:407
+#: admin/woocommerce-admin-attributes.php:279
+#: admin/woocommerce-admin-attributes.php:409
 msgid ""
 "Determines the sort order on the frontend for this attribute. If using "
 "custom ordering, you can drag and drop the terms in this attribute"
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:282
+#: admin/woocommerce-admin-attributes.php:284
 msgid "Update"
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:315
+#: admin/woocommerce-admin-attributes.php:317
 msgid "Order by"
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:316
+#: admin/woocommerce-admin-attributes.php:318
 msgid "Terms"
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:361
+#: admin/woocommerce-admin-attributes.php:363
 msgid "Configure&nbsp;terms"
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:365
+#: admin/woocommerce-admin-attributes.php:367
 msgid "No attributes currently exist."
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:375
+#: admin/woocommerce-admin-attributes.php:377
 msgid "Add New Attribute"
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:376
+#: admin/woocommerce-admin-attributes.php:378
 msgid ""
 "Attributes let you define extra product data, such as size or colour. You "
 "can use these attributes in the shop sidebar using the \"layered nav\" "
 "widgets. Please note: you cannot rename an attribute later on."
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:410
+#: admin/woocommerce-admin-attributes.php:412
 msgid "Add Attribute"
 msgstr ""
 
-#: admin/woocommerce-admin-attributes.php:421
+#: admin/woocommerce-admin-attributes.php:423
 msgid "Are you sure you want to delete this attribute?"
 msgstr ""
 
@@ -3979,25 +3979,25 @@ msgstr ""
 msgid "Shipping address"
 msgstr ""
 
-#: admin/woocommerce-admin-functions.php:465
+#: admin/woocommerce-admin-functions.php:473
 msgid "Could not compile woocommerce.less:"
 msgstr ""
 
-#: admin/woocommerce-admin-functions.php:486
-#: admin/woocommerce-admin-functions.php:487
+#: admin/woocommerce-admin-functions.php:494
+#: admin/woocommerce-admin-functions.php:495
 msgid "Mark processing"
 msgstr ""
 
-#: admin/woocommerce-admin-functions.php:489
-#: admin/woocommerce-admin-functions.php:490
+#: admin/woocommerce-admin-functions.php:497
+#: admin/woocommerce-admin-functions.php:498
 msgid "Mark completed"
 msgstr ""
 
-#: admin/woocommerce-admin-functions.php:527
+#: admin/woocommerce-admin-functions.php:535
 msgid "Order status changed by bulk edit:"
 msgstr ""
 
-#: admin/woocommerce-admin-functions.php:550
+#: admin/woocommerce-admin-functions.php:558
 #, php-format
 msgid "Order status changed."
 msgid_plural "%s order statuses changed."
@@ -4780,7 +4780,7 @@ msgid "Choose countries&hellip;"
 msgstr ""
 
 #: admin/woocommerce-admin-status.php:27
-#: admin/woocommerce-admin-status.php:664
+#: admin/woocommerce-admin-status.php:692
 msgid "Tools"
 msgstr ""
 
@@ -4995,106 +4995,122 @@ msgid "Product Types"
 msgstr ""
 
 #: admin/woocommerce-admin-status.php:418
-msgid "Templates"
+msgid "Theme"
 msgstr ""
 
 #: admin/woocommerce-admin-status.php:424
+msgid "Theme Name"
+msgstr ""
+
+#: admin/woocommerce-admin-status.php:431
+msgid "Theme Version"
+msgstr ""
+
+#: admin/woocommerce-admin-status.php:437
+msgid "Author URL"
+msgstr ""
+
+#: admin/woocommerce-admin-status.php:446
+msgid "Templates"
+msgstr ""
+
+#: admin/woocommerce-admin-status.php:452
 msgid "Template Overrides"
 msgstr ""
 
-#: admin/woocommerce-admin-status.php:442
+#: admin/woocommerce-admin-status.php:470
 msgid "No core overrides present in theme."
 msgstr ""
 
-#: admin/woocommerce-admin-status.php:537
+#: admin/woocommerce-admin-status.php:565
 msgid "WC Transients"
 msgstr ""
 
-#: admin/woocommerce-admin-status.php:538
+#: admin/woocommerce-admin-status.php:566
 msgid "Clear transients"
 msgstr ""
 
-#: admin/woocommerce-admin-status.php:539
+#: admin/woocommerce-admin-status.php:567
 msgid "This tool will clear the product/shop transients cache."
 msgstr ""
 
-#: admin/woocommerce-admin-status.php:542
+#: admin/woocommerce-admin-status.php:570
 msgid "Expired Transients"
 msgstr ""
 
-#: admin/woocommerce-admin-status.php:543
+#: admin/woocommerce-admin-status.php:571
 msgid "Clear expired transients"
 msgstr ""
 
-#: admin/woocommerce-admin-status.php:544
+#: admin/woocommerce-admin-status.php:572
 msgid "This tool will clear ALL expired transients from Wordpress."
 msgstr ""
 
-#: admin/woocommerce-admin-status.php:547
+#: admin/woocommerce-admin-status.php:575
 msgid "Term counts"
 msgstr ""
 
-#: admin/woocommerce-admin-status.php:548
+#: admin/woocommerce-admin-status.php:576
 msgid "Recount terms"
 msgstr ""
 
-#: admin/woocommerce-admin-status.php:549
+#: admin/woocommerce-admin-status.php:577
 msgid ""
 "This tool will recount product terms - useful when changing your settings in "
 "a way which hides products from the catalog."
 msgstr ""
 
-#: admin/woocommerce-admin-status.php:552
+#: admin/woocommerce-admin-status.php:580
 msgid "Capabilities"
 msgstr ""
 
-#: admin/woocommerce-admin-status.php:553
+#: admin/woocommerce-admin-status.php:581
 msgid "Reset capabilities"
 msgstr ""
 
-#: admin/woocommerce-admin-status.php:554
+#: admin/woocommerce-admin-status.php:582
 msgid ""
 "This tool will reset the admin, customer and shop_manager roles to default. "
 "Use this if your users cannot access all of the WooCommerce admin pages."
 msgstr ""
 
-#: admin/woocommerce-admin-status.php:557
+#: admin/woocommerce-admin-status.php:585
 msgid "Customer Sessions"
 msgstr ""
 
-#: admin/woocommerce-admin-status.php:558
+#: admin/woocommerce-admin-status.php:586
 msgid "Clear all sessions"
 msgstr ""
 
-#: admin/woocommerce-admin-status.php:559
+#: admin/woocommerce-admin-status.php:587
 msgid ""
 "<strong class=\"red\">Warning</strong> This tool will delete all customer "
 "session data from the database, including any current live carts."
 msgstr ""
 
-#: admin/woocommerce-admin-status.php:569
+#: admin/woocommerce-admin-status.php:597
 msgid "Product Transients Cleared"
 msgstr ""
 
-#: admin/woocommerce-admin-status.php:610
+#: admin/woocommerce-admin-status.php:638
 #, php-format
 msgid "%d Transients Rows Cleared"
 msgstr ""
 
-#: admin/woocommerce-admin-status.php:618
+#: admin/woocommerce-admin-status.php:646
 msgid "Roles successfully reset"
 msgstr ""
 
-#: admin/woocommerce-admin-status.php:630
+#: admin/woocommerce-admin-status.php:658
 msgid "Terms successfully recounted"
 msgstr ""
 
-#: admin/woocommerce-admin-status.php:649
+#: admin/woocommerce-admin-status.php:677
 #, php-format
 msgid "There was an error calling %s::%s"
 msgstr ""
 
-#: admin/woocommerce-admin-status.php:652
+#: admin/woocommerce-admin-status.php:680
 #, php-format
 msgid "There was an error calling %s"
 msgstr ""

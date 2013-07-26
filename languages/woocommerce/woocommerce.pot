@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: Remco Tolsma &lt;info@remcotolsma.nl&gt;\n"
-"POT-Creation-Date: 2013-06-26 11:48+0200\n"
+"POT-Creation-Date: 2013-07-26 11:11+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -281,27 +281,27 @@ msgstr ""
 msgid "Out of stock"
 msgstr ""
 
-#: classes/abstracts/abstract-wc-product.php:847
-#: classes/abstracts/abstract-wc-product.php:853
-#: classes/class-wc-cart.php:1802 classes/class-wc-order.php:891
-#: classes/class-wc-product-variable.php:274
-#: classes/class-wc-product-variable.php:283
-#: classes/class-wc-product-variation.php:246
+#: classes/abstracts/abstract-wc-product.php:851
+#: classes/abstracts/abstract-wc-product.php:857
+#: classes/class-wc-cart.php:1803 classes/class-wc-order.php:891
+#: classes/class-wc-product-variable.php:272
+#: classes/class-wc-product-variable.php:281
+#: classes/class-wc-product-variation.php:247
 msgid "Free!"
 msgstr ""
 
-#: classes/abstracts/abstract-wc-product.php:871
+#: classes/abstracts/abstract-wc-product.php:875
 msgctxt "min_price"
 msgid "From:"
 msgstr ""
 
-#: classes/abstracts/abstract-wc-product.php:960
+#: classes/abstracts/abstract-wc-product.php:964
 #: templates/single-product-reviews.php:28
 #, php-format
 msgid "Rated %s out of 5"
 msgstr ""
 
-#: classes/abstracts/abstract-wc-product.php:962
+#: classes/abstracts/abstract-wc-product.php:966
 #: templates/single-product/review.php:27
 #: templates/single-product-reviews.php:28
 msgid "out of 5"
@@ -382,7 +382,7 @@ msgid ""
 "cart &mdash; we have %s in stock and you already have %s in your cart."
 msgstr ""
 
-#: classes/class-wc-cart.php:1814
+#: classes/class-wc-cart.php:1815
 msgid "via"
 msgstr ""
 
@@ -2450,41 +2450,46 @@ msgid ""
 "Thank you for your order, please click the button below to pay with PayPal."
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-gateway-paypal.php:645
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:647
 #, php-format
 msgid "Validation error: PayPal amounts do not match (gross %s)."
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-gateway-paypal.php:656
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:658
 #, php-format
 msgid ""
 "Validation error: PayPal IPN response from a different email address (%s)."
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-gateway-paypal.php:674
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:676
 msgid "IPN payment completed"
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-gateway-paypal.php:686
-#: classes/gateways/paypal/class-wc-gateway-paypal.php:694
-#: classes/gateways/paypal/class-wc-gateway-paypal.php:712
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:679
+#, php-format
+msgid "Payment pending: %s"
+msgstr ""
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:691
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:699
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:717
 #, php-format
 msgid "Payment %s via IPN."
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-gateway-paypal.php:699
-#: classes/gateways/paypal/class-wc-gateway-paypal.php:717
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:704
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:722
 msgid "Order refunded/reversed"
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-gateway-paypal.php:700
-#: classes/gateways/paypal/class-wc-gateway-paypal.php:718
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:705
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:723
 #, php-format
 msgid "Order %s has been marked as refunded - PayPal reason code: %s"
 msgstr ""
 
-#: classes/gateways/paypal/class-wc-gateway-paypal.php:703
-#: classes/gateways/paypal/class-wc-gateway-paypal.php:721
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:708
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:726
 #, php-format
 msgid "Payment for order %s refunded/reversed"
 msgstr ""
@@ -3167,7 +3172,7 @@ msgstr ""
 #: classes/widgets/class-wc-widget-featured-products.php:169
 #: classes/widgets/class-wc-widget-layered-nav.php:352
 #: classes/widgets/class-wc-widget-onsale.php:178
-#: classes/widgets/class-wc-widget-price-filter.php:179
+#: classes/widgets/class-wc-widget-price-filter.php:180
 #: classes/widgets/class-wc-widget-product-categories.php:185
 #: classes/widgets/class-wc-widget-product-search.php:91
 #: classes/widgets/class-wc-widget-product-tag-cloud.php:101
@@ -3309,23 +3314,23 @@ msgstr ""
 msgid "WooCommerce Price Filter"
 msgstr ""
 
-#: classes/widgets/class-wc-widget-price-filter.php:136
+#: classes/widgets/class-wc-widget-price-filter.php:137
 msgid "Min price"
 msgstr ""
 
-#: classes/widgets/class-wc-widget-price-filter.php:137
+#: classes/widgets/class-wc-widget-price-filter.php:138
 msgid "Max price"
 msgstr ""
 
-#: classes/widgets/class-wc-widget-price-filter.php:138
+#: classes/widgets/class-wc-widget-price-filter.php:139
 msgid "Filter"
 msgstr ""
 
-#: classes/widgets/class-wc-widget-price-filter.php:140
+#: classes/widgets/class-wc-widget-price-filter.php:141
 msgid "Price:"
 msgstr ""
 
-#: classes/widgets/class-wc-widget-price-filter.php:162
+#: classes/widgets/class-wc-widget-price-filter.php:163
 msgid "Filter by price"
 msgstr ""
 
@@ -3785,6 +3790,214 @@ msgstr ""
 
 #: i18n/states/CN.php:44
 msgid "Xinjiang / &#26032;&#30086;"
+msgstr ""
+
+#: i18n/states/ES.php:13
+msgid "A Coru&ntilde;a"
+msgstr ""
+
+#: i18n/states/ES.php:14
+msgid "&Aacute;lava"
+msgstr ""
+
+#: i18n/states/ES.php:15
+msgid "Albacete"
+msgstr ""
+
+#: i18n/states/ES.php:16
+msgid "Alicante"
+msgstr ""
+
+#: i18n/states/ES.php:17
+msgid "Almer&iacute;a"
+msgstr ""
+
+#: i18n/states/ES.php:18
+msgid "Asturias"
+msgstr ""
+
+#: i18n/states/ES.php:19
+msgid "&Aacute;vila"
+msgstr ""
+
+#: i18n/states/ES.php:20
+msgid "Badajoz"
+msgstr ""
+
+#: i18n/states/ES.php:21
+msgid "Baleares"
+msgstr ""
+
+#: i18n/states/ES.php:22
+msgid "Barcelona"
+msgstr ""
+
+#: i18n/states/ES.php:23
+msgid "Burgos"
+msgstr ""
+
+#: i18n/states/ES.php:24
+msgid "C&aacute;ceres"
+msgstr ""
+
+#: i18n/states/ES.php:25
+msgid "C&aacute;diz"
+msgstr ""
+
+#: i18n/states/ES.php:26
+msgid "Cantabria"
+msgstr ""
+
+#: i18n/states/ES.php:27
+msgid "Castell&oacute;n"
+msgstr ""
+
+#: i18n/states/ES.php:28
+msgid "Ceuta"
+msgstr ""
+
+#: i18n/states/ES.php:29
+msgid "Ciudad Real"
+msgstr ""
+
+#: i18n/states/ES.php:30
+msgid "C&oacute;rdoba"
+msgstr ""
+
+#: i18n/states/ES.php:31
+msgid "Cuenca"
+msgstr ""
+
+#: i18n/states/ES.php:32
+msgid "Girona"
+msgstr ""
+
+#: i18n/states/ES.php:33
+msgid "Granada"
+msgstr ""
+
+#: i18n/states/ES.php:34
+msgid "Guadalajara"
+msgstr ""
+
+#: i18n/states/ES.php:35
+msgid "Guip&uacute;zcoa"
+msgstr ""
+
+#: i18n/states/ES.php:36
+msgid "Huelva"
+msgstr ""
+
+#: i18n/states/ES.php:37
+msgid "Huesca"
+msgstr ""
+
+#: i18n/states/ES.php:38
+msgid "Ja&eacute;n"
+msgstr ""
+
+#: i18n/states/ES.php:39
+msgid "La Rioja"
+msgstr ""
+
+#: i18n/states/ES.php:40
+msgid "Las Palmas"
+msgstr ""
+
+#: i18n/states/ES.php:41
+msgid "Le&oacute;n"
+msgstr ""
+
+#: i18n/states/ES.php:42
+msgid "Lleida"
+msgstr ""
+
+#: i18n/states/ES.php:43
+msgid "Lugo"
+msgstr ""
+
+#: i18n/states/ES.php:44
+msgid "Madrid"
+msgstr ""
+
+#: i18n/states/ES.php:45
+msgid "M&aacute;laga"
+msgstr ""
+
+#: i18n/states/ES.php:46
+msgid "Melilla"
+msgstr ""
+
+#: i18n/states/ES.php:47
+msgid "Murcia"
+msgstr ""
+
+#: i18n/states/ES.php:48
+msgid "Navarra"
+msgstr ""
+
+#: i18n/states/ES.php:49
+msgid "Ourense"
+msgstr ""
+
+#: i18n/states/ES.php:50
+msgid "Palencia"
+msgstr ""
+
+#: i18n/states/ES.php:51
+msgid "Pontevedra"
+msgstr ""
+
+#: i18n/states/ES.php:52
+msgid "Salamanca"
+msgstr ""
+
+#: i18n/states/ES.php:53
+msgid "Santa Cruz de Tenerife"
+msgstr ""
+
+#: i18n/states/ES.php:54
+msgid "Segovia"
+msgstr ""
+
+#: i18n/states/ES.php:55
+msgid "Sevilla"
+msgstr ""
+
+#: i18n/states/ES.php:56
+msgid "Soria"
+msgstr ""
+
+#: i18n/states/ES.php:57
+msgid "Tarragona"
+msgstr ""
+
+#: i18n/states/ES.php:58
+msgid "Teruel"
+msgstr ""
+
+#: i18n/states/ES.php:59
+msgid "Toledo"
+msgstr ""
+
+#: i18n/states/ES.php:60
+msgid "Valencia"
+msgstr ""
+
+#: i18n/states/ES.php:61
+msgid "Valladolid"
+msgstr ""
+
+#: i18n/states/ES.php:62
+msgid "Vizcaya"
+msgstr ""
+
+#: i18n/states/ES.php:63
+msgid "Zamora"
+msgstr ""
+
+#: i18n/states/ES.php:64
+msgid "Zaragoza"
 msgstr ""
 
 #: i18n/states/HK.php:13
