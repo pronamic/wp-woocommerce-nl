@@ -1,14 +1,172 @@
-# Translation of 2.0.12 (formal) in Dutch
-# This file is distributed under the same license as the 2.0.12 (formal) package.
+# Translation of 2.0.13 (formal) in Dutch
+# This file is distributed under the same license as the 2.0.13 (formal) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-06-26 11:59:48+0000\n"
+"PO-Revision-Date: 2013-07-26 09:18:09+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/0.1\n"
-"Project-Id-Version: 2.0.12 (formal)\n"
+"Project-Id-Version: 2.0.13 (formal)\n"
+
+#: woocommerce.php:1020
+msgid "Variations"
+msgstr "Variaties"
+
+#: woocommerce.php:1021
+msgid "Variation"
+msgstr "Variatie"
+
+#: woocommerce.php:1022
+msgid "Add Variation"
+msgstr "Variatie toevoegen"
+
+#: woocommerce.php:1023
+msgid "Add New Variation"
+msgstr "Nieuwe variatie toevoegen"
+
+#: woocommerce.php:1025
+msgid "Edit Variation"
+msgstr "Variatie bewerken"
+
+#: woocommerce.php:1026
+msgid "New Variation"
+msgstr "Nieuwe variatie"
+
+#: woocommerce.php:1027 woocommerce.php:1028
+msgid "View Variation"
+msgstr "Bekijk variaties"
+
+#: woocommerce.php:1029
+msgid "Search Variations"
+msgstr "Variaties zoeken"
+
+#: woocommerce.php:1030
+msgid "No Variations found"
+msgstr "Geen variaties gevonden"
+
+#: woocommerce.php:1031
+msgid "No Variations found in trash"
+msgstr "Geen variaties gevonden in prullenbak"
+
+#: woocommerce.php:1032
+msgid "Parent Variation"
+msgstr "Bovenliggende variatie"
+
+#: woocommerce.php:1049
+msgctxt "Admin menu name"
+msgid "Orders"
+msgstr "Bestellingen"
+
+#: woocommerce.php:1058
+msgid "Orders"
+msgstr "Bestellingen"
+
+#: woocommerce.php:1060
+msgid "Add Order"
+msgstr "Bestelling toevoegen"
+
+#: woocommerce.php:1061
+msgid "Add New Order"
+msgstr "Nieuwe bestelling toevoegen"
+
+#: woocommerce.php:1063
+msgid "Edit Order"
+msgstr "Bestelling bewerken"
+
+#: woocommerce.php:1064
+msgid "New Order"
+msgstr "Nieuwe bestelling"
+
+#: woocommerce.php:1067
+msgid "Search Orders"
+msgstr "Zoek bestellingen"
+
+#: woocommerce.php:1068
+msgid "No Orders found"
+msgstr "Geen bestellingen gevonden"
+
+#: woocommerce.php:1069
+msgid "No Orders found in trash"
+msgstr "Geen bestellingen gevonden in de prullenbak"
+
+#: woocommerce.php:1070
+msgid "Parent Orders"
+msgstr "Bovenliggende bestellingen"
+
+#: woocommerce.php:1073
+msgid "This is where store orders are stored."
+msgstr "Hier worden de winkel bestellingen opgeslagen."
+
+#: woocommerce.php:1095
+msgid "Coupons"
+msgstr "Coupons"
+
+#: woocommerce.php:1097
+msgctxt "Admin menu name"
+msgid "Coupons"
+msgstr "Coupons"
+
+#: woocommerce.php:1098
+msgid "Add Coupon"
+msgstr "Coupon toevoegen"
+
+#: woocommerce.php:1099
+msgid "Add New Coupon"
+msgstr "Nieuwe coupon toevoegen"
+
+#: woocommerce.php:1101
+msgid "Edit Coupon"
+msgstr "Coupon bewerken"
+
+#: woocommerce.php:1102
+msgid "New Coupon"
+msgstr "Nieuwe coupon"
+
+#: woocommerce.php:1103
+msgid "View Coupons"
+msgstr "Bekijk coupons"
+
+#: woocommerce.php:1104
+msgid "View Coupon"
+msgstr "Bekijk coupon"
+
+#: woocommerce.php:1105
+msgid "Search Coupons"
+msgstr "Coupons zoeken"
+
+#: woocommerce.php:1106
+msgid "No Coupons found"
+msgstr "Geen coupons gevonden"
+
+#: woocommerce.php:1107
+msgid "No Coupons found in trash"
+msgstr "Geen coupons gevonden in prullenbak"
+
+#: woocommerce.php:1108
+msgid "Parent Coupon"
+msgstr "Bovenliggende coupon"
+
+#: woocommerce.php:1110
+msgid "This is where you can add new coupons that customers can use in your store."
+msgstr "Hier kunt u nieuwe coupons toevoegen waar klanten gebruik van kunnen maken in uw winkel."
+
+#: woocommerce.php:1691
+msgid "Cart % Discount"
+msgstr "Winkelwagen % korting"
+
+#: woocommerce.php:1692
+msgid "Product Discount"
+msgstr "Productkorting"
+
+#: woocommerce.php:1693
+msgid "Product % Discount"
+msgstr "Product % korting"
+
+#: woocommerce.php:1758
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Actie mislukt. Vernieuw de pagina en probeer het opnieuw."
 
 #: assets/js/admin/editor_plugin_lang.php:5
 msgid "Insert Shortcode"
@@ -28,7 +186,7 @@ msgstr "Producten via SKU/ID"
 
 #: assets/js/admin/editor_plugin_lang.php:9
 msgid "Product categories"
-msgstr "Product categorieën"
+msgstr "Productcategorieën"
 
 #: assets/js/admin/editor_plugin_lang.php:10
 msgid "Products by category slug"
@@ -44,7 +202,7 @@ msgstr "Uitgelichte producten"
 
 #: assets/js/admin/editor_plugin_lang.php:13
 msgid "Shop Messages"
-msgstr "Winkel berichten"
+msgstr "Winkelberichten"
 
 #: assets/js/admin/editor_plugin_lang.php:14
 msgid "Pages"
@@ -69,7 +227,7 @@ msgstr "Mijn account"
 
 #: assets/js/admin/editor_plugin_lang.php:19
 msgid "Edit Address"
-msgstr "Bewerk adres"
+msgstr "Adres bewerken"
 
 #: assets/js/admin/editor_plugin_lang.php:20
 msgid "Change Password"
@@ -113,7 +271,7 @@ msgstr "Deze e-mail notificatie inschakelen"
 #: classes/abstracts/abstract-wc-email.php:437
 #: classes/emails/class-wc-email-customer-invoice.php:144
 msgid "Email subject"
-msgstr "E-mail onderwerp"
+msgstr "E-mailonderwerp"
 
 #: classes/abstracts/abstract-wc-email.php:439
 #: classes/abstracts/abstract-wc-email.php:446
@@ -131,21 +289,21 @@ msgstr "Standaard <code>%s</code>"
 #: classes/abstracts/abstract-wc-email.php:444
 #: classes/emails/class-wc-email-customer-invoice.php:151
 msgid "Email heading"
-msgstr "E-mail kop"
+msgstr "E-mailkop"
 
 #: classes/abstracts/abstract-wc-email.php:451
 #: classes/emails/class-wc-email-customer-completed-order.php:169
 #: classes/emails/class-wc-email-customer-invoice.php:172
 #: classes/emails/class-wc-email-new-order.php:142
 msgid "Email type"
-msgstr "E-mail type"
+msgstr "E-mailtype"
 
 #: classes/abstracts/abstract-wc-email.php:453
 #: classes/emails/class-wc-email-customer-completed-order.php:171
 #: classes/emails/class-wc-email-customer-invoice.php:174
 #: classes/emails/class-wc-email-new-order.php:144
 msgid "Choose which format of email to send."
-msgstr "Kies het te versturen e-mail formaat."
+msgstr "Kies de te versturen e-mailindeling."
 
 #: classes/abstracts/abstract-wc-email.php:457
 #: classes/emails/class-wc-email-customer-completed-order.php:175
@@ -189,7 +347,7 @@ msgstr "Instellingen"
 
 #: classes/abstracts/abstract-wc-email.php:572
 msgid "HTML template"
-msgstr "HTML template"
+msgstr "HTML-template"
 
 #: classes/abstracts/abstract-wc-email.php:573
 msgid "Plain text template"
@@ -260,25 +418,25 @@ msgstr "Beschikbaar via nabestelling"
 msgid "Out of stock"
 msgstr "Niet in voorraad"
 
-#: classes/abstracts/abstract-wc-product.php:847
-#: classes/abstracts/abstract-wc-product.php:853 classes/class-wc-cart.php:1802
-#: classes/class-wc-order.php:891 classes/class-wc-product-variable.php:274
-#: classes/class-wc-product-variable.php:283
-#: classes/class-wc-product-variation.php:246
+#: classes/abstracts/abstract-wc-product.php:851
+#: classes/abstracts/abstract-wc-product.php:857 classes/class-wc-cart.php:1803
+#: classes/class-wc-order.php:891 classes/class-wc-product-variable.php:272
+#: classes/class-wc-product-variable.php:281
+#: classes/class-wc-product-variation.php:247
 msgid "Free!"
 msgstr "Gratis!"
 
-#: classes/abstracts/abstract-wc-product.php:871
+#: classes/abstracts/abstract-wc-product.php:875
 msgctxt "min_price"
 msgid "From:"
 msgstr "Vanaf:"
 
-#: classes/abstracts/abstract-wc-product.php:960
+#: classes/abstracts/abstract-wc-product.php:964
 #: templates/single-product-reviews.php:28
 msgid "Rated %s out of 5"
 msgstr "Beoordeling %s uit 5"
 
-#: classes/abstracts/abstract-wc-product.php:962
+#: classes/abstracts/abstract-wc-product.php:966
 #: templates/single-product/review.php:27
 #: templates/single-product-reviews.php:28
 msgid "out of 5"
@@ -330,7 +488,7 @@ msgstr "U heeft dit item al in uw winkelwagen."
 msgid "<a href=\"%s\" class=\"button\">%s</a> You cannot add that amount to the cart &mdash; we have %s in stock and you already have %s in your cart."
 msgstr "<a href=\"%s\" class=\"button\">%s</a> U kunt deze hoeveelheid niet toevoegen aan de winkelwagen &mdash; we hebben %s in voorraad en u heeft al %s in uw winkelwagen."
 
-#: classes/class-wc-cart.php:1814
+#: classes/class-wc-cart.php:1815
 msgid "via"
 msgstr "via"
 
@@ -2299,36 +2457,40 @@ msgstr "Bestelling annuleren &amp; winkelwagen herstellen"
 msgid "Thank you for your order, please click the button below to pay with PayPal."
 msgstr "Hartelijk dank voor uw bestelling, klik op de onderstaande knop om te betalen met PayPal."
 
-#: classes/gateways/paypal/class-wc-gateway-paypal.php:645
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:647
 msgid "Validation error: PayPal amounts do not match (gross %s)."
 msgstr "Validatiefout: PayPal bedragen komen niet overeen (bruto %s)."
 
-#: classes/gateways/paypal/class-wc-gateway-paypal.php:656
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:658
 msgid "Validation error: PayPal IPN response from a different email address (%s)."
 msgstr "Validatiefout: PayPal IPN antwoord van een ander e-mailadres (%s)."
 
-#: classes/gateways/paypal/class-wc-gateway-paypal.php:674
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:676
 msgid "IPN payment completed"
 msgstr "IPN betaling voltooid"
 
-#: classes/gateways/paypal/class-wc-gateway-paypal.php:686
-#: classes/gateways/paypal/class-wc-gateway-paypal.php:694
-#: classes/gateways/paypal/class-wc-gateway-paypal.php:712
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:679
+msgid "Payment pending: %s"
+msgstr "Betaling in behandeling: %s"
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:691
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:699
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:717
 msgid "Payment %s via IPN."
 msgstr "Betaling %s via IPN."
 
-#: classes/gateways/paypal/class-wc-gateway-paypal.php:699
-#: classes/gateways/paypal/class-wc-gateway-paypal.php:717
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:704
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:722
 msgid "Order refunded/reversed"
 msgstr "Bestelling terugbetaald / ongedaan gemaakt"
 
-#: classes/gateways/paypal/class-wc-gateway-paypal.php:700
-#: classes/gateways/paypal/class-wc-gateway-paypal.php:718
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:705
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:723
 msgid "Order %s has been marked as refunded - PayPal reason code: %s"
 msgstr "Bestelling %s is gemarkeerd als terugbetaald - PayPal reden code: %s"
 
-#: classes/gateways/paypal/class-wc-gateway-paypal.php:703
-#: classes/gateways/paypal/class-wc-gateway-paypal.php:721
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:708
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:726
 msgid "Payment for order %s refunded/reversed"
 msgstr "Betaling voor bestelling %s terugbetaald"
 
@@ -2958,7 +3120,7 @@ msgstr "Bestsellers"
 #: classes/widgets/class-wc-widget-featured-products.php:169
 #: classes/widgets/class-wc-widget-layered-nav.php:352
 #: classes/widgets/class-wc-widget-onsale.php:178
-#: classes/widgets/class-wc-widget-price-filter.php:179
+#: classes/widgets/class-wc-widget-price-filter.php:180
 #: classes/widgets/class-wc-widget-product-categories.php:185
 #: classes/widgets/class-wc-widget-product-search.php:91
 #: classes/widgets/class-wc-widget-product-tag-cloud.php:101
@@ -3095,23 +3257,23 @@ msgstr "Toont een prijs filter schuifbalk in een widget waarmee de lijst van pro
 msgid "WooCommerce Price Filter"
 msgstr "WooCommerce prijs filter"
 
-#: classes/widgets/class-wc-widget-price-filter.php:136
+#: classes/widgets/class-wc-widget-price-filter.php:137
 msgid "Min price"
 msgstr "Min. prijs"
 
-#: classes/widgets/class-wc-widget-price-filter.php:137
+#: classes/widgets/class-wc-widget-price-filter.php:138
 msgid "Max price"
 msgstr "Max. prijs"
 
-#: classes/widgets/class-wc-widget-price-filter.php:138
+#: classes/widgets/class-wc-widget-price-filter.php:139
 msgid "Filter"
 msgstr "Filter"
 
-#: classes/widgets/class-wc-widget-price-filter.php:140
+#: classes/widgets/class-wc-widget-price-filter.php:141
 msgid "Price:"
 msgstr "Prijs:"
 
-#: classes/widgets/class-wc-widget-price-filter.php:162
+#: classes/widgets/class-wc-widget-price-filter.php:163
 msgid "Filter by price"
 msgstr "Filter op prijs"
 
@@ -3571,6 +3733,214 @@ msgstr "Tibet / &#35199;&#34255;"
 #: i18n/states/CN.php:44
 msgid "Xinjiang / &#26032;&#30086;"
 msgstr "Xinjiang / &#26032;&#30086;"
+
+#: i18n/states/ES.php:13
+msgid "A Coru&ntilde;a"
+msgstr "A Coru&ntilde;a"
+
+#: i18n/states/ES.php:14
+msgid "&Aacute;lava"
+msgstr "&Aacute;lava"
+
+#: i18n/states/ES.php:15
+msgid "Albacete"
+msgstr "Albacete"
+
+#: i18n/states/ES.php:16
+msgid "Alicante"
+msgstr "Alicante"
+
+#: i18n/states/ES.php:17
+msgid "Almer&iacute;a"
+msgstr "Almer&iacute;a"
+
+#: i18n/states/ES.php:18
+msgid "Asturias"
+msgstr "Asturias"
+
+#: i18n/states/ES.php:19
+msgid "&Aacute;vila"
+msgstr "&Aacute;vila"
+
+#: i18n/states/ES.php:20
+msgid "Badajoz"
+msgstr "Badajoz"
+
+#: i18n/states/ES.php:21
+msgid "Baleares"
+msgstr "Baleares"
+
+#: i18n/states/ES.php:22
+msgid "Barcelona"
+msgstr "Barcelona"
+
+#: i18n/states/ES.php:23
+msgid "Burgos"
+msgstr "Burgos"
+
+#: i18n/states/ES.php:24
+msgid "C&aacute;ceres"
+msgstr "C&aacute;ceres"
+
+#: i18n/states/ES.php:25
+msgid "C&aacute;diz"
+msgstr "C&aacute;diz"
+
+#: i18n/states/ES.php:26
+msgid "Cantabria"
+msgstr "Cantabria"
+
+#: i18n/states/ES.php:27
+msgid "Castell&oacute;n"
+msgstr "Castell&oacute;n"
+
+#: i18n/states/ES.php:28
+msgid "Ceuta"
+msgstr "Ceuta"
+
+#: i18n/states/ES.php:29
+msgid "Ciudad Real"
+msgstr "Ciudad Real"
+
+#: i18n/states/ES.php:30
+msgid "C&oacute;rdoba"
+msgstr "C&oacute;rdoba"
+
+#: i18n/states/ES.php:31
+msgid "Cuenca"
+msgstr "Cuenca"
+
+#: i18n/states/ES.php:32
+msgid "Girona"
+msgstr "Girona"
+
+#: i18n/states/ES.php:33
+msgid "Granada"
+msgstr "Granada"
+
+#: i18n/states/ES.php:34
+msgid "Guadalajara"
+msgstr "Guadalajara"
+
+#: i18n/states/ES.php:35
+msgid "Guip&uacute;zcoa"
+msgstr "Guip&uacute;zcoa"
+
+#: i18n/states/ES.php:36
+msgid "Huelva"
+msgstr "Huelva"
+
+#: i18n/states/ES.php:37
+msgid "Huesca"
+msgstr "Huesca"
+
+#: i18n/states/ES.php:38
+msgid "Ja&eacute;n"
+msgstr "Ja&eacute;n"
+
+#: i18n/states/ES.php:39
+msgid "La Rioja"
+msgstr "La Rioja"
+
+#: i18n/states/ES.php:40
+msgid "Las Palmas"
+msgstr "Las Palmas"
+
+#: i18n/states/ES.php:41
+msgid "Le&oacute;n"
+msgstr "Le&oacute;n"
+
+#: i18n/states/ES.php:42
+msgid "Lleida"
+msgstr "Lleida"
+
+#: i18n/states/ES.php:43
+msgid "Lugo"
+msgstr "Lugo"
+
+#: i18n/states/ES.php:44
+msgid "Madrid"
+msgstr "Madrid"
+
+#: i18n/states/ES.php:45
+msgid "M&aacute;laga"
+msgstr "M&aacute;laga"
+
+#: i18n/states/ES.php:46
+msgid "Melilla"
+msgstr "Melilla"
+
+#: i18n/states/ES.php:47
+msgid "Murcia"
+msgstr "Murcia"
+
+#: i18n/states/ES.php:48
+msgid "Navarra"
+msgstr "Navarra"
+
+#: i18n/states/ES.php:49
+msgid "Ourense"
+msgstr "Ourense"
+
+#: i18n/states/ES.php:50
+msgid "Palencia"
+msgstr "Palencia"
+
+#: i18n/states/ES.php:51
+msgid "Pontevedra"
+msgstr "Pontevedra"
+
+#: i18n/states/ES.php:52
+msgid "Salamanca"
+msgstr "Salamanca"
+
+#: i18n/states/ES.php:53
+msgid "Santa Cruz de Tenerife"
+msgstr "Santa Cruz de Tenerife"
+
+#: i18n/states/ES.php:54
+msgid "Segovia"
+msgstr "Segovia"
+
+#: i18n/states/ES.php:55
+msgid "Sevilla"
+msgstr "Sevilla"
+
+#: i18n/states/ES.php:56
+msgid "Soria"
+msgstr "Soria"
+
+#: i18n/states/ES.php:57
+msgid "Tarragona"
+msgstr "Tarragona"
+
+#: i18n/states/ES.php:58
+msgid "Teruel"
+msgstr "Teruel"
+
+#: i18n/states/ES.php:59
+msgid "Toledo"
+msgstr "Toledo"
+
+#: i18n/states/ES.php:60
+msgid "Valencia"
+msgstr "Valencia"
+
+#: i18n/states/ES.php:61
+msgid "Valladolid"
+msgstr "Valladolid"
+
+#: i18n/states/ES.php:62
+msgid "Vizcaya"
+msgstr "Vizcaya"
+
+#: i18n/states/ES.php:63
+msgid "Zamora"
+msgstr "Zamora"
+
+#: i18n/states/ES.php:64
+msgid "Zaragoza"
+msgstr "Zaragoza"
 
 #: i18n/states/HK.php:13
 msgid "Hong Kong Island"
@@ -5446,7 +5816,7 @@ msgstr "geverifieerde eigenaar"
 
 #: templates/single-product/tabs/description.php:14
 msgid "Product Description"
-msgstr "Product beschrijving"
+msgstr "Productbeschrijving"
 
 #: templates/single-product/up-sells.php:39
 msgid "You may also like&hellip;"
@@ -6151,161 +6521,3 @@ msgstr "Bovenliggend product"
 #: woocommerce.php:997
 msgid "This is where you can add new products to your store."
 msgstr "Hier kunt u nieuwe producten toevoegen aan uw winkel."
-
-#: woocommerce.php:1020
-msgid "Variations"
-msgstr "Variaties"
-
-#: woocommerce.php:1021
-msgid "Variation"
-msgstr "Variatie"
-
-#: woocommerce.php:1022
-msgid "Add Variation"
-msgstr "Variatie toevoegen"
-
-#: woocommerce.php:1023
-msgid "Add New Variation"
-msgstr "Nieuwe variatie toevoegen"
-
-#: woocommerce.php:1025
-msgid "Edit Variation"
-msgstr "Variatie bewerken"
-
-#: woocommerce.php:1026
-msgid "New Variation"
-msgstr "Nieuwe variatie"
-
-#: woocommerce.php:1027 woocommerce.php:1028
-msgid "View Variation"
-msgstr "Bekijk variaties"
-
-#: woocommerce.php:1029
-msgid "Search Variations"
-msgstr "Variaties zoeken"
-
-#: woocommerce.php:1030
-msgid "No Variations found"
-msgstr "Geen variaties gevonden"
-
-#: woocommerce.php:1031
-msgid "No Variations found in trash"
-msgstr "Geen variaties gevonden in prullenbak"
-
-#: woocommerce.php:1032
-msgid "Parent Variation"
-msgstr "Bovenliggende variatie"
-
-#: woocommerce.php:1049
-msgctxt "Admin menu name"
-msgid "Orders"
-msgstr "Bestellingen"
-
-#: woocommerce.php:1058
-msgid "Orders"
-msgstr "Bestellingen"
-
-#: woocommerce.php:1060
-msgid "Add Order"
-msgstr "Bestelling toevoegen"
-
-#: woocommerce.php:1061
-msgid "Add New Order"
-msgstr "Nieuwe bestelling toevoegen"
-
-#: woocommerce.php:1063
-msgid "Edit Order"
-msgstr "Bestelling bewerken"
-
-#: woocommerce.php:1064
-msgid "New Order"
-msgstr "Nieuwe bestelling"
-
-#: woocommerce.php:1067
-msgid "Search Orders"
-msgstr "Zoek bestellingen"
-
-#: woocommerce.php:1068
-msgid "No Orders found"
-msgstr "Geen bestellingen gevonden"
-
-#: woocommerce.php:1069
-msgid "No Orders found in trash"
-msgstr "Geen bestellingen gevonden in de prullenbak"
-
-#: woocommerce.php:1070
-msgid "Parent Orders"
-msgstr "Bovenliggende bestellingen"
-
-#: woocommerce.php:1073
-msgid "This is where store orders are stored."
-msgstr "Hier worden de winkel bestellingen opgeslagen."
-
-#: woocommerce.php:1095
-msgid "Coupons"
-msgstr "Coupons"
-
-#: woocommerce.php:1097
-msgctxt "Admin menu name"
-msgid "Coupons"
-msgstr "Coupons"
-
-#: woocommerce.php:1098
-msgid "Add Coupon"
-msgstr "Coupon toevoegen"
-
-#: woocommerce.php:1099
-msgid "Add New Coupon"
-msgstr "Nieuwe coupon toevoegen"
-
-#: woocommerce.php:1101
-msgid "Edit Coupon"
-msgstr "Coupon bewerken"
-
-#: woocommerce.php:1102
-msgid "New Coupon"
-msgstr "Nieuwe coupon"
-
-#: woocommerce.php:1103
-msgid "View Coupons"
-msgstr "Bekijk coupons"
-
-#: woocommerce.php:1104
-msgid "View Coupon"
-msgstr "Bekijk coupon"
-
-#: woocommerce.php:1105
-msgid "Search Coupons"
-msgstr "Coupons zoeken"
-
-#: woocommerce.php:1106
-msgid "No Coupons found"
-msgstr "Geen coupons gevonden"
-
-#: woocommerce.php:1107
-msgid "No Coupons found in trash"
-msgstr "Geen coupons gevonden in prullenbak"
-
-#: woocommerce.php:1108
-msgid "Parent Coupon"
-msgstr "Bovenliggende coupon"
-
-#: woocommerce.php:1110
-msgid "This is where you can add new coupons that customers can use in your store."
-msgstr "Hier kunt u nieuwe coupons toevoegen waar klanten gebruik van kunnen maken in uw winkel."
-
-#: woocommerce.php:1691
-msgid "Cart % Discount"
-msgstr "Winkelwagen % korting"
-
-#: woocommerce.php:1692
-msgid "Product Discount"
-msgstr "Product korting"
-
-#: woocommerce.php:1693
-msgid "Product % Discount"
-msgstr "Product % korting"
-
-#: woocommerce.php:1758
-msgid "Action failed. Please refresh the page and retry."
-msgstr "Actie mislukt. Vernieuw de pagina en probeer het opnieuw."

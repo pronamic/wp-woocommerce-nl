@@ -3,14 +3,14 @@ Contributors: pronamic, remcotolsma
 Tags: woocommerce, translation, dutch, nl, nl_NL, webshop, ecommerce, e-commerce, commerce, woothemes
 Donate link: http://pronamic.eu/donate/?for=wp-plugin-woocommerce-nl&source=wp-plugin-readme-txt
 Requires at least: 3.0
-Tested up to: 3.5.1
-Stable tag: 0.4.7
+Tested up to: 3.5.2
+Stable tag: 0.4.8
 
 This WordPress plugin extends the WooCommerce plugin with the Dutch translation.
 
 == Description ==
 
-<strong>WooCommerce</strong> 2.0.12
+<strong>WooCommerce</strong> 2.0.13
 <strong>WooCommerce EU VAT Number</strong> 1.4
 <strong>WooCommerce Subscribe to Newsletter</strong> 1.0.4
 <strong>WooCommerce Gateway Fees</strong> 1.2.1
@@ -44,6 +44,9 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 
 == Changelog ==
+
+= 0.4.8 =
+*	Updated translation to WooCommerce v2.0.13
 
 = 0.4.7 =
 *	Updated translation to WooCommerce v2.0.12

@@ -2,9 +2,9 @@
 /*
 Plugin Name: WooCommerce (nl)
 Plugin URI: http://pronamic.eu/wp-plugins/woocommerce-nl/
-Description: Extends the WooCommerce plugin and add-ons with the Dutch language: <strong>WooCommerce</strong> 2.0.12 | <strong>WooCommerce EU VAT Number</strong> 1.4 | <strong>WooCommerce Subscribe to Newsletter</strong> 1.0.4 | <strong>WooCommerce Gateway Fees</strong> 1.2.1 | <strong>WooCommerce - Gravity Forms Product Add-Ons</strong> 2.4.2 | <strong>WooCommerce Print Invoices & Delivery Notes</strong> 2.0.2
+Description: Extends the WooCommerce plugin and add-ons with the Dutch language: <strong>WooCommerce</strong> 2.0.13 | <strong>WooCommerce EU VAT Number</strong> 1.4 | <strong>WooCommerce Subscribe to Newsletter</strong> 1.0.4 | <strong>WooCommerce Gateway Fees</strong> 1.2.1 | <strong>WooCommerce - Gravity Forms Product Add-Ons</strong> 2.4.2 | <strong>WooCommerce Print Invoices & Delivery Notes</strong> 2.0.2
 
-Version: 0.4.7
+Version: 0.4.8
 Requires at least: 3.0
 
 Author: Pronamic
@@ -49,9 +49,9 @@ class WooCommerceNLPlugin {
 		/*
 		 * WooThemes/WooCommerce don't execute the load_plugin_textdomain() in the 'init'
 		 * action, therefor we have to make sure this plugin will load first
-		 * 
+		 *
 		 * @see http://stv.whtly.com/2011/09/03/forcing-a-wordpress-plugin-to-be-loaded-before-all-other-plugins/
-		 */ 
+		 */
 		add_action( 'activated_plugin',       array( $this, 'activated_plugin' ) );
 	}
 
