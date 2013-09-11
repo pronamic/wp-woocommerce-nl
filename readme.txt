@@ -1,16 +1,16 @@
 === WooCommerce (nl) ===
 Contributors: pronamic, remcotolsma
 Tags: woocommerce, translation, dutch, nl, nl_NL, webshop, ecommerce, e-commerce, commerce, woothemes
-Donate link: http://pronamic.eu/donate/?for=wp-plugin-woocommerce-nl&source=wp-plugin-readme-txt
+Donate link: http://www.pronamic.eu/donate/?for=wp-plugin-woocommerce-nl&source=wp-plugin-readme-txt
 Requires at least: 3.0
-Tested up to: 3.5.2
-Stable tag: 0.4.8
+Tested up to: 3.6
+Stable tag: 0.4.9
 
 This WordPress plugin extends the WooCommerce plugin with the Dutch translation.
 
 == Description ==
 
-<strong>WooCommerce</strong> 2.0.13
+<strong>WooCommerce</strong> 2.0.14
 <strong>WooCommerce EU VAT Number</strong> 1.4
 <strong>WooCommerce Subscribe to Newsletter</strong> 1.0.4
 <strong>WooCommerce Gateway Fees</strong> 1.2.1
@@ -28,12 +28,12 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 == Developers ==
 
-./update-pot woocommerce
+./update-pot woocommerce ~/Downloads/woocommerce
 ./update-pot woocommerce-gravityforms-product-addons
 ./update-pot woocommerce-delivery-notes ~/Sites/example.com/wp-content/plugins/woocommerce-delivery-notes
 
-./download-po woocommerce 2.0.12
-./download-po woocommerce 2.0.12 admin
+./download-po woocommerce 2.0.14
+./download-po woocommerce 2.0.14 admin
 ./download-po woocommerce-gravityforms-product-addons 2.4.2
 ./download-po woocommerce-delivery-notes 2.0.2
 
@@ -45,18 +45,21 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 == Changelog ==
 
+= 0.4.9 =
+*	Updated translations to WooCommerce v2.0.14
+
 = 0.4.8 =
-*	Updated translation to WooCommerce v2.0.13
+*	Updated translations to WooCommerce v2.0.13
 
 = 0.4.7 =
-*	Updated translation to WooCommerce v2.0.12
+*	Updated translations to WooCommerce v2.0.12
 *	Added translations for WooCommerce - Gravity Forms Product Add-Ons v2.4.2
 
 = 0.4.6 =
 *	Updated translations for WooCommerce - Gravity Forms Product Add-Ons v2.4.2
 
 = 0.4.5 =
-*	Updated translation to WooCommerce v2.0.10
+*	Updated translations to WooCommerce v2.0.10
 
 = 0.4.4 =
 *	Updated translation to WooCommerce v2.0.5
