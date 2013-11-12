@@ -45,6 +45,10 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 == Changelog ==
 
+= 1.0.0 =
+*	Updated translations to WooCommerce v2.0.19.
+*	Updated WordPress.org plugin header.
+
 = 0.4.9 =
 *	Updated translations to WooCommerce v2.0.14
 
