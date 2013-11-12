@@ -2,13 +2,1455 @@
 # This file is distributed under the same license as the Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-09-11 07:47:06+0000\n"
+"PO-Revision-Date: 2013-11-12 08:24:22+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: Administration\n"
+
+#: admin/importers/importers-init.php:13
+msgid "WooCommerce Tax Rates (CSV)"
+msgstr "WooCommerce belastingtarieven (CSV)"
+
+#: admin/importers/importers-init.php:13
+msgid "Import <strong>tax rates</strong> to your store via a csv file."
+msgstr "Importeer <strong>belastingtarieven</strong> naar uw winkel via een CSV-bestand."
+
+#: admin/importers/tax-rates-importer.php:103
+#: admin/importers/tax-rates-importer.php:190
+#: admin/importers/tax-rates-importer.php:230
+#: admin/importers/tax-rates-importer.php:245
+msgid "Sorry, there has been an error."
+msgstr "Sorry, er is een fout opgetreden."
+
+#: admin/importers/tax-rates-importer.php:104
+msgid "The file does not exist, please try again."
+msgstr "Dit bestand bestaat niet, probeer het opnieuw."
+
+#: admin/importers/tax-rates-importer.php:191
+msgid "The CSV is invalid."
+msgstr "De CSV is ongeldig."
+
+#: admin/importers/tax-rates-importer.php:202
+msgid "Import complete - imported <strong>%s</strong> tax rates and skipped <strong>%s</strong>."
+msgstr "Import voltooid - <strong>%s</strong> belastingtarieven geïmporteerd en <strong>%s</strong> overgeslagen."
+
+#: admin/importers/tax-rates-importer.php:212
+msgid "All done!"
+msgstr "Helemaal klaar!"
+
+#: admin/importers/tax-rates-importer.php:212
+msgid "View Tax Rates"
+msgstr "Bekijk belastingtarieven"
+
+#: admin/importers/tax-rates-importer.php:263
+msgid "Import Tax Rates"
+msgstr "Importeer belastingtarieven"
+
+#: admin/importers/tax-rates-importer.php:286
+msgid "Hi there! Upload a CSV file containing tax rates to import the contents into your shop. Choose a .csv file to upload, then click \"Upload file and import\"."
+msgstr "Hallo! Upload een CSV bestand met belastingtarieven om de inhoud te importeren naar uw winkel. Kies een .csv bestand om te uploaden en klik vervolgens op \"Upload bestand en importeer\"."
+
+#: admin/importers/tax-rates-importer.php:288
+msgid "Tax rates need to be defined with columns in a specific order (10 columns). <a href=\"%s\">Click here to download a sample</a>."
+msgstr "Belastingtarieven moeten worden gedefinieerd met kolommen in een specifieke volgorde (10 kolommen). <a href=\"%s\">Klik hier om een ​​voorbeeld te downloaden</a>."
+
+#: admin/importers/tax-rates-importer.php:296
+msgid "Before you can upload your import file, you will need to fix the following error:"
+msgstr "Voordat u een import bestand kunt uploaden moet u de volgende fouten corrigeren:"
+
+#: admin/importers/tax-rates-importer.php:305
+msgid "Choose a file from your computer:"
+msgstr "Kies een bestand van uw computer:"
+
+#: admin/importers/tax-rates-importer.php:311
+msgid "Maximum size: %s"
+msgstr "Maximum grootte: %s"
+
+#: admin/importers/tax-rates-importer.php:316
+msgid "OR enter path to file:"
+msgstr "OF voer bestandspad in:"
+
+#: admin/importers/tax-rates-importer.php:323
+msgid "Delimiter"
+msgstr "Scheidingsteken"
+
+#: admin/importers/tax-rates-importer.php:329
+msgid "Upload file and import"
+msgstr "Upload bestand en importeer"
+
+#: admin/includes/duplicate_product.php:23
+msgid "No product to duplicate has been supplied!"
+msgstr "Geen product om te kopiëren is opgegeven!"
+
+#: admin/includes/duplicate_product.php:43
+msgid "Product creation failed, could not find original product:"
+msgstr "Product aanmaken mislukt, kon het originele product niet vinden:"
+
+#: admin/includes/duplicate_product.php:90
+msgid "(Copy)"
+msgstr "(kopieer)"
+
+#: admin/includes/notice-install.php:6
+msgid "<strong>Welcome to WooCommerce</strong> &#8211; You're almost ready to start selling :)"
+msgstr "<strong>Welkom bij WooCommerce</strong> &#8211; U bent bijna klaar om te beginnen met de verkoop :)"
+
+#: admin/includes/notice-install.php:7
+msgid "Install WooCommerce Pages"
+msgstr "Installeer WooCommerce pagina's"
+
+#: admin/includes/notice-install.php:7
+msgid "Skip setup"
+msgstr "Configuratie overslaan"
+
+#: admin/includes/notice-theme-support.php:6
+msgid "<strong>Your theme does not declare WooCommerce support</strong> &#8211; if you encounter layout issues please read our integration guide or choose a WooCommerce theme :)"
+msgstr "<strong>Uw thema geeft niet aan WooCommerce te ondersteunen</strong> &#8211; Als u opmaak problemen tegenkomt lees dan onze integratie handleiding of kies een WooCommerce thema :)"
+
+#: admin/includes/notice-theme-support.php:7
+msgid "Theme Integration Guide"
+msgstr "Thema integratie handleiding"
+
+#: admin/includes/notice-theme-support.php:7
+msgid "Hide this notice"
+msgstr "Verberg deze opmerking"
+
+#: admin/includes/notice-update.php:6
+msgid "<strong>Data Update Required</strong> &#8211; We just need to update your install to the latest version"
+msgstr "<strong>Gegevens bijwerken vereist</strong> &#8211; We moeten uw installatie bijwerken naar de laatste versie"
+
+#: admin/includes/notice-update.php:7
+msgid "Run the updater"
+msgstr "Voer de updater uit"
+
+#: admin/includes/notice-update.php:12
+msgid "It is strongly recommended that you backup your database before proceeding. Are you sure you wish to run the updater now?"
+msgstr "Het wordt geadviseerd om eerst een database back-up te maken voordat u verder gaat. Weet u zeker dat u nu de updater wilt uitvoeren?"
+
+#: admin/includes/updates/woocommerce-update-2.0.php:49
+#: admin/woocommerce-admin-init.php:890
+msgctxt "slug"
+msgid "product-category"
+msgstr "product-categorie"
+
+#: admin/includes/updates/woocommerce-update-2.0.php:50
+#: admin/woocommerce-admin-init.php:903
+msgctxt "slug"
+msgid "product-tag"
+msgstr "product-tag"
+
+#: admin/includes/updates/woocommerce-update-2.0.php:58
+msgctxt "slug"
+msgid "product"
+msgstr "product"
+
+#: admin/includes/updates/woocommerce-update-2.0.php:179
+#: admin/woocommerce-admin-install.php:207
+msgctxt "page_slug"
+msgid "lost-password"
+msgstr "wachtwoord-vergeten"
+
+#: admin/includes/updates/woocommerce-update-2.0.php:179
+#: admin/woocommerce-admin-install.php:207
+#: admin/woocommerce-admin-status.php:346
+msgid "Lost Password"
+msgstr "Wachtwoord vergeten"
+
+#: admin/includes/welcome.php:48
+msgid "Welcome to WooCommerce"
+msgstr "Welkom bij WooCommerce"
+
+#: admin/includes/welcome.php:135
+msgid "Welcome to WooCommerce %s"
+msgstr "Welkom bij WooCommerce %s"
+
+#: admin/includes/welcome.php:140
+msgid "Thanks, all done!"
+msgstr "Bedankt, helemaal klaar!"
+
+#: admin/includes/welcome.php:142
+msgid "Thank you for updating to the latest version!"
+msgstr "Bedankt voor het updaten naar de laatste versie!"
+
+#: admin/includes/welcome.php:144
+msgid "Thanks for installing!"
+msgstr "Bedankt voor het installeren!"
+
+#: admin/includes/welcome.php:146
+msgid "%s WooCommerce %s is more powerful, stable, and secure than ever before. We hope you enjoy it."
+msgstr "%s WooCommerce %s is krachtiger, stabieler en veiliger dan ooit tevoren. We hopen dat u ervan geniet."
+
+#: admin/includes/welcome.php:150
+msgid "Version %s"
+msgstr "Versie %s"
+
+#: admin/includes/welcome.php:153 admin/woocommerce-admin-content.php:41
+#: admin/woocommerce-admin-init.php:88 admin/woocommerce-admin-status.php:289
+msgid "Settings"
+msgstr "Instellingen"
+
+#: admin/includes/welcome.php:154
+msgid "Docs"
+msgstr "Documentatie"
+
+#: admin/includes/welcome.php:161
+msgid "What's New"
+msgstr "Wat is nieuw"
+
+#: admin/includes/welcome.php:163
+msgid "Credits"
+msgstr "Credits"
+
+#: admin/includes/welcome.php:186
+msgid "Security in mind"
+msgstr "Veiligheid in het achterhoofd"
+
+#: admin/includes/welcome.php:190
+msgid "Sucuri Safe Plugin"
+msgstr "Sucuri veilige plugin"
+
+#: admin/includes/welcome.php:191
+msgid "You will be happy to learn that WooCommerce has been audited and certified by the Sucuri Security team. Whilst there is not much to be seen visually to understand the amount of work that went into this audit, rest assured that your website is powered by one of the most powerful and stable eCommerce plugins available."
+msgstr "U zult blij zijn om te horen dat WooCommerce is gecontroleerd en gecertificeerd door het Sucuri veiligheidsteam. Hoewel er visueel gezien niet veel te zien is aan de hoeveelheid werk in dit onderzoek kunt u er zeker van deze uw website wordt aangedreven door één van de meest krachtige en stabiele e-commerce plugins beschikbaar."
+
+#: admin/includes/welcome.php:194
+msgid "A Smoother Admin Experience"
+msgstr "Een soepelere beheerder beleving"
+
+#: admin/includes/welcome.php:200
+msgid "New Product Panel"
+msgstr "Nieuw product paneel"
+
+#: admin/includes/welcome.php:201
+msgid "We have revised the product data panel making it cleaner, more streamlined, and more logical. Adding products is a breeze!"
+msgstr "We hebben het product data paneel herzien waardoor het minder druk, meer gestroomlijnd en logischer is. Het toevoegen van een product is een eitje!"
+
+#: admin/includes/welcome.php:206
+msgid "Nicer Order Screens"
+msgstr "Mooiere bestelling schermen"
+
+#: admin/includes/welcome.php:207
+msgid "Order pages have had a cleanup, with a more easily scannable interface. We particularly like the new status icons!"
+msgstr "Bestelling pagina's zijn opgeschoond, met een interface die eenvoudig is te overzien. We vinden met name de nieuwe status iconen leuk!"
+
+#: admin/includes/welcome.php:212
+msgid "Multi-Download Support"
+msgstr "Multi-download support"
+
+#: admin/includes/welcome.php:213
+msgid "Products can have multiple downloadable files - purchasers will get access to all the files added."
+msgstr "Producten kunnen meerdere downloadbare bestanden hebben - kopers krijgen toegang tot alle toegevoegde bestanden."
+
+#: admin/includes/welcome.php:218
+msgid "Less Taxing Taxes"
+msgstr "Minder belastende belastingen"
+
+#: admin/includes/welcome.php:224
+msgid "New Tax Input Panel"
+msgstr "Nieuwe belasting invoer panel"
+
+#: admin/includes/welcome.php:225
+msgid "The tax input pages have been streamlined to make inputting taxes simpler - adding multiple taxes for a single jurisdiction is now much easier using the priority system. There is also CSV import/export support."
+msgstr "De belasting invoer pagina's zijn gestroomlijnd om belastingen invoer eenvoudiger te maken - meerdere belastingen toevoegen voor een enkele jurisdictie is nu veel eenvoudiger met behulp van het prioriteit systeem. Daarnaast is er ook CSV import/export ondersteuning."
+
+#: admin/includes/welcome.php:229
+msgid "Improved Tax Options"
+msgstr "Verbeterde belasting opties"
+
+#: admin/includes/welcome.php:230
+msgid "As requested by some users, we now support taxing the billing address instead of shipping (optional), and we allow you to choose which tax class applies to shipping."
+msgstr "Op verzoek van een aantal gebruikers ondersteunen we nu het belasten van het factuuradres in plaats van het verzendadres (optioneel), en we laten u kiezen welk belasting klasse toegepast moet worden op verzending."
+
+#: admin/includes/welcome.php:235
+msgid "Product Listing Improvements Customers Will Love"
+msgstr "Product weergave verbeteringen welke klanten zullen waarderen"
+
+#: admin/includes/welcome.php:241
+msgid "New Sorting Options"
+msgstr "Nieuwe sortering opties"
+
+#: admin/includes/welcome.php:242
+msgid "Customers can now sort products by popularity and ratings."
+msgstr "Klanten kunnen nu producten sorteren op populariteit en beoordelingen."
+
+#: admin/includes/welcome.php:247
+msgid "Better Pagination and Result Counts"
+msgstr "Betere paginatie en resultaten teller"
+
+#: admin/includes/welcome.php:248
+msgid "Numbered pagination has been added to core, and we show the number of results found above the listings."
+msgstr "Genummerde paginatie is toegevoegd aan de kern en we tonen het aantal gevonden resultaten boven de weergave."
+
+#: admin/includes/welcome.php:253
+msgid "Inline Star Rating Display"
+msgstr "Inline ster beoordeling weergave"
+
+#: admin/includes/welcome.php:254
+msgid "We have added star ratings to the catalog which are pulled from reviews."
+msgstr "We hebben ster beoordelingen toegevoegd aan de catalogus welke opgehaald worden uit reviews."
+
+#: admin/includes/welcome.php:262
+msgid "Under the Hood"
+msgstr "Onder de motorkap"
+
+#: admin/includes/welcome.php:266
+msgid "New product classes"
+msgstr "Nieuwe product klassen"
+
+#: admin/includes/welcome.php:267
+msgid "The product classes have been rewritten and are now factory based. Much more extendable, and easier to query products using the new <code>get_product()</code> function."
+msgstr "De product klassen zijn volledig herschreven en zijn nu factory gebaseerd. Beter uit te breiden en eenvoudiger om producten op te vragen door gebruik te maken van de nieuwe <code>get_product()</code> functie."
+
+#: admin/includes/welcome.php:271
+msgid "Capability overhaul"
+msgstr "Mogelijkheden herzien"
+
+#: admin/includes/welcome.php:272
+msgid "More granular capabilities for admin/shop manager roles covering products, orders and coupons."
+msgstr "Meer opgedeelde mogelijkheden voor beheerder/winkel manager rollen met betrekking tot producten, bestellingen en coupons."
+
+#: admin/includes/welcome.php:276
+msgid "API Improvements"
+msgstr "API verbeteringen"
+
+#: admin/includes/welcome.php:277
+msgid "<code>WC-API</code> now has real endpoints, and we've optimised the gateways API significantly by only loading gateways when needed."
+msgstr "<code>WC-API</code> heeft nu echte eindpunten, en we hebben de gateways API aanzienlijk geoptimaliseerd door alleen gateways te laden wanneer dat nodig is."
+
+#: admin/includes/welcome.php:283
+msgid "Cache-friendly cart widgets"
+msgstr "Cache vriendelijke winkelwagen widgets"
+
+#: admin/includes/welcome.php:284
+msgid "Cart widgets and other \"fragments\" are now pulled in via AJAX - this works wonders with static page caching."
+msgstr "Winkelwagen widgets en andere \"fragementen\" worden nu opgehaald via AJAX - dit doet wonderen met statische pagina caching."
+
+#: admin/includes/welcome.php:288
+msgid "Session handling"
+msgstr "Sessie afhandeling"
+
+#: admin/includes/welcome.php:289
+msgid "PHP SESSIONS have been a problem for many users in the past, so we've developed our own handler using cookies and options to make these more reliable."
+msgstr "PHP sessies waren in het verleden voor veel gebruikers een probleem, daarom we hebben onze eigen afhandeling met behulp van cookies en opties ontwikkeld om deze meer betrouwbaar te maken."
+
+#: admin/includes/welcome.php:293
+msgid "Retina Ready"
+msgstr "Retina klaar"
+
+#: admin/includes/welcome.php:294
+msgid "All graphics within WC have been optimised for HiDPI displays."
+msgstr "Alle afbeeldingen binnen WC zijn geoptimaliseerd voor HiDPI schermen."
+
+#: admin/includes/welcome.php:301
+msgid "Better stock handling"
+msgstr "Betere voorraadbeheer"
+
+#: admin/includes/welcome.php:302
+msgid "We have added an option to hold stock for unpaid orders (defaults to 60mins). When this time limit is reached, and the order is not paid for, stock is released and the order is cancelled."
+msgstr "We hebben een optie toegevoegd om voorraad voor onbetaalde bestellingen vast te houden (standaard 60 minuten). Wanneer deze tijdslimiet is bereikt en de bestelling nog niet is betaald wordt de voorraad vrijgegeven en de bestelling geannuleerd."
+
+#: admin/includes/welcome.php:306
+msgid "Improved Line-item storage"
+msgstr "Verbeterde regel-item opslag"
+
+#: admin/includes/welcome.php:307
+msgid "We have changed how order items get stored making them easier (and faster) to access for reporting. Order items are no longer serialised within an order - they are stored within their own table."
+msgstr "We hebben de manier waarop bestelling items worden opgeslagen gewijzigd waardoor we deze eenvoudiger (en sneller) kunnen opvragen voor rapportage. Bestelling items worden niet langer geserialiseerd binnen een bestelling - ze worden opgeslagen binnen hun eigen tabel."
+
+#: admin/includes/welcome.php:311
+msgid "Autoload"
+msgstr "Autoload"
+
+#: admin/includes/welcome.php:312
+msgid "We have setup autoloading for classes - this has dramatically reduced memory usage in 2.0."
+msgstr "We hebben het automatisch inladen van klassen ingesteld - dit heeft het geheugen gebruik in 2.0 drastisch verlaagd."
+
+#: admin/includes/welcome.php:319
+msgid "Go to WooCommerce Settings"
+msgstr "Ga naar WooCommerce instellingen"
+
+#: admin/includes/welcome.php:337
+msgid "WooCommerce is developed and maintained by a worldwide team of passionate individuals and backed by an awesome developer community. Want to see your name? <a href=\"https://github.com/woothemes/woocommerce/blob/master/CONTRIBUTING.md\">Contribute to WooCommerce</a>."
+msgstr "WooCommerce wordt ontwikkeld en onderhouden door een wereldwijd team van gepassioneerde individuen en ondersteund door een geweldige community van ontwikkelaars. Wilt u uw naam zien? <a href=\"https://github.com/woothemes/woocommerce/blob/master/CONTRIBUTING.md\">Bijdragen aan WooCommerce</a>."
+
+#: admin/includes/welcome.php:363
+msgid "View %s"
+msgstr "Bekijk %s"
+
+#: admin/post-types/product.php:31
+msgid "Make a duplicate from this product"
+msgstr "Maak een kopie van dit product"
+
+#: admin/post-types/product.php:32
+msgid "Duplicate"
+msgstr "Kopieer"
+
+#: admin/post-types/product.php:61
+msgid "Copy to a new draft"
+msgstr "Kopieer naar een nieuw concept"
+
+#: admin/post-types/product.php:86 admin/woocommerce-admin-taxonomies.php:297
+msgid "Image"
+msgstr "Afbeelding"
+
+#: admin/post-types/product.php:88
+#: admin/post-types/writepanels/writepanel-product_data.php:378
+#: admin/post-types/writepanels/writepanel-product_data.php:472
+#: admin/woocommerce-admin-attributes.php:241
+#: admin/woocommerce-admin-attributes.php:277
+#: admin/woocommerce-admin-attributes.php:315
+#: admin/woocommerce-admin-attributes.php:338
+#: admin/woocommerce-admin-attributes.php:382
+#: admin/woocommerce-admin-attributes.php:407
+#: admin/woocommerce-admin-init.php:437
+msgid "Name"
+msgstr "Naam"
+
+#: admin/post-types/product.php:91 admin/post-types/product.php:557
+#: admin/post-types/writepanels/variation-admin-html.php:52
+#: admin/post-types/writepanels/writepanel-product_data.php:98
+#: admin/woocommerce-admin-reports.php:2100
+#: admin/woocommerce-admin-reports.php:2136
+msgid "SKU"
+msgstr "SKU"
+
+#: admin/post-types/product.php:94
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:82
+#: admin/woocommerce-admin-content.php:63
+#: admin/woocommerce-admin-reports.php:90
+msgid "Stock"
+msgstr "Voorraad"
+
+#: admin/post-types/product.php:96 admin/post-types/product.php:568
+#: admin/post-types/product.php:789 admin/woocommerce-admin-functions.php:202
+msgid "Price"
+msgstr "Prijs"
+
+#: admin/post-types/product.php:98
+msgid "Categories"
+msgstr "Categorieën"
+
+#: admin/post-types/product.php:99
+msgid "Tags"
+msgstr "Tags"
+
+#: admin/post-types/product.php:100 admin/post-types/product.php:632
+#: admin/post-types/product.php:906
+#: admin/post-types/writepanels/writepanel-product_data.php:1066
+#: admin/woocommerce-admin-init.php:450
+msgid "Featured"
+msgstr "Uitgelicht"
+
+#: admin/post-types/product.php:101 admin/woocommerce-admin-attributes.php:259
+#: admin/woocommerce-admin-attributes.php:317
+#: admin/woocommerce-admin-attributes.php:394
+msgid "Type"
+msgstr "Type"
+
+#: admin/post-types/product.php:102 admin/post-types/shop_order.php:50
+msgid "Date"
+msgstr "Datum"
+
+#: admin/post-types/product.php:151
+msgid "Edit this item"
+msgstr "Bewerk dit item"
+
+#: admin/post-types/product.php:151
+#: admin/post-types/writepanels/writepanel-order_data.php:140
+#: admin/post-types/writepanels/writepanel-order_data.php:230
+#: admin/post-types/writepanels/writepanel-order_data.php:387
+#: admin/post-types/writepanels/writepanel-product_data.php:1069
+#: admin/woocommerce-admin-attributes.php:331
+msgid "Edit"
+msgstr "Bewerken"
+
+#: admin/post-types/product.php:152
+msgid "Edit this item inline"
+msgstr "Dit item inline bewerken"
+
+#: admin/post-types/product.php:152
+msgid "Quick&nbsp;Edit"
+msgstr "Snel&nbsp;bewerken"
+
+#: admin/post-types/product.php:156 admin/post-types/shop_coupon.php:65
+msgid "Restore this item from the Trash"
+msgstr "Herstel dit item van de prullenbak"
+
+#: admin/post-types/product.php:156 admin/post-types/shop_coupon.php:65
+msgid "Restore"
+msgstr "Herstellen"
+
+#: admin/post-types/product.php:158 admin/post-types/shop_coupon.php:67
+msgid "Move this item to the Trash"
+msgstr "Verplaats dit item naar de prullenbak"
+
+#: admin/post-types/product.php:158 admin/post-types/shop_coupon.php:67
+msgid "Trash"
+msgstr "Prullenbak"
+
+#: admin/post-types/product.php:160 admin/post-types/shop_coupon.php:69
+msgid "Delete this item permanently"
+msgstr "Verwijder dit item permanent"
+
+#: admin/post-types/product.php:160 admin/post-types/shop_coupon.php:69
+#: admin/post-types/writepanels/writepanel-order_data.php:463
+msgid "Delete Permanently"
+msgstr "Verwijder permanent"
+
+#: admin/post-types/product.php:165
+msgid "Preview &#8220;%s&#8221;"
+msgstr "Preview &#8220;%s&#8221;"
+
+#: admin/post-types/product.php:165
+msgid "Preview"
+msgstr "Preview"
+
+#: admin/post-types/product.php:167
+msgid "View &#8220;%s&#8221;"
+msgstr "Bekijk &#8220;%s&#8221;"
+
+#: admin/post-types/product.php:167 admin/post-types/shop_order.php:171
+msgid "View"
+msgstr "Bekijk"
+
+#: admin/post-types/product.php:214
+msgid "Grouped"
+msgstr "Gegroepeerd"
+
+#: admin/post-types/product.php:216
+msgid "External/Affiliate"
+msgstr "Extern/affiliate"
+
+#: admin/post-types/product.php:220 admin/post-types/product.php:407
+#: admin/post-types/writepanels/variation-admin-html.php:176
+#: admin/post-types/writepanels/writepanel-product_data.php:52
+msgid "Virtual"
+msgstr "Virtueel"
+
+#: admin/post-types/product.php:222 admin/post-types/product.php:403
+#: admin/post-types/writepanels/variation-admin-html.php:174
+#: admin/post-types/writepanels/writepanel-product_data.php:58
+msgid "Downloadable"
+msgstr "Downloadbaar"
+
+#: admin/post-types/product.php:224
+msgid "Simple"
+msgstr "Eenvoudig"
+
+#: admin/post-types/product.php:228 admin/post-types/product.php:387
+msgid "Variable"
+msgstr "Variabel"
+
+#: admin/post-types/product.php:251
+msgid "Toggle featured"
+msgstr "Uitgelicht omschakelen"
+
+#: admin/post-types/product.php:253
+msgid "yes"
+msgstr "ja"
+
+#: admin/post-types/product.php:255
+msgid "no"
+msgstr "nee"
+
+#: admin/post-types/product.php:262 admin/post-types/product.php:641
+#: admin/post-types/product.php:930
+#: admin/post-types/writepanels/writepanel-product_data.php:231
+msgid "In stock"
+msgstr "In voorraad"
+
+#: admin/post-types/product.php:264 admin/post-types/product.php:642
+#: admin/post-types/product.php:931
+#: admin/post-types/writepanels/writepanel-product_data.php:232
+#: admin/woocommerce-admin-reports.php:2120
+msgid "Out of stock"
+msgstr "Niet in voorraad"
+
+#: admin/post-types/product.php:373
+msgid "Show all product types"
+msgstr "Alle product typen tonen"
+
+#: admin/post-types/product.php:381
+#: admin/post-types/writepanels/writepanel-product_data.php:39
+msgid "Grouped product"
+msgstr "Gegroepeerd product"
+
+#: admin/post-types/product.php:383
+#: admin/post-types/writepanels/writepanel-product_data.php:40
+msgid "External/Affiliate product"
+msgstr "Externe/affiliate product"
+
+#: admin/post-types/product.php:385
+#: admin/post-types/writepanels/writepanel-product_data.php:38
+msgid "Simple product"
+msgstr "Eenvoudig product"
+
+#: admin/post-types/product.php:399
+msgid "Show all sub-types"
+msgstr "Alle sub-types tonen"
+
+#: admin/post-types/product.php:520
+msgid "[%s with SKU of %s]"
+msgstr "[%s met SKU van %s]"
+
+#: admin/post-types/product.php:526
+msgid "[%s with ID of %d]"
+msgstr "[%s met ID van %d]"
+
+#: admin/post-types/product.php:552 admin/post-types/product.php:783
+#: admin/post-types/writepanels/writepanels-init.php:46
+#: admin/settings/settings-init.php:508
+msgid "Product Data"
+msgstr "Product data"
+
+#: admin/post-types/product.php:570
+msgid "Regular price"
+msgstr "Normale prijs"
+
+#: admin/post-types/product.php:575 admin/post-types/product.php:813
+msgid "Sale"
+msgstr "Sale"
+
+#: admin/post-types/product.php:577
+msgid "Sale price"
+msgstr "Sale prijs"
+
+#: admin/post-types/product.php:588 admin/post-types/product.php:839
+#: admin/post-types/writepanels/variation-admin-html.php:96
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:83
+#: admin/post-types/writepanels/writepanel-product_data.php:273
+msgid "Weight"
+msgstr "Gewicht"
+
+#: admin/post-types/product.php:599 admin/post-types/product.php:863
+msgid "L/W/H"
+msgstr "L/B/H"
+
+#: admin/post-types/product.php:601 admin/post-types/product.php:879
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:84
+#: admin/post-types/writepanels/writepanel-product_data.php:286
+msgid "Length"
+msgstr "Lengte"
+
+#: admin/post-types/product.php:602 admin/post-types/product.php:880
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:85
+#: admin/post-types/writepanels/writepanel-product_data.php:287
+#: admin/woocommerce-admin-settings.php:798
+msgid "Width"
+msgstr "Breedte"
+
+#: admin/post-types/product.php:603 admin/post-types/product.php:881
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:86
+#: admin/post-types/writepanels/writepanel-product_data.php:288
+#: admin/woocommerce-admin-settings.php:800
+msgid "Height"
+msgstr "Hoogte"
+
+#: admin/post-types/product.php:613 admin/post-types/product.php:887
+msgid "Visibility"
+msgstr "Zichtbaarheid"
+
+#: admin/post-types/product.php:618 admin/post-types/product.php:893
+msgid "Catalog &amp; search"
+msgstr "Catalogus &amp; zoeken"
+
+#: admin/post-types/product.php:619 admin/post-types/product.php:894
+#: admin/post-types/writepanels/writepanel-product_data.php:1055
+#: admin/woocommerce-admin-content.php:46
+#: admin/woocommerce-admin-settings.php:183
+msgid "Catalog"
+msgstr "Catalogus"
+
+#: admin/post-types/product.php:620 admin/post-types/product.php:895
+#: admin/post-types/writepanels/writepanel-product_data.php:1056
+msgid "Search"
+msgstr "Zoeken"
+
+#: admin/post-types/product.php:621 admin/post-types/product.php:896
+#: admin/post-types/writepanels/writepanel-product_data.php:1057
+msgid "Hidden"
+msgstr "Verborgen"
+
+#: admin/post-types/product.php:636 admin/post-types/product.php:924
+msgid "In stock?"
+msgstr "In voorraad?"
+
+#: admin/post-types/product.php:657 admin/post-types/product.php:942
+#: admin/post-types/writepanels/writepanel-product_data.php:212
+msgid "Manage stock?"
+msgstr "Beheer voorraad?"
+
+#: admin/post-types/product.php:661 admin/post-types/product.php:961
+#: admin/post-types/product.php:977
+#: admin/post-types/writepanels/writepanel-product_data.php:219
+msgid "Stock Qty"
+msgstr "Voorraad aantal"
+
+#: admin/post-types/product.php:794 admin/post-types/product.php:818
+#: admin/post-types/product.php:844 admin/post-types/product.php:868
+#: admin/post-types/product.php:892 admin/post-types/product.php:911
+#: admin/post-types/product.php:929 admin/post-types/product.php:947
+#: admin/post-types/product.php:966
+msgid "— No Change —"
+msgstr "— Geen wijzigingen —"
+
+#: admin/post-types/product.php:795 admin/post-types/product.php:819
+#: admin/post-types/product.php:845 admin/post-types/product.php:869
+#: admin/post-types/product.php:967
+msgid "Change to:"
+msgstr "Wijzig naar:"
+
+#: admin/post-types/product.php:796 admin/post-types/product.php:820
+msgid "Increase by (fixed amount or %):"
+msgstr "Verhogen met (vast bedrag of %):"
+
+#: admin/post-types/product.php:797 admin/post-types/product.php:821
+msgid "Decrease by (fixed amount or %):"
+msgstr "Verlagen met (vast bedrag of %):"
+
+#: admin/post-types/product.php:807 admin/post-types/product.php:832
+msgid "Enter price"
+msgstr "Voer prijs in"
+
+#: admin/post-types/product.php:822
+msgid "Decrease regular price by (fixed amount or %):"
+msgstr "Verlaag standaard prijs met (vast bedrag of %):"
+
+#: admin/post-types/product.php:912 admin/post-types/product.php:948
+#: admin/post-types/shop_order.php:190 admin/woocommerce-admin-status.php:122
+#: admin/woocommerce-admin-status.php:297
+msgid "Yes"
+msgstr "Ja"
+
+#: admin/post-types/product.php:913 admin/post-types/product.php:949
+#: admin/post-types/shop_order.php:192 admin/woocommerce-admin-status.php:122
+#: admin/woocommerce-admin-status.php:297
+msgid "No"
+msgstr "Nee"
+
+#: admin/post-types/product.php:1183
+msgid "Sort Products"
+msgstr "Sorteer producten"
+
+#: admin/post-types/product.php:1222
+msgid "Insert into product"
+msgstr "Invoegen in product"
+
+#: admin/post-types/product.php:1223
+msgid "Uploaded to this product"
+msgstr "Geüpload naar dit product"
+
+#: admin/post-types/shop_coupon.php:25
+msgid "Code"
+msgstr "Code"
+
+#: admin/post-types/shop_coupon.php:26
+msgid "Coupon type"
+msgstr "Coupon type"
+
+#: admin/post-types/shop_coupon.php:27
+#: admin/post-types/writepanels/writepanel-coupon_data.php:45
+msgid "Coupon amount"
+msgstr "Coupon bedrag"
+
+#: admin/post-types/shop_coupon.php:28
+msgid "Description"
+msgstr "Beschrijving"
+
+#: admin/post-types/shop_coupon.php:29
+msgid "Product IDs"
+msgstr "Product ID's"
+
+#: admin/post-types/shop_coupon.php:30
+msgid "Usage / Limit"
+msgstr "Gebruiker/limiet"
+
+#: admin/post-types/shop_coupon.php:31
+#: admin/post-types/writepanels/writepanel-coupon_data.php:158
+msgid "Expiry date"
+msgstr "Vervaldatum"
+
+#: admin/post-types/shop_coupon.php:56
+msgid "Edit coupon"
+msgstr "Bewerk coupon"
+
+#: admin/post-types/shop_coupon.php:114
+msgid "%s / %s"
+msgstr "%s / %s"
+
+#: admin/post-types/shop_coupon.php:116
+msgid "%s / &infin;"
+msgstr "%s / &infin;"
+
+#: admin/post-types/shop_coupon.php:149
+msgid "Show all types"
+msgstr "Alle types tonen"
+
+#: admin/post-types/shop_order.php:43
+#: admin/settings/settings-payment-gateways.php:29
+#: admin/settings/settings-shipping-methods.php:33
+msgid "Status"
+msgstr "Status"
+
+#: admin/post-types/shop_order.php:44
+msgid "Order"
+msgstr "Bestelling"
+
+#: admin/post-types/shop_order.php:45
+msgid "Billing"
+msgstr "Facturering"
+
+#: admin/post-types/shop_order.php:46
+#: admin/post-types/writepanels/writepanel-order_data.php:539
+#: admin/post-types/writepanels/writepanel-product_data.php:81
+#: admin/settings/settings-tax-rates.php:52
+#: admin/settings/settings-tax-rates.php:217
+#: admin/woocommerce-admin-content.php:49
+#: admin/woocommerce-admin-settings.php:187
+msgid "Shipping"
+msgstr "Verzending"
+
+#: admin/post-types/shop_order.php:47
+msgid "Order Total"
+msgstr "Bestelling totaal"
+
+#: admin/post-types/shop_order.php:48
+#: admin/post-types/writepanels/writepanels-init.php:71
+msgid "Order Notes"
+msgstr "Bestelling opmerkingen"
+
+#: admin/post-types/shop_order.php:49
+msgid "Customer Notes"
+msgstr "Klant opmerkingen"
+
+#: admin/post-types/shop_order.php:51
+#: admin/post-types/writepanels/writepanel-order_data.php:386
+#: admin/post-types/writepanels/writepanel-order_data.php:433
+msgid "Actions"
+msgstr "Acties"
+
+#: admin/post-types/shop_order.php:95
+#: admin/post-types/writepanels/writepanel-order_data.php:93
+msgid "Guest"
+msgstr "Gast"
+
+#: admin/post-types/shop_order.php:98
+msgid "Order %s"
+msgstr "Bestelling %s"
+
+#: admin/post-types/shop_order.php:98
+msgid "made by"
+msgstr "gemaakt door"
+
+#: admin/post-types/shop_order.php:101
+msgid "Email:"
+msgstr "E-mail:"
+
+#: admin/post-types/shop_order.php:104
+msgid "Tel:"
+msgstr "Tel:"
+
+#: admin/post-types/shop_order.php:114 admin/post-types/shop_order.php:123
+msgid "Via"
+msgstr "Via"
+
+#: admin/post-types/shop_order.php:131
+msgid "Unpublished"
+msgstr "Niet gepubliceerd"
+
+#: admin/post-types/shop_order.php:133
+msgid "Y/m/d g:i:s A"
+msgstr "j F Y H:i"
+
+#: admin/post-types/shop_order.php:139
+msgid "%s ago"
+msgstr "%s geleden"
+
+#: admin/post-types/shop_order.php:141
+msgid "Y/m/d"
+msgstr "j F Y"
+
+#: admin/post-types/shop_order.php:158
+#: admin/woocommerce-admin-dashboard.php:176
+msgid "Processing"
+msgstr "In verwerking"
+
+#: admin/post-types/shop_order.php:165
+msgid "Complete"
+msgstr "Voltooid"
+
+#: admin/post-types/shop_order.php:282
+msgid "Show all statuses"
+msgstr "Alle statussen tonen"
+
+#: admin/post-types/shop_order.php:301 admin/post-types/shop_order.php:326
+msgid "Show all customers"
+msgstr "Alle klanten tonen"
+
+#: admin/post-types/writepanels/order-download-permission-html.php:6
+msgid "Revoke Access"
+msgstr "Toegang intrekken"
+
+#: admin/post-types/writepanels/order-download-permission-html.php:7
+#: admin/post-types/writepanels/variation-admin-html.php:7
+#: admin/post-types/writepanels/writepanel-product_data.php:371
+#: admin/post-types/writepanels/writepanel-product_data.php:465
+#: admin/woocommerce-admin-init.php:439
+msgid "Click to toggle"
+msgstr "Klik om te schakelen"
+
+#: admin/post-types/writepanels/order-download-permission-html.php:9
+msgid "File %d: %s"
+msgstr "Bestand %d: %s"
+
+#: admin/post-types/writepanels/order-download-permission-html.php:9
+msgid "Downloaded %s time"
+msgid_plural "Downloaded %s times"
+msgstr[0] "%s keer gedownload"
+msgstr[1] "%s keer gedownload"
+
+#: admin/post-types/writepanels/order-download-permission-html.php:16
+msgid "Downloads Remaining"
+msgstr "Downloads resterend"
+
+#: admin/post-types/writepanels/order-download-permission-html.php:19
+#: admin/post-types/writepanels/variation-admin-html.php:151
+#: admin/post-types/writepanels/variation-admin-html.php:159
+#: admin/post-types/writepanels/writepanel-product_data.php:158
+msgid "Unlimited"
+msgstr "Onbeperkt"
+
+#: admin/post-types/writepanels/order-download-permission-html.php:22
+msgid "Access Expires"
+msgstr "Toegang verloopt"
+
+#: admin/post-types/writepanels/order-download-permission-html.php:23
+#: admin/post-types/writepanels/writepanel-product_data.php:164
+msgid "Never"
+msgstr "Nieuwer"
+
+#: admin/post-types/writepanels/order-fee-html.php:10
+msgid "Fee Name"
+msgstr "Kosten naam"
+
+#: admin/post-types/writepanels/order-fee-html.php:17
+#: admin/post-types/writepanels/order-item-html.php:89
+msgid "Tax class"
+msgstr "Belastingtarief"
+
+#: admin/post-types/writepanels/order-fee-html.php:19
+#: admin/post-types/writepanels/order-tax-html.php:8
+#: admin/post-types/writepanels/writepanel-order_data.php:561
+#: admin/post-types/writepanels/writepanel-order_data.php:666
+#: admin/woocommerce-admin-reports.php:1659
+#: admin/woocommerce-admin-reports.php:2672
+#: admin/woocommerce-admin-reports.php:2681
+#: admin/woocommerce-admin-users.php:90 admin/woocommerce-admin-users.php:112
+msgid "N/A"
+msgstr "niet beschikbaar"
+
+#: admin/post-types/writepanels/order-fee-html.php:20
+#: admin/post-types/writepanels/writepanel-product_data.php:179
+msgid "Taxable"
+msgstr "Belastbaar"
+
+#: admin/post-types/writepanels/order-fee-html.php:25
+#: admin/post-types/writepanels/order-item-html.php:96
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:53
+#: admin/post-types/writepanels/writepanel-product_data.php:186
+#: admin/settings/settings-init.php:972
+#: admin/settings/settings-tax-rates.php:29
+#: admin/woocommerce-admin-settings.php:228
+msgid "Standard"
+msgstr "Standaard"
+
+#: admin/post-types/writepanels/order-fee-html.php:43
+#: admin/post-types/writepanels/order-item-html.php:115
+#: admin/woocommerce-admin-reports.php:1563
+#: admin/woocommerce-admin-reports.php:1616
+#: admin/woocommerce-admin-reports.php:2387
+#: admin/woocommerce-admin-reports.php:2556
+#: admin/woocommerce-admin-reports.php:2634
+msgid "Total"
+msgstr "Totaal"
+
+#: admin/post-types/writepanels/order-item-html.php:10
+msgid "Product ID:"
+msgstr "Product ID:"
+
+#: admin/post-types/writepanels/order-item-html.php:13
+msgid "Variation ID:"
+msgstr "Variatie ID:"
+
+#: admin/post-types/writepanels/order-item-html.php:16
+msgid "Product SKU:"
+msgstr "Product SKU:"
+
+#: admin/post-types/writepanels/order-item-html.php:44
+msgid "Add&nbsp;meta"
+msgstr "Meta&nbsp;toevoegen"
+
+#: admin/post-types/writepanels/order-item-html.php:117
+msgid "Subtotal"
+msgstr "Subtotaal"
+
+#: admin/post-types/writepanels/order-tax-html.php:6
+msgid "Tax Rate:"
+msgstr "Belastingtarief:"
+
+#: admin/post-types/writepanels/order-tax-html.php:16
+#: admin/post-types/writepanels/writepanel-order_data.php:630
+msgid "Sales Tax:"
+msgstr "Sales belasting:"
+
+#: admin/post-types/writepanels/order-tax-html.php:20
+#: admin/post-types/writepanels/writepanel-order_data.php:638
+msgid "Shipping Tax:"
+msgstr "Verzending belasting:"
+
+#: admin/post-types/writepanels/variation-admin-html.php:6
+#: admin/post-types/writepanels/writepanel-product_data.php:370
+#: admin/post-types/writepanels/writepanel-product_data.php:464
+#: admin/woocommerce-admin-init.php:438
+msgid "Remove"
+msgstr "Verwijder"
+
+#: admin/post-types/writepanels/variation-admin-html.php:20
+msgid "Any"
+msgstr "Elke"
+
+#: admin/post-types/writepanels/variation-admin-html.php:52
+msgid "Enter a SKU for this variation or leave blank to use the parent product SKU."
+msgstr "Voer een SKU in voor deze variatie of laat leeg om de bovenliggende product SKU te gebruiken."
+
+#: admin/post-types/writepanels/variation-admin-html.php:63
+msgid "Stock Qty:"
+msgstr "Voorraad aantal:"
+
+#: admin/post-types/writepanels/variation-admin-html.php:63
+msgid "Enter a quantity to enable stock management at variation level, or leave blank to use the parent product's options."
+msgstr "Voer een aantal in om voorraadbeheer op variatie niveau in te schakelen, of laat leeg om de bovenliggende product instellingen te gebruiken."
+
+#: admin/post-types/writepanels/variation-admin-html.php:72
+msgid "Regular Price:"
+msgstr "Standaard prijs:"
+
+#: admin/post-types/writepanels/variation-admin-html.php:73
+msgid "Variation price (required)"
+msgstr "Variatie prijs (verplicht)"
+
+#: admin/post-types/writepanels/variation-admin-html.php:76
+msgid "Sale Price:"
+msgstr "Sale prijs:"
+
+#: admin/post-types/writepanels/variation-admin-html.php:76
+#: admin/post-types/writepanels/writepanel-product_data.php:125
+msgid "Schedule"
+msgstr "Inplannen"
+
+#: admin/post-types/writepanels/variation-admin-html.php:76
+msgid "Cancel schedule"
+msgstr "Annuleer planning"
+
+#: admin/post-types/writepanels/variation-admin-html.php:83
+msgid "Sale start date:"
+msgstr "Sale startdatum:"
+
+#: admin/post-types/writepanels/variation-admin-html.php:84
+#: admin/post-types/writepanels/writepanel-product_data.php:136
+msgctxt "placeholder"
+msgid "From&hellip;"
+msgstr "Van&hellip;"
+
+#: admin/post-types/writepanels/variation-admin-html.php:87
+msgid "Sale end date:"
+msgstr "Sale einddatum:"
+
+#: admin/post-types/writepanels/variation-admin-html.php:88
+#: admin/post-types/writepanels/writepanel-product_data.php:137
+msgctxt "placeholder"
+msgid "To&hellip;"
+msgstr "Tot&hellip;"
+
+#: admin/post-types/writepanels/variation-admin-html.php:96
+msgid "Enter a weight for this variation or leave blank to use the parent product weight."
+msgstr "Voer een gewicht in voor deze variatie of laat leeg om het gewicht van het bovenliggende product te gebruiken."
+
+#: admin/post-types/writepanels/variation-admin-html.php:104
+msgid "Dimensions (L&times;W&times;H)"
+msgstr "Dimensies (L&times;B&times;H)"
+
+#: admin/post-types/writepanels/variation-admin-html.php:115
+msgid "Shipping class:"
+msgstr "Verzending klasse:"
+
+#: admin/post-types/writepanels/variation-admin-html.php:119
+#: admin/post-types/writepanels/variation-admin-html.php:132
+msgid "Same as parent"
+msgstr "Zelfde als bovenliggende"
+
+#: admin/post-types/writepanels/variation-admin-html.php:130
+msgid "Tax class:"
+msgstr "Belasting klasse:"
+
+#: admin/post-types/writepanels/variation-admin-html.php:143
+msgid "File paths:"
+msgstr "Bestandspaden:"
+
+#: admin/post-types/writepanels/variation-admin-html.php:143
+msgid "Enter one or more File Paths, one per line, to make this variation a downloadable product, or leave blank."
+msgstr "Voer één of meer bestandspaden in, één per regel, om van deze variatie een downloadbaar product te maken, of laat leeg."
+
+#: admin/post-types/writepanels/variation-admin-html.php:144
+#: admin/post-types/writepanels/writepanel-product_data.php:153
+msgid "File paths/URLs, one per line"
+msgstr "Bestandspaden/URL's, één per regel"
+
+#: admin/post-types/writepanels/variation-admin-html.php:145
+#: admin/post-types/writepanels/writepanel-product_data.php:154
+msgid "Choose a file"
+msgstr "Kies een bestand"
+
+#: admin/post-types/writepanels/variation-admin-html.php:145
+msgid "Upload"
+msgstr "Upload"
+
+#: admin/post-types/writepanels/variation-admin-html.php:145
+#: admin/post-types/writepanels/writepanel-product_data.php:154
+msgid "Insert file URL"
+msgstr "Bestand URL invoegen"
+
+#: admin/post-types/writepanels/variation-admin-html.php:150
+msgid "Download Limit:"
+msgstr "Download limiet:"
+
+#: admin/post-types/writepanels/variation-admin-html.php:150
+#: admin/post-types/writepanels/writepanel-product_data.php:158
+msgid "Leave blank for unlimited re-downloads."
+msgstr "Laat leeg voor onbeperkt re-downloads."
+
+#: admin/post-types/writepanels/variation-admin-html.php:158
+msgid "Download Expiry:"
+msgstr "Download verval:"
+
+#: admin/post-types/writepanels/variation-admin-html.php:158
+#: admin/post-types/writepanels/writepanel-product_data.php:164
+msgid "Enter the number of days before a download link expires, or leave blank."
+msgstr "Voer het aantal dagen voordat een download link verloopt of laat leeg."
+
+#: admin/post-types/writepanels/variation-admin-html.php:172
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+#: admin/post-types/writepanels/variation-admin-html.php:174
+msgid "Enable this option if access is given to a downloadable file upon purchase of a product"
+msgstr "Schakel deze optie in als toegang wordt gegeven aan downloadbaar bestand bij de aankoop van een product"
+
+#: admin/post-types/writepanels/variation-admin-html.php:176
+msgid "Enable this option if a product is not shipped or there is no shipping cost"
+msgstr "Schakel deze optie in als een product niet wordt verstuurd of als er geen verzendkosten zijn"
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:37
+msgid "Coupon description"
+msgstr "Coupon beschrijving"
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:37
+msgid "Optionally enter a description for this coupon for your reference."
+msgstr "Voer optioneel een beschrijving in voor deze coupon voor uw referentie."
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:42
+msgid "Discount type"
+msgstr "Kortingstype"
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:45
+msgid "Value of the coupon."
+msgstr "Waarde van de coupon."
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:51
+msgid "Enable free shipping"
+msgstr "Gratis verzending inschakelen"
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:51
+msgid "Check this box if the coupon grants free shipping. The <a href=\"%s\">free shipping method</a> must be enabled with the \"must use coupon\" setting checked."
+msgstr "Vink dit vakje aan als de coupon gratis verzending garandeert. De <a href=\"%s\">gratis verzendmethode</a> moet ingeschakeld zijn met de \"moet coupon gebruiken\" instelling aangevinkt."
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:54
+msgid "Individual use"
+msgstr "Individueel gebruik"
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:54
+msgid "Check this box if the coupon cannot be used in conjunction with other coupons."
+msgstr "Vink dit vakje aan als de coupon niet kan worden gebruikt in combinatie met andere coupons."
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:57
+msgid "Apply before tax"
+msgstr "Toepassen voorop belasting"
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:57
+msgid "Check this box if the coupon should be applied before calculating cart tax."
+msgstr "Vink dit vakje aan als de coupon toegepast moet worden voor berekenen winkelwagen belasting."
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:60
+msgid "Exclude sale items"
+msgstr "Sale item uitsluiten"
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:60
+msgid "Check this box if the coupon should not apply to items on sale. Per-item coupons will only work if the item is not on sale. Per-cart coupons will only work if there are no sale items in the cart."
+msgstr "Vink dit vakje aan als de coupon niet toegepast moet worden items in sale. Per item coupons werken alleen als het item niet in sale is. Per winkelwagen coupons werken alleen als er geen sale items in de winkelwagen zijn."
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:65
+msgid "Minimum amount"
+msgstr "Minimum bedrag"
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:65
+msgid "No minimum"
+msgstr "Geen minimum"
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:65
+msgid "This field allows you to set the minimum subtotal needed to use the coupon."
+msgstr "In dit veld kunt u een minimum subtotaal opgeven voor het gebruik van de coupon."
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:74
+#: admin/woocommerce-admin-taxonomies.php:28
+#: admin/woocommerce-admin-taxonomies.php:122
+msgid "Products"
+msgstr "Producten"
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:75
+#: admin/post-types/writepanels/writepanel-order_data.php:400
+#: admin/post-types/writepanels/writepanel-product_data.php:525
+#: admin/post-types/writepanels/writepanel-product_data.php:542
+#: admin/woocommerce-admin-reports.php:1246
+msgid "Search for a product&hellip;"
+msgstr "Zoek naar een product&hellip;"
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:89
+msgid "Products which need to be in the cart to use this coupon or, for \"Product Discounts\", which products are discounted."
+msgstr "Producten welke in de winkelwagen geplaatst moeten worden om deze coupon te gebruiken, voor \"Product kortingen\" welke producten korting krijgen."
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:94
+msgid "Exclude products"
+msgstr "Producten uitsluiten"
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:95
+msgid "Search for a product…"
+msgstr "Zoek voor een product…"
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:109
+msgid "Products which must not be in the cart to use this coupon or, for \"Product Discounts\", which products are not discounted."
+msgstr "Producten welke niet in de winkelwagen geplaatst moeten worden om deze coupon te gebruiken, voor \"Product kortingen\" welke producten geen korting krijgen."
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:116
+msgid "Product categories"
+msgstr "Product categorieën"
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:117
+msgid "Any category"
+msgstr "Elke categorie"
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:125
+msgid "A product must be in this category for the coupon to remain valid or, for \"Product Discounts\", products in these categories will be discounted."
+msgstr "De coupon blijft geldig zolang het product in deze categorie staat, voor \"Product kortingen\" krijgen producten in deze categorie korting."
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:130
+msgid "Exclude categories"
+msgstr "Categorieën uitsluiten"
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:131
+msgid "No categories"
+msgstr "Geen categorieën"
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:139
+msgid "Product must not be in this category for the coupon to remain valid or, for \"Product Discounts\", products in these categories will not be discounted."
+msgstr "De coupon blijft geldig zolang het product niet in deze categorie staat, voor \"Product kortingen\" krijgen producten in deze categorie geen korting."
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:145
+msgid "Email restrictions"
+msgstr "E-mail beperkingen"
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:145
+msgid "No restrictions"
+msgstr "Geen beperkingen"
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:145
+msgid "List of emails to check against the customer's billing email when an order is placed."
+msgstr "Lijst van e-mails om te controleren tegen de klant zijn factuur e-mail wanneer een bestelling wordt geplaatst."
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:152
+msgid "Usage limit"
+msgstr "Gebruikslimiet"
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:152
+msgctxt "placeholder"
+msgid "Unlimited usage"
+msgstr "Onbeperkt gebruik"
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:152
+msgid "How many times this coupon can be used before it is void."
+msgstr "Hoe vaak deze coupon kan worden gebruikt voordat deze ongeldig is."
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:158
+msgctxt "placeholder"
+msgid "Never expire"
+msgstr "Vervalt nooit"
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:158
+msgid "The date this coupon will expire, <code>YYYY-MM-DD</code>."
+msgstr "De datum waarop deze coupon zal verlopen, <code>YYYY-MM-DD</code>."
+
+#: admin/post-types/writepanels/writepanel-coupon_data.php:195
+msgid "Coupon code already exists - customers will use the latest coupon with this code."
+msgstr "Coupon code bestaat al - klanten zullen de laatst coupon gebruiken met deze code."
+
+#: admin/post-types/writepanels/writepanel-order_data.php:59
+msgid "Order Details"
+msgstr "Bestelling gegevens"
+
+#: admin/post-types/writepanels/writepanel-order_data.php:62
+msgid "Order number"
+msgstr "Bestelling nummer"
+
+#: admin/post-types/writepanels/writepanel-order_data.php:67
+msgid "Customer IP:"
+msgstr "Klant IP:"
+
+#: admin/post-types/writepanels/writepanel-order_data.php:74
+msgid "General Details"
+msgstr "Algemene details"
+
+#: admin/post-types/writepanels/writepanel-order_data.php:76
+msgid "Order status:"
+msgstr "Bestelling status:"
+
+#: admin/post-types/writepanels/writepanel-order_data.php:86
+msgid "Order Date:"
+msgstr "Bestelling datum:"
+
+#: admin/post-types/writepanels/writepanel-order_data.php:87
+msgid "h"
+msgstr "u"
+
+#: admin/post-types/writepanels/writepanel-order_data.php:87
+#: admin/settings/settings-init.php:567
+msgid "m"
+msgstr "m"
+
+#: admin/post-types/writepanels/writepanel-order_data.php:91
+msgid "Customer:"
+msgstr "Klant:"
+
+#: admin/post-types/writepanels/writepanel-order_data.php:131
+msgid "Customer Note:"
+msgstr "Klant opmerking:"
+
+#: admin/post-types/writepanels/writepanel-order_data.php:132
+msgid "Customer's notes about the order"
+msgstr "Klant opmerkingen over de bestelling"
+
+#: admin/post-types/writepanels/writepanel-order_data.php:140
+msgid "Billing Details"
+msgstr "Factuurgegevens"
+
+#: admin/post-types/writepanels/writepanel-order_data.php:144
+#: admin/post-types/writepanels/writepanel-order_data.php:234
+msgid "First Name"
+msgstr "Voornaam"
+
+#: admin/post-types/writepanels/writepanel-order_data.php:148
+#: admin/post-types/writepanels/writepanel-order_data.php:238
+msgid "Last Name"
+msgstr "Achternaam"
+
+#: admin/post-types/writepanels/writepanel-order_data.php:152
+#: admin/post-types/writepanels/writepanel-order_data.php:242
+#: admin/woocommerce-admin-users.php:155 admin/woocommerce-admin-users.php:204
+msgid "Company"
+msgstr "Bedrijf"
+
+#: admin/post-types/writepanels/writepanel-order_data.php:156
+#: admin/post-types/writepanels/writepanel-order_data.php:246
+#: admin/woocommerce-admin-users.php:159 admin/woocommerce-admin-users.php:208
+msgid "Address 1"
+msgstr "Adres 1"
+
+#: admin/post-types/writepanels/writepanel-order_data.php:160
+#: admin/post-types/writepanels/writepanel-order_data.php:250
+#: admin/woocommerce-admin-users.php:163 admin/woocommerce-admin-users.php:212
+msgid "Address 2"
+msgstr "Adres 2"
+
+#: admin/post-types/writepanels/writepanel-order_data.php:164
+#: admin/post-types/writepanels/writepanel-order_data.php:254
+#: admin/settings/settings-tax-rates.php:42
+#: admin/settings/settings-tax-rates.php:217
+#: admin/woocommerce-admin-users.php:167 admin/woocommerce-admin-users.php:216
+msgid "City"
+msgstr "Plaats"
+
+#: admin/post-types/writepanels/writepanel-order_data.php:168
+#: admin/post-types/writepanels/writepanel-order_data.php:258
+#: admin/woocommerce-admin-users.php:171 admin/woocommerce-admin-users.php:220
+msgid "Postcode"
+msgstr "Postcode"
+
+#: admin/post-types/writepanels/writepanel-order_data.php:172
+#: admin/post-types/writepanels/writepanel-order_data.php:262
+#: admin/woocommerce-admin-users.php:179 admin/woocommerce-admin-users.php:228
+msgid "Country"
+msgstr "Land"
+
+#: admin/post-types/writepanels/writepanel-order_data.php:175
+#: admin/post-types/writepanels/writepanel-order_data.php:265
+msgid "Select a country&hellip;"
+msgstr "Selecteer een land&hellip;"
+
+#: admin/post-types/writepanels/writepanel-order_data.php:178
+#: admin/post-types/writepanels/writepanel-order_data.php:268
+#: admin/woocommerce-admin-users.php:175 admin/woocommerce-admin-users.php:224
+msgid "State/County"
+msgstr "Provincie"
+
+#: admin/post-types/writepanels/writepanel-order_data.php:182
+#: admin/woocommerce-admin-users.php:187
+msgid "Email"
+msgstr "E-mail"
+
+#: admin/post-types/writepanels/writepanel-order_data.php:185
+msgid "Phone"
+msgstr "Telefoon"
+
+#: admin/post-types/writepanels/writepanel-order_data.php:193
+#: admin/post-types/writepanels/writepanel-order_data.php:195
+#: admin/post-types/writepanels/writepanel-order_data.php:277
+#: admin/post-types/writepanels/writepanel-order_data.php:279
+msgid "Address"
+msgstr "Adres"
+
+#: admin/post-types/writepanels/writepanel-order_data.php:195
+msgid "No billing address set."
+msgstr "Geen factuuradres ingesteld."
+
+#: admin/post-types/writepanels/writepanel-order_data.php:208
+msgid "Load billing address"
+msgstr "Factuuradres laden"
+
+#: admin/post-types/writepanels/writepanel-order_data.php:230
+msgid "Shipping Details"
+msgstr "Verzending gegevens"
+
+#: admin/post-types/writepanels/writepanel-order_data.php:279
+msgid "No shipping address set."
+msgstr "Geen verzendadres ingesteld."
+
+#: admin/post-types/writepanels/writepanel-order_data.php:292
+msgid "Load shipping address"
+msgstr "Verzendadres laden"
+
+#: admin/post-types/writepanels/writepanel-order_data.php:292
+msgid "Copy from billing"
+msgstr "Kopiëren van facturering"
 
 #: admin/post-types/writepanels/writepanel-order_data.php:339
 msgid "Item"
@@ -209,6 +1651,10 @@ msgstr "Er zijn nog geen opmerkingen voor deze bestelling."
 msgid "Add note"
 msgstr "Opmerking toevoegen"
 
+#: admin/post-types/writepanels/writepanel-order_notes.php:56
+msgid "Add a note for your reference, or add a customer note (the user will be notified)."
+msgstr "Voeg een opmerking toe voor je referentie of voeg een klanten opmerking toe (de gebruiker krijgt een notificatie)."
+
 #: admin/post-types/writepanels/writepanel-order_notes.php:62
 msgid "Customer note"
 msgstr "Klant opmerking"
@@ -218,7 +1664,7 @@ msgid "Private note"
 msgstr "Privé opmerking"
 
 #: admin/post-types/writepanels/writepanel-order_notes.php:65
-#: admin/post-types/writepanels/writepanel-product_data.php:501
+#: admin/post-types/writepanels/writepanel-product_data.php:503
 msgid "Add"
 msgstr "Toevoegen"
 
@@ -388,7 +1834,7 @@ msgid "Linked Products"
 msgstr "Gekoppelde producten"
 
 #: admin/post-types/writepanels/writepanel-product_data.php:85
-#: admin/woocommerce-admin-attributes.php:306
+#: admin/woocommerce-admin-attributes.php:307
 #: admin/woocommerce-admin-init.php:66
 msgid "Attributes"
 msgstr "Attributen"
@@ -439,7 +1885,7 @@ msgid "Sale Price Dates"
 msgstr "Sale prijs data"
 
 #: admin/post-types/writepanels/writepanel-product_data.php:138
-#: admin/post-types/writepanels/writepanel-product_data.php:1083
+#: admin/post-types/writepanels/writepanel-product_data.php:1090
 msgid "Cancel"
 msgstr "Annuleren"
 
@@ -531,130 +1977,130 @@ msgstr "Verzending klasse"
 msgid "Shipping classes are used by certain shipping methods to group similar products."
 msgstr "Verzending klassen worden gebruikt door bepaalde verzendmethoden om soortgelijke producten te groeperen."
 
-#: admin/post-types/writepanels/writepanel-product_data.php:384
-#: admin/post-types/writepanels/writepanel-product_data.php:476
+#: admin/post-types/writepanels/writepanel-product_data.php:386
+#: admin/post-types/writepanels/writepanel-product_data.php:478
 #: admin/woocommerce-admin-init.php:440
 msgid "Value(s)"
 msgstr "Waarde(n)"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:386
+#: admin/post-types/writepanels/writepanel-product_data.php:388
 msgid "Select terms"
 msgstr "Selecteer termen"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:398
+#: admin/post-types/writepanels/writepanel-product_data.php:400
 msgid "Select all"
 msgstr "Alles selecteren"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:398
+#: admin/post-types/writepanels/writepanel-product_data.php:400
 msgid "Select none"
 msgstr "Niets selecteren"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:400
+#: admin/post-types/writepanels/writepanel-product_data.php:402
 msgid "Add new"
 msgstr "Nieuwe toevoegen"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:413
+#: admin/post-types/writepanels/writepanel-product_data.php:415
 msgid "Pipe (|) separate terms"
 msgstr "Sluisteken (|) gescheiden termen"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:427
-#: admin/post-types/writepanels/writepanel-product_data.php:482
+#: admin/post-types/writepanels/writepanel-product_data.php:429
+#: admin/post-types/writepanels/writepanel-product_data.php:484
 #: admin/woocommerce-admin-init.php:442
 msgid "Visible on the product page"
 msgstr "Zichtbaar op de product pagina"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:440
-#: admin/post-types/writepanels/writepanel-product_data.php:488
+#: admin/post-types/writepanels/writepanel-product_data.php:442
+#: admin/post-types/writepanels/writepanel-product_data.php:490
 #: admin/woocommerce-admin-init.php:443
 msgid "Used for variations"
 msgstr "Gebruikt voor variaties"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:477
+#: admin/post-types/writepanels/writepanel-product_data.php:479
 #: admin/woocommerce-admin-init.php:441
 msgid "Enter some text, or some attributes by pipe (|) separating values."
 msgstr "Voer tekst in of een aantal attributen met sluisteken (|) gescheiden waarden."
 
-#: admin/post-types/writepanels/writepanel-product_data.php:503
+#: admin/post-types/writepanels/writepanel-product_data.php:505
 msgid "Custom product attribute"
 msgstr "Maatwerk product attribuut"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:515
+#: admin/post-types/writepanels/writepanel-product_data.php:517
 msgid "Save attributes"
 msgstr "Attributen opslaan"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:522
+#: admin/post-types/writepanels/writepanel-product_data.php:524
 msgid "Up-Sells"
 msgstr "Up-sells"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:537
+#: admin/post-types/writepanels/writepanel-product_data.php:539
 msgid "Up-sells are products which you recommend instead of the currently viewed product, for example, products that are more profitable or better quality or more expensive."
 msgstr "Up-sells zijn producten die u adviseert in plaats van de momenteel bekeken product. Bijvoorbeeld: producten die meer rendabel zijn, een betere kwaliteit hebben of duurder zijn."
 
-#: admin/post-types/writepanels/writepanel-product_data.php:539
+#: admin/post-types/writepanels/writepanel-product_data.php:541
 msgid "Cross-Sells"
 msgstr "Cross-sells"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:555
+#: admin/post-types/writepanels/writepanel-product_data.php:557
 msgid "Cross-sells are products which you promote in the cart, based on the current product."
 msgstr "Cross-sells zijn producten die u in de winkelwagen promoot, op basis van het huidige product."
 
-#: admin/post-types/writepanels/writepanel-product_data.php:565
+#: admin/post-types/writepanels/writepanel-product_data.php:567
 msgid "Choose a grouped product&hellip;"
 msgstr "Kies een gegroepeerd product&hellip;"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:591
+#: admin/post-types/writepanels/writepanel-product_data.php:593
 msgid "Grouping"
 msgstr "Groeperen"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:591
+#: admin/post-types/writepanels/writepanel-product_data.php:593
 msgid "Set this option to make this product part of a grouped product."
 msgstr "Configureer deze optie om dit product onderdeel te maken van een gegroepeerd product."
 
-#: admin/post-types/writepanels/writepanel-product_data.php:611
+#: admin/post-types/writepanels/writepanel-product_data.php:613
 msgid "Purchase Note"
 msgstr "Aankoop opmerking"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:611
+#: admin/post-types/writepanels/writepanel-product_data.php:613
 msgid "Enter an optional note to send the customer after purchase."
 msgstr "Voer een optionele opmerking in om aan de klant te sturen na aankoop."
 
-#: admin/post-types/writepanels/writepanel-product_data.php:618
+#: admin/post-types/writepanels/writepanel-product_data.php:620
 msgid "Menu order"
 msgstr "Menu volgorde"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:618
+#: admin/post-types/writepanels/writepanel-product_data.php:620
 msgid "Custom ordering position."
 msgstr "Aangepast volgorde positie."
 
-#: admin/post-types/writepanels/writepanel-product_data.php:626
+#: admin/post-types/writepanels/writepanel-product_data.php:628
 msgid "Enable reviews"
 msgstr "Reviews inschakelen"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:715
+#: admin/post-types/writepanels/writepanel-product_data.php:722
 msgid "Product SKU must be unique."
 msgstr "Product SKU moet uniek zijn."
 
-#: admin/post-types/writepanels/writepanel-product_data.php:1047
+#: admin/post-types/writepanels/writepanel-product_data.php:1054
 msgid "Catalog/search"
 msgstr "Catalogus/zoeken"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:1054
+#: admin/post-types/writepanels/writepanel-product_data.php:1061
 msgid "Catalog visibility:"
 msgstr "Catalogus zichtbaarheid:"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:1070
+#: admin/post-types/writepanels/writepanel-product_data.php:1077
 msgid "Define the loops this product should be visible in. The product will still be accessible directly."
 msgstr "Definieer de loop waarin dit product zichtbaar moet zijn. Het product blijft direct toegankelijk."
 
-#: admin/post-types/writepanels/writepanel-product_data.php:1076
+#: admin/post-types/writepanels/writepanel-product_data.php:1083
 msgid "Enable this option to feature this product."
 msgstr "Deze optie inschakelen om het product uit te lichten."
 
-#: admin/post-types/writepanels/writepanel-product_data.php:1078
+#: admin/post-types/writepanels/writepanel-product_data.php:1085
 msgid "Featured Product"
 msgstr "Uitgelicht product"
 
-#: admin/post-types/writepanels/writepanel-product_data.php:1082
+#: admin/post-types/writepanels/writepanel-product_data.php:1089
 msgid "OK"
 msgstr "Ok"
 
@@ -665,7 +2111,7 @@ msgstr "Verwijder afbeelding"
 
 #: admin/post-types/writepanels/writepanel-product_images.php:43
 #: admin/post-types/writepanels/writepanel-product_images.php:103
-#: admin/woocommerce-admin-attributes.php:330
+#: admin/woocommerce-admin-attributes.php:331
 msgid "Delete"
 msgstr "Verwijderen"
 
@@ -1693,7 +3139,7 @@ msgid "The main body text colour. Default <code>#505050</code>."
 msgstr "Het hoofdgedeelte tekst kleur. Standaard <code>#505050</code>."
 
 #: admin/settings/settings-payment-gateways.php:27
-#: admin/settings/settings-shipping-methods.php:29
+#: admin/settings/settings-shipping-methods.php:31
 #: admin/woocommerce-admin-init.php:762
 #: admin/woocommerce-admin-taxonomies.php:27
 #: admin/woocommerce-admin-taxonomies.php:121
@@ -1708,15 +3154,15 @@ msgstr "Gateway"
 msgid "Gateway ID"
 msgstr "Gateway ID"
 
-#: admin/settings/settings-shipping-methods.php:23
+#: admin/settings/settings-shipping-methods.php:25
 msgid "Shipping Methods"
 msgstr "Verzendmethoden"
 
-#: admin/settings/settings-shipping-methods.php:25
+#: admin/settings/settings-shipping-methods.php:27
 msgid "Drag and drop methods to control their display order."
 msgstr "Versleep methoden om hun weergave volgorde te wijzigen."
 
-#: admin/settings/settings-shipping-methods.php:30
+#: admin/settings/settings-shipping-methods.php:32
 msgid "Shipping Method"
 msgstr "Verzendmethode"
 
@@ -1835,113 +3281,113 @@ msgstr "Tarief %"
 msgid "Tax Name"
 msgstr "Belasting naam"
 
-#: admin/woocommerce-admin-attributes.php:77
+#: admin/woocommerce-admin-attributes.php:78
 msgid "Please, provide an attribute name, slug and type."
 msgstr "Voer een attribuut naam, slug en type in."
 
-#: admin/woocommerce-admin-attributes.php:79
+#: admin/woocommerce-admin-attributes.php:80
 msgid "Slug “%s” is too long (28 characters max). Shorten it, please."
 msgstr "Slug “%s” is te lang (28 tekens max). Maak korter, alstublieft."
 
-#: admin/woocommerce-admin-attributes.php:81
+#: admin/woocommerce-admin-attributes.php:82
 msgid "Slug “%s” is not allowed because it is a reserved term. Change it, please."
 msgstr "Slug “%s” is niet toegestaan omdat dit een gereserveerd term is. Wijzig deze, alstublieft."
 
-#: admin/woocommerce-admin-attributes.php:86
-#: admin/woocommerce-admin-attributes.php:91
+#: admin/woocommerce-admin-attributes.php:87
+#: admin/woocommerce-admin-attributes.php:92
 msgid "Slug “%s” is already in use. Change it, please."
 msgstr "Slug “%s” is al gebruik. Wijzig deze, alstublieft."
 
-#: admin/woocommerce-admin-attributes.php:234
+#: admin/woocommerce-admin-attributes.php:235
 msgid "Edit Attribute"
 msgstr "Attribuut bewerken"
 
-#: admin/woocommerce-admin-attributes.php:244
-#: admin/woocommerce-admin-attributes.php:383
+#: admin/woocommerce-admin-attributes.php:245
+#: admin/woocommerce-admin-attributes.php:384
 msgid "Name for the attribute (shown on the front-end)."
 msgstr "Naam voor het attribuut (weergegeven op de frontend)."
 
-#: admin/woocommerce-admin-attributes.php:249
-#: admin/woocommerce-admin-attributes.php:315
-#: admin/woocommerce-admin-attributes.php:387
+#: admin/woocommerce-admin-attributes.php:250
+#: admin/woocommerce-admin-attributes.php:316
+#: admin/woocommerce-admin-attributes.php:388
 msgid "Slug"
 msgstr "Slug"
 
-#: admin/woocommerce-admin-attributes.php:253
-#: admin/woocommerce-admin-attributes.php:389
+#: admin/woocommerce-admin-attributes.php:254
+#: admin/woocommerce-admin-attributes.php:390
 msgid "Unique slug/reference for the attribute; must be shorter than 28 characters."
 msgstr "Unieke slug/referentie voor het attribuut, moet korter zijn dan 28 tekens."
 
-#: admin/woocommerce-admin-attributes.php:262
-#: admin/woocommerce-admin-attributes.php:395
+#: admin/woocommerce-admin-attributes.php:263
+#: admin/woocommerce-admin-attributes.php:396
 msgid "Select"
 msgstr "Selecteer"
 
-#: admin/woocommerce-admin-attributes.php:263
-#: admin/woocommerce-admin-attributes.php:396
+#: admin/woocommerce-admin-attributes.php:264
+#: admin/woocommerce-admin-attributes.php:397
 msgid "Text"
 msgstr "Tekst"
 
-#: admin/woocommerce-admin-attributes.php:266
-#: admin/woocommerce-admin-attributes.php:399
+#: admin/woocommerce-admin-attributes.php:267
+#: admin/woocommerce-admin-attributes.php:400
 msgid "Determines how you select attributes for products. <strong>Text</strong> allows manual entry via the product page, whereas <strong>select</strong> attribute terms can be defined from this section. If you plan on using an attribute for variations use <strong>select</strong>."
 msgstr "Bepaalt hoe u attributen voor producten selecteert. <strong>Tekst</strong> maakt handmatige invoer via de product pagina mogelijk, terwijl <strong>selectie</strong> attribuut termen kunnen worden gedefinieerd via deze sectie. Als u van plan bent om een attribuut te gebruiken voor variaties gebruik dan <strong>selectie</strong>."
 
-#: admin/woocommerce-admin-attributes.php:271
-#: admin/woocommerce-admin-attributes.php:403
+#: admin/woocommerce-admin-attributes.php:272
+#: admin/woocommerce-admin-attributes.php:404
 msgid "Default sort order"
 msgstr "Standaard sorteervolgorde"
 
-#: admin/woocommerce-admin-attributes.php:275
-#: admin/woocommerce-admin-attributes.php:343
-#: admin/woocommerce-admin-attributes.php:405
+#: admin/woocommerce-admin-attributes.php:276
+#: admin/woocommerce-admin-attributes.php:344
+#: admin/woocommerce-admin-attributes.php:406
 msgid "Custom ordering"
 msgstr "Aangepaste volgorde"
 
-#: admin/woocommerce-admin-attributes.php:277
-#: admin/woocommerce-admin-attributes.php:340
-#: admin/woocommerce-admin-attributes.php:407
+#: admin/woocommerce-admin-attributes.php:278
+#: admin/woocommerce-admin-attributes.php:341
+#: admin/woocommerce-admin-attributes.php:408
 msgid "Term ID"
 msgstr "Term ID"
 
-#: admin/woocommerce-admin-attributes.php:279
-#: admin/woocommerce-admin-attributes.php:409
+#: admin/woocommerce-admin-attributes.php:280
+#: admin/woocommerce-admin-attributes.php:410
 msgid "Determines the sort order on the frontend for this attribute. If using custom ordering, you can drag and drop the terms in this attribute"
 msgstr "Bepaalt de sorteervolgorde op de frontend voor dit attribuut. Wanneer u gebruik maakt van aangepaste volgorde kunt de termen verslepen in dit attribuut"
 
-#: admin/woocommerce-admin-attributes.php:284
+#: admin/woocommerce-admin-attributes.php:285
 msgid "Update"
 msgstr "Bijwerken"
 
-#: admin/woocommerce-admin-attributes.php:317
+#: admin/woocommerce-admin-attributes.php:318
 msgid "Order by"
 msgstr "Sorteer op"
 
-#: admin/woocommerce-admin-attributes.php:318
+#: admin/woocommerce-admin-attributes.php:319
 msgid "Terms"
 msgstr "Termen"
 
-#: admin/woocommerce-admin-attributes.php:363
+#: admin/woocommerce-admin-attributes.php:364
 msgid "Configure&nbsp;terms"
 msgstr "Configureer&nbsp;voorwaarden"
 
-#: admin/woocommerce-admin-attributes.php:367
+#: admin/woocommerce-admin-attributes.php:368
 msgid "No attributes currently exist."
 msgstr "Er bestaan op dit moment geen attributen."
 
-#: admin/woocommerce-admin-attributes.php:377
+#: admin/woocommerce-admin-attributes.php:378
 msgid "Add New Attribute"
 msgstr "Nieuw attribuut toevoegen"
 
-#: admin/woocommerce-admin-attributes.php:378
+#: admin/woocommerce-admin-attributes.php:379
 msgid "Attributes let you define extra product data, such as size or colour. You can use these attributes in the shop sidebar using the \"layered nav\" widgets. Please note: you cannot rename an attribute later on."
 msgstr "Met behulp van attributen kunt u extra product gegevens definiëren, zoals formaat of kleur. U kunt deze attributen in de winkel zijbalk gebruiken met de \"gelaagde navigatie\" widgets. Let op: een attribuut naam kan later niet gewijzigd worden."
 
-#: admin/woocommerce-admin-attributes.php:412
+#: admin/woocommerce-admin-attributes.php:413
 msgid "Add Attribute"
 msgstr "Attribuut toevoegen"
 
-#: admin/woocommerce-admin-attributes.php:423
+#: admin/woocommerce-admin-attributes.php:424
 msgid "Are you sure you want to delete this attribute?"
 msgstr "Weet u zeker dat u deze attribuut wilt verwijderen?"
 
@@ -2087,8 +3533,6 @@ msgstr "Coupons kunnen worden beheerd vanuit deze sectie. Eenmaal toegevoegd zul
 msgid "For more information:"
 msgstr "Voor meer informatie:"
 
-#: admin/woocommerce-admin-content.php:83 admin/woocommerce-admin-init.php:62
-#: admin/woocommerce-admin-init.php:71 admin/woocommerce-admin-init.php:404
 msgid "WooCommerce"
 msgstr "WooCommerce"
 
@@ -2242,25 +3686,25 @@ msgstr "Factuuradres"
 msgid "Shipping address"
 msgstr "Verzendadres"
 
-#: admin/woocommerce-admin-functions.php:473
+#: admin/woocommerce-admin-functions.php:477
 msgid "Could not compile woocommerce.less:"
 msgstr "Kon woocommerce.less niet compileren:"
 
-#: admin/woocommerce-admin-functions.php:494
-#: admin/woocommerce-admin-functions.php:495
+#: admin/woocommerce-admin-functions.php:498
+#: admin/woocommerce-admin-functions.php:499
 msgid "Mark processing"
 msgstr "Markeer in verwerking"
 
-#: admin/woocommerce-admin-functions.php:497
-#: admin/woocommerce-admin-functions.php:498
+#: admin/woocommerce-admin-functions.php:501
+#: admin/woocommerce-admin-functions.php:502
 msgid "Mark completed"
 msgstr "Markeer voltooid"
 
-#: admin/woocommerce-admin-functions.php:535
+#: admin/woocommerce-admin-functions.php:539
 msgid "Order status changed by bulk edit:"
 msgstr "Bestelling status gewijzigd door bulk bewerken:"
 
-#: admin/woocommerce-admin-functions.php:558
+#: admin/woocommerce-admin-functions.php:562
 msgid "Order status changed."
 msgid_plural "%s order statuses changed."
 msgstr[0] "Bestelling status gewijzigd."
@@ -3004,7 +4448,7 @@ msgstr "Kies een land&hellip;"
 msgid "Choose countries&hellip;"
 msgstr "Kies landen&hellip;"
 
-#: admin/woocommerce-admin-status.php:27 admin/woocommerce-admin-status.php:703
+#: admin/woocommerce-admin-status.php:27 admin/woocommerce-admin-status.php:736
 msgid "Tools"
 msgstr "Tools"
 
@@ -3157,6 +4601,7 @@ msgid "Installed Plugins"
 msgstr "Geïnstalleerde plugins"
 
 #: admin/woocommerce-admin-status.php:270
+#: admin/woocommerce-admin-status.php:477
 msgid "is available"
 msgstr "is beschikbaar"
 
@@ -3220,111 +4665,111 @@ msgstr "Product types"
 msgid "Theme"
 msgstr "Thema"
 
-#: admin/woocommerce-admin-status.php:435
+#: admin/woocommerce-admin-status.php:466
 msgid "Theme Name"
 msgstr "Thema naam"
 
-#: admin/woocommerce-admin-status.php:442
+#: admin/woocommerce-admin-status.php:472
 msgid "Theme Version"
 msgstr "Thema versie"
 
-#: admin/woocommerce-admin-status.php:448
+#: admin/woocommerce-admin-status.php:481
 msgid "Author URL"
 msgstr "Auteur URL"
 
-#: admin/woocommerce-admin-status.php:457
+#: admin/woocommerce-admin-status.php:490
 msgid "Templates"
 msgstr "Sjablonen"
 
-#: admin/woocommerce-admin-status.php:463
+#: admin/woocommerce-admin-status.php:496
 msgid "Template Overrides"
 msgstr "Template overschrijvingen"
 
-#: admin/woocommerce-admin-status.php:481
+#: admin/woocommerce-admin-status.php:514
 msgid "No core overrides present in theme."
 msgstr "Geen kern overschrijvingen aanwezig in thema."
 
-#: admin/woocommerce-admin-status.php:576
+#: admin/woocommerce-admin-status.php:609
 msgid "WC Transients"
 msgstr "WC transiënte"
 
-#: admin/woocommerce-admin-status.php:577
+#: admin/woocommerce-admin-status.php:610
 msgid "Clear transients"
 msgstr "Wis transiënte"
 
-#: admin/woocommerce-admin-status.php:578
+#: admin/woocommerce-admin-status.php:611
 msgid "This tool will clear the product/shop transients cache."
 msgstr "Deze tool zal de product/winkel transiënte cache wissen."
 
-#: admin/woocommerce-admin-status.php:581
+#: admin/woocommerce-admin-status.php:614
 msgid "Expired Transients"
 msgstr "Verlopen transiënte"
 
-#: admin/woocommerce-admin-status.php:582
+#: admin/woocommerce-admin-status.php:615
 msgid "Clear expired transients"
 msgstr "Wis verlopen transiënte"
 
-#: admin/woocommerce-admin-status.php:583
+#: admin/woocommerce-admin-status.php:616
 msgid "This tool will clear ALL expired transients from Wordpress."
 msgstr "Deze tool zal ALLE verlopen transiënte wissen van WordPress."
 
-#: admin/woocommerce-admin-status.php:586
+#: admin/woocommerce-admin-status.php:619
 msgid "Term counts"
 msgstr "Term teller"
 
-#: admin/woocommerce-admin-status.php:587
+#: admin/woocommerce-admin-status.php:620
 msgid "Recount terms"
 msgstr "Termen opnieuw tellen"
 
-#: admin/woocommerce-admin-status.php:588
+#: admin/woocommerce-admin-status.php:621
 msgid "This tool will recount product terms - useful when changing your settings in a way which hides products from the catalog."
 msgstr "Deze tool zal product termen opnieuw tellen - handig voor wanneer u instellingen wijzigt in de manier waarop producten verborgen worden uit de catalogus."
 
-#: admin/woocommerce-admin-status.php:591
+#: admin/woocommerce-admin-status.php:624
 msgid "Capabilities"
 msgstr "Capabiliteiten"
 
-#: admin/woocommerce-admin-status.php:592
+#: admin/woocommerce-admin-status.php:625
 msgid "Reset capabilities"
 msgstr "Capabiliteiten opnieuw instellen"
 
-#: admin/woocommerce-admin-status.php:593
+#: admin/woocommerce-admin-status.php:626
 msgid "This tool will reset the admin, customer and shop_manager roles to default. Use this if your users cannot access all of the WooCommerce admin pages."
 msgstr "Deze tool zal de admin, customer en shop_manager rollen herstellen naar de standaardinstellingen. Gebruik dit als uw gebruikers niet toegang hebben tot alle WooCommerce beheerder pagina's."
 
-#: admin/woocommerce-admin-status.php:596
+#: admin/woocommerce-admin-status.php:629
 msgid "Customer Sessions"
 msgstr "Klant sessies"
 
-#: admin/woocommerce-admin-status.php:597
+#: admin/woocommerce-admin-status.php:630
 msgid "Clear all sessions"
 msgstr "Alle sessies wissen"
 
-#: admin/woocommerce-admin-status.php:598
+#: admin/woocommerce-admin-status.php:631
 msgid "<strong class=\"red\">Warning</strong> This tool will delete all customer session data from the database, including any current live carts."
 msgstr "<strong class=\"red\">Waarschuwing</strong> Deze tool zal alle klant sessie data verwijderen uit de database, inclusief huidige live winkelwagens."
 
-#: admin/woocommerce-admin-status.php:608
+#: admin/woocommerce-admin-status.php:641
 msgid "Product Transients Cleared"
 msgstr "Product transiënte gewist"
 
-#: admin/woocommerce-admin-status.php:649
+#: admin/woocommerce-admin-status.php:682
 msgid "%d Transients Rows Cleared"
 msgstr "%d transiënte rijen gewist"
 
-#: admin/woocommerce-admin-status.php:657
+#: admin/woocommerce-admin-status.php:690
 msgid "Roles successfully reset"
 msgstr "Rollen succesvol herstelt"
 
-#: admin/woocommerce-admin-status.php:669
+#: admin/woocommerce-admin-status.php:702
 msgid "Terms successfully recounted"
 msgstr "Termen succesvol opnieuw geteld"
 
-#: admin/woocommerce-admin-status.php:688
+#: admin/woocommerce-admin-status.php:721
 msgid "There was an error calling %s::%s"
 msgstr "Er was een fout bij het aanroepen van %s::%s"
 
-#: admin/woocommerce-admin-status.php:691
+#: admin/woocommerce-admin-status.php:724
 msgid "There was an error calling %s"
 msgstr "Er was een fout bij het aanroepen van %s"
 
@@ -3423,1440 +4868,14 @@ msgstr "Klant verzendadres"
 msgid "State/County or state code"
 msgstr "Staat/provincie of staatcode"
 
-#: admin/importers/importers-init.php:13
-msgid "WooCommerce Tax Rates (CSV)"
-msgstr "WooCommerce belastingtarieven (CSV)"
+msgid "http://www.woothemes.com/woocommerce/"
+msgstr "http://www.woothemes.com/woocommerce/"
 
-#: admin/importers/importers-init.php:13
-msgid "Import <strong>tax rates</strong> to your store via a csv file."
-msgstr "Importeer <strong>belastingtarieven</strong> naar uw winkel via een CSV-bestand."
+msgid "An e-commerce toolkit that helps you sell anything. Beautifully."
+msgstr "Een e-commerce toolkit die helpt je iets te verkopen. Prachtig."
 
-#: admin/importers/tax-rates-importer.php:103
-#: admin/importers/tax-rates-importer.php:188
-#: admin/importers/tax-rates-importer.php:228
-#: admin/importers/tax-rates-importer.php:243
-msgid "Sorry, there has been an error."
-msgstr "Sorry, er is een fout opgetreden."
+msgid "WooThemes"
+msgstr "WooThemes"
 
-#: admin/importers/tax-rates-importer.php:104
-msgid "The file does not exist, please try again."
-msgstr "Dit bestand bestaat niet, probeer het opnieuw."
-
-#: admin/importers/tax-rates-importer.php:189
-msgid "The CSV is invalid."
-msgstr "De CSV is ongeldig."
-
-#: admin/importers/tax-rates-importer.php:200
-msgid "Import complete - imported <strong>%s</strong> tax rates and skipped <strong>%s</strong>."
-msgstr "Import voltooid - <strong>%s</strong> belastingtarieven geïmporteerd en <strong>%s</strong> overgeslagen."
-
-#: admin/importers/tax-rates-importer.php:210
-msgid "All done!"
-msgstr "Helemaal klaar!"
-
-#: admin/importers/tax-rates-importer.php:210
-msgid "View Tax Rates"
-msgstr "Bekijk belastingtarieven"
-
-#: admin/importers/tax-rates-importer.php:261
-msgid "Import Tax Rates"
-msgstr "Importeer belastingtarieven"
-
-#: admin/importers/tax-rates-importer.php:284
-msgid "Hi there! Upload a CSV file containing tax rates to import the contents into your shop. Choose a .csv file to upload, then click \"Upload file and import\"."
-msgstr "Hallo! Upload een CSV bestand met belastingtarieven om de inhoud te importeren naar uw winkel. Kies een .csv bestand om te uploaden en klik vervolgens op \"Upload bestand en importeer\"."
-
-#: admin/importers/tax-rates-importer.php:286
-msgid "Tax rates need to be defined with columns in a specific order (10 columns). <a href=\"%s\">Click here to download a sample</a>."
-msgstr "Belastingtarieven moeten worden gedefinieerd met kolommen in een specifieke volgorde (10 kolommen). <a href=\"%s\">Klik hier om een ​​voorbeeld te downloaden</a>."
-
-#: admin/importers/tax-rates-importer.php:294
-msgid "Before you can upload your import file, you will need to fix the following error:"
-msgstr "Voordat u een import bestand kunt uploaden moet u de volgende fouten corrigeren:"
-
-#: admin/importers/tax-rates-importer.php:303
-msgid "Choose a file from your computer:"
-msgstr "Kies een bestand van uw computer:"
-
-#: admin/importers/tax-rates-importer.php:309
-msgid "Maximum size: %s"
-msgstr "Maximum grootte: %s"
-
-#: admin/importers/tax-rates-importer.php:314
-msgid "OR enter path to file:"
-msgstr "OF voer bestandspad in:"
-
-#: admin/importers/tax-rates-importer.php:321
-msgid "Delimiter"
-msgstr "Scheidingsteken"
-
-#: admin/includes/duplicate_product.php:23
-msgid "No product to duplicate has been supplied!"
-msgstr "Geen product om te kopiëren is opgegeven!"
-
-#: admin/includes/duplicate_product.php:43
-msgid "Product creation failed, could not find original product:"
-msgstr "Product aanmaken mislukt, kon het originele product niet vinden:"
-
-#: admin/includes/duplicate_product.php:90
-msgid "(Copy)"
-msgstr "(kopieer)"
-
-#: admin/includes/notice-install.php:6
-msgid "<strong>Welcome to WooCommerce</strong> &#8211; You're almost ready to start selling :)"
-msgstr "<strong>Welkom bij WooCommerce</strong> &#8211; U bent bijna klaar om te beginnen met de verkoop :)"
-
-#: admin/includes/notice-install.php:7
-msgid "Install WooCommerce Pages"
-msgstr "Installeer WooCommerce pagina's"
-
-#: admin/includes/notice-install.php:7
-msgid "Skip setup"
-msgstr "Configuratie overslaan"
-
-#: admin/includes/notice-theme-support.php:6
-msgid "<strong>Your theme does not declare WooCommerce support</strong> &#8211; if you encounter layout issues please read our integration guide or choose a WooCommerce theme :)"
-msgstr "<strong>Uw thema geeft niet aan WooCommerce te ondersteunen</strong> &#8211; Als u opmaak problemen tegenkomt lees dan onze integratie handleiding of kies een WooCommerce thema :)"
-
-#: admin/includes/notice-theme-support.php:7
-msgid "Theme Integration Guide"
-msgstr "Thema integratie handleiding"
-
-#: admin/includes/notice-theme-support.php:7
-msgid "Hide this notice"
-msgstr "Verberg deze opmerking"
-
-#: admin/includes/notice-update.php:6
-msgid "<strong>Data Update Required</strong> &#8211; We just need to update your install to the latest version"
-msgstr "<strong>Gegevens bijwerken vereist</strong> &#8211; We moeten uw installatie bijwerken naar de laatste versie"
-
-#: admin/includes/notice-update.php:7
-msgid "Run the updater"
-msgstr "Voer de updater uit"
-
-#: admin/includes/notice-update.php:12
-msgid "It is strongly recommended that you backup your database before proceeding. Are you sure you wish to run the updater now?"
-msgstr "Het wordt geadviseerd om eerst een database back-up te maken voordat u verder gaat. Weet u zeker dat u nu de updater wilt uitvoeren?"
-
-#: admin/includes/updates/woocommerce-update-2.0.php:49
-#: admin/woocommerce-admin-init.php:890
-msgctxt "slug"
-msgid "product-category"
-msgstr "product-categorie"
-
-#: admin/includes/updates/woocommerce-update-2.0.php:50
-#: admin/woocommerce-admin-init.php:903
-msgctxt "slug"
-msgid "product-tag"
-msgstr "product-tag"
-
-#: admin/includes/updates/woocommerce-update-2.0.php:58
-msgctxt "slug"
-msgid "product"
-msgstr "product"
-
-#: admin/includes/updates/woocommerce-update-2.0.php:179
-#: admin/woocommerce-admin-install.php:207
-msgctxt "page_slug"
-msgid "lost-password"
-msgstr "wachtwoord-vergeten"
-
-#: admin/includes/updates/woocommerce-update-2.0.php:179
-#: admin/woocommerce-admin-install.php:207
-#: admin/woocommerce-admin-status.php:346
-msgid "Lost Password"
-msgstr "Wachtwoord vergeten"
-
-#: admin/includes/welcome.php:48
-msgid "Welcome to WooCommerce"
-msgstr "Welkom bij WooCommerce"
-
-#: admin/includes/welcome.php:135
-msgid "Welcome to WooCommerce %s"
-msgstr "Welkom bij WooCommerce %s"
-
-#: admin/includes/welcome.php:140
-msgid "Thanks, all done!"
-msgstr "Bedankt, helemaal klaar!"
-
-#: admin/includes/welcome.php:142
-msgid "Thank you for updating to the latest version!"
-msgstr "Bedankt voor het updaten naar de laatste versie!"
-
-#: admin/includes/welcome.php:144
-msgid "Thanks for installing!"
-msgstr "Bedankt voor het installeren!"
-
-#: admin/includes/welcome.php:146
-msgid "%s WooCommerce %s is more powerful, stable, and secure than ever before. We hope you enjoy it."
-msgstr "%s WooCommerce %s is krachtiger, stabieler en veiliger dan ooit tevoren. We hopen dat u ervan geniet."
-
-#: admin/includes/welcome.php:150
-msgid "Version %s"
-msgstr "Versie %s"
-
-#: admin/includes/welcome.php:153 admin/woocommerce-admin-content.php:41
-#: admin/woocommerce-admin-init.php:88 admin/woocommerce-admin-status.php:289
-msgid "Settings"
-msgstr "Instellingen"
-
-#: admin/includes/welcome.php:154
-msgid "Docs"
-msgstr "Documentatie"
-
-#: admin/includes/welcome.php:161
-msgid "What's New"
-msgstr "Wat is nieuw"
-
-#: admin/includes/welcome.php:163
-msgid "Credits"
-msgstr "Credits"
-
-#: admin/includes/welcome.php:186
-msgid "Security in mind"
-msgstr "Veiligheid in het achterhoofd"
-
-#: admin/includes/welcome.php:190
-msgid "Sucuri Safe Plugin"
-msgstr "Sucuri veilige plugin"
-
-#: admin/includes/welcome.php:191
-msgid "You will be happy to learn that WooCommerce has been audited and certified by the Sucuri Security team. Whilst there is not much to be seen visually to understand the amount of work that went into this audit, rest assured that your website is powered by one of the most powerful and stable eCommerce plugins available."
-msgstr "U zult blij zijn om te horen dat WooCommerce is gecontroleerd en gecertificeerd door het Sucuri veiligheidsteam. Hoewel er visueel gezien niet veel te zien is aan de hoeveelheid werk in dit onderzoek kunt u er zeker van deze uw website wordt aangedreven door één van de meest krachtige en stabiele e-commerce plugins beschikbaar."
-
-#: admin/includes/welcome.php:194
-msgid "A Smoother Admin Experience"
-msgstr "Een soepelere beheerder beleving"
-
-#: admin/includes/welcome.php:200
-msgid "New Product Panel"
-msgstr "Nieuw product paneel"
-
-#: admin/includes/welcome.php:201
-msgid "We have revised the product data panel making it cleaner, more streamlined, and more logical. Adding products is a breeze!"
-msgstr "We hebben het product data paneel herzien waardoor het minder druk, meer gestroomlijnd en logischer is. Het toevoegen van een product is een eitje!"
-
-#: admin/includes/welcome.php:206
-msgid "Nicer Order Screens"
-msgstr "Mooiere bestelling schermen"
-
-#: admin/includes/welcome.php:207
-msgid "Order pages have had a cleanup, with a more easily scannable interface. We particularly like the new status icons!"
-msgstr "Bestelling pagina's zijn opgeschoond, met een interface die eenvoudig is te overzien. We vinden met name de nieuwe status iconen leuk!"
-
-#: admin/includes/welcome.php:212
-msgid "Multi-Download Support"
-msgstr "Multi-download support"
-
-#: admin/includes/welcome.php:213
-msgid "Products can have multiple downloadable files - purchasers will get access to all the files added."
-msgstr "Producten kunnen meerdere downloadbare bestanden hebben - kopers krijgen toegang tot alle toegevoegde bestanden."
-
-#: admin/includes/welcome.php:218
-msgid "Less Taxing Taxes"
-msgstr "Minder belastende belastingen"
-
-#: admin/includes/welcome.php:224
-msgid "New Tax Input Panel"
-msgstr "Nieuwe belasting invoer panel"
-
-#: admin/includes/welcome.php:225
-msgid "The tax input pages have been streamlined to make inputting taxes simpler - adding multiple taxes for a single jurisdiction is now much easier using the priority system. There is also CSV import/export support."
-msgstr "De belasting invoer pagina's zijn gestroomlijnd om belastingen invoer eenvoudiger te maken - meerdere belastingen toevoegen voor een enkele jurisdictie is nu veel eenvoudiger met behulp van het prioriteit systeem. Daarnaast is er ook CSV import/export ondersteuning."
-
-#: admin/includes/welcome.php:229
-msgid "Improved Tax Options"
-msgstr "Verbeterde belasting opties"
-
-#: admin/includes/welcome.php:230
-msgid "As requested by some users, we now support taxing the billing address instead of shipping (optional), and we allow you to choose which tax class applies to shipping."
-msgstr "Op verzoek van een aantal gebruikers ondersteunen we nu het belasten van het factuuradres in plaats van het verzendadres (optioneel), en we laten u kiezen welk belasting klasse toegepast moet worden op verzending."
-
-#: admin/includes/welcome.php:235
-msgid "Product Listing Improvements Customers Will Love"
-msgstr "Product weergave verbeteringen welke klanten zullen waarderen"
-
-#: admin/includes/welcome.php:241
-msgid "New Sorting Options"
-msgstr "Nieuwe sortering opties"
-
-#: admin/includes/welcome.php:242
-msgid "Customers can now sort products by popularity and ratings."
-msgstr "Klanten kunnen nu producten sorteren op populariteit en beoordelingen."
-
-#: admin/includes/welcome.php:247
-msgid "Better Pagination and Result Counts"
-msgstr "Betere paginatie en resultaten teller"
-
-#: admin/includes/welcome.php:248
-msgid "Numbered pagination has been added to core, and we show the number of results found above the listings."
-msgstr "Genummerde paginatie is toegevoegd aan de kern en we tonen het aantal gevonden resultaten boven de weergave."
-
-#: admin/includes/welcome.php:253
-msgid "Inline Star Rating Display"
-msgstr "Inline ster beoordeling weergave"
-
-#: admin/includes/welcome.php:254
-msgid "We have added star ratings to the catalog which are pulled from reviews."
-msgstr "We hebben ster beoordelingen toegevoegd aan de catalogus welke opgehaald worden uit reviews."
-
-#: admin/includes/welcome.php:262
-msgid "Under the Hood"
-msgstr "Onder de motorkap"
-
-#: admin/includes/welcome.php:266
-msgid "New product classes"
-msgstr "Nieuwe product klassen"
-
-#: admin/includes/welcome.php:267
-msgid "The product classes have been rewritten and are now factory based. Much more extendable, and easier to query products using the new <code>get_product()</code> function."
-msgstr "De product klassen zijn volledig herschreven en zijn nu factory gebaseerd. Beter uit te breiden en eenvoudiger om producten op te vragen door gebruik te maken van de nieuwe <code>get_product()</code> functie."
-
-#: admin/includes/welcome.php:271
-msgid "Capability overhaul"
-msgstr "Mogelijkheden herzien"
-
-#: admin/includes/welcome.php:272
-msgid "More granular capabilities for admin/shop manager roles covering products, orders and coupons."
-msgstr "Meer opgedeelde mogelijkheden voor beheerder/winkel manager rollen met betrekking tot producten, bestellingen en coupons."
-
-#: admin/includes/welcome.php:276
-msgid "API Improvements"
-msgstr "API verbeteringen"
-
-#: admin/includes/welcome.php:277
-msgid "<code>WC-API</code> now has real endpoints, and we've optimised the gateways API significantly by only loading gateways when needed."
-msgstr "<code>WC-API</code> heeft nu echte eindpunten, en we hebben de gateways API aanzienlijk geoptimaliseerd door alleen gateways te laden wanneer dat nodig is."
-
-#: admin/includes/welcome.php:283
-msgid "Cache-friendly cart widgets"
-msgstr "Cache vriendelijke winkelwagen widgets"
-
-#: admin/includes/welcome.php:284
-msgid "Cart widgets and other \"fragments\" are now pulled in via AJAX - this works wonders with static page caching."
-msgstr "Winkelwagen widgets en andere \"fragementen\" worden nu opgehaald via AJAX - dit doet wonderen met statische pagina caching."
-
-#: admin/includes/welcome.php:288
-msgid "Session handling"
-msgstr "Sessie afhandeling"
-
-#: admin/includes/welcome.php:289
-msgid "PHP SESSIONS have been a problem for many users in the past, so we've developed our own handler using cookies and options to make these more reliable."
-msgstr "PHP sessies waren in het verleden voor veel gebruikers een probleem, daarom we hebben onze eigen afhandeling met behulp van cookies en opties ontwikkeld om deze meer betrouwbaar te maken."
-
-#: admin/includes/welcome.php:293
-msgid "Retina Ready"
-msgstr "Retina klaar"
-
-#: admin/includes/welcome.php:294
-msgid "All graphics within WC have been optimised for HiDPI displays."
-msgstr "Alle afbeeldingen binnen WC zijn geoptimaliseerd voor HiDPI schermen."
-
-#: admin/includes/welcome.php:301
-msgid "Better stock handling"
-msgstr "Betere voorraadbeheer"
-
-#: admin/includes/welcome.php:302
-msgid "We have added an option to hold stock for unpaid orders (defaults to 60mins). When this time limit is reached, and the order is not paid for, stock is released and the order is cancelled."
-msgstr "We hebben een optie toegevoegd om voorraad voor onbetaalde bestellingen vast te houden (standaard 60 minuten). Wanneer deze tijdslimiet is bereikt en de bestelling nog niet is betaald wordt de voorraad vrijgegeven en de bestelling geannuleerd."
-
-#: admin/includes/welcome.php:306
-msgid "Improved Line-item storage"
-msgstr "Verbeterde regel-item opslag"
-
-#: admin/includes/welcome.php:307
-msgid "We have changed how order items get stored making them easier (and faster) to access for reporting. Order items are no longer serialised within an order - they are stored within their own table."
-msgstr "We hebben de manier waarop bestelling items worden opgeslagen gewijzigd waardoor we deze eenvoudiger (en sneller) kunnen opvragen voor rapportage. Bestelling items worden niet langer geserialiseerd binnen een bestelling - ze worden opgeslagen binnen hun eigen tabel."
-
-#: admin/includes/welcome.php:311
-msgid "Autoload"
-msgstr "Autoload"
-
-#: admin/includes/welcome.php:312
-msgid "We have setup autoloading for classes - this has dramatically reduced memory usage in 2.0."
-msgstr "We hebben het automatisch inladen van klassen ingesteld - dit heeft het geheugen gebruik in 2.0 drastisch verlaagd."
-
-#: admin/includes/welcome.php:319
-msgid "Go to WooCommerce Settings"
-msgstr "Ga naar WooCommerce instellingen"
-
-#: admin/includes/welcome.php:337
-msgid "WooCommerce is developed and maintained by a worldwide team of passionate individuals and backed by an awesome developer community. Want to see your name? <a href=\"https://github.com/woothemes/woocommerce/blob/master/CONTRIBUTING.md\">Contribute to WooCommerce</a>."
-msgstr "WooCommerce wordt ontwikkeld en onderhouden door een wereldwijd team van gepassioneerde individuen en ondersteund door een geweldige community van ontwikkelaars. Wilt u uw naam zien? <a href=\"https://github.com/woothemes/woocommerce/blob/master/CONTRIBUTING.md\">Bijdragen aan WooCommerce</a>."
-
-#: admin/includes/welcome.php:363
-msgid "View %s"
-msgstr "Bekijk %s"
-
-#: admin/post-types/product.php:31
-msgid "Make a duplicate from this product"
-msgstr "Maak een kopie van dit product"
-
-#: admin/post-types/product.php:32
-msgid "Duplicate"
-msgstr "Kopieer"
-
-#: admin/post-types/product.php:61
-msgid "Copy to a new draft"
-msgstr "Kopieer naar een nieuw concept"
-
-#: admin/post-types/product.php:86 admin/woocommerce-admin-taxonomies.php:297
-msgid "Image"
-msgstr "Afbeelding"
-
-#: admin/post-types/product.php:88
-#: admin/post-types/writepanels/writepanel-product_data.php:376
-#: admin/post-types/writepanels/writepanel-product_data.php:470
-#: admin/woocommerce-admin-attributes.php:240
-#: admin/woocommerce-admin-attributes.php:276
-#: admin/woocommerce-admin-attributes.php:314
-#: admin/woocommerce-admin-attributes.php:337
-#: admin/woocommerce-admin-attributes.php:381
-#: admin/woocommerce-admin-attributes.php:406
-#: admin/woocommerce-admin-init.php:437
-msgid "Name"
-msgstr "Naam"
-
-#: admin/post-types/product.php:91 admin/post-types/product.php:557
-#: admin/post-types/writepanels/variation-admin-html.php:52
-#: admin/post-types/writepanels/writepanel-product_data.php:98
-#: admin/woocommerce-admin-reports.php:2100
-#: admin/woocommerce-admin-reports.php:2136
-msgid "SKU"
-msgstr "SKU"
-
-#: admin/post-types/product.php:94
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:82
-#: admin/woocommerce-admin-content.php:63
-#: admin/woocommerce-admin-reports.php:90
-msgid "Stock"
-msgstr "Voorraad"
-
-#: admin/post-types/product.php:96 admin/post-types/product.php:568
-#: admin/post-types/product.php:789 admin/woocommerce-admin-functions.php:202
-msgid "Price"
-msgstr "Prijs"
-
-#: admin/post-types/product.php:98
-msgid "Categories"
-msgstr "Categorieën"
-
-#: admin/post-types/product.php:99
-msgid "Tags"
-msgstr "Tags"
-
-#: admin/post-types/product.php:100 admin/post-types/product.php:632
-#: admin/post-types/product.php:906
-#: admin/post-types/writepanels/writepanel-product_data.php:1059
-#: admin/woocommerce-admin-init.php:450
-msgid "Featured"
-msgstr "Uitgelicht"
-
-#: admin/post-types/product.php:101 admin/woocommerce-admin-attributes.php:258
-#: admin/woocommerce-admin-attributes.php:316
-#: admin/woocommerce-admin-attributes.php:393
-msgid "Type"
-msgstr "Type"
-
-#: admin/post-types/product.php:102 admin/post-types/shop_order.php:50
-msgid "Date"
-msgstr "Datum"
-
-#: admin/post-types/product.php:151
-msgid "Edit this item"
-msgstr "Bewerk dit item"
-
-#: admin/post-types/product.php:151
-#: admin/post-types/writepanels/writepanel-order_data.php:140
-#: admin/post-types/writepanels/writepanel-order_data.php:230
-#: admin/post-types/writepanels/writepanel-order_data.php:387
-#: admin/post-types/writepanels/writepanel-product_data.php:1062
-#: admin/woocommerce-admin-attributes.php:330
-msgid "Edit"
-msgstr "Bewerken"
-
-#: admin/post-types/product.php:152
-msgid "Edit this item inline"
-msgstr "Dit item inline bewerken"
-
-#: admin/post-types/product.php:152
-msgid "Quick&nbsp;Edit"
-msgstr "Snel&nbsp;bewerken"
-
-#: admin/post-types/product.php:156 admin/post-types/shop_coupon.php:65
-msgid "Restore this item from the Trash"
-msgstr "Herstel dit item van de prullenbak"
-
-#: admin/post-types/product.php:156 admin/post-types/shop_coupon.php:65
-msgid "Restore"
-msgstr "Herstellen"
-
-#: admin/post-types/product.php:158 admin/post-types/shop_coupon.php:67
-msgid "Move this item to the Trash"
-msgstr "Verplaats dit item naar de prullenbak"
-
-#: admin/post-types/product.php:158 admin/post-types/shop_coupon.php:67
-msgid "Trash"
-msgstr "Prullenbak"
-
-#: admin/post-types/product.php:160 admin/post-types/shop_coupon.php:69
-msgid "Delete this item permanently"
-msgstr "Verwijder dit item permanent"
-
-#: admin/post-types/product.php:160 admin/post-types/shop_coupon.php:69
-#: admin/post-types/writepanels/writepanel-order_data.php:463
-msgid "Delete Permanently"
-msgstr "Verwijder permanent"
-
-#: admin/post-types/product.php:165
-msgid "Preview &#8220;%s&#8221;"
-msgstr "Preview &#8220;%s&#8221;"
-
-#: admin/post-types/product.php:165
-msgid "Preview"
-msgstr "Preview"
-
-#: admin/post-types/product.php:167
-msgid "View &#8220;%s&#8221;"
-msgstr "Bekijk &#8220;%s&#8221;"
-
-#: admin/post-types/product.php:167 admin/post-types/shop_order.php:171
-msgid "View"
-msgstr "Bekijk"
-
-#: admin/post-types/product.php:214
-msgid "Grouped"
-msgstr "Gegroepeerd"
-
-#: admin/post-types/product.php:216
-msgid "External/Affiliate"
-msgstr "Extern/affiliate"
-
-#: admin/post-types/product.php:220 admin/post-types/product.php:407
-#: admin/post-types/writepanels/variation-admin-html.php:176
-#: admin/post-types/writepanels/writepanel-product_data.php:52
-msgid "Virtual"
-msgstr "Virtueel"
-
-#: admin/post-types/product.php:222 admin/post-types/product.php:403
-#: admin/post-types/writepanels/variation-admin-html.php:174
-#: admin/post-types/writepanels/writepanel-product_data.php:58
-msgid "Downloadable"
-msgstr "Downloadbaar"
-
-#: admin/post-types/product.php:224
-msgid "Simple"
-msgstr "Eenvoudig"
-
-#: admin/post-types/product.php:228 admin/post-types/product.php:387
-msgid "Variable"
-msgstr "Variabel"
-
-#: admin/post-types/product.php:251
-msgid "Toggle featured"
-msgstr "Uitgelicht omschakelen"
-
-#: admin/post-types/product.php:253
-msgid "yes"
-msgstr "ja"
-
-#: admin/post-types/product.php:255
-msgid "no"
-msgstr "nee"
-
-#: admin/post-types/product.php:262 admin/post-types/product.php:641
-#: admin/post-types/product.php:930
-#: admin/post-types/writepanels/writepanel-product_data.php:231
-msgid "In stock"
-msgstr "In voorraad"
-
-#: admin/post-types/product.php:264 admin/post-types/product.php:642
-#: admin/post-types/product.php:931
-#: admin/post-types/writepanels/writepanel-product_data.php:232
-#: admin/woocommerce-admin-reports.php:2120
-msgid "Out of stock"
-msgstr "Niet in voorraad"
-
-#: admin/post-types/product.php:373
-msgid "Show all product types"
-msgstr "Alle product typen tonen"
-
-#: admin/post-types/product.php:381
-#: admin/post-types/writepanels/writepanel-product_data.php:39
-msgid "Grouped product"
-msgstr "Gegroepeerd product"
-
-#: admin/post-types/product.php:383
-#: admin/post-types/writepanels/writepanel-product_data.php:40
-msgid "External/Affiliate product"
-msgstr "Externe/affiliate product"
-
-#: admin/post-types/product.php:385
-#: admin/post-types/writepanels/writepanel-product_data.php:38
-msgid "Simple product"
-msgstr "Eenvoudig product"
-
-#: admin/post-types/product.php:399
-msgid "Show all sub-types"
-msgstr "Alle sub-types tonen"
-
-#: admin/post-types/product.php:520
-msgid "[%s with SKU of %s]"
-msgstr "[%s met SKU van %s]"
-
-#: admin/post-types/product.php:526
-msgid "[%s with ID of %d]"
-msgstr "[%s met ID van %d]"
-
-#: admin/post-types/product.php:552 admin/post-types/product.php:783
-#: admin/post-types/writepanels/writepanels-init.php:46
-#: admin/settings/settings-init.php:508
-msgid "Product Data"
-msgstr "Product data"
-
-#: admin/post-types/product.php:570
-msgid "Regular price"
-msgstr "Normale prijs"
-
-#: admin/post-types/product.php:575 admin/post-types/product.php:813
-msgid "Sale"
-msgstr "Sale"
-
-#: admin/post-types/product.php:577
-msgid "Sale price"
-msgstr "Sale prijs"
-
-#: admin/post-types/product.php:588 admin/post-types/product.php:839
-#: admin/post-types/writepanels/variation-admin-html.php:96
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:83
-#: admin/post-types/writepanels/writepanel-product_data.php:273
-msgid "Weight"
-msgstr "Gewicht"
-
-#: admin/post-types/product.php:599 admin/post-types/product.php:863
-msgid "L/W/H"
-msgstr "L/B/H"
-
-#: admin/post-types/product.php:601 admin/post-types/product.php:879
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:84
-#: admin/post-types/writepanels/writepanel-product_data.php:286
-msgid "Length"
-msgstr "Lengte"
-
-#: admin/post-types/product.php:602 admin/post-types/product.php:880
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:85
-#: admin/post-types/writepanels/writepanel-product_data.php:287
-#: admin/woocommerce-admin-settings.php:798
-msgid "Width"
-msgstr "Breedte"
-
-#: admin/post-types/product.php:603 admin/post-types/product.php:881
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:86
-#: admin/post-types/writepanels/writepanel-product_data.php:288
-#: admin/woocommerce-admin-settings.php:800
-msgid "Height"
-msgstr "Hoogte"
-
-#: admin/post-types/product.php:613 admin/post-types/product.php:887
-msgid "Visibility"
-msgstr "Zichtbaarheid"
-
-#: admin/post-types/product.php:618 admin/post-types/product.php:893
-msgid "Catalog &amp; search"
-msgstr "Catalogus &amp; zoeken"
-
-#: admin/post-types/product.php:619 admin/post-types/product.php:894
-#: admin/post-types/writepanels/writepanel-product_data.php:1048
-#: admin/woocommerce-admin-content.php:46
-#: admin/woocommerce-admin-settings.php:183
-msgid "Catalog"
-msgstr "Catalogus"
-
-#: admin/post-types/product.php:620 admin/post-types/product.php:895
-#: admin/post-types/writepanels/writepanel-product_data.php:1049
-msgid "Search"
-msgstr "Zoeken"
-
-#: admin/post-types/product.php:621 admin/post-types/product.php:896
-#: admin/post-types/writepanels/writepanel-product_data.php:1050
-msgid "Hidden"
-msgstr "Verborgen"
-
-#: admin/post-types/product.php:636 admin/post-types/product.php:924
-msgid "In stock?"
-msgstr "In voorraad?"
-
-#: admin/post-types/product.php:657 admin/post-types/product.php:942
-#: admin/post-types/writepanels/writepanel-product_data.php:212
-msgid "Manage stock?"
-msgstr "Beheer voorraad?"
-
-#: admin/post-types/product.php:661 admin/post-types/product.php:961
-#: admin/post-types/product.php:977
-#: admin/post-types/writepanels/writepanel-product_data.php:219
-msgid "Stock Qty"
-msgstr "Voorraad aantal"
-
-#: admin/post-types/product.php:794 admin/post-types/product.php:818
-#: admin/post-types/product.php:844 admin/post-types/product.php:868
-#: admin/post-types/product.php:892 admin/post-types/product.php:911
-#: admin/post-types/product.php:929 admin/post-types/product.php:947
-#: admin/post-types/product.php:966
-msgid "— No Change —"
-msgstr "— Geen wijzigingen —"
-
-#: admin/post-types/product.php:795 admin/post-types/product.php:819
-#: admin/post-types/product.php:845 admin/post-types/product.php:869
-#: admin/post-types/product.php:967
-msgid "Change to:"
-msgstr "Wijzig naar:"
-
-#: admin/post-types/product.php:796 admin/post-types/product.php:820
-msgid "Increase by (fixed amount or %):"
-msgstr "Verhogen met (vast bedrag of %):"
-
-#: admin/post-types/product.php:797 admin/post-types/product.php:821
-msgid "Decrease by (fixed amount or %):"
-msgstr "Verlagen met (vast bedrag of %):"
-
-#: admin/post-types/product.php:807 admin/post-types/product.php:832
-msgid "Enter price"
-msgstr "Voer prijs in"
-
-#: admin/post-types/product.php:822
-msgid "Decrease regular price by (fixed amount or %):"
-msgstr "Verlaag standaard prijs met (vast bedrag of %):"
-
-#: admin/post-types/product.php:912 admin/post-types/product.php:948
-#: admin/post-types/shop_order.php:190 admin/woocommerce-admin-status.php:122
-#: admin/woocommerce-admin-status.php:297
-msgid "Yes"
-msgstr "Ja"
-
-#: admin/post-types/product.php:913 admin/post-types/product.php:949
-#: admin/post-types/shop_order.php:192 admin/woocommerce-admin-status.php:122
-#: admin/woocommerce-admin-status.php:297
-msgid "No"
-msgstr "Nee"
-
-#: admin/post-types/product.php:1183
-msgid "Sort Products"
-msgstr "Sorteer producten"
-
-#: admin/post-types/product.php:1222
-msgid "Insert into product"
-msgstr "Invoegen in product"
-
-#: admin/post-types/product.php:1223
-msgid "Uploaded to this product"
-msgstr "Geüpload naar dit product"
-
-#: admin/post-types/shop_coupon.php:25
-msgid "Code"
-msgstr "Code"
-
-#: admin/post-types/shop_coupon.php:26
-msgid "Coupon type"
-msgstr "Coupon type"
-
-#: admin/post-types/shop_coupon.php:27
-#: admin/post-types/writepanels/writepanel-coupon_data.php:45
-msgid "Coupon amount"
-msgstr "Coupon bedrag"
-
-#: admin/post-types/shop_coupon.php:28
-msgid "Description"
-msgstr "Beschrijving"
-
-#: admin/post-types/shop_coupon.php:29
-msgid "Product IDs"
-msgstr "Product ID's"
-
-#: admin/post-types/shop_coupon.php:30
-msgid "Usage / Limit"
-msgstr "Gebruiker/limiet"
-
-#: admin/post-types/shop_coupon.php:31
-#: admin/post-types/writepanels/writepanel-coupon_data.php:158
-msgid "Expiry date"
-msgstr "Vervaldatum"
-
-#: admin/post-types/shop_coupon.php:56
-msgid "Edit coupon"
-msgstr "Bewerk coupon"
-
-#: admin/post-types/shop_coupon.php:114
-msgid "%s / %s"
-msgstr "%s / %s"
-
-#: admin/post-types/shop_coupon.php:116
-msgid "%s / &infin;"
-msgstr "%s / &infin;"
-
-#: admin/post-types/shop_coupon.php:149
-msgid "Show all types"
-msgstr "Alle types tonen"
-
-#: admin/post-types/shop_order.php:43
-#: admin/settings/settings-payment-gateways.php:29
-#: admin/settings/settings-shipping-methods.php:31
-msgid "Status"
-msgstr "Status"
-
-#: admin/post-types/shop_order.php:44
-msgid "Order"
-msgstr "Bestelling"
-
-#: admin/post-types/shop_order.php:45
-msgid "Billing"
-msgstr "Facturering"
-
-#: admin/post-types/shop_order.php:46
-#: admin/post-types/writepanels/writepanel-order_data.php:539
-#: admin/post-types/writepanels/writepanel-product_data.php:81
-#: admin/settings/settings-tax-rates.php:52
-#: admin/settings/settings-tax-rates.php:217
-#: admin/woocommerce-admin-content.php:49
-#: admin/woocommerce-admin-settings.php:187
-msgid "Shipping"
-msgstr "Verzending"
-
-#: admin/post-types/shop_order.php:47
-msgid "Order Total"
-msgstr "Bestelling totaal"
-
-#: admin/post-types/shop_order.php:48
-#: admin/post-types/writepanels/writepanels-init.php:71
-msgid "Order Notes"
-msgstr "Bestelling opmerkingen"
-
-#: admin/post-types/shop_order.php:49
-msgid "Customer Notes"
-msgstr "Klant opmerkingen"
-
-#: admin/post-types/shop_order.php:51
-#: admin/post-types/writepanels/writepanel-order_data.php:386
-#: admin/post-types/writepanels/writepanel-order_data.php:433
-msgid "Actions"
-msgstr "Acties"
-
-#: admin/post-types/shop_order.php:95
-#: admin/post-types/writepanels/writepanel-order_data.php:93
-msgid "Guest"
-msgstr "Gast"
-
-#: admin/post-types/shop_order.php:98
-msgid "Order %s"
-msgstr "Bestelling %s"
-
-#: admin/post-types/shop_order.php:98
-msgid "made by"
-msgstr "gemaakt door"
-
-#: admin/post-types/shop_order.php:101
-msgid "Email:"
-msgstr "E-mail:"
-
-#: admin/post-types/shop_order.php:104
-msgid "Tel:"
-msgstr "Tel:"
-
-#: admin/post-types/shop_order.php:114 admin/post-types/shop_order.php:123
-msgid "Via"
-msgstr "Via"
-
-#: admin/post-types/shop_order.php:131
-msgid "Unpublished"
-msgstr "Niet gepubliceerd"
-
-#: admin/post-types/shop_order.php:133
-msgid "Y/m/d g:i:s A"
-msgstr "j F Y H:i"
-
-#: admin/post-types/shop_order.php:139
-msgid "%s ago"
-msgstr "%s geleden"
-
-#: admin/post-types/shop_order.php:141
-msgid "Y/m/d"
-msgstr "j F Y"
-
-#: admin/post-types/shop_order.php:158
-#: admin/woocommerce-admin-dashboard.php:176
-msgid "Processing"
-msgstr "In verwerking"
-
-#: admin/post-types/shop_order.php:165
-msgid "Complete"
-msgstr "Voltooid"
-
-#: admin/post-types/shop_order.php:282
-msgid "Show all statuses"
-msgstr "Alle statussen tonen"
-
-#: admin/post-types/shop_order.php:301 admin/post-types/shop_order.php:326
-msgid "Show all customers"
-msgstr "Alle klanten tonen"
-
-#: admin/post-types/writepanels/order-download-permission-html.php:6
-msgid "Revoke Access"
-msgstr "Toegang intrekken"
-
-#: admin/post-types/writepanels/order-download-permission-html.php:7
-#: admin/post-types/writepanels/variation-admin-html.php:7
-#: admin/post-types/writepanels/writepanel-product_data.php:369
-#: admin/post-types/writepanels/writepanel-product_data.php:463
-#: admin/woocommerce-admin-init.php:439
-msgid "Click to toggle"
-msgstr "Klik om te schakelen"
-
-#: admin/post-types/writepanels/order-download-permission-html.php:9
-msgid "File %d: %s"
-msgstr "Bestand %d: %s"
-
-#: admin/post-types/writepanels/order-download-permission-html.php:9
-msgid "Downloaded %s time"
-msgid_plural "Downloaded %s times"
-msgstr[0] "%s keer gedownload"
-msgstr[1] "%s keer gedownload"
-
-#: admin/post-types/writepanels/order-download-permission-html.php:16
-msgid "Downloads Remaining"
-msgstr "Downloads resterend"
-
-#: admin/post-types/writepanels/order-download-permission-html.php:19
-#: admin/post-types/writepanels/variation-admin-html.php:151
-#: admin/post-types/writepanels/variation-admin-html.php:159
-#: admin/post-types/writepanels/writepanel-product_data.php:158
-msgid "Unlimited"
-msgstr "Onbeperkt"
-
-#: admin/post-types/writepanels/order-download-permission-html.php:22
-msgid "Access Expires"
-msgstr "Toegang verloopt"
-
-#: admin/post-types/writepanels/order-download-permission-html.php:23
-#: admin/post-types/writepanels/writepanel-product_data.php:164
-msgid "Never"
-msgstr "Nieuwer"
-
-#: admin/post-types/writepanels/order-fee-html.php:10
-msgid "Fee Name"
-msgstr "Kosten naam"
-
-#: admin/post-types/writepanels/order-fee-html.php:17
-#: admin/post-types/writepanels/order-item-html.php:89
-msgid "Tax class"
-msgstr "Belastingtarief"
-
-#: admin/post-types/writepanels/order-fee-html.php:19
-#: admin/post-types/writepanels/order-tax-html.php:8
-#: admin/post-types/writepanels/writepanel-order_data.php:561
-#: admin/post-types/writepanels/writepanel-order_data.php:666
-#: admin/woocommerce-admin-reports.php:1659
-#: admin/woocommerce-admin-reports.php:2672
-#: admin/woocommerce-admin-reports.php:2681
-#: admin/woocommerce-admin-users.php:90 admin/woocommerce-admin-users.php:112
-msgid "N/A"
-msgstr "niet beschikbaar"
-
-#: admin/post-types/writepanels/order-fee-html.php:20
-#: admin/post-types/writepanels/writepanel-product_data.php:179
-msgid "Taxable"
-msgstr "Belastbaar"
-
-#: admin/post-types/writepanels/order-fee-html.php:25
-#: admin/post-types/writepanels/order-item-html.php:96
-#: admin/post-types/writepanels/writepanel-product-type-variable.php:53
-#: admin/post-types/writepanels/writepanel-product_data.php:186
-#: admin/settings/settings-init.php:972
-#: admin/settings/settings-tax-rates.php:29
-#: admin/woocommerce-admin-settings.php:228
-msgid "Standard"
-msgstr "Standaard"
-
-#: admin/post-types/writepanels/order-fee-html.php:43
-#: admin/post-types/writepanels/order-item-html.php:115
-#: admin/woocommerce-admin-reports.php:1563
-#: admin/woocommerce-admin-reports.php:1616
-#: admin/woocommerce-admin-reports.php:2387
-#: admin/woocommerce-admin-reports.php:2556
-#: admin/woocommerce-admin-reports.php:2634
-msgid "Total"
-msgstr "Totaal"
-
-#: admin/post-types/writepanels/order-item-html.php:10
-msgid "Product ID:"
-msgstr "Product ID:"
-
-#: admin/post-types/writepanels/order-item-html.php:13
-msgid "Variation ID:"
-msgstr "Variatie ID:"
-
-#: admin/post-types/writepanels/order-item-html.php:16
-msgid "Product SKU:"
-msgstr "Product SKU:"
-
-#: admin/post-types/writepanels/order-item-html.php:44
-msgid "Add&nbsp;meta"
-msgstr "Meta&nbsp;toevoegen"
-
-#: admin/post-types/writepanels/order-item-html.php:117
-msgid "Subtotal"
-msgstr "Subtotaal"
-
-#: admin/post-types/writepanels/order-tax-html.php:6
-msgid "Tax Rate:"
-msgstr "Belastingtarief:"
-
-#: admin/post-types/writepanels/order-tax-html.php:16
-#: admin/post-types/writepanels/writepanel-order_data.php:630
-msgid "Sales Tax:"
-msgstr "Sales belasting:"
-
-#: admin/post-types/writepanels/order-tax-html.php:20
-#: admin/post-types/writepanels/writepanel-order_data.php:638
-msgid "Shipping Tax:"
-msgstr "Verzending belasting:"
-
-#: admin/post-types/writepanels/variation-admin-html.php:6
-#: admin/post-types/writepanels/writepanel-product_data.php:368
-#: admin/post-types/writepanels/writepanel-product_data.php:462
-#: admin/woocommerce-admin-init.php:438
-msgid "Remove"
-msgstr "Verwijder"
-
-#: admin/post-types/writepanels/variation-admin-html.php:20
-msgid "Any"
-msgstr "Elke"
-
-#: admin/post-types/writepanels/variation-admin-html.php:52
-msgid "Enter a SKU for this variation or leave blank to use the parent product SKU."
-msgstr "Voer een SKU in voor deze variatie of laat leeg om de bovenliggende product SKU te gebruiken."
-
-#: admin/post-types/writepanels/variation-admin-html.php:63
-msgid "Stock Qty:"
-msgstr "Voorraad aantal:"
-
-#: admin/post-types/writepanels/variation-admin-html.php:63
-msgid "Enter a quantity to enable stock management at variation level, or leave blank to use the parent product's options."
-msgstr "Voer een aantal in om voorraadbeheer op variatie niveau in te schakelen, of laat leeg om de bovenliggende product instellingen te gebruiken."
-
-#: admin/post-types/writepanels/variation-admin-html.php:72
-msgid "Regular Price:"
-msgstr "Standaard prijs:"
-
-#: admin/post-types/writepanels/variation-admin-html.php:73
-msgid "Variation price (required)"
-msgstr "Variatie prijs (verplicht)"
-
-#: admin/post-types/writepanels/variation-admin-html.php:76
-msgid "Sale Price:"
-msgstr "Sale prijs:"
-
-#: admin/post-types/writepanels/variation-admin-html.php:76
-#: admin/post-types/writepanels/writepanel-product_data.php:125
-msgid "Schedule"
-msgstr "Inplannen"
-
-#: admin/post-types/writepanels/variation-admin-html.php:76
-msgid "Cancel schedule"
-msgstr "Annuleer planning"
-
-#: admin/post-types/writepanels/variation-admin-html.php:83
-msgid "Sale start date:"
-msgstr "Sale startdatum:"
-
-#: admin/post-types/writepanels/variation-admin-html.php:84
-#: admin/post-types/writepanels/writepanel-product_data.php:136
-msgctxt "placeholder"
-msgid "From&hellip;"
-msgstr "Van&hellip;"
-
-#: admin/post-types/writepanels/variation-admin-html.php:87
-msgid "Sale end date:"
-msgstr "Sale einddatum:"
-
-#: admin/post-types/writepanels/variation-admin-html.php:88
-#: admin/post-types/writepanels/writepanel-product_data.php:137
-msgctxt "placeholder"
-msgid "To&hellip;"
-msgstr "Tot&hellip;"
-
-#: admin/post-types/writepanels/variation-admin-html.php:96
-msgid "Enter a weight for this variation or leave blank to use the parent product weight."
-msgstr "Voer een gewicht in voor deze variatie of laat leeg om het gewicht van het bovenliggende product te gebruiken."
-
-#: admin/post-types/writepanels/variation-admin-html.php:104
-msgid "Dimensions (L&times;W&times;H)"
-msgstr "Dimensies (L&times;B&times;H)"
-
-#: admin/post-types/writepanels/variation-admin-html.php:115
-msgid "Shipping class:"
-msgstr "Verzending klasse:"
-
-#: admin/post-types/writepanels/variation-admin-html.php:119
-#: admin/post-types/writepanels/variation-admin-html.php:132
-msgid "Same as parent"
-msgstr "Zelfde als bovenliggende"
-
-#: admin/post-types/writepanels/variation-admin-html.php:130
-msgid "Tax class:"
-msgstr "Belasting klasse:"
-
-#: admin/post-types/writepanels/variation-admin-html.php:143
-msgid "File paths:"
-msgstr "Bestandspaden:"
-
-#: admin/post-types/writepanels/variation-admin-html.php:143
-msgid "Enter one or more File Paths, one per line, to make this variation a downloadable product, or leave blank."
-msgstr "Voer één of meer bestandspaden in, één per regel, om van deze variatie een downloadbaar product te maken, of laat leeg."
-
-#: admin/post-types/writepanels/variation-admin-html.php:144
-#: admin/post-types/writepanels/writepanel-product_data.php:153
-msgid "File paths/URLs, one per line"
-msgstr "Bestandspaden/URL's, één per regel"
-
-#: admin/post-types/writepanels/variation-admin-html.php:145
-#: admin/post-types/writepanels/writepanel-product_data.php:154
-msgid "Choose a file"
-msgstr "Kies een bestand"
-
-#: admin/post-types/writepanels/variation-admin-html.php:145
-msgid "Upload"
-msgstr "Upload"
-
-#: admin/post-types/writepanels/variation-admin-html.php:145
-#: admin/post-types/writepanels/writepanel-product_data.php:154
-msgid "Insert file URL"
-msgstr "Bestand URL invoegen"
-
-#: admin/post-types/writepanels/variation-admin-html.php:150
-msgid "Download Limit:"
-msgstr "Download limiet:"
-
-#: admin/post-types/writepanels/variation-admin-html.php:150
-#: admin/post-types/writepanels/writepanel-product_data.php:158
-msgid "Leave blank for unlimited re-downloads."
-msgstr "Laat leeg voor onbeperkt re-downloads."
-
-#: admin/post-types/writepanels/variation-admin-html.php:158
-msgid "Download Expiry:"
-msgstr "Download verval:"
-
-#: admin/post-types/writepanels/variation-admin-html.php:158
-#: admin/post-types/writepanels/writepanel-product_data.php:164
-msgid "Enter the number of days before a download link expires, or leave blank."
-msgstr "Voer het aantal dagen voordat een download link verloopt of laat leeg."
-
-#: admin/post-types/writepanels/variation-admin-html.php:172
-msgid "Enabled"
-msgstr "Ingeschakeld"
-
-#: admin/post-types/writepanels/variation-admin-html.php:174
-msgid "Enable this option if access is given to a downloadable file upon purchase of a product"
-msgstr "Schakel deze optie in als toegang wordt gegeven aan downloadbaar bestand bij de aankoop van een product"
-
-#: admin/post-types/writepanels/variation-admin-html.php:176
-msgid "Enable this option if a product is not shipped or there is no shipping cost"
-msgstr "Schakel deze optie in als een product niet wordt verstuurd of als er geen verzendkosten zijn"
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:37
-msgid "Coupon description"
-msgstr "Coupon beschrijving"
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:37
-msgid "Optionally enter a description for this coupon for your reference."
-msgstr "Voer optioneel een beschrijving in voor deze coupon voor uw referentie."
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:42
-msgid "Discount type"
-msgstr "Kortingstype"
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:45
-msgid "Value of the coupon."
-msgstr "Waarde van de coupon."
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:51
-msgid "Enable free shipping"
-msgstr "Gratis verzending inschakelen"
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:51
-msgid "Check this box if the coupon grants free shipping. The <a href=\"%s\">free shipping method</a> must be enabled with the \"must use coupon\" setting checked."
-msgstr "Vink dit vakje aan als de coupon gratis verzending garandeert. De <a href=\"%s\">gratis verzendmethode</a> moet ingeschakeld zijn met de \"moet coupon gebruiken\" instelling aangevinkt."
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:54
-msgid "Individual use"
-msgstr "Individueel gebruik"
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:54
-msgid "Check this box if the coupon cannot be used in conjunction with other coupons."
-msgstr "Vink dit vakje aan als de coupon niet kan worden gebruikt in combinatie met andere coupons."
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:57
-msgid "Apply before tax"
-msgstr "Toepassen voorop belasting"
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:57
-msgid "Check this box if the coupon should be applied before calculating cart tax."
-msgstr "Vink dit vakje aan als de coupon toegepast moet worden voor berekenen winkelwagen belasting."
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:60
-msgid "Exclude sale items"
-msgstr "Sale item uitsluiten"
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:60
-msgid "Check this box if the coupon should not apply to items on sale. Per-item coupons will only work if the item is not on sale. Per-cart coupons will only work if there are no sale items in the cart."
-msgstr "Vink dit vakje aan als de coupon niet toegepast moet worden items in sale. Per item coupons werken alleen als het item niet in sale is. Per winkelwagen coupons werken alleen als er geen sale items in de winkelwagen zijn."
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:65
-msgid "Minimum amount"
-msgstr "Minimum bedrag"
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:65
-msgid "No minimum"
-msgstr "Geen minimum"
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:65
-msgid "This field allows you to set the minimum subtotal needed to use the coupon."
-msgstr "In dit veld kunt u een minimum subtotaal opgeven voor het gebruik van de coupon."
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:74
-#: admin/woocommerce-admin-taxonomies.php:28
-#: admin/woocommerce-admin-taxonomies.php:122
-msgid "Products"
-msgstr "Producten"
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:75
-#: admin/post-types/writepanels/writepanel-order_data.php:400
-#: admin/post-types/writepanels/writepanel-product_data.php:523
-#: admin/post-types/writepanels/writepanel-product_data.php:540
-#: admin/woocommerce-admin-reports.php:1246
-msgid "Search for a product&hellip;"
-msgstr "Zoek naar een product&hellip;"
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:89
-msgid "Products which need to be in the cart to use this coupon or, for \"Product Discounts\", which products are discounted."
-msgstr "Producten welke in de winkelwagen geplaatst moeten worden om deze coupon te gebruiken, voor \"Product kortingen\" welke producten korting krijgen."
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:94
-msgid "Exclude products"
-msgstr "Producten uitsluiten"
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:95
-msgid "Search for a product…"
-msgstr "Zoek voor een product…"
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:109
-msgid "Products which must not be in the cart to use this coupon or, for \"Product Discounts\", which products are not discounted."
-msgstr "Producten welke niet in de winkelwagen geplaatst moeten worden om deze coupon te gebruiken, voor \"Product kortingen\" welke producten geen korting krijgen."
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:116
-msgid "Product categories"
-msgstr "Product categorieën"
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:117
-msgid "Any category"
-msgstr "Elke categorie"
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:125
-msgid "A product must be in this category for the coupon to remain valid or, for \"Product Discounts\", products in these categories will be discounted."
-msgstr "De coupon blijft geldig zolang het product in deze categorie staat, voor \"Product kortingen\" krijgen producten in deze categorie korting."
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:130
-msgid "Exclude categories"
-msgstr "Categorieën uitsluiten"
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:131
-msgid "No categories"
-msgstr "Geen categorieën"
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:139
-msgid "Product must not be in this category for the coupon to remain valid or, for \"Product Discounts\", products in these categories will not be discounted."
-msgstr "De coupon blijft geldig zolang het product niet in deze categorie staat, voor \"Product kortingen\" krijgen producten in deze categorie geen korting."
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:145
-msgid "Email restrictions"
-msgstr "E-mail beperkingen"
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:145
-msgid "No restrictions"
-msgstr "Geen beperkingen"
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:145
-msgid "List of emails to check against the customer's billing email when an order is placed."
-msgstr "Lijst van e-mails om te controleren tegen de klant zijn factuur e-mail wanneer een bestelling wordt geplaatst."
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:152
-msgid "Usage limit"
-msgstr "Gebruikslimiet"
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:152
-msgctxt "placeholder"
-msgid "Unlimited usage"
-msgstr "Onbeperkt gebruik"
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:152
-msgid "How many times this coupon can be used before it is void."
-msgstr "Hoe vaak deze coupon kan worden gebruikt voordat deze ongeldig is."
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:158
-msgctxt "placeholder"
-msgid "Never expire"
-msgstr "Vervalt nooit"
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:158
-msgid "The date this coupon will expire, <code>YYYY-MM-DD</code>."
-msgstr "De datum waarop deze coupon zal verlopen, <code>YYYY-MM-DD</code>."
-
-#: admin/post-types/writepanels/writepanel-coupon_data.php:195
-msgid "Coupon code already exists - customers will use the latest coupon with this code."
-msgstr "Coupon code bestaat al - klanten zullen de laatst coupon gebruiken met deze code."
-
-#: admin/post-types/writepanels/writepanel-order_data.php:59
-msgid "Order Details"
-msgstr "Bestelling gegevens"
-
-#: admin/post-types/writepanels/writepanel-order_data.php:62
-msgid "Order number"
-msgstr "Bestelling nummer"
-
-#: admin/post-types/writepanels/writepanel-order_data.php:67
-msgid "Customer IP:"
-msgstr "Klant IP:"
-
-#: admin/post-types/writepanels/writepanel-order_data.php:74
-msgid "General Details"
-msgstr "Algemene details"
-
-#: admin/post-types/writepanels/writepanel-order_data.php:76
-msgid "Order status:"
-msgstr "Bestelling status:"
-
-#: admin/post-types/writepanels/writepanel-order_data.php:86
-msgid "Order Date:"
-msgstr "Bestelling datum:"
-
-#: admin/post-types/writepanels/writepanel-order_data.php:87
-msgid "h"
-msgstr "u"
-
-#: admin/post-types/writepanels/writepanel-order_data.php:87
-#: admin/settings/settings-init.php:567
-msgid "m"
-msgstr "m"
-
-#: admin/post-types/writepanels/writepanel-order_data.php:91
-msgid "Customer:"
-msgstr "Klant:"
-
-#: admin/post-types/writepanels/writepanel-order_data.php:131
-msgid "Customer Note:"
-msgstr "Klant opmerking:"
-
-#: admin/post-types/writepanels/writepanel-order_data.php:132
-msgid "Customer's notes about the order"
-msgstr "Klant opmerkingen over de bestelling"
-
-#: admin/post-types/writepanels/writepanel-order_data.php:140
-msgid "Billing Details"
-msgstr "Factuurgegevens"
-
-#: admin/post-types/writepanels/writepanel-order_data.php:144
-#: admin/post-types/writepanels/writepanel-order_data.php:234
-msgid "First Name"
-msgstr "Voornaam"
-
-#: admin/post-types/writepanels/writepanel-order_data.php:148
-#: admin/post-types/writepanels/writepanel-order_data.php:238
-msgid "Last Name"
-msgstr "Achternaam"
-
-#: admin/post-types/writepanels/writepanel-order_data.php:152
-#: admin/post-types/writepanels/writepanel-order_data.php:242
-#: admin/woocommerce-admin-users.php:155 admin/woocommerce-admin-users.php:204
-msgid "Company"
-msgstr "Bedrijf"
-
-#: admin/post-types/writepanels/writepanel-order_data.php:156
-#: admin/post-types/writepanels/writepanel-order_data.php:246
-#: admin/woocommerce-admin-users.php:159 admin/woocommerce-admin-users.php:208
-msgid "Address 1"
-msgstr "Adres 1"
-
-#: admin/post-types/writepanels/writepanel-order_data.php:160
-#: admin/post-types/writepanels/writepanel-order_data.php:250
-#: admin/woocommerce-admin-users.php:163 admin/woocommerce-admin-users.php:212
-msgid "Address 2"
-msgstr "Adres 2"
-
-#: admin/post-types/writepanels/writepanel-order_data.php:164
-#: admin/post-types/writepanels/writepanel-order_data.php:254
-#: admin/settings/settings-tax-rates.php:42
-#: admin/settings/settings-tax-rates.php:217
-#: admin/woocommerce-admin-users.php:167 admin/woocommerce-admin-users.php:216
-msgid "City"
-msgstr "Plaats"
-
-#: admin/post-types/writepanels/writepanel-order_data.php:168
-#: admin/post-types/writepanels/writepanel-order_data.php:258
-#: admin/woocommerce-admin-users.php:171 admin/woocommerce-admin-users.php:220
-msgid "Postcode"
-msgstr "Postcode"
-
-#: admin/post-types/writepanels/writepanel-order_data.php:172
-#: admin/post-types/writepanels/writepanel-order_data.php:262
-#: admin/woocommerce-admin-users.php:179 admin/woocommerce-admin-users.php:228
-msgid "Country"
-msgstr "Land"
-
-#: admin/post-types/writepanels/writepanel-order_data.php:175
-#: admin/post-types/writepanels/writepanel-order_data.php:265
-msgid "Select a country&hellip;"
-msgstr "Selecteer een land&hellip;"
-
-#: admin/post-types/writepanels/writepanel-order_data.php:178
-#: admin/post-types/writepanels/writepanel-order_data.php:268
-#: admin/woocommerce-admin-users.php:175 admin/woocommerce-admin-users.php:224
-msgid "State/County"
-msgstr "Provincie"
-
-#: admin/post-types/writepanels/writepanel-order_data.php:182
-#: admin/woocommerce-admin-users.php:187
-msgid "Email"
-msgstr "E-mail"
-
-#: admin/post-types/writepanels/writepanel-order_data.php:185
-msgid "Phone"
-msgstr "Telefoon"
-
-#: admin/post-types/writepanels/writepanel-order_data.php:193
-#: admin/post-types/writepanels/writepanel-order_data.php:195
-#: admin/post-types/writepanels/writepanel-order_data.php:277
-#: admin/post-types/writepanels/writepanel-order_data.php:279
-msgid "Address"
-msgstr "Adres"
-
-#: admin/post-types/writepanels/writepanel-order_data.php:195
-msgid "No billing address set."
-msgstr "Geen factuuradres ingesteld."
-
-#: admin/post-types/writepanels/writepanel-order_data.php:208
-msgid "Load billing address"
-msgstr "Factuuradres laden"
-
-#: admin/post-types/writepanels/writepanel-order_data.php:230
-msgid "Shipping Details"
-msgstr "Verzending gegevens"
-
-#: admin/post-types/writepanels/writepanel-order_data.php:279
-msgid "No shipping address set."
-msgstr "Geen verzendadres ingesteld."
-
-#: admin/post-types/writepanels/writepanel-order_data.php:292
-msgid "Load shipping address"
-msgstr "Verzendadres laden"
-
-#: admin/post-types/writepanels/writepanel-order_data.php:292
-msgid "Copy from billing"
-msgstr "Kopiëren van facturering"
+msgid "http://woothemes.com"
+msgstr "http://woothemes.com"
