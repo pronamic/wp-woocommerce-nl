@@ -3,14 +3,14 @@ Contributors: pronamic, remcotolsma
 Tags: woocommerce, translation, dutch, nl, nl_NL, webshop, ecommerce, e-commerce, commerce, woothemes
 Donate link: http://www.pronamic.eu/donate/?for=wp-plugin-woocommerce-nl&source=wp-plugin-readme-txt
 Requires at least: 3.0
-Tested up to: 3.7.1
-Stable tag: 1.0.0
+Tested up to: 3.8
+Stable tag: 1.0.1
 
 This WordPress plugin extends the WooCommerce plugin with the Dutch translation.
 
 == Description ==
 
-<strong>WooCommerce</strong> 2.0.19
+<strong>WooCommerce</strong> 2.0.20
 <strong>WooCommerce EU VAT Number</strong> 1.4
 <strong>WooCommerce Subscribe to Newsletter</strong> 1.0.4
 <strong>WooCommerce Gateway Fees</strong> 1.2.1
@@ -32,8 +32,8 @@ WordPress installation and then activate the Plugin from Plugins page.
 ./update-pot woocommerce-gravityforms-product-addons
 ./update-pot woocommerce-delivery-notes ~/Sites/example.com/wp-content/plugins/woocommerce-delivery-notes
 
-./download-po woocommerce 2.0.19
-./download-po woocommerce 2.0.19 admin
+./download-po woocommerce 2.0.20
+./download-po woocommerce 2.0.20 admin
 ./download-po woocommerce-gravityforms-product-addons 2.4.2
 ./download-po woocommerce-delivery-notes 2.0.2
 
@@ -44,6 +44,9 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 
 == Changelog ==
+
+= 1.0.1 =
+*	Updated translations to WooCommerce v2.0.20.
 
 = 1.0.0 =
 *	Updated translations to WooCommerce v2.0.19.

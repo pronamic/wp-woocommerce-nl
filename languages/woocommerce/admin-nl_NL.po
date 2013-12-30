@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-11-12 08:24:22+0000\n"
+"PO-Revision-Date: 2013-12-30 16:04:48+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -4498,11 +4498,11 @@ msgstr "MySQL versie"
 
 #: admin/woocommerce-admin-status.php:109
 msgid "WP Memory Limit"
-msgstr "WP geheugen limiet"
+msgstr "WP geheugenlimiet"
 
 #: admin/woocommerce-admin-status.php:114
 msgid "%s - We recommend setting memory to at least 64MB. See: <a href=\"%s\">Increasing memory allocated to PHP</a>"
-msgstr "%s - Wij raden het aan om het geheugen minimaal op 64 MB in te stellen. Zie: <a href=\"%s\">Verhoog toegewezen geheugen aan PHP</a>"
+msgstr "%s - Wij adviseren om het geheugen minimaal op 64 MB in te stellen. Zie: <a href=\"%s\">Verhoog toegewezen geheugen aan PHP</a>"
 
 #: admin/woocommerce-admin-status.php:121
 msgid "WP Debug Mode"
