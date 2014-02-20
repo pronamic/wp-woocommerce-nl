@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the 2.1.2 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2014-02-20 10:26:21+0000\n"
+"PO-Revision-Date: 2014-02-20 10:45:46+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -855,7 +855,7 @@ msgstr "Ontbrekende parameter %s"
 
 #: includes/class-wc-ajax.php:158
 msgid "Sorry, your session has expired."
-msgstr "Sorry, uw sessie is verlopen."
+msgstr "Sorry, je sessie is verlopen."
 
 #: includes/class-wc-ajax.php:158
 msgid "Return to homepage"
@@ -1003,7 +1003,7 @@ msgstr "Bestelling opmerkingen"
 #: includes/class-wc-checkout.php:117
 msgctxt "placeholder"
 msgid "Notes about your order, e.g. special notes for delivery."
-msgstr "Notities over je bestelling, bijvoorbeeld speciale notities voor aflevering."
+msgstr "Opmerkingen over je bestelling, bijvoorbeeld speciale opmerkingen voor aflevering."
 
 #: includes/class-wc-checkout.php:176
 msgid "Order &ndash; %s"
@@ -2256,7 +2256,7 @@ msgstr "Log in om bestanden te downloaden"
 
 #: includes/class-wc-download-handler.php:76
 msgid "This is not your download link."
-msgstr "Dit is niet uw download link."
+msgstr "Dit is niet je download link."
 
 #: includes/class-wc-download-handler.php:81
 msgid "Product no longer exists."
@@ -2364,7 +2364,7 @@ msgstr "Winkelwagen bijgewerkt."
 
 #: includes/class-wc-form-handler.php:402
 msgid "You can only have 1 %s in your cart."
-msgstr "U kunt slechts 1 %s in uw winkelwagen hebben."
+msgstr "Je kunt slechts 1 %s in je winkelwagen hebben."
 
 #: includes/class-wc-form-handler.php:488
 msgid "The cart has been filled with the items from your previous order."
@@ -2376,7 +2376,7 @@ msgstr "Bestelling geannuleerd door de klant."
 
 #: includes/class-wc-form-handler.php:512
 msgid "Your order was cancelled."
-msgstr "Uw bestelling is geannuleerd."
+msgstr "Je bestelling is geannuleerd."
 
 #: includes/class-wc-form-handler.php:517
 msgid "Your order can no longer be cancelled. Please contact us if you need assistance."
@@ -2393,7 +2393,7 @@ msgstr "Kies het aantal items die u wenst toe te voegen aan uw winkelwagen&helli
 
 #: includes/class-wc-form-handler.php:658
 msgid "Please choose a product to add to your cart&hellip;"
-msgstr "Kies een product om aan uw winkelwagen toe te voegen&hellip;"
+msgstr "Kies een product om aan je winkelwagen toe te voegen&hellip;"
 
 #: includes/class-wc-form-handler.php:718
 #: includes/class-wc-form-handler.php:722
@@ -2421,11 +2421,11 @@ msgstr "Je bent nu ingelogd als <strong>%s</strong>"
 
 #: includes/class-wc-form-handler.php:804
 msgid "Please enter your password."
-msgstr "Voer uw wachtwoord in."
+msgstr "Voer je wachtwoord in."
 
 #: includes/class-wc-form-handler.php:827
 msgid "Your password has been reset."
-msgstr "Uw wachtwoord is opnieuw ingesteld."
+msgstr "Je wachtwoord is opnieuw ingesteld."
 
 #: includes/class-wc-form-handler.php:827
 msgid "Log in"
@@ -2596,7 +2596,7 @@ msgstr "Nieuwe product categorie toevoegen"
 
 #: includes/class-wc-post-types.php:67
 msgid "New Product Category Name"
-msgstr "Nieuwe naam Product Categorie"
+msgstr "Nieuwe product categorie naam"
 
 #: includes/class-wc-post-types.php:78
 #: includes/updates/woocommerce-update-2.0.php:44
@@ -2805,7 +2805,7 @@ msgstr "Bovenliggend product"
 
 #: includes/class-wc-post-types.php:247
 msgid "This is where you can add new products to your store."
-msgstr "Hier kunt u nieuwe producten toevoegen aan uw winkel."
+msgstr "Hier kun je nieuwe producten toevoegen aan je winkel."
 
 #: includes/class-wc-post-types.php:267
 msgid "Variations"
@@ -2967,7 +2967,7 @@ msgstr "Bestelling voltooid e-mails worden verstuurd naar de klant zodra de best
 
 #: includes/emails/class-wc-email-customer-completed-order.php:29
 msgid "Your order is complete"
-msgstr "Uw bestelling is voltooid"
+msgstr "Je bestelling is voltooid"
 
 #: includes/emails/class-wc-email-customer-completed-order.php:30
 msgid "Your {site_title} order from {order_date} is complete"
@@ -2975,7 +2975,7 @@ msgstr "Je {site_title} bestelling van {order_date} is voltooid"
 
 #: includes/emails/class-wc-email-customer-completed-order.php:39
 msgid "Your order is complete - download your files"
-msgstr "Uw bestelling is voltooid - download uw bestanden"
+msgstr "Je bestelling is voltooid - download je bestanden"
 
 #: includes/emails/class-wc-email-customer-completed-order.php:40
 msgid "Your {site_title} order from {order_date} is complete - download your files"
@@ -3041,7 +3041,7 @@ msgstr "Klant nieuwe account e-mails worden verstuurd wanneer een klant zich aan
 
 #: includes/emails/class-wc-email-customer-new-account.php:39
 msgid "Your account on {site_title}"
-msgstr "Uw account voor {site_title}"
+msgstr "Je account voor {site_title}"
 
 #: includes/emails/class-wc-email-customer-new-account.php:40
 msgid "Welcome to {site_title}"
@@ -3057,11 +3057,11 @@ msgstr "Klant opmerking e-mails worden verstuurd wanneer u een opmerking toevoeg
 
 #: includes/emails/class-wc-email-customer-note.php:37
 msgid "Note added to your {site_title} order from {order_date}"
-msgstr "Notitie toegevoegd aan je {site_title} bestelling van {order_date}"
+msgstr "Opmerking toegevoegd aan je {site_title} bestelling van {order_date}"
 
 #: includes/emails/class-wc-email-customer-note.php:38
 msgid "A note has been added to your order"
-msgstr "Een opmerking is toegevoegd aan uw bestelling"
+msgstr "Een opmerking is toegevoegd aan je bestelling"
 
 #: includes/emails/class-wc-email-customer-processing-order.php:26
 msgid "Processing order"
@@ -3073,7 +3073,7 @@ msgstr "Dit is een bestelling notificatie verstuurd aan de klant na betaling met
 
 #: includes/emails/class-wc-email-customer-processing-order.php:29
 msgid "Thank you for your order"
-msgstr "Bedankt voor uw bestelling"
+msgstr "Bedankt voor je bestelling"
 
 #: includes/emails/class-wc-email-customer-processing-order.php:30
 msgid "Your {site_title} order receipt from {order_date}"
@@ -3347,7 +3347,7 @@ msgstr "Toegangssleutel"
 
 #: includes/gateways/mijireh/class-wc-gateway-mijireh.php:137
 msgid "The Mijireh access key for your store."
-msgstr "De Mijireh toegangssleutel voor uw winkel."
+msgstr "De Mijireh toegangssleutel voor je winkel."
 
 #: includes/gateways/mijireh/class-wc-gateway-mijireh.php:145
 msgid "Credit Card"
@@ -3355,7 +3355,7 @@ msgstr "Creditcard"
 
 #: includes/gateways/mijireh/class-wc-gateway-mijireh.php:151
 msgid "Pay securely with your credit card."
-msgstr "Betaal veilig met uw creditcard."
+msgstr "Betaal veilig met je creditcard."
 
 #: includes/gateways/mijireh/class-wc-gateway-mijireh.php:152
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:141
@@ -3486,7 +3486,7 @@ msgstr "Pagina opmaak"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:196
 msgid "Optionally enter the name of the page style you wish to use. These are defined within your PayPal account."
-msgstr "Voer optioneel de naam van de pagina opmaak in welke u wilt gebruiken. Deze zijn gedefinieerd binnen uw PayPal account."
+msgstr "Voer optioneel de naam van de pagina opmaak in welke je wilt gebruiken. Deze zijn gedefinieerd binnen je PayPal account."
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:202
 msgid "Shipping options"
@@ -3558,7 +3558,7 @@ msgstr "Verzending via %s"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:454
 msgid "Thank you for your order. We are now redirecting you to PayPal to make payment."
-msgstr "Bedankt voor uw bestelling. We sturen u nu door naar PayPal om een betaling te maken."
+msgstr "Bedankt voor je bestelling. We sturen u nu door naar PayPal om een betaling te maken."
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:479
 msgid "Pay via PayPal"
@@ -4039,7 +4039,7 @@ msgstr "Wachtwoord opnieuw instellen is niet toegestaan voor deze gebruiker"
 
 #: includes/shortcodes/class-wc-shortcode-my-account.php:299
 msgid "Check your e-mail for the confirmation link."
-msgstr "Controleer uw e-mail voor de bevestigingslink."
+msgstr "Controleer je e-mail voor de bevestigingslink."
 
 #: includes/shortcodes/class-wc-shortcode-my-account.php:319
 #: includes/shortcodes/class-wc-shortcode-my-account.php:324
@@ -4978,12 +4978,12 @@ msgstr "Je kunt hier toegang krijgen tot je account om je bestellingen te bekijk
 #: templates/emails/customer-note.php:14
 #: templates/emails/plain/customer-note.php:13
 msgid "Hello, a note has just been added to your order:"
-msgstr "Hallo, er is zojuist een opmerking toegevoegd aan uw bestelling:"
+msgstr "Hallo, er is zojuist een opmerking toegevoegd aan je bestelling:"
 
 #: templates/emails/customer-note.php:18
 #: templates/emails/plain/customer-note.php:21
 msgid "For your reference, your order details are shown below."
-msgstr "Voor uw referentie, uw bestelling gegevens worden hieronder weergegeven."
+msgstr "Voor je referentie, je bestelling gegevens worden hieronder weergegeven."
 
 #: templates/emails/customer-processing-order.php:14
 #: templates/emails/plain/customer-processing-order.php:13
@@ -5066,7 +5066,7 @@ msgstr "j F Y"
 #: templates/emails/plain/customer-note.php:46
 #: templates/emails/plain/customer-processing-order.php:38
 msgid "Your details"
-msgstr "Uw details"
+msgstr "Je details"
 
 #: templates/emails/plain/customer-new-account.php:16
 msgid "Your password is <strong>%s</strong>."
@@ -5409,7 +5409,7 @@ msgstr "Afmetingen"
 msgid "%s customer review"
 msgid_plural "%s customer reviews"
 msgstr[0] "%s klant review"
-msgstr[1] "%s klant reviews"
+msgstr[1] "%s klanten reviews"
 
 #: templates/single-product/related.php:36
 msgid "Related Products"
