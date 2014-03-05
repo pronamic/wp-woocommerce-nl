@@ -4,13 +4,13 @@ Tags: woocommerce, translation, dutch, nl, nl_NL, webshop, ecommerce, e-commerce
 Donate link: http://www.pronamic.eu/donate/?for=wp-plugin-woocommerce-nl&source=wp-plugin-readme-txt
 Requires at least: 3.0
 Tested up to: 3.8.1
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 
 This WordPress plugin extends the WooCommerce plugin with the Dutch translation.
 
 == Description ==
 
-<strong>WooCommerce</strong> 2.1.2
+<strong>WooCommerce</strong> 2.1.3
 <strong>WooCommerce EU VAT Number</strong> 1.4
 <strong>WooCommerce Subscribe to Newsletter</strong> 1.0.4
 <strong>WooCommerce Gateway Fees</strong> 1.2.1
@@ -26,24 +26,10 @@ Extract the zip file and just drop the contents in the wp-content/plugins/ direc
 WordPress installation and then activate the Plugin from Plugins page.
 
 
-== Developers ==
-
-./update-pot woocommerce ~/Downloads/woocommerce
-./update-pot woocommerce-gravityforms-product-addons
-./update-pot woocommerce-delivery-notes ~/Sites/example.com/wp-content/plugins/woocommerce-delivery-notes
-
-./download-po woocommerce 2.1.2
-./download-po woocommerce 2.1.2 admin
-./download-po woocommerce-gravityforms-product-addons 2.4.2
-./download-po woocommerce-delivery-notes 2.0.2
-
-./update-mo woocommerce
-./update-mo woocommerce admin
-./update-mo woocommerce-gravityforms-product-addons
-./update-mo woocommerce-delivery-notes
-
-
 == Changelog ==
+
+= 1.1.2 =
+*	Updated translations to WooCommerce v2.1.3, please note that WooCommerce v2.1.3 contains a [bug](https://github.com/woothemes/woocommerce/commit/4ab4811c571d566d103aa7902e9eb25e5732483e).
 
 = 1.1.1 =
 *	Fix - Warning: printf() [function.printf]: Argument number must be greater than zero in /woocommerce/templates/myaccount/my-account.php on line 22.
