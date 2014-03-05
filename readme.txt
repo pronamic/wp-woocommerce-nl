@@ -29,7 +29,7 @@ WordPress installation and then activate the Plugin from Plugins page.
 == Changelog ==
 
 = 1.1.2 =
-*	Updated translations to WooCommerce v2.1.3.
+*	Updated translations to WooCommerce v2.1.3, please note that WooCommerce v2.1.3 contains a [bug](https://github.com/woothemes/woocommerce/commit/4ab4811c571d566d103aa7902e9eb25e5732483e).
 
 = 1.1.1 =
 *	Fix - Warning: printf() [function.printf]: Argument number must be greater than zero in /woocommerce/templates/myaccount/my-account.php on line 22.
