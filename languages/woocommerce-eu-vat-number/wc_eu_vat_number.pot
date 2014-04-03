@@ -1,63 +1,65 @@
-# Translation of 1.5.8 in Dutch
-# This file is distributed under the same license as the 1.5.8 package.
+# Copyright (C) 2014 
+# This file is distributed under the same license as the  package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2014-04-03 15:10:47+0000\n"
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/woocommerce-eu-vat-number\n"
+"POT-Creation-Date: 2014-04-03 14:44:20+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/0.1\n"
-"Project-Id-Version: 1.5.8\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 
 #: eu-vat-number.php:63
 msgid "EU VAT Title"
-msgstr "EU BTW titel"
+msgstr ""
 
 #: eu-vat-number.php:64
 msgid "The title that appears at checkout above the VAT Number box."
-msgstr "De titel die verschijnt tijdens het afrekenen boven het BTW nummer veld."
+msgstr ""
 
 #: eu-vat-number.php:69
 msgid "EU VAT Message"
-msgstr "EU BTW bericht"
+msgstr ""
 
 #: eu-vat-number.php:70
 msgid "The message that appears at checkout above the VAT Number box."
-msgstr "Het bericht die verschijnt tijdens het afrekenen boven het BTW nummer veld."
+msgstr ""
 
 #: eu-vat-number.php:76
 msgid "Show field for base country"
-msgstr "Toon veld voor basis land"
+msgstr ""
 
 #: eu-vat-number.php:77
 msgid "Show the VAT field even when the customer is in your base country"
-msgstr "Toon het BTW veld ook wanneer de klant in uw basis land is"
+msgstr ""
 
 #: eu-vat-number.php:82
 msgid "Deduct VAT for base country"
-msgstr "BTW aftrek voor basis land"
+msgstr ""
 
 #: eu-vat-number.php:83
 msgid "Deduct the VAT even when the customer is in your base country and has a valid number"
-msgstr "BTW aftrekken zelfs wanneer de klant in uw basis land is en een geldig nummer heeft"
+msgstr ""
 
 #: eu-vat-number.php:90
 msgid "EU VAT Number"
-msgstr "EU BTW nummer"
+msgstr ""
 
 #: eu-vat-number.php:91
 msgid "If you are in the EU and have a valid EU VAT registration number please enter it below."
-msgstr "Als u in de EU bent en een geldige EU BTW registratie nummer heeft voer deze dan hieronder in."
+msgstr ""
 
 #: eu-vat-number.php:153 eu-vat-number.php:154
 msgid "VAT Number"
-msgstr "BTW nummer"
+msgstr ""
 
 #: eu-vat-number.php:286
 msgid "You cannot use a VAT number since your country (%s) is outside of the EU."
-msgstr "U kunt geen BTW nummer gebruiken omdat uw land (%s) buiten de EU valt."
+msgstr ""
 
 #: eu-vat-number.php:333
 msgid "You have entered an invalid VAT number (%s) for your country."
-msgstr "U heeft een ongeldige BTW nummer (%s) ingevoerd voor uw land."
+msgstr ""

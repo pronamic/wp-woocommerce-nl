@@ -26,6 +26,14 @@ Extract the zip file and just drop the contents in the wp-content/plugins/ direc
 WordPress installation and then activate the Plugin from Plugins page.
 
 
+== Developers ==
+
+*	php ~/wp/svn/i18n-tools/makepot.php wp-plugin ~/Downloads/woocommerce-eu-vat-number ./languages/woocommerce-eu-vat-number/wc_eu_vat_number.pot
+*	grunt downloadPo --project=woocommerce/2.1.3 --destination=languages/woocommerce/nl_NL.po
+*	grunt downloadPo --project=woocommerce/admin/2.1.3 --destination=languages/woocommerce/admin-nl_NL.po
+*	grunt downloadPo --project=woocommerce-eu-vat-number/1.5.8 --destination=languages/woocommerce-eu-vat-number/nl_NL.po
+
+
 == Changelog ==
 
 = 1.1.2 =

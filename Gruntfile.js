@@ -49,17 +49,13 @@ module.exports = function( grunt ) {
 		// Shell
 		shell: {
 			downloadPo: {
+				options: {
+					project: grunt.option( 'project' ),
+					destination: grunt.option( 'destination' ),
+				},
 				command: [
-					'GLOTPRESS_URL=http://glotpress.pronamic.nl/projects/woocommerce/<%= wooCommerceVersion %>/nl/nl_NL/export-translations',
-					'PO_FILE=languages/woocommerce/nl_NL.po',
-					'touch $PO_FILE',
-					'wget -O $PO_FILE $GLOTPRESS_URL'
-				].join( '&&' )
-	        },
-			downloadAdminPo: {
-				command: [
-					'GLOTPRESS_URL=http://glotpress.pronamic.nl/projects/woocommerce/<%= wooCommerceVersion %>/admin/nl/nl_NL/export-translations',
-					'PO_FILE=languages/woocommerce/admin-nl_NL.po',
+					'GLOTPRESS_URL=http://glotpress.pronamic.nl/projects/<%= shell.downloadPo.options.project %>/nl/nl_NL/export-translations',
+					'PO_FILE=<%= shell.downloadPo.options.destination %>',
 					'touch $PO_FILE',
 					'wget -O $PO_FILE $GLOTPRESS_URL'
 				].join( '&&' )
@@ -80,5 +76,5 @@ module.exports = function( grunt ) {
 
 	// Default task(s).
 	grunt.registerTask( 'default', [ 'phplint', 'checkwpversion', 'makepot', 'shell:downloadPo' ] );
-	grunt.registerTask( 'downloadPo', [ 'shell:downloadPo', 'shell:downloadAdminPo', 'shell:generateMos' ] );
+	grunt.registerTask( 'downloadPo', [ 'shell:downloadPo', 'shell:generateMos' ] );
 };
