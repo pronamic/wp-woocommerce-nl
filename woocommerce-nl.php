@@ -61,7 +61,7 @@ class WooCommerceNLPlugin {
 	 * Activated plugin
 	 */
 	public function activated_plugin() {
-		$path = str_replace( WP_PLUGIN_DIR . '/', '', $this->file );
+		$path = plugin_basename( $this->file );
 
 		if ( $plugins = get_option( 'active_plugins' ) ) {
 			if ( $key = array_search( $path, $plugins ) ) {
