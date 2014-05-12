@@ -119,7 +119,6 @@ module.exports = function( grunt ) {
 
 	grunt.registerTask( 'deploy', [
 		'checkwpversion',
-		'makepot',
 		'clean:deploy',
 		'copy:deploy'
 	] );
