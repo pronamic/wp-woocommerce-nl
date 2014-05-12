@@ -58,14 +58,14 @@ module.exports = function( grunt ) {
 					'touch $PO_FILE',
 					'wget -O $PO_FILE $GLOTPRESS_URL'
 				].join( '&&' )
-	        },
-	    	generateMos: {
-		    	command: [
-		  		    'cd languages',
-			    	'for i in **/*.po; do msgfmt $i -o ${i%%.*}.mo; done'
-			    ].join( '&&' )
-		    },
-	    },
+			},
+			generateMos: {
+				command: [
+					'cd languages',
+					'for i in **/*.po; do msgfmt $i -o ${i%%.*}.mo; done'
+				].join( '&&' )
+			},
+		},
 
 	    // Copy
 		copy: {
