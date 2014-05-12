@@ -4,9 +4,6 @@ module.exports = function( grunt ) {
 		// Package
 		pkg: grunt.file.readJSON( 'package.json' ),
 
-		// WooCommerce
-		wooCommerceVersion: '2.1.3',
-
 		// PHPLint
 		phplint: {
 			options: {
@@ -41,6 +38,8 @@ module.exports = function( grunt ) {
 				options: {
 					cwd: '',
 					domainPath: 'languages',
+					exclude: [ 'deploy/.*', 'wp-svn/.*' ],
+					mainFile: 'woocommerce-nl.php',
 					type: 'wp-plugin'
 				}
 			}
@@ -115,10 +114,12 @@ module.exports = function( grunt ) {
 	grunt.loadNpmTasks( 'grunt-rt-wp-deploy' );
 
 	// Default task(s).
-	grunt.registerTask( 'default', [ 'phplint', 'checkwpversion', 'makepot', 'shell:downloadPo' ] );
+	grunt.registerTask( 'default', [ 'phplint' ] );
 	grunt.registerTask( 'downloadPo', [ 'shell:downloadPo', 'shell:generateMos' ] );
 
 	grunt.registerTask( 'deploy', [
+		'checkwpversion',
+		'makepot',
 		'clean:deploy',
 		'copy:deploy'
 	] );
