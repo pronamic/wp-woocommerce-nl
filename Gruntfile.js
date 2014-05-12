@@ -3,10 +3,10 @@ module.exports = function( grunt ) {
 	grunt.initConfig( {
 		// Package
 		pkg: grunt.file.readJSON( 'package.json' ),
-		
+
 		// WooCommerce
 		wooCommerceVersion: '2.1.3',
-		
+
 		// PHPLint
 		phplint: {
 			options: {
@@ -16,7 +16,7 @@ module.exports = function( grunt ) {
 			},
 			all: [ '**/*.php' ]
 		},
-		
+
 		// Check WordPress version
 		checkwpversion: {
 			options: {
@@ -34,7 +34,7 @@ module.exports = function( grunt ) {
 				compare: '=='
 			}
 		},
-		
+
 		// Make POT
 		makepot: {
 			target: {
@@ -45,7 +45,7 @@ module.exports = function( grunt ) {
 				}
 			}
 		},
-		
+
 		// Shell
 		shell: {
 			downloadPo: {
@@ -66,15 +66,65 @@ module.exports = function( grunt ) {
 			    	'for i in **/*.po; do msgfmt $i -o ${i%%.*}.mo; done'
 			    ].join( '&&' )
 		    },
-	    }
+	    },
+
+	    // Copy
+		copy: {
+			deploy: {
+				src: [
+					'**',
+					'!.*',
+					'!.*/**',
+					'!Gruntfile.js',
+					'!package.json',
+					'!node_modules/**'
+				],
+				dest: 'deploy',
+				expand: true,
+				dot: true
+			},
+		},
+
+		// Clean
+		clean: {
+			deploy: {
+				src: [ 'deploy' ]
+			},
+		},
+
+		// WordPress deploy
+		rt_wp_deploy: {
+			app: {
+				options: {
+					svnUrl: 'http://plugins.svn.wordpress.org/woocommerce-nl/',
+					svnDir: 'wp-svn',
+					svnUsername: 'pronamic',
+					deployDir: 'deploy',
+					version: '<%= pkg.version %>',
+				}
+			}
+		},
 	} );
 
+	grunt.loadNpmTasks( 'grunt-contrib-copy' );
+	grunt.loadNpmTasks( 'grunt-contrib-clean' );
 	grunt.loadNpmTasks( 'grunt-phplint' );
 	grunt.loadNpmTasks( 'grunt-checkwpversion' );
 	grunt.loadNpmTasks( 'grunt-wp-i18n' );
 	grunt.loadNpmTasks( 'grunt-shell' );
+	grunt.loadNpmTasks( 'grunt-rt-wp-deploy' );
 
 	// Default task(s).
 	grunt.registerTask( 'default', [ 'phplint', 'checkwpversion', 'makepot', 'shell:downloadPo' ] );
 	grunt.registerTask( 'downloadPo', [ 'shell:downloadPo', 'shell:generateMos' ] );
+
+	grunt.registerTask( 'deploy', [
+		'clean:deploy',
+		'copy:deploy'
+	] );
+
+	grunt.registerTask( 'wp-deploy', [
+		'deploy',
+		'rt_wp_deploy'
+	] );
 };
