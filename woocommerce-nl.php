@@ -2,9 +2,9 @@
 /*
 Plugin Name: WooCommerce (nl)
 Plugin URI: http://www.happywp.com/plugins/woocommerce-nl/
-Description: Extends the WooCommerce plugin and add-ons with the Dutch language: <strong>WooCommerce</strong> 2.1.3 | <strong>WooCommerce EU VAT Number</strong> 1.4 | <strong>WooCommerce Subscribe to Newsletter</strong> 1.0.4 | <strong>WooCommerce Gateway Fees</strong> 1.2.1 | <strong>WooCommerce - Gravity Forms Product Add-Ons</strong> 2.4.2 | <strong>WooCommerce Print Invoices & Delivery Notes</strong> 2.0.2
+Description: Extends the WooCommerce plugin and add-ons with the Dutch language: <strong>WooCommerce</strong> 2.1.8 | <strong>WooCommerce EU VAT Number</strong> 1.4 | <strong>WooCommerce Subscribe to Newsletter</strong> 1.0.4 | <strong>WooCommerce Gateway Fees</strong> 1.2.1 | <strong>WooCommerce - Gravity Forms Product Add-Ons</strong> 2.4.2 | <strong>WooCommerce Print Invoices & Delivery Notes</strong> 2.0.2
 
-Version: 1.1.2
+Version: 1.1.3
 Requires at least: 3.0
 
 Author: Pronamic
@@ -61,7 +61,7 @@ class WooCommerceNLPlugin {
 	 * Activated plugin
 	 */
 	public function activated_plugin() {
-		$path = str_replace( WP_PLUGIN_DIR . '/', '', $this->file );
+		$path = plugin_basename( $this->file );
 
 		if ( $plugins = get_option( 'active_plugins' ) ) {
 			if ( $key = array_search( $path, $plugins ) ) {
