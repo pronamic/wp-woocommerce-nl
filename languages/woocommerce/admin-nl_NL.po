@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2014-05-12 10:56:45+0000\n"
+"PO-Revision-Date: 2014-07-23 12:49:07+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -860,7 +860,7 @@ msgstr "Klantenlijst"
 
 #: includes/admin/class-wc-admin-reports.php:89
 #: includes/admin/post-types/class-wc-admin-cpt-product.php:266
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:768
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:773
 #: includes/admin/reports/class-wc-report-stock.php:25
 #: includes/admin/reports/class-wc-report-stock.php:26
 msgid "Stock"
@@ -1740,6 +1740,7 @@ msgid "Show all types"
 msgstr "Alle types tonen"
 
 #: includes/admin/post-types/class-wc-admin-cpt-shop_order.php:91
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:758
 #: includes/admin/settings/class-wc-settings-checkout.php:229
 #: includes/admin/settings/class-wc-settings-shipping.php:205
 msgid "Status"
@@ -2106,7 +2107,7 @@ msgstr "Gebruik beperken per gebruiker"
 msgid "How many times this coupon can be used by an invidual user. Uses billing email for guests, and user ID for logged in users."
 msgstr "Hoevaak deze coupon kan worden gebruikt per individuele gebruiker. Gebruikt factuur e-mail voor gasten, en gebruikers ID voor ingelogde gebruikers."
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-coupon-data.php:230
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-coupon-data.php:231
 msgid "Coupon code already exists - customers will use the latest coupon with this code."
 msgstr "Coupon code bestaat al - klanten zullen de laatst coupon gebruiken met deze code."
 
@@ -2288,7 +2289,7 @@ msgstr "Aantal"
 #: includes/admin/reports/class-wc-report-taxes-by-code.php:116
 #: includes/admin/settings/class-wc-settings-tax.php:25
 #: includes/admin/settings/class-wc-settings-tax.php:550
-#: includes/admin/settings/class-wc-settings-tax.php:643
+#: includes/admin/settings/class-wc-settings-tax.php:647
 msgid "Tax"
 msgstr "Belasting"
 
@@ -2356,6 +2357,7 @@ msgstr "Toevoegen"
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-order-totals.php:31
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-order-totals.php:62
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:95
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:775
 #: includes/admin/settings/class-wc-settings-shipping.php:25
 #: includes/admin/settings/class-wc-settings-tax.php:266
 #: includes/admin/settings/class-wc-settings-tax.php:383
@@ -2412,6 +2414,7 @@ msgid "Downloadable products give access to a file upon purchase."
 msgstr "Downloadbare producten geven toegang tot een bestand na aankoop."
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:90
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:772
 #: includes/admin/settings/class-wc-settings-products.php:41
 msgid "Inventory"
 msgstr "Inventaris"
@@ -2528,7 +2531,7 @@ msgid "Leave blank for unlimited re-downloads."
 msgstr "Laat leeg voor onbeperkt re-downloads."
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:228
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:774
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:783
 msgid "Download Expiry"
 msgstr "Download verval"
 
@@ -2672,7 +2675,7 @@ msgid "Enable this to only allow one of this item to be bought in a single order
 msgstr "Schakel dit in om er voor zorgen dat er slechts één item kan worden gekocht in een bestelling"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:347
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:769
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:779
 #: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:97
 #: includes/admin/views/html-bulk-edit-product.php:103
 #: includes/admin/views/html-quick-edit-product.php:84
@@ -2688,21 +2691,21 @@ msgid "Dimensions"
 msgstr "Afmetingen"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:354
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:770
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:776
 #: includes/admin/views/html-bulk-edit-product.php:143
 #: includes/admin/views/html-quick-edit-product.php:97
 msgid "Length"
 msgstr "Lengte"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:355
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:771
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:777
 #: includes/admin/views/html-bulk-edit-product.php:144
 #: includes/admin/views/html-quick-edit-product.php:98
 msgid "Width"
 msgstr "Breedte"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:356
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:772
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:778
 #: includes/admin/views/html-bulk-edit-product.php:145
 #: includes/admin/views/html-quick-edit-product.php:99
 msgid "Height"
@@ -2810,80 +2813,92 @@ msgstr "Voor het toevoegen van variaties dient u een aantal attributen toe te vo
 msgid "Learn more"
 msgstr "Meer informatie"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:756
-msgid "Bulk edit:"
-msgstr "Bulk bewerken:"
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:757
+msgid "Choose a field to bulk edit&hellip;"
+msgstr "Kies een veld om bulk te bewerken&hellip;"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:758
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:759
 msgid "Toggle &quot;Enabled&quot;"
 msgstr "&quot;Ingeschakeld&quot; omschakelen"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:759
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:760
 msgid "Toggle &quot;Downloadable&quot;"
 msgstr "&quot;Dowloadbaar&quot; omschakelen"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:760
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:761
 msgid "Toggle &quot;Virtual&quot;"
 msgstr "&quot;Virtueel&quot; omschakelen"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:761
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:762
 msgid "Delete all variations"
 msgstr "Verwijder alle variaties"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:762
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:764
+msgid "Pricing"
+msgstr "Prijzen"
+
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:765
 msgid "Prices"
 msgstr "Prijzen"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:763
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:766
 msgid "Prices increase by (fixed amount or %)"
 msgstr "Prijzen verhogen met (vast bedrag of %)"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:764
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:767
 msgid "Prices decrease by (fixed amount or %)"
 msgstr "Prijzen verlagen met (vast bedrag of %)"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:765
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:768
 msgid "Sale prices"
 msgstr "Sale prijzen"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:766
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:769
 msgid "Sale prices increase by (fixed amount or %)"
 msgstr "Sale prijzen verhogen met (vast bedrag of %)"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:767
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:770
 msgid "Sale prices decrease by (fixed amount or %)"
 msgstr "Sale prijzen verlagen met (vast bedrag of %)"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:773
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:781
+msgid "Downloadable products"
+msgstr "Downloadbare producten"
+
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:782
 msgid "Download limit"
 msgstr "Download limiet"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:777
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:787
 #: includes/admin/views/html-report-by-date.php:31
 msgid "Go"
 msgstr "Ga"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:872
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:882
 msgid "Add Variation"
 msgstr "Variatie toevoegen"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:874
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:884
 msgid "Link all variations"
 msgstr "Koppel alle variaties"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:876
-msgid "Default selections:"
-msgstr "Standaard selecties:"
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:886
+msgid "Defaults"
+msgstr "Standaarden"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:889
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:886
+msgid "These are the attributes that will be pre-selected on the frontend."
+msgstr "Dit zijn de attributen die vooraf worden geselecteerd op de frontend."
+
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:899
 msgid "No default"
 msgstr "Geen standaard"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:993
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:1003
 msgid "Product SKU must be unique."
 msgstr "Product SKU moet uniek zijn."
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:1363
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:1373
 msgid "Variation #%s of %s"
 msgstr "Variatie #%s van %s"
 
@@ -3081,6 +3096,7 @@ msgstr "Download verval:"
 #: includes/admin/settings/class-wc-settings-shipping.php:235
 #: includes/admin/views/html-admin-page-status-tools.php:26
 #: includes/admin/views/html-admin-page-status-tools.php:37
+#: includes/admin/views/html-admin-page-status-tools.php:48
 msgid "Enabled"
 msgstr "Ingeschakeld"
 
@@ -4679,10 +4695,18 @@ msgid "Marketing"
 msgstr "Marketing"
 
 #: includes/admin/views/html-admin-page-addons.php:18
+msgid "Acounting"
+msgstr "Administratie"
+
+#: includes/admin/views/html-admin-page-addons.php:19
 msgid "Free"
 msgstr "Gratis"
 
-#: includes/admin/views/html-admin-page-addons.php:33
+#: includes/admin/views/html-admin-page-addons.php:20
+msgid "Third-party"
+msgstr "Derde partij"
+
+#: includes/admin/views/html-admin-page-addons.php:81
 msgid "Our catalog of WooCommerce Extensions can be found on WooThemes.com here: <a href=\"%s\">WooCommerce Extensions Catalog</a>"
 msgstr "Onze catalogus van WooCommerce extensies kan gevonden worden op WooThemes.com: <a href=\"%s\">WooCommerce extensies catalogus</a>"
 
@@ -4943,16 +4967,16 @@ msgstr "Auteur URL"
 msgid "Templates"
 msgstr "Templates"
 
-#: includes/admin/views/html-admin-page-status-report.php:484
+#: includes/admin/views/html-admin-page-status-report.php:486
 msgid "<code>%s</code> version <strong style=\"color:red\">%s</strong> is out of date. The core version is %s"
 msgstr "<code>%s</code> versie <strong style=\"color:red\">%s</strong> is verouderd. De core versie is %s"
 
-#: includes/admin/views/html-admin-page-status-report.php:495
-#: includes/admin/views/html-admin-page-status-report.php:501
+#: includes/admin/views/html-admin-page-status-report.php:497
+#: includes/admin/views/html-admin-page-status-report.php:503
 msgid "Template Overrides"
 msgstr "Template overschrijvingen"
 
-#: includes/admin/views/html-admin-page-status-report.php:502
+#: includes/admin/views/html-admin-page-status-report.php:504
 msgid "No overrides present in theme."
 msgstr "Geen overschrijvingen aanwezig in thema."
 
@@ -4962,22 +4986,30 @@ msgid "Tools"
 msgstr "Tools"
 
 #: includes/admin/views/html-admin-page-status-tools.php:23
+msgid "Shipping Debug Mode"
+msgstr "Verzending debug mode"
+
+#: includes/admin/views/html-admin-page-status-tools.php:29
+msgid "This tool will disable shipping rate caching."
+msgstr "Deze tool zal verzending tarief caching uitschakelen."
+
+#: includes/admin/views/html-admin-page-status-tools.php:34
 msgid "Template Debug Mode"
 msgstr "Template debug mode"
 
-#: includes/admin/views/html-admin-page-status-tools.php:29
+#: includes/admin/views/html-admin-page-status-tools.php:40
 msgid "This tool will disable template overrides for logged-in administrators for debugging purposes."
 msgstr "Deze tool zal template overschrijvingen uitschakelen voor ingelogde beheerders voor debugging doeleinden."
 
-#: includes/admin/views/html-admin-page-status-tools.php:34
+#: includes/admin/views/html-admin-page-status-tools.php:45
 msgid "Remove post types on uninstall"
 msgstr "Verwijder bericht typen tijdens deïnstallatie"
 
-#: includes/admin/views/html-admin-page-status-tools.php:40
+#: includes/admin/views/html-admin-page-status-tools.php:51
 msgid "This tool will delete all product and order post data when uninstalling via Plugins > Delete."
 msgstr "Deze tool zal alle producten en bestellingen bericht data verwijderen bij deïnstallatie via Plugins > Verwijder."
 
-#: includes/admin/views/html-admin-page-status-tools.php:47
+#: includes/admin/views/html-admin-page-status-tools.php:58
 msgid "Save Changes"
 msgstr "Wijzigingen opslaan"
 
