@@ -4,7 +4,7 @@ Plugin Name: WooCommerce (nl)
 Plugin URI: http://www.happywp.com/plugins/woocommerce-nl/
 Description: Extends the WooCommerce plugin and add-ons with the Dutch language: <strong>WooCommerce</strong> 2.1.12 | <strong>WooCommerce EU VAT Number</strong> 1.4 | <strong>WooCommerce Subscribe to Newsletter</strong> 1.0.4 | <strong>WooCommerce Gateway Fees</strong> 1.2.1 | <strong>WooCommerce - Gravity Forms Product Add-Ons</strong> 2.4.2 | <strong>WooCommerce Print Invoices & Delivery Notes</strong> 2.0.2
 
-Version: 1.1.4
+Version: 1.1.5
 Requires at least: 3.0
 
 Author: Pronamic
@@ -84,6 +84,16 @@ class WooCommerceNLPlugin {
 		// Load plugin text domain - WooCommerce Gravity Forms
 		// WooCommerce mixed use of 'wc_gf_addons' and 'wc_gravityforms'
 		load_plugin_textdomain( 'wc_gravityforms', false, $rel_path );
+
+		// Other
+		$locale = apply_filters( 'plugin_locale', get_locale(), 'woocommerce' );
+		$dir    = plugin_dir_path( __FILE__ );
+
+		if ( is_admin() ) {
+			load_textdomain( 'woocommerce', $dir . 'languages/woocommerce/admin-' . $locale . '.mo' );			
+		}
+
+		load_textdomain( 'woocommerce', $dir . 'languages/woocommerce/' . $locale . '.mo' );
 	}
 
 	////////////////////////////////////////////////////////////
@@ -108,11 +118,6 @@ class WooCommerceNLPlugin {
 
 		if ( $this->is_dutch ) {
 			$domains = array(
-				// @see https://github.com/woothemes/woocommerce/tree/v2.0.5
-				'woocommerce'                => array(
-					'i18n/languages/woocommerce-nl_NL.mo'       => 'woocommerce/nl_NL.mo',
-					'i18n/languages/woocommerce-admin-nl_NL.mo' => 'woocommerce/admin-nl_NL.mo'
-				),
 				'wc_eu_vat_number'           => array(
 					'wc_eu_vat_number-nl_NL.mo'                 => 'woocommerce-eu-vat-number/nl_NL.mo'
 				),
