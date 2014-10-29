@@ -1,7 +1,0 @@
-.settings
-.buildpath
-.project
-bin
-
-Gruntfile.js
-node_modules
