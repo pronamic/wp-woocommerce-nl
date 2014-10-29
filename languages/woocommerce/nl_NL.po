@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the 2.2.4 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2014-10-04 09:55:04+0000\n"
+"PO-Revision-Date: 2014-10-29 13:39:39+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12,43 +12,43 @@ msgstr ""
 
 #: i18n/states/MX.php:35
 msgid "Quintana Roo"
-msgstr ""
+msgstr "Quintana Roo"
 
 #: i18n/states/MX.php:36
 msgid "San Luis Potosí"
-msgstr ""
+msgstr "San Luis Potosí"
 
 #: i18n/states/MX.php:37
 msgid "Sinaloa"
-msgstr ""
+msgstr "Sinaloa"
 
 #: i18n/states/MX.php:38
 msgid "Sonora"
-msgstr ""
+msgstr "Sonora"
 
 #: i18n/states/MX.php:39
 msgid "Tabasco"
-msgstr ""
+msgstr "Tabasco"
 
 #: i18n/states/MX.php:40
 msgid "Tamaulipas"
-msgstr ""
+msgstr "Tamaulipas"
 
 #: i18n/states/MX.php:41
 msgid "Tlaxcala"
-msgstr ""
+msgstr "Tlaxcala"
 
 #: i18n/states/MX.php:42
 msgid "Veracruz"
-msgstr ""
+msgstr "Veracruz"
 
 #: i18n/states/MX.php:43
 msgid "Yucatán"
-msgstr ""
+msgstr "Yucatán"
 
 #: i18n/states/MX.php:44
 msgid "Zacatecas"
-msgstr ""
+msgstr "Zacatecas"
 
 #: i18n/states/MY.php:13
 msgid "Johor"
@@ -116,303 +116,303 @@ msgstr "W.P. Putrajaya"
 
 #: i18n/states/NP.php:15
 msgid "Illam"
-msgstr ""
+msgstr "Illam"
 
 #: i18n/states/NP.php:16
 msgid "Jhapa"
-msgstr ""
+msgstr "Jhapa"
 
 #: i18n/states/NP.php:17
 msgid "Panchthar"
-msgstr ""
+msgstr "Panchthar"
 
 #: i18n/states/NP.php:18
 msgid "Taplejung"
-msgstr ""
+msgstr "Taplejung"
 
 #: i18n/states/NP.php:21
 msgid "Bhojpur"
-msgstr ""
+msgstr "Bhojpur"
 
 #: i18n/states/NP.php:22
 msgid "Dhankuta"
-msgstr ""
+msgstr "Dhankuta"
 
 #: i18n/states/NP.php:23
 msgid "Morang"
-msgstr ""
+msgstr "Morang"
 
 #: i18n/states/NP.php:24
 msgid "Sunsari"
-msgstr ""
+msgstr "Sunsari"
 
 #: i18n/states/NP.php:25
 msgid "Sankhuwa"
-msgstr ""
+msgstr "Sankhuwa"
 
 #: i18n/states/NP.php:26
 msgid "Terhathum"
-msgstr ""
+msgstr "Terhathum"
 
 #: i18n/states/NP.php:29
 msgid "Khotang"
-msgstr ""
+msgstr "Khotang"
 
 #: i18n/states/NP.php:30
 msgid "Okhaldhunga"
-msgstr ""
+msgstr "Okhaldhunga"
 
 #: i18n/states/NP.php:31
 msgid "Saptari"
-msgstr ""
+msgstr "Saptari"
 
 #: i18n/states/NP.php:32
 msgid "Siraha"
-msgstr ""
+msgstr "Siraha"
 
 #: i18n/states/NP.php:33
 msgid "Solukhumbu"
-msgstr ""
+msgstr "Solukhumbu"
 
 #: i18n/states/NP.php:34
 msgid "Udayapur"
-msgstr ""
+msgstr "Udayapur"
 
 #: i18n/states/NP.php:37
 msgid "Dhanusa"
-msgstr ""
+msgstr "Dhanusa"
 
 #: i18n/states/NP.php:38
 msgid "Dolakha"
-msgstr ""
+msgstr "Dolakha"
 
 #: i18n/states/NP.php:39
 msgid "Mohottari"
-msgstr ""
+msgstr "Mohottari"
 
 #: i18n/states/NP.php:40
 msgid "Ramechha"
-msgstr ""
+msgstr "Ramechha"
 
 #: i18n/states/NP.php:41
 msgid "Sarlahi"
-msgstr ""
+msgstr "Sarlahi"
 
 #: i18n/states/NP.php:42
 msgid "Sindhuli"
-msgstr ""
+msgstr "Sindhuli"
 
 #: i18n/states/NP.php:45
 msgid "Bhaktapur"
-msgstr ""
+msgstr "Bhaktapur"
 
 #: i18n/states/NP.php:46
 msgid "Dhading"
-msgstr ""
+msgstr "Dhading"
 
 #: i18n/states/NP.php:47
 msgid "Kathmandu"
-msgstr ""
+msgstr "Kathmandu"
 
 #: i18n/states/NP.php:48
 msgid "Kavrepalanchowk"
-msgstr ""
+msgstr "Kavrepalanchowk"
 
 #: i18n/states/NP.php:49
 msgid "Lalitpur"
-msgstr ""
+msgstr "Lalitpur"
 
 #: i18n/states/NP.php:50
 msgid "Nuwakot"
-msgstr ""
+msgstr "Nuwakot"
 
 #: i18n/states/NP.php:51
 msgid "Rasuwa"
-msgstr ""
+msgstr "Rasuwa"
 
 #: i18n/states/NP.php:52
 msgid "Sindhupalchowk"
-msgstr ""
+msgstr "Sindhupalchowk"
 
 #: i18n/states/NP.php:55
 msgid "Bara"
-msgstr ""
+msgstr "Bara"
 
 #: i18n/states/NP.php:56
 msgid "Chitwan"
-msgstr ""
+msgstr "Chitwan"
 
 #: i18n/states/NP.php:57
 msgid "Makwanpur"
-msgstr ""
+msgstr "Makwanpur"
 
 #: i18n/states/NP.php:58
 msgid "Parsa"
-msgstr ""
+msgstr "Parsa"
 
 #: i18n/states/NP.php:59
 msgid "Rautahat"
-msgstr ""
+msgstr "Rautahat"
 
 #: i18n/states/NP.php:62
 msgid "Gorkha"
-msgstr ""
+msgstr "Gorkha"
 
 #: i18n/states/NP.php:63
 msgid "Kaski"
-msgstr ""
+msgstr "Kaski"
 
 #: i18n/states/NP.php:64
 msgid "Lamjung"
-msgstr ""
+msgstr "Lamjung"
 
 #: i18n/states/NP.php:65
 msgid "Manang"
-msgstr ""
+msgstr "Manang"
 
 #: i18n/states/NP.php:66
 msgid "Syangja"
-msgstr ""
+msgstr "Syangja"
 
 #: i18n/states/NP.php:67
 msgid "Tanahun"
-msgstr ""
+msgstr "Tanahun"
 
 #: i18n/states/NP.php:70
 msgid "Baglung"
-msgstr ""
+msgstr "Baglung"
 
 #: i18n/states/NP.php:71
 msgid "Parbat"
-msgstr ""
+msgstr "Parbat"
 
 #: i18n/states/NP.php:72
 msgid "Mustang"
-msgstr ""
+msgstr "Mustang"
 
 #: i18n/states/NP.php:73
 msgid "Myagdi"
-msgstr ""
+msgstr "Myagdi"
 
 #: i18n/states/NP.php:76
 msgid "Agrghakanchi"
-msgstr ""
+msgstr "Agrghakanchi"
 
 #: i18n/states/NP.php:77
 msgid "Gulmi"
-msgstr ""
+msgstr "Gulmi"
 
 #: i18n/states/NP.php:78
 msgid "Kapilbastu"
-msgstr ""
+msgstr "Kapilbastu"
 
 #: i18n/states/NP.php:79
 msgid "Nawalparasi"
-msgstr ""
+msgstr "Nawalparasi"
 
 #: i18n/states/NP.php:80
 msgid "Palpa"
-msgstr ""
+msgstr "Palpa"
 
 #: i18n/states/NP.php:81
 msgid "Rupandehi"
-msgstr ""
+msgstr "Rupandehi"
 
 #: i18n/states/NP.php:84
 msgid "Dang"
-msgstr ""
+msgstr "Dang"
 
 #: i18n/states/NP.php:85
 msgid "Pyuthan"
-msgstr ""
+msgstr "Pyuthan"
 
 #: i18n/states/NP.php:86
 msgid "Rolpa"
-msgstr ""
+msgstr "Rolpa"
 
 #: i18n/states/NP.php:87
 msgid "Rukum"
-msgstr ""
+msgstr "Rukum"
 
 #: i18n/states/NP.php:88
 msgid "Salyan"
-msgstr ""
+msgstr "Salyan"
 
 #: i18n/states/NP.php:91
 msgid "Banke"
-msgstr ""
+msgstr "Banke"
 
 #: i18n/states/NP.php:92
 msgid "Bardiya"
-msgstr ""
+msgstr "Bardiya"
 
 #: i18n/states/NP.php:93
 msgid "Dailekh"
-msgstr ""
+msgstr "Dailekh"
 
 #: i18n/states/NP.php:94
 msgid "Jajarkot"
-msgstr ""
+msgstr "Jajarkot"
 
 #: i18n/states/NP.php:95
 msgid "Surkhet"
-msgstr ""
+msgstr "Surkhet"
 
 #: i18n/states/NP.php:98
 msgid "Dolpa"
-msgstr ""
+msgstr "Dolpa"
 
 #: i18n/states/NP.php:99
 msgid "Humla"
-msgstr ""
+msgstr "Humla"
 
 #: i18n/states/NP.php:100
 msgid "Jumla"
-msgstr ""
+msgstr "Jumla"
 
 #: i18n/states/NP.php:101
 msgid "Kalikot"
-msgstr ""
+msgstr "Kalikot"
 
 #: i18n/states/NP.php:102
 msgid "Mugu"
-msgstr ""
+msgstr "Mugu"
 
 #: i18n/states/NP.php:105
 msgid "Achham"
-msgstr ""
+msgstr "Achham"
 
 #: i18n/states/NP.php:106
 msgid "Bajhang"
-msgstr ""
+msgstr "Bajhang"
 
 #: i18n/states/NP.php:107
 msgid "Bajura"
-msgstr ""
+msgstr "Bajura"
 
 #: i18n/states/NP.php:108
 msgid "Doti"
-msgstr ""
+msgstr "Doti"
 
 #: i18n/states/NP.php:109
 msgid "Kailali"
-msgstr ""
+msgstr "Kailali"
 
 #: i18n/states/NP.php:112
 msgid "Baitadi"
-msgstr ""
+msgstr "Baitadi"
 
 #: i18n/states/NP.php:113
 msgid "Dadeldhura"
-msgstr ""
+msgstr "Dadeldhura"
 
 #: i18n/states/NP.php:114
 msgid "Darchula"
-msgstr ""
+msgstr "Darchula"
 
 #: i18n/states/NP.php:115
 msgid "Kanchanpur"
-msgstr ""
+msgstr "Kanchanpur"
 
 #: i18n/states/NZ.php:13
 msgid "Northland"
@@ -1646,7 +1646,7 @@ msgstr "Bestelling korting:"
 
 #: includes/abstracts/abstract-wc-order.php:1756
 msgid "Payment Method:"
-msgstr ""
+msgstr "Betaalmethode:"
 
 #: includes/abstracts/abstract-wc-order.php:1762
 msgid "Order Total:"
@@ -1723,7 +1723,7 @@ msgstr "Slechts %s resterend in voorraad"
 #: includes/class-wc-product-variation.php:518
 #: includes/class-wc-product-variation.php:528
 msgid "(can be backordered)"
-msgstr ""
+msgstr "(kan worden nabesteld)"
 
 #: includes/abstracts/abstract-wc-product.php:578
 #: includes/class-wc-product-variation.php:525
@@ -1834,7 +1834,7 @@ msgstr "Ongeldige couponcode"
 
 #: includes/api/class-wc-api-coupons.php:200
 msgid "You do not have permission to create coupons"
-msgstr ""
+msgstr "Je hebt geen toestemming om coupons te maken"
 
 #: includes/api/class-wc-api-coupons.php:207
 #: includes/api/class-wc-api-customers.php:341
@@ -1847,21 +1847,21 @@ msgstr "Ontbrekende parameter %s"
 #: includes/api/class-wc-api-coupons.php:222
 #: includes/api/class-wc-api-coupons.php:331
 msgid "The coupon code already exists"
-msgstr ""
+msgstr "De couponcode bestaat al"
 
 #: includes/api/class-wc-api-coupons.php:250
 #: includes/api/class-wc-api-coupons.php:343
 msgid "Invalid coupon type - the coupon type must be any of these: %s"
-msgstr ""
+msgstr "Ongeldig coupon type - de coupon type moet één van deze zijn: %s"
 
 #: includes/api/class-wc-api-coupons.php:336
 msgid "Failed to update coupon"
-msgstr ""
+msgstr "Bijwerken van de coupon mislukt"
 
 #: includes/api/class-wc-api-customers.php:208
 #: includes/api/class-wc-api-customers.php:211
 msgid "Invalid customer Email"
-msgstr ""
+msgstr "Ongeldige klant e-mail"
 
 #: includes/api/class-wc-api-customers.php:229
 #: includes/api/v1/class-wc-api-customers.php:193
@@ -1915,192 +1915,192 @@ msgstr "Je hebt geen rechten om de bestellingen aantallen te lezen"
 
 #: includes/api/class-wc-api-orders.php:344
 msgid "You do not have permission to create orders"
-msgstr ""
+msgstr "Je hebt geen toestemming om bestellingen te maken"
 
 #: includes/api/class-wc-api-orders.php:360
 #: includes/api/class-wc-api-orders.php:496
 msgid "Customer ID is invalid"
-msgstr ""
+msgstr "Klant ID is ongeldig"
 
 #: includes/api/class-wc-api-orders.php:370
 msgid "Cannot create order: %s"
-msgstr ""
+msgstr "Kan geen bestelling maken: %s"
 
 #: includes/api/class-wc-api-orders.php:404
 msgid "Payment method ID and title are required"
-msgstr ""
+msgstr "Betaalmethode ID en titel zijn vereist"
 
 #: includes/api/class-wc-api-orders.php:420
 #: includes/api/class-wc-api-orders.php:567
 msgid "Provided order currency is invalid"
-msgstr ""
+msgstr "Opgegeven bestelling valuta is ongeldig"
 
 #: includes/api/class-wc-api-orders.php:522
 msgid "Order item ID is required"
-msgstr ""
+msgstr "Bestelling item ID is vereist"
 
 #: includes/api/class-wc-api-orders.php:793
 msgid "Order item ID provided is not associated with order"
-msgstr ""
+msgstr "Opgegeven bestelling item ID is niet geassocieerd met bestelling"
 
 #: includes/api/class-wc-api-orders.php:815
 msgid "Product ID is required"
-msgstr ""
+msgstr "Product ID is vereist"
 
 #: includes/api/class-wc-api-orders.php:825
 msgid "Product ID provided does not match this line item"
-msgstr ""
+msgstr "Opgegeven product ID komt niet overeen met deze regel item"
 
 #: includes/api/class-wc-api-orders.php:833
 msgid "Product is invalid"
-msgstr ""
+msgstr "Product is ongeldig"
 
 #: includes/api/class-wc-api-orders.php:838
 msgid "Product quantity must be a positive float"
-msgstr ""
+msgstr "Product aantal moet een positieve waarde hebben"
 
 #: includes/api/class-wc-api-orders.php:843
 msgid "Product quantity is required"
-msgstr ""
+msgstr "Product aantal is vereist"
 
 #: includes/api/class-wc-api-orders.php:857
 msgid "The product variation is invalid"
-msgstr ""
+msgstr "De productvariatie is ongeldig"
 
 #: includes/api/class-wc-api-orders.php:888
 msgid "Cannot create line item, try again"
-msgstr ""
+msgstr "Kan regel item niet aanmaken, probeer het opnieuw"
 
 #: includes/api/class-wc-api-orders.php:896
 msgid "Cannot update line item, try again"
-msgstr ""
+msgstr "Kan item regel niet bijwerken, probeer het opnieuw"
 
 #: includes/api/class-wc-api-orders.php:914
 msgid "Shipping total must be a positive amount"
-msgstr ""
+msgstr "Verzendingtotaal moet een positief bedrag zijn"
 
 #: includes/api/class-wc-api-orders.php:921
 msgid "Shipping method ID is required"
-msgstr ""
+msgstr "Verzendmethode ID is verplicht"
 
 #: includes/api/class-wc-api-orders.php:929
 msgid "Cannot create shipping method, try again"
-msgstr ""
+msgstr "Kan verzendmethode niet aanmaken, probeer het opnieuw"
 
 #: includes/api/class-wc-api-orders.php:951
 msgid "Cannot update shipping method, try again"
-msgstr ""
+msgstr "Kan verzendmethode niet bijwerken, probeer het opnieuw"
 
 #: includes/api/class-wc-api-orders.php:971
 msgid "Fee title is required"
-msgstr ""
+msgstr "Kosten titel is verplicht"
 
 #: includes/api/class-wc-api-orders.php:983
 msgid "Fee tax class is required when fee is taxable"
-msgstr ""
+msgstr "Belastingkosten klasse is verplicht wanneer kosten belastbaar zijn"
 
 #: includes/api/class-wc-api-orders.php:994
 msgid "Cannot create fee, try again"
-msgstr ""
+msgstr "Kan kosten niet aanmaken, probeer het opnieuw"
 
 #: includes/api/class-wc-api-orders.php:1020
 msgid "Cannot update fee, try again"
-msgstr ""
+msgstr "Kan kosten niet bijwerken, probeer het opnieuw"
 
 #: includes/api/class-wc-api-orders.php:1038
 msgid "Coupon discount total must be a positive amount"
-msgstr ""
+msgstr "Coupon kortingstotaal moet een positief getal zijn"
 
 #: includes/api/class-wc-api-orders.php:1045
 msgid "Coupon code is required"
-msgstr ""
+msgstr "Couponcode is verplicht"
 
 #: includes/api/class-wc-api-orders.php:1051
 msgid "Cannot create coupon, try again"
-msgstr ""
+msgstr "Kan coupon niet aanmaken, probeer het opnieuw"
 
 #: includes/api/class-wc-api-orders.php:1069
 msgid "Cannot update coupon, try again"
-msgstr ""
+msgstr "Kan coupon niet bijwerken, probeer het opnieuw"
 
 #: includes/api/class-wc-api-orders.php:1134
 #: includes/api/class-wc-api-orders.php:1228
 #: includes/api/class-wc-api-orders.php:1287
 msgid "Invalid order note ID"
-msgstr ""
+msgstr "Ongeldige bestelling notitie ID"
 
 #: includes/api/class-wc-api-orders.php:1140
 #: includes/api/class-wc-api-orders.php:1235
 #: includes/api/class-wc-api-orders.php:1294
 msgid "An order note with the provided ID could not be found"
-msgstr ""
+msgstr "Er kon geen bestelling notitie met het opgegeven ID gevonden worden"
 
 #: includes/api/class-wc-api-orders.php:1167
 msgid "You do not have permission to create order notes"
-msgstr ""
+msgstr "Je hebt geen rechten om bestelling notities aan te maken"
 
 #: includes/api/class-wc-api-orders.php:1173
 #: includes/api/class-wc-api-orders.php:1447
 msgid "Order ID is invalid"
-msgstr ""
+msgstr "Bestelling ID is ongeldig"
 
 #: includes/api/class-wc-api-orders.php:1182
 msgid "Order note is required"
-msgstr ""
+msgstr "Bestelling notitie is verplicht"
 
 #: includes/api/class-wc-api-orders.php:1191
 msgid "Cannot create order note, please try again"
-msgstr ""
+msgstr "Kan bestelling notitie niet aanmaken, probeer het opnieuw"
 
 #: includes/api/class-wc-api-orders.php:1240
 #: includes/api/class-wc-api-orders.php:1299
 msgid "The order note ID provided is not associated with the order"
-msgstr ""
+msgstr "Het opgegeven bestelling notitie ID is niet geassocieerd met de bestelling"
 
 #: includes/api/class-wc-api-orders.php:1309
 msgid "Permanently deleted order note"
-msgstr ""
+msgstr "Bestelling notitie permanent verwijderd"
 
 #: includes/api/class-wc-api-orders.php:1313
 msgid "This order note cannot be deleted"
-msgstr ""
+msgstr "Deze bestelling notitie kan niet worden verwijderd"
 
 #: includes/api/class-wc-api-orders.php:1372
 #: includes/api/class-wc-api-orders.php:1520
 #: includes/api/class-wc-api-orders.php:1576
 msgid "Invalid order refund ID"
-msgstr ""
+msgstr "Ongeldige bestelling terugbetaling ID"
 
 #: includes/api/class-wc-api-orders.php:1379
 #: includes/api/class-wc-api-orders.php:1527
 #: includes/api/class-wc-api-orders.php:1583
 msgid "An order refund with the provided ID could not be found"
-msgstr ""
+msgstr "Er kon geen bestelling terugbetaling met het opgegeven ID gevonden worden"
 
 #: includes/api/class-wc-api-orders.php:1441
 msgid "You do not have permission to create order refunds"
-msgstr ""
+msgstr "Je hebt geen rechten om bestelling terugbetalingen aan te maken"
 
 #: includes/api/class-wc-api-orders.php:1454
 msgid "Refund amount is required"
-msgstr ""
+msgstr "Bedrag voor terugbetaling is verplicht"
 
 #: includes/api/class-wc-api-orders.php:1456
 msgid "Refund amount must be positive"
-msgstr ""
+msgstr "Bedrag voor terugbetaling moet positief zijn"
 
 #: includes/api/class-wc-api-orders.php:1466
 msgid "Cannot create order refund, please try again"
-msgstr ""
+msgstr "Kan geen bestelling terugbetaling aanmaken, probeer het opnieuw"
 
 #: includes/api/class-wc-api-orders.php:1483
 msgid "An error occurred while attempting to create the refund using the payment gateway API"
-msgstr ""
+msgstr "Er is een fout ontstaan tijdens het maken van een terugbetaling bij het gebruik van de betalingsgateway API."
 
 #: includes/api/class-wc-api-orders.php:1532
 #: includes/api/class-wc-api-orders.php:1588
 msgid "The order refund ID provided is not associated with the order"
-msgstr ""
+msgstr "Het opgegeven bestelling terugbetaling ID is niet geassocieerd met deze bestelling"
 
 #: includes/api/class-wc-api-products.php:159
 #: includes/api/v1/class-wc-api-products.php:141
@@ -2109,30 +2109,30 @@ msgstr "Je hebt geen rechten om de producten aantallen te lezen"
 
 #: includes/api/class-wc-api-products.php:180
 msgid "You do not have permission to create products"
-msgstr ""
+msgstr "Je hebt geen rechten om producten aan te maken."
 
 #: includes/api/class-wc-api-products.php:197
 #: includes/api/class-wc-api-products.php:293
 msgid "Invalid product type - the product type must be any of these: %s"
-msgstr ""
+msgstr "Ongeldige product type - het product type moet één van deze zijn: %s"
 
 #: includes/api/class-wc-api-products.php:401
 #: includes/api/class-wc-api-products.php:435
 msgid "You do not have permission to read product categories"
-msgstr ""
+msgstr "Je hebt geen rechten om productcategorieën te bekijken."
 
 #: includes/api/class-wc-api-products.php:430
 msgid "Invalid product category ID"
-msgstr ""
+msgstr "Ongeldige product categorie ID"
 
 #: includes/api/class-wc-api-products.php:441
 msgid "A product category with the provided ID could not be found"
-msgstr ""
+msgstr "Een product categorie met het opgegeven ID kon niet worden gevonden"
 
 #: includes/api/class-wc-api-products.php:691
 #: includes/api/class-wc-api-products.php:1132
 msgid "The SKU already exists on another product"
-msgstr ""
+msgstr "Deze SKU bestaat al voor een ander product"
 
 #: includes/api/class-wc-api-products.php:1085 includes/class-wc-emails.php:334
 #: includes/class-wc-emails.php:366 includes/class-wc-emails.php:410
@@ -2150,15 +2150,15 @@ msgstr "Placeholder"
 
 #: includes/api/class-wc-api-products.php:1603
 msgid "Invalid URL %s"
-msgstr ""
+msgstr "Ongeldige URL %s"
 
 #: includes/api/class-wc-api-products.php:1615
 msgid "Error getting remote image %s"
-msgstr ""
+msgstr "Fout bij het verkrijgen van externe afbeelding %s"
 
 #: includes/api/class-wc-api-products.php:1644
 msgid "Zero size file downloaded"
-msgstr ""
+msgstr "Nul bestandsgrootte gedownload"
 
 #: includes/api/class-wc-api-reports.php:471
 #: includes/api/v1/class-wc-api-reports.php:470
@@ -2237,40 +2237,40 @@ msgstr "Geen route gevonden die overeenkwam kwam met de URL en verzoekmethode"
 
 #: includes/api/class-wc-api-webhooks.php:147
 msgid "You do not have permission to read the webhooks count"
-msgstr ""
+msgstr "Je hebt geen rechten om het aantal webhooks te lezen"
 
 #: includes/api/class-wc-api-webhooks.php:168
 msgid "You do not have permission to create webhooks"
-msgstr ""
+msgstr "Je hebt geen rechten om webhooks aan te maken"
 
 #: includes/api/class-wc-api-webhooks.php:175
 msgid "Webhook topic is required and must be valid"
-msgstr ""
+msgstr "Webhook onderwerp is verplicht en moet geldig zijn"
 
 #: includes/api/class-wc-api-webhooks.php:180
 #: includes/api/class-wc-api-webhooks.php:266
 msgid "Webhook delivery URL must be a valid URL starting with http:// or https://"
-msgstr ""
+msgstr "Webhook aflevering URL moet een geldige URL zijn startend met http:// of https://"
 
 #: includes/api/class-wc-api-webhooks.php:189
 msgid "Webhook created on %s"
-msgstr ""
+msgstr "Webhook aangemaakt op %s"
 
 #: includes/api/class-wc-api-webhooks.php:195
 msgid "Cannot create webhook: %s"
-msgstr ""
+msgstr "Kan webhook niet aanmaken: %s"
 
 #: includes/api/class-wc-api-webhooks.php:255
 msgid "Webhook topic must be valid"
-msgstr ""
+msgstr "Webhook onderwerp moet geldig zijn"
 
 #: includes/api/class-wc-api-webhooks.php:479
 msgid "Invalid webhook delivery ID"
-msgstr ""
+msgstr "Ongeldige webhook aflevering ID"
 
 #: includes/api/class-wc-api-webhooks.php:487
 msgid "Invalid webhook delivery"
-msgstr ""
+msgstr "Ongeldige webhook aflevering"
 
 #: includes/class-wc-ajax.php:164
 msgid "Sorry, your session has expired."
@@ -2300,15 +2300,15 @@ msgstr "Standaard"
 
 #: includes/class-wc-ajax.php:621
 msgid "Do not allow"
-msgstr ""
+msgstr "Sta niet toe"
 
 #: includes/class-wc-ajax.php:622
 msgid "Allow, but notify customer"
-msgstr ""
+msgstr "Sta toe, maar breng klant op de hoogte"
 
 #: includes/class-wc-ajax.php:623
 msgid "Allow"
-msgstr ""
+msgstr "Toestaan"
 
 #: includes/class-wc-ajax.php:902
 msgid "File %d"
@@ -2347,11 +2347,11 @@ msgstr "Gast"
 
 #: includes/class-wc-ajax.php:1842
 msgid "Invalid refund amount"
-msgstr ""
+msgstr "Ongeldig terugbetaling bedrag"
 
 #: includes/class-wc-ajax.php:1897
 msgid "Refund failed"
-msgstr ""
+msgstr "Terugbetaling mislukt"
 
 #: includes/class-wc-cache-helper.php:137
 msgid "In order for <strong>database caching</strong> to work with WooCommerce you must add <code>_wc_session_</code> to the \"Ignored Query Strings\" option in W3 Total Cache settings <a href=\"%s\">here</a>."
@@ -2428,7 +2428,7 @@ msgstr "Bestelling opmerkingen"
 #: includes/class-wc-checkout.php:248 includes/class-wc-checkout.php:259
 #: includes/class-wc-checkout.php:266
 msgid "Error: Unable to create order. Please try again."
-msgstr ""
+msgstr "Fout: Kan bestelling niet aanmaken. Probeer het opnieuw."
 
 #: includes/class-wc-checkout.php:344
 msgid "Sorry, your session has expired. <a href=\"%s\" class=\"wc-backward\">Return to homepage</a>"
@@ -2461,7 +2461,7 @@ msgstr "U moet akkoord gaan met onze algemene voorwaarden."
 
 #: includes/class-wc-checkout.php:513
 msgid "Unfortunately <strong>we do not ship %s</strong>. Please enter an alternative shipping address."
-msgstr ""
+msgstr "Helaas <strong>wij verzenden niet %s</strong>. Vul een alternatief verzendadres in."
 
 #: includes/class-wc-checkout.php:521
 msgid "Invalid shipping method."
@@ -2546,7 +2546,7 @@ msgstr "Postcode"
 
 #: includes/class-wc-countries.php:597
 msgid "Suburb"
-msgstr ""
+msgstr "Voorstad"
 
 #: includes/class-wc-countries.php:600 includes/class-wc-countries.php:844
 msgid "Postcode"
@@ -2590,7 +2590,7 @@ msgstr "Provincie"
 
 #: includes/class-wc-countries.php:745
 msgid "Prefecture"
-msgstr ""
+msgstr "Prefectuur"
 
 #: includes/class-wc-countries.php:836
 msgid "Zip"
@@ -2650,7 +2650,7 @@ msgstr "De minimale uitgave voor deze coupon is %s."
 
 #: includes/class-wc-coupon.php:660
 msgid "The maximum spend for this coupon is %s."
-msgstr ""
+msgstr "De maximale uitgave voor deze coupon is %s."
 
 #: includes/class-wc-coupon.php:663
 msgid "Sorry, this coupon is not applicable to your cart contents."
@@ -2778,15 +2778,15 @@ msgstr "Dit e-mailadres is al geregistreerd."
 
 #: includes/class-wc-form-handler.php:187
 msgid "Your current password is incorrect."
-msgstr ""
+msgstr "Je huidige wachtwoord is fout."
 
 #: includes/class-wc-form-handler.php:192
 msgid "Please fill out all password fields."
-msgstr ""
+msgstr "Vul alle wachtwoord velden in."
 
 #: includes/class-wc-form-handler.php:196
 msgid "Please enter your current password."
-msgstr ""
+msgstr "Vul je huidige wachtwoord in."
 
 #: includes/class-wc-form-handler.php:200
 msgid "Please re-enter your password."
@@ -2910,11 +2910,11 @@ msgstr "Winkel manager"
 
 #: includes/class-wc-install.php:701
 msgid "View WooCommerce Settings"
-msgstr ""
+msgstr "Bekijk WooCommerce instellingen"
 
 #: includes/class-wc-install.php:718
 msgid "View WooCommerce Documentation"
-msgstr ""
+msgstr "Bekijk WooCommerce documentatie"
 
 #: includes/class-wc-install.php:718
 msgid "Docs"
@@ -2922,15 +2922,15 @@ msgstr "Documentatie"
 
 #: includes/class-wc-install.php:719
 msgid "View WooCommerce API Docs"
-msgstr ""
+msgstr "Bekijk WooCommerce API-documentatie"
 
 #: includes/class-wc-install.php:719
 msgid "API Docs"
-msgstr ""
+msgstr "API-documentatie"
 
 #: includes/class-wc-install.php:720
 msgid "Visit Premium Customer Support Forum"
-msgstr ""
+msgstr "Bezoek premium klant support forum"
 
 #: includes/class-wc-install.php:720
 msgid "Premium Support"
@@ -3012,23 +3012,23 @@ msgstr "Nieuwe product tag naam"
 
 #: includes/class-wc-post-types.php:104
 msgid "Popular Product Tags"
-msgstr ""
+msgstr "Populaire product tags"
 
 #: includes/class-wc-post-types.php:105
 msgid "Separate Product Tags with commas"
-msgstr ""
+msgstr "Product tags scheiden met komma's"
 
 #: includes/class-wc-post-types.php:106
 msgid "Add or remove Product Tags"
-msgstr ""
+msgstr "Product tags toevoegen of verwijderen"
 
 #: includes/class-wc-post-types.php:107
 msgid "Choose from the most used Product tags"
-msgstr ""
+msgstr "Kies uit de meest gebruikte product tags"
 
 #: includes/class-wc-post-types.php:108
 msgid "No Product Tags found"
-msgstr ""
+msgstr "Geen product tags gevonden"
 
 #: includes/class-wc-post-types.php:130 includes/class-wc-post-types.php:132
 msgid "Shipping Classes"
@@ -3219,7 +3219,7 @@ msgstr "Hier worden de winkel bestellingen opgeslagen."
 
 #: includes/class-wc-post-types.php:311
 msgid "Refunds"
-msgstr ""
+msgstr "Terugbetalingen"
 
 #: includes/class-wc-post-types.php:330
 msgid "Coupons"
@@ -3275,49 +3275,49 @@ msgstr "Hier kunt u nieuwe coupons toevoegen waar klanten gebruik van kunnen mak
 
 #: includes/class-wc-post-types.php:367
 msgid "Webhooks"
-msgstr ""
+msgstr "Webhooks"
 
 #: includes/class-wc-post-types.php:396
 msgid "Pending payment <span class=\"count\">(%s)</span>"
 msgid_plural "Pending payment <span class=\"count\">(%s)</span>"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Betaling in afwachting <span class=\"count\">(%s)</span>"
+msgstr[1] "Betaling in afwachting <span class=\"count\">(%s)</span>"
 
 #: includes/class-wc-post-types.php:404
 msgid "Processing <span class=\"count\">(%s)</span>"
 msgid_plural "Processing <span class=\"count\">(%s)</span>"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "In verwerking <span class=\"count\">(%s)</span>"
+msgstr[1] "In verwerking <span class=\"count\">(%s)</span>"
 
 #: includes/class-wc-post-types.php:412
 msgid "On hold <span class=\"count\">(%s)</span>"
 msgid_plural "On hold <span class=\"count\">(%s)</span>"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "In afwachting <span class=\"count\">(%s)</span>"
+msgstr[1] "In afwachting <span class=\"count\">(%s)</span>"
 
 #: includes/class-wc-post-types.php:420
 msgid "Completed <span class=\"count\">(%s)</span>"
 msgid_plural "Completed <span class=\"count\">(%s)</span>"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Voltooid <span class=\"count\">(%s)</span>"
+msgstr[1] "Voltooid <span class=\"count\">(%s)</span>"
 
 #: includes/class-wc-post-types.php:428
 msgid "Cancelled <span class=\"count\">(%s)</span>"
 msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Geannuleerd <span class=\"count\">(%s)</span>"
+msgstr[1] "Geannuleerd <span class=\"count\">(%s)</span>"
 
 #: includes/class-wc-post-types.php:436
 msgid "Refunded <span class=\"count\">(%s)</span>"
 msgid_plural "Refunded <span class=\"count\">(%s)</span>"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Terugbetaald <span class=\"count\">(%s)</span>"
+msgstr[1] "Terugbetaald <span class=\"count\">(%s)</span>"
 
 #: includes/class-wc-post-types.php:444
 msgid "Failed <span class=\"count\">(%s)</span>"
 msgid_plural "Failed <span class=\"count\">(%s)</span>"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Mislukt <span class=\"count\">(%s)</span>"
+msgstr[1] "Mislukt <span class=\"count\">(%s)</span>"
 
 #: includes/class-wc-product-external.php:86
 msgid "Buy product"
@@ -3828,7 +3828,7 @@ msgstr "Logboek inschakelen"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:159
 msgid "Log PayPal events, such as IPN requests, inside <code>%s</code>"
-msgstr ""
+msgstr "Log PayPal evenementen, zoals IPN-verzoeken, binnen <code>%s</code>"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:162
 msgid "Shipping options"
@@ -3860,7 +3860,7 @@ msgstr "PayPal verifieert adressen daarom kan deze instelling fouten veroorzaken
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:181
 msgid "Advanced options"
-msgstr ""
+msgstr "Geavanceerde opties"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:186
 msgid "Receiver Email"
@@ -3868,7 +3868,7 @@ msgstr "Ontvanger e-mailadres"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:188
 msgid "If your main PayPal email differs from the PayPal email entered above, input your main receiver email for your PayPal account here. This is used to validate IPN requests."
-msgstr ""
+msgstr "Als je standaard PayPal e-mailadres verschilt met bovenstaande PayPal e-mailadres, vul je standaard ontvanger e-mailadres voor je PayPal-account hier in. Dit wordt gebruikt om IPN-verzoeken te valideren."
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:194
 msgid "Invoice Prefix"
@@ -3920,29 +3920,29 @@ msgstr "Schakel optioneel \"Overdracht van betaalgegevens\" (Profiel > Verkoopvo
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:228
 msgid "API Credentials"
-msgstr ""
+msgstr "API-verificatiegegevens"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:230
 msgid "Enter your PayPal API credentials to process refunds via PayPal. Learn how to access your PayPal API Credentials %shere%s."
-msgstr ""
+msgstr "Voer je PayPal API-verificatiegegevens in om terugbetalingen via PayPal te kunnen doen. Leer %shier%s hoe toegang te krijgen tot je PayPal-verificatiegegevens."
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:233
 msgid "API Username"
-msgstr ""
+msgstr "API-gebruikersnaam"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:235
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:243
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:251
 msgid "Get your API credentials from PayPal."
-msgstr ""
+msgstr "Haal je API-verificatiegegevens uit PayPal."
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:241
 msgid "API Password"
-msgstr ""
+msgstr "API-wachtwoord"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:249
 msgid "API Signature"
-msgstr ""
+msgstr "API-handtekening"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:385
 msgid "Shipping via"
@@ -3966,11 +3966,11 @@ msgstr "Bestelling annuleren &amp; winkelwagen herstellen"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:617
 msgid "Empty Paypal response."
-msgstr ""
+msgstr "Lege PayPal reactie."
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:625
 msgid "Refunded %s - Refund ID: %s"
-msgstr ""
+msgstr "Terugbetaald %s - Terugbetaling ID: %s"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:640
 msgid "Thank you - your order is now pending payment. You should be automatically redirected to PayPal to make payment."
@@ -4038,173 +4038,173 @@ msgstr "PDT-betaling afgerond"
 #: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:131
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:277
 msgid "Please make sure your card details have been entered correctly and that your browser supports JavaScript."
-msgstr ""
+msgstr "Zorg er voor dat je kaart details correct zijn ingevuld en dat je browser JavaScript ondersteund."
 
 #: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:50
 #: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:134
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:280
 msgid "Developers: Please make sure that you're including jQuery and there are no JavaScript errors on the page."
-msgstr ""
+msgstr "Ontwikkelaars: Zorg er voor dat je jQuery invoegt en dat er geen JavaScript fouten op de pagina zijn."
 
 #: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:70
 #: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:154
 msgid "Error creating user in Simplify Commerce."
-msgstr ""
+msgstr "Fout bij gebruiker aanmaken in Simplify Commerce."
 
 #: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:125
 #: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:228
 msgid "Sorry, the minimum allowed order total is 0.50 to use this payment method."
-msgstr ""
+msgstr "Sorry, om deze betaalmethode te gebruiken moet het bestelling totaal minimaal 0,50 zijn."
 
 #: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:225
 msgid "%s - Subscription for \"%s\""
-msgstr ""
+msgstr "%s - Inschrijving voor \"%s\""
 
 #: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:225
 #: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:328
 msgid "(Order %s)"
-msgstr ""
+msgstr "(Bestelling %s)"
 
 #: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:234
 #: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:333
 msgid "Customer not found"
-msgstr ""
+msgstr "Klant niet gevonden"
 
 #: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:257
 #: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:356
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:305
 msgid "Simplify payment approved (ID: %s, Auth Code: %s)"
-msgstr ""
+msgstr "Simplify betaling goedgekeurd (ID: %s, Auth Code: %s)"
 
 #: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:261
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:316
 msgid "Simplify payment declined"
-msgstr ""
+msgstr "Simplify betaling afgewezen"
 
 #: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:263
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:318
 msgid "Payment was declined - please try another card."
-msgstr ""
+msgstr "Betaling is afgewezen - probeer een andere kaart."
 
 #: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:328
 msgid "%s - Pre-order for \"%s\""
-msgstr ""
+msgstr "%s - Voorbestelling voor \"%s\""
 
 #: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:358
 msgid "Payment was declined - the customer need to try another card."
-msgstr ""
+msgstr "Betaling was afgewezen - de klant moet een andere kaart proberen."
 
 #: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:361
 msgid "Simplify Transaction Failed (%s)"
-msgstr ""
+msgstr "Simplify transactie mislukt (%s)"
 
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:23
 msgid "Simplify Commerce"
-msgstr ""
+msgstr "Simplify Commerce"
 
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:24
 msgid "Take payments via Simplify Commerce - uses simplify.js to create card tokens and the Simplify Commerce SDK. Requires SSL when sandbox is disabled."
-msgstr ""
+msgstr "Ontvang betalingen via Simplify Commerce - gebruikt simplify.js om kaart tokens te maken en het Simplify Commerce SDK. Vereist SSL wanneer de sandbox is uitgeschakeld."
 
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:86
 msgid "Simplify Commerce by Mastercard"
-msgstr ""
+msgstr "Simplify Commerce van Mastercard"
 
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:91
 msgid "Getting started"
-msgstr ""
+msgstr "Aan de slag"
 
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:92
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:98
 msgid "Simplify Commerce is your merchant account and payment gateway all rolled into one. Choose Simplify Commerce as your WooCommerce payment gateway to get access to your money quickly with a powerful, secure payment engine backed by MasterCard."
-msgstr ""
+msgstr "Simplify Commerce is je merchant account en betalingsgateway in één. Kies Simplify Commerce als je WooCommerce betalingsgateway om snel toegang te krijgen tot je geld met een krachtige, veilige betaalengine ondersteund door MasterCard."
 
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:94
 msgid "Sign up for Simplify Commerce"
-msgstr ""
+msgstr "Aanmelden voor Simplify Commerce"
 
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:94
 msgid "Learn more"
-msgstr ""
+msgstr "Leer meer"
 
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:131
 msgid "Simplify Commerce Error: Simplify commerce requires PHP 5.3 and above. You are using version %s."
-msgstr ""
+msgstr "Simplify Commerce fout: Simplify commerce vereist PHP 5.3 of hoger. Je gebruikt versie %s."
 
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:136
 msgid "Simplify Commerce Error: Please enter your public and private keys"
-msgstr ""
+msgstr "Simplify Commerce fout: Vul je publieke en privé sleutels in."
 
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:141
 msgid "Simplify Commerce is enabled, but the <a href=\"%s\">force SSL option</a> is disabled; your checkout may not be secure! Please enable SSL and ensure your server has a valid SSL certificate - Simplify Commerce will only work in sandbox mode."
-msgstr ""
+msgstr "Simplify Commerce is ingeschakeld, maar de <a href=\"%s\">forceer SSL-optie</a> staat uit; het afrekenen kan onveilig zijn! Schakel SSL in en zorg dat je server een geldig SSL-certificaat heeft - Simplify Commerce werkt alleen in sandbox modus."
 
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:171
 msgid "Enable Simplify Commerce"
-msgstr ""
+msgstr "Simplify Commerce inschakelen"
 
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:180
 msgid "Credit card"
-msgstr ""
+msgstr "Creditcard"
 
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:191
 msgid "Sandbox"
-msgstr ""
+msgstr "Sandbox"
 
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:192
 msgid "Enable Sandbox Mode"
-msgstr ""
+msgstr "Sandbox modus inschakelen"
 
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:194
 msgid "Place the payment gateway in sandbox mode using sandbox API keys (real payments will not be taken)."
-msgstr ""
+msgstr "Plaats de payment gateway in sandbox modus door de sandbox API-sleutel ste gebruiken (er worden geen echte betalingen gedaan)."
 
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:198
 msgid "Sandbox Public Key"
-msgstr ""
+msgstr "Sandbox publieke sleutel"
 
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:200
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:207
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:214
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:221
 msgid "Get your API keys from your Simplify account: Settings > API Keys."
-msgstr ""
+msgstr "Je kunt je API-sleutels vinden in je Simplify account: Instellingen > API-sleutels."
 
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:205
 msgid "Sandbox Private Key"
-msgstr ""
+msgstr "Sandbox privé sleutel"
 
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:212
 msgid "Public Key"
-msgstr ""
+msgstr "Publieke sleutel"
 
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:219
 msgid "Private Key"
-msgstr ""
+msgstr "Privé sleutel"
 
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:235
 msgid "TEST MODE ENABLED. Use a test card: %s"
-msgstr ""
+msgstr "TEST MODUS INGESCHAKELD. Gebruik een testkaart: %s"
 
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:260
 msgid "Expiry Month"
-msgstr ""
+msgstr "Vervalmaand"
 
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:261
 msgid "Expiry Year"
-msgstr ""
+msgstr "Vervaljaar"
 
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:262
 msgid "is invalid"
-msgstr ""
+msgstr "is ongeldig"
 
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:289
 msgid "%s - Order %s"
-msgstr ""
+msgstr "%s - Bestelling %s"
 
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:360
 msgid "Refund was declined."
-msgstr ""
+msgstr "Terugbetaling is afgewezen."
 
 #: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:25
 #: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:84
@@ -4666,11 +4666,11 @@ msgstr "Bestelling &ndash; %s"
 
 #: includes/wc-core-functions.php:78
 msgid "Invalid order status"
-msgstr ""
+msgstr "Ongeldige bestelling status"
 
 #: includes/wc-core-functions.php:121
 msgid "Invalid order ID"
-msgstr ""
+msgstr "Ongeldige bestelling ID"
 
 #: includes/wc-core-functions.php:249 tests/unit-tests/core-functions.php:28
 msgid "United Arab Emirates Dirham"
@@ -4718,7 +4718,7 @@ msgstr "Deense kroon"
 
 #: includes/wc-core-functions.php:260 tests/unit-tests/core-functions.php:39
 msgid "Dominican Peso"
-msgstr ""
+msgstr "Dominicaanse Peso"
 
 #: includes/wc-core-functions.php:261 tests/unit-tests/core-functions.php:40
 msgid "Euros"
@@ -4750,7 +4750,7 @@ msgstr "Indiase roepie"
 
 #: includes/wc-core-functions.php:268 tests/unit-tests/core-functions.php:47
 msgid "Nepali Rupee"
-msgstr ""
+msgstr "Nepalese Rupee"
 
 #: includes/wc-core-functions.php:269 tests/unit-tests/core-functions.php:48
 msgid "Israeli Shekel"
@@ -4762,7 +4762,7 @@ msgstr "Japanse yen"
 
 #: includes/wc-core-functions.php:271 tests/unit-tests/core-functions.php:50
 msgid "Lao Kip"
-msgstr ""
+msgstr "Laotiaanse Kip"
 
 #: includes/wc-core-functions.php:272 tests/unit-tests/core-functions.php:51
 msgid "South Korean Won"
@@ -4790,7 +4790,7 @@ msgstr "Nieuw-Zeelandse dollar"
 
 #: includes/wc-core-functions.php:278 tests/unit-tests/core-functions.php:57
 msgid "Paraguayan Guaraní"
-msgstr ""
+msgstr "Paraguayaanse Guaraní"
 
 #: includes/wc-core-functions.php:279 tests/unit-tests/core-functions.php:58
 msgid "Philippine Pesos"
@@ -4850,7 +4850,7 @@ msgstr "Vietnamese Dong"
 
 #: includes/wc-core-functions.php:293 tests/unit-tests/core-functions.php:72
 msgid "Egyptian Pound"
-msgstr ""
+msgstr "Egyptische Pond"
 
 #: includes/wc-coupon-functions.php:22 tests/unit-tests/coupon-functions.php:17
 msgid "Cart Discount"
@@ -4870,11 +4870,11 @@ msgstr "Product % korting"
 
 #: includes/wc-deprecated-functions.php:709
 msgid "The shop_order_status taxonomy is no more in WooCommerce 2.2! You should use the new WooCommerce post_status instead, <a href=\"%s\">read more...</a>"
-msgstr ""
+msgstr "De stop_order_status taxonomie zit niet meer in WooCommerce 2.2! Gebruik hiervoor de nieuwe WooCommerce post_status,  <a href=\"%s\">lees meer...</a>"
 
 #: includes/wc-deprecated-functions.php:713
 msgid "The \"publish\" order status is no more in WooCommerce 2.2! You should use the new WooCommerce post_status instead, <a href=\"%s\">read more...</a>"
-msgstr ""
+msgstr "De \"publish\" bestelling status zit niet meer in WooCommerce 2.2! Gebruik hiervoor de nieuwe WooCommerce post_status,  <a href=\"%s\">lees meer...</a>"
 
 #: includes/wc-order-functions.php:481
 msgid "Unpaid order cancelled - time limit reached."
@@ -4882,23 +4882,23 @@ msgstr "Onbetaalde bestelling geannuleerd - tijd limiet bereikt."
 
 #: includes/wc-order-functions.php:576
 msgid "Refund &ndash; %s"
-msgstr ""
+msgstr "Terugbetaling &ndash; %s"
 
 #: includes/wc-product-functions.php:492
 msgid "Simple product"
-msgstr ""
+msgstr "Eenvoudig product"
 
 #: includes/wc-product-functions.php:493
 msgid "Grouped product"
-msgstr ""
+msgstr "Gegroepeerd product"
 
 #: includes/wc-product-functions.php:494
 msgid "External/Affiliate product"
-msgstr ""
+msgstr "Extern/affiliate product"
 
 #: includes/wc-product-functions.php:495
 msgid "Variable product"
-msgstr ""
+msgstr "Variabel product"
 
 #: includes/wc-template-functions.php:120
 msgid "New products"
@@ -5794,19 +5794,19 @@ msgstr "E-mailadres"
 
 #: templates/myaccount/form-edit-account.php:35
 msgid "Password Change"
-msgstr ""
+msgstr "Wachtwoord wijziging"
 
 #: templates/myaccount/form-edit-account.php:38
 msgid "Current Password (leave blank to leave unchanged)"
-msgstr ""
+msgstr "Huidig wachtwoord (laat leeg om ongewijzigd te laten)"
 
 #: templates/myaccount/form-edit-account.php:42
 msgid "New Password (leave blank to leave unchanged)"
-msgstr ""
+msgstr "Nieuw wachtwoord (laat leeg om ongewijzigd te laten)"
 
 #: templates/myaccount/form-edit-account.php:46
 msgid "Confirm New Password"
-msgstr ""
+msgstr "Bevestig nieuw wachtwoord"
 
 #: templates/myaccount/form-edit-account.php:56
 msgid "Save changes"
@@ -6138,7 +6138,7 @@ msgstr "http://woothemes.com"
 #: i18n/states/US.php:23
 msgctxt "US state of Georgia"
 msgid "Georgia"
-msgstr ""
+msgstr "Georgia"
 
 #: includes/abstracts/abstract-wc-order.php:871
 msgctxt "hash before order number"
@@ -6153,7 +6153,7 @@ msgstr "Vanaf:"
 #: includes/api/class-wc-api-webhooks.php:189
 msgctxt "Webhook created on date parsed by strftime"
 msgid "%b %d, %Y @ %I:%M %p"
-msgstr ""
+msgstr "%e %b %Y @ %I:%M"
 
 #: includes/class-wc-checkout.php:98
 msgctxt "placeholder"
@@ -6193,7 +6193,7 @@ msgstr "winkelwagen"
 #: includes/class-wc-install.php:235
 msgctxt "Page slug"
 msgid "checkout"
-msgstr ""
+msgstr "afrekenen"
 
 #: includes/class-wc-install.php:240
 msgctxt "Page slug"
@@ -6278,37 +6278,37 @@ msgstr "geen-categorie"
 #: includes/class-wc-post-types.php:391 includes/wc-order-functions.php:23
 msgctxt "Order status"
 msgid "Pending payment"
-msgstr ""
+msgstr "Betaling in afwachting"
 
 #: includes/class-wc-post-types.php:399 includes/wc-order-functions.php:24
 msgctxt "Order status"
 msgid "Processing"
-msgstr ""
+msgstr "In verwerking"
 
 #: includes/class-wc-post-types.php:407 includes/wc-order-functions.php:25
 msgctxt "Order status"
 msgid "On hold"
-msgstr ""
+msgstr "In afwachting"
 
 #: includes/class-wc-post-types.php:415 includes/wc-order-functions.php:26
 msgctxt "Order status"
 msgid "Completed"
-msgstr ""
+msgstr "Voltooid"
 
 #: includes/class-wc-post-types.php:423 includes/wc-order-functions.php:27
 msgctxt "Order status"
 msgid "Cancelled"
-msgstr ""
+msgstr "Geannuleerd"
 
 #: includes/class-wc-post-types.php:431 includes/wc-order-functions.php:28
 msgctxt "Order status"
 msgid "Refunded"
-msgstr ""
+msgstr "Terugbetaald"
 
 #: includes/class-wc-post-types.php:439 includes/wc-order-functions.php:29
 msgctxt "Order status"
 msgid "Failed"
-msgstr ""
+msgstr "Mislukt"
 
 #: includes/class-wc-product-grouped.php:190
 #: includes/class-wc-product-variable.php:309
@@ -6331,12 +6331,12 @@ msgstr "%e %b %Y om %H:%M"
 #: includes/wc-page-functions.php:77
 msgctxt "edit-address-slug"
 msgid "billing"
-msgstr ""
+msgstr "facturatie"
 
 #: includes/wc-page-functions.php:78
 msgctxt "edit-address-slug"
 msgid "shipping"
-msgstr ""
+msgstr "verzending"
 
 #: includes/wc-template-functions.php:1281
 msgctxt "breadcrumb"
@@ -6361,7 +6361,7 @@ msgstr "Aantal"
 #: templates/loop/result-count.php:32
 msgctxt "%1$d = first, %2$d = last, %3$d = total"
 msgid "Showing %1$d&ndash;%2$d of %3$d results"
-msgstr ""
+msgstr "Toont %1$d&ndash;%2$d van %3$d resultaten"
 
 #: i18n/countries.php:16
 msgid "Afghanistan"
@@ -8605,127 +8605,127 @@ msgstr "Pondicherry (Puducherry)"
 
 #: i18n/states/IR.php:13
 msgid "Khuzestan  (خوزستان)"
-msgstr ""
+msgstr "Khuzestan  (خوزستان)"
 
 #: i18n/states/IR.php:14
 msgid "Tehran  (تهران)"
-msgstr ""
+msgstr "Teheran  (تهران)"
 
 #: i18n/states/IR.php:15
 msgid "Ilaam (ایلام)"
-msgstr ""
+msgstr "Ilaam (ایلام)"
 
 #: i18n/states/IR.php:16
 msgid "Bushehr (بوشهر)"
-msgstr ""
+msgstr "Bushehr (بوشهر)"
 
 #: i18n/states/IR.php:17
 msgid "Ardabil (اردبیل)"
-msgstr ""
+msgstr "Ardebil (اردبیل)"
 
 #: i18n/states/IR.php:18
 msgid "Isfahan (اصفهان)"
-msgstr ""
+msgstr "Isfahan (اصفهان)"
 
 #: i18n/states/IR.php:19
 msgid "Yazd (یزد)"
-msgstr ""
+msgstr "Yazd (یزد)"
 
 #: i18n/states/IR.php:20
 msgid "Kermanshah (کرمانشاه)"
-msgstr ""
+msgstr "Kermanshah (کرمانشاه)"
 
 #: i18n/states/IR.php:21
 msgid "Kerman (کرمان)"
-msgstr ""
+msgstr "Kerman (کرمان)"
 
 #: i18n/states/IR.php:22
 msgid "Hamadan (همدان)"
-msgstr ""
+msgstr "Hamadan (همدان)"
 
 #: i18n/states/IR.php:23
 msgid "Ghazvin (قزوین)"
-msgstr ""
+msgstr "Qazvin (قزوین)"
 
 #: i18n/states/IR.php:24
 msgid "Zanjan (زنجان)"
-msgstr ""
+msgstr "Zanjan (زنجان)"
 
 #: i18n/states/IR.php:25
 msgid "Luristan (لرستان)"
-msgstr ""
+msgstr "Lorestan (لرستان)"
 
 #: i18n/states/IR.php:26
 msgid "Alborz (البرز)"
-msgstr ""
+msgstr "Alborz (البرز)"
 
 #: i18n/states/IR.php:27
 msgid "East Azarbaijan (آذربایجان شرقی)"
-msgstr ""
+msgstr "Oost-Azerbeidzjan (آذربایجان شرقی)"
 
 #: i18n/states/IR.php:28
 msgid "West Azarbaijan (آذربایجان غربی)"
-msgstr ""
+msgstr "West-Azerbeidzjan (آذربایجان غربی)"
 
 #: i18n/states/IR.php:29
 msgid "Chaharmahal and Bakhtiari (چهارمحال و بختیاری)"
-msgstr ""
+msgstr "Chahar Mahaal en Bakhtiari (چهارمحال و بختیاری)"
 
 #: i18n/states/IR.php:30
 msgid "South Khorasan (خراسان جنوبی)"
-msgstr ""
+msgstr "Zuid-Khorasan (خراسان جنوبی)"
 
 #: i18n/states/IR.php:31
 msgid "Razavi Khorasan (خراسان رضوی)"
-msgstr ""
+msgstr "Razavi-Khorasan (خراسان رضوی)"
 
 #: i18n/states/IR.php:32
 msgid "North Khorasan (خراسان جنوبی)"
-msgstr ""
+msgstr "Noord-Khorasan (خراسان جنوبی)"
 
 #: i18n/states/IR.php:33
 msgid "Semnan (سمنان)"
-msgstr ""
+msgstr "Semnan (سمنان)"
 
 #: i18n/states/IR.php:34
 msgid "Fars (فارس)"
-msgstr ""
+msgstr "Fars (فارس)"
 
 #: i18n/states/IR.php:35
 msgid "Qom (قم)"
-msgstr ""
+msgstr "Qom (قم)"
 
 #: i18n/states/IR.php:36
 msgid "Kurdistan / کردستان)"
-msgstr ""
+msgstr "Koerdistan (کردستان)"
 
 #: i18n/states/IR.php:37
 msgid "Kohgiluyeh and BoyerAhmad (کهگیلوییه و بویراحمد)"
-msgstr ""
+msgstr "Kohgiluyeh en Boyer Ahmad (کهگیلوییه و بویراحمد)"
 
 #: i18n/states/IR.php:38
 msgid "Golestan (گلستان)"
-msgstr ""
+msgstr "Golestan (گلستان)"
 
 #: i18n/states/IR.php:39
 msgid "Gilan (گیلان)"
-msgstr ""
+msgstr "Gilan (گیلان)"
 
 #: i18n/states/IR.php:40
 msgid "Mazandaran (مازندران)"
-msgstr ""
+msgstr "Mazandaran (مازندران)"
 
 #: i18n/states/IR.php:41
 msgid "Markazi (مرکزی)"
-msgstr ""
+msgstr "Markazi (مرکزی)"
 
 #: i18n/states/IR.php:42
 msgid "Hormozgan (هرمزگان)"
-msgstr ""
+msgstr "Hormozgan (هرمزگان)"
 
 #: i18n/states/IR.php:43
 msgid "Sistan and Baluchestan (سیستان و بلوچستان)"
-msgstr ""
+msgstr "Sistan en Beloetsjistan (سیستان و بلوچستان)"
 
 #: i18n/states/IT.php:13
 msgid "Agrigento"
@@ -9357,84 +9357,84 @@ msgstr "Okinawa"
 
 #: i18n/states/MX.php:14
 msgid "Jalisco"
-msgstr ""
+msgstr "Jalisco"
 
 #: i18n/states/MX.php:15
 msgid "Nuevo León"
-msgstr ""
+msgstr "Nuevo León"
 
 #: i18n/states/MX.php:16
 msgid "Aguascalientes"
-msgstr ""
+msgstr "Aguascalientes"
 
 #: i18n/states/MX.php:17
 msgid "Baja California Norte"
-msgstr ""
+msgstr "Baja California"
 
 #: i18n/states/MX.php:18
 msgid "Baja California Sur"
-msgstr ""
+msgstr "Baja California Sur"
 
 #: i18n/states/MX.php:19
 msgid "Campeche"
-msgstr ""
+msgstr "Campeche"
 
 #: i18n/states/MX.php:20
 msgid "Chiapas"
-msgstr ""
+msgstr "Chiapas"
 
 #: i18n/states/MX.php:21
 msgid "Chihuahua"
-msgstr ""
+msgstr "Chihuahua"
 
 #: i18n/states/MX.php:22
 msgid "Coahuila"
-msgstr ""
+msgstr "Coahuila"
 
 #: i18n/states/MX.php:23
 msgid "Colima"
-msgstr ""
+msgstr "Colima"
 
 #: i18n/states/MX.php:24
 msgid "Durango"
-msgstr ""
+msgstr "Durango"
 
 #: i18n/states/MX.php:25
 msgid "Guanajuato"
-msgstr ""
+msgstr "Guanajuato"
 
 #: i18n/states/MX.php:26
 msgid "Guerrero"
-msgstr ""
+msgstr "Guerrero"
 
 #: i18n/states/MX.php:27
 msgid "Hidalgo"
-msgstr ""
+msgstr "Hidalgo"
 
 #: i18n/states/MX.php:28
 msgid "Edo. de México"
-msgstr ""
+msgstr "Mexico"
 
 #: i18n/states/MX.php:29
 msgid "Michoacán"
-msgstr ""
+msgstr "Michoacán"
 
 #: i18n/states/MX.php:30
 msgid "Morelos"
-msgstr ""
+msgstr "Morelos"
 
 #: i18n/states/MX.php:31
 msgid "Nayarit"
-msgstr ""
+msgstr "Nayarit"
 
 #: i18n/states/MX.php:32
 msgid "Oaxaca"
-msgstr ""
+msgstr "Oaxaca"
 
 #: i18n/states/MX.php:33
 msgid "Puebla"
-msgstr ""
+msgstr "Puebla"
 
 #: i18n/states/MX.php:34
 msgid "Querétaro"
-msgstr ""
+msgstr "Querétaro"

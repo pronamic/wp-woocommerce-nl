@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2014-10-04 09:55:24+0000\n"
+"PO-Revision-Date: 2014-10-29 13:40:03+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,7 +21,7 @@ msgstr "Belasting"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:139
 msgid "This is the shipping and handling total costs for the order."
-msgstr ""
+msgstr "Dit zijn de totale verzend- en verwerkingskosten voor de bestelling."
 
 #: includes/admin/meta-boxes/views/html-order-items.php:159
 msgid "Order Discount"
@@ -37,11 +37,11 @@ msgstr "Bestelling totaal"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:187
 msgid "Refunded"
-msgstr ""
+msgstr "Terugbetaald"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:203
 msgid "Delete selected line item(s)"
-msgstr ""
+msgstr "Verwijder geselecteerde regel item(s)"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:206
 msgid "Stock Actions"
@@ -49,36 +49,36 @@ msgstr "Voorraad acties"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:207
 msgid "Reduce line item stock"
-msgstr ""
+msgstr "Verlaag regel item voorraad"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:208
 msgid "Increase line item stock"
-msgstr ""
+msgstr "Verhoog regel item voorraad"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:216
 msgid "Add line item(s)"
-msgstr ""
+msgstr "Voeg regel item(s) toe"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:218
 msgid "To edit this order change the status back to \"Pending\""
-msgstr ""
+msgstr "Wijzig de status naar \"In afwachting\" om deze bestelling te bewerken."
 
 #: includes/admin/meta-boxes/views/html-order-items.php:218
 msgid "This order has been paid for and is no longer editable"
-msgstr ""
+msgstr "Deze bestelling is betaald en kan niet meer worden bewerkt"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:221
 msgid "Add Tax"
-msgstr ""
+msgstr "Belasting toevoegen"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:224
 #: includes/admin/meta-boxes/views/html-order-refund.php:14
 msgid "Refund"
-msgstr ""
+msgstr "Terugbetalen"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:227
 msgid "Calculate Taxes"
-msgstr ""
+msgstr "Bereken belastingen"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:228
 msgid "Calculate Total"
@@ -86,7 +86,7 @@ msgstr "Bereken totaal"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:233
 msgid "Add product(s)"
-msgstr ""
+msgstr "Product(en) toevoegen"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:234
 msgid "Add fee"
@@ -94,47 +94,47 @@ msgstr "Kosten toevoegen"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:235
 msgid "Add shipping cost"
-msgstr ""
+msgstr "Verzendkosten toevoegen"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:237
 msgid "Save"
-msgstr ""
+msgstr "Opslaan"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:243
 msgid "Restock refunded items"
-msgstr ""
+msgstr "Voorraad aanvullen met terugbetaalde items"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:247
 msgid "Amount already refunded"
-msgstr ""
+msgstr "Bedrag reeds terugbetaald"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:251
 msgid "Total available to refund"
-msgstr ""
+msgstr "Totaal beschikbaar om terug te betalen"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:255
 msgid "Refund amount"
-msgstr ""
+msgstr "Terugbetaling bedrag"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:262
 msgid "Reason for refund (optional)"
-msgstr ""
+msgstr "Reden voor terugbetaling (optioneel)"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:274
 msgid "Refund manually"
-msgstr ""
+msgstr "Handmatig terugbetalen"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:286
 msgid "Add products"
-msgstr ""
+msgstr "Producten toevoegen"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:310
 msgid "Add tax"
-msgstr ""
+msgstr "Belasting toevoegen"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:318
 msgid "Rate name"
-msgstr ""
+msgstr "Tarief naam"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:319
 msgid "Tax class"
@@ -142,7 +142,7 @@ msgstr "Belastingtarief"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:320
 msgid "Rate code"
-msgstr ""
+msgstr "Tarief code"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:321
 #: includes/admin/settings/class-wc-settings-tax.php:392
@@ -151,19 +151,19 @@ msgstr "Tarief %"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:342
 msgid "Or, enter tax rate ID:"
-msgstr ""
+msgstr "Of, voer belastingtarief ID in:"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:343
 msgid "Optional"
-msgstr ""
+msgstr "Optioneel"
 
 #: includes/admin/meta-boxes/views/html-order-refund.php:16
 msgid "ID: "
-msgstr ""
+msgstr "ID: "
 
 #: includes/admin/meta-boxes/views/html-order-shipping.php:17
 msgid "Shipping Name"
-msgstr ""
+msgstr "Verzendnaam"
 
 #: includes/admin/meta-boxes/views/html-order-shipping.php:19
 msgid "Shipping Method"
@@ -277,7 +277,7 @@ msgstr "Schakel deze optie in als een product niet wordt verstuurd of als er gee
 
 #: includes/admin/meta-boxes/views/html-variation-admin.php:239
 msgid "Enable this option to enable stock management at variation level"
-msgstr ""
+msgstr "Schakel deze optie in om voorraadbeheer op variatie niveau in te schakelen"
 
 #: includes/admin/reports/class-wc-admin-report.php:418
 msgid "Sold %s worth in the last %d days"
@@ -650,7 +650,7 @@ msgstr "Periode"
 
 #: includes/admin/reports/class-wc-report-taxes-by-date.php:116
 msgid "Orders/refunds"
-msgstr ""
+msgstr "Bestellingen/terugbetalingen"
 
 #: includes/admin/reports/class-wc-report-taxes-by-date.php:117
 msgid "Total Sales"
@@ -820,7 +820,7 @@ msgstr "Forceer SSL (HTTPS) op de afrekenen pagina's (een SSL certificaat is ver
 
 #: includes/admin/settings/class-wc-settings-checkout.php:101
 msgid "Force HTTP when leaving the checkout"
-msgstr ""
+msgstr "Forceer HTTP bij het verlaten van het afrekenen"
 
 #: includes/admin/settings/class-wc-settings-checkout.php:111
 msgid "Checkout Pages"
@@ -888,7 +888,7 @@ msgstr "Geïnstalleerde gateways worden hieronder getoond. Versleep gateways om 
 
 #: includes/admin/settings/class-wc-settings-checkout.php:222
 msgid "Gateway Display Order"
-msgstr ""
+msgstr "Gateway weergave volgorde"
 
 #: includes/admin/settings/class-wc-settings-checkout.php:230
 msgid "Gateway"
@@ -1541,15 +1541,15 @@ msgstr "Verzending bestemming"
 
 #: includes/admin/settings/class-wc-settings-shipping.php:114
 msgid "This controls which shipping address is used by default."
-msgstr ""
+msgstr "Dit bepaald welk verzendadres standaard wordt gebruikt."
 
 #: includes/admin/settings/class-wc-settings-shipping.php:119
 msgid "Default to shipping address"
-msgstr ""
+msgstr "Standaard naar verzendadres"
 
 #: includes/admin/settings/class-wc-settings-shipping.php:120
 msgid "Default to billing address"
-msgstr ""
+msgstr "Standaard naar factuuradres"
 
 #: includes/admin/settings/class-wc-settings-shipping.php:121
 msgid "Only ship to the users billing address"
@@ -1812,7 +1812,7 @@ msgstr "Kies of dit belastingtarief toegepast moet worden op verzending."
 
 #: includes/admin/settings/class-wc-settings-tax.php:294
 msgid "Tax rate ID"
-msgstr ""
+msgstr "Belastingtarief ID"
 
 #: includes/admin/settings/class-wc-settings-tax.php:347
 msgid "Insert row"
@@ -1868,7 +1868,7 @@ msgstr "Marketing"
 
 #: includes/admin/views/html-admin-page-addons.php:29
 msgid "Accounting"
-msgstr ""
+msgstr "Administratie"
 
 #: includes/admin/views/html-admin-page-addons.php:30
 msgid "Free"
@@ -1884,15 +1884,15 @@ msgstr "Onze catalogus van WooCommerce extensies kan gevonden worden op WooTheme
 
 #: includes/admin/views/html-admin-page-status-logs.php:15
 msgid "Log file: %s (%s)"
-msgstr ""
+msgstr "Log bestand: %s (%s)"
 
 #: includes/admin/views/html-admin-page-status-logs.php:33
 msgid "There are currently no logs to view."
-msgstr ""
+msgstr "Er zijn momenteel geen logs om in te zien."
 
 #: includes/admin/views/html-admin-page-status-report.php:13
 msgid "Please copy and paste this information in your ticket when contacting support:"
-msgstr ""
+msgstr "Kopieer en plak deze informatie in je ticket wanneer je contact opneemt met support:"
 
 #: includes/admin/views/html-admin-page-status-report.php:14
 msgid "Get System Report"
@@ -1900,11 +1900,11 @@ msgstr "Verkrijg systeemrapport"
 
 #: includes/admin/views/html-admin-page-status-report.php:17
 msgid "Copied!"
-msgstr ""
+msgstr "Gekopieerd!"
 
 #: includes/admin/views/html-admin-page-status-report.php:17
 msgid "Copy for Support"
-msgstr ""
+msgstr "Kopieer voor support"
 
 #: includes/admin/views/html-admin-page-status-report.php:25
 msgid "Environment"
@@ -1948,7 +1948,7 @@ msgstr "MySQL versie"
 
 #: includes/admin/views/html-admin-page-status-report.php:73
 msgid "WP Active Plugins"
-msgstr ""
+msgstr "WP actieve plugins"
 
 #: includes/admin/views/html-admin-page-status-report.php:77
 msgid "WP Memory Limit"
@@ -1992,11 +1992,11 @@ msgstr "WC logboek"
 
 #: includes/admin/views/html-admin-page-status-report.php:122
 msgid "Log directory (%s) is writable."
-msgstr ""
+msgstr "Log map (%s) is schrijfbaar."
 
 #: includes/admin/views/html-admin-page-status-report.php:124
 msgid "Log directory (<code>%s</code>) is not writable. To allow logging, make this writable or define a custom <code>WC_LOG_DIR</code>."
-msgstr ""
+msgstr "Log map (<code>%s</code>) is niet schrijfbaar. Om loggen toe te staan, maak deze beschrijfbaar of definieer een eigen <code>WC_LOG_DIR</code>."
 
 #: includes/admin/views/html-admin-page-status-report.php:129
 msgid "Default Timezone"
@@ -2129,31 +2129,31 @@ msgstr "Thema versie"
 
 #: includes/admin/views/html-admin-page-status-report.php:451
 msgid "Theme Author URL"
-msgstr ""
+msgstr "Thema auteur URL"
 
 #: includes/admin/views/html-admin-page-status-report.php:457
 msgid "Is Child Theme"
-msgstr ""
+msgstr "Is child thema"
 
 #: includes/admin/views/html-admin-page-status-report.php:465
 msgid "Parent Theme Name"
-msgstr ""
+msgstr "Parent thema naam"
 
 #: includes/admin/views/html-admin-page-status-report.php:469
 msgid "Parent Theme Version"
-msgstr ""
+msgstr "Parent thema versie"
 
 #: includes/admin/views/html-admin-page-status-report.php:473
 msgid "Parent Theme Author URL"
-msgstr ""
+msgstr "Parent thema auteur URL"
 
 #: includes/admin/views/html-admin-page-status-report.php:480
 msgid "WooCommerce Support"
-msgstr ""
+msgstr "WooCommerce support"
 
 #: includes/admin/views/html-admin-page-status-report.php:483
 msgid "Not Declared"
-msgstr ""
+msgstr "Niet gedeclareerd"
 
 #: includes/admin/views/html-admin-page-status-report.php:493
 msgid "Templates"
@@ -2207,7 +2207,7 @@ msgstr "Wijzigingen opslaan"
 
 #: includes/admin/views/html-admin-page-status.php:18
 msgid "Logs"
-msgstr ""
+msgstr "Logs"
 
 #: includes/admin/views/html-admin-settings.php:31
 msgid "Save changes"
@@ -2288,7 +2288,7 @@ msgstr "Nabestellingen?"
 
 #: includes/admin/views/html-bulk-edit-product.php:279
 msgid "Sold Individually?"
-msgstr ""
+msgstr "Individueel verkocht?"
 
 #: includes/admin/views/html-notice-install.php:13
 msgid "<strong>Welcome to WooCommerce</strong> &#8211; You're almost ready to start selling :)"
@@ -2300,11 +2300,11 @@ msgstr "Configuratie overslaan"
 
 #: includes/admin/views/html-notice-mijireh.php:20
 msgid "<strong>The Mijireh payment gateway is deprecated</strong> &#8211; It is recommended that you install the replacement Mijireh plugin from WordPress.org as soon as possible. Mijireh will be removed from WC core completely as part of a future update."
-msgstr ""
+msgstr "<strong>De Mijireh payment gateway is komen te vervallen</strong> &#8211; Het is aan te bevelen dat je zo snel mogelijk de vervangende Mijireh plugin installeert vanaf WordPress.org. Mijireh wordt verwijderd uit de WC core in een toekomstige update."
 
 #: includes/admin/views/html-notice-mijireh.php:22
 msgid "Install the new Mijireh plugin"
-msgstr ""
+msgstr "Installeer de nieuwe Mijireh plugin"
 
 #: includes/admin/views/html-notice-template-check.php:13
 msgid "<strong>Your theme has bundled outdated copies of WooCommerce template files</strong> &#8211; if you encounter functionality issues on the frontend this could the reason. Ensure you update or remove them (in general we recommend only bundling the template files you actually need to customize). See the system report for full details."
@@ -2325,23 +2325,23 @@ msgstr "Thema integratie handleiding"
 
 #: includes/admin/views/html-notice-translation-upgrade.php:17
 msgid "<strong>WooCommerce Translation Available</strong> &#8211; Install or update your <code>%s</code> translation to version <code>%s</code>."
-msgstr ""
+msgstr "<strong>WooCommerce vertaling beschikbaar</strong> &#8211; Installeer of update je <code>%s</code> vertaling naar versie <code>%s</code>."
 
 #: includes/admin/views/html-notice-translation-upgrade.php:21
 msgid "Update Translation"
-msgstr ""
+msgstr "Vertaling bijwerken"
 
 #: includes/admin/views/html-notice-translation-upgrade.php:23
 msgid "Update translation"
-msgstr ""
+msgstr "Vertaling bijwerken"
 
 #: includes/admin/views/html-notice-translation-upgrade.php:24
 msgid "Force Update Translation"
-msgstr ""
+msgstr "Vertaling bijwerken forceren"
 
 #: includes/admin/views/html-notice-translation-upgrade.php:26
 msgid "Hide This Message"
-msgstr ""
+msgstr "Verberg dit bericht"
 
 #: includes/admin/views/html-notice-update.php:13
 msgid "<strong>WooCommerce Data Update Required</strong> &#8211; We just need to update your install to the latest version"
@@ -2372,16 +2372,16 @@ msgid "Could not compile woocommerce.less:"
 msgstr "Kon woocommerce.less niet compileren:"
 
 msgid "http://www.woothemes.com/woocommerce/"
-msgstr ""
+msgstr "http://www.woothemes.com/woocommerce/"
 
 msgid "An e-commerce toolkit that helps you sell anything. Beautifully."
-msgstr ""
+msgstr "Een e-commerce gereedschapskist dat je alles helpt te verkopen. Mooi."
 
 msgid "WooThemes"
-msgstr ""
+msgstr "WooThemes"
 
 msgid "http://woothemes.com"
-msgstr ""
+msgstr "http://woothemes.com"
 
 #: includes/admin/class-wc-admin-menus.php:128
 #: includes/admin/class-wc-admin-menus.php:130
@@ -2458,12 +2458,12 @@ msgstr "Geen"
 #: includes/admin/meta-boxes/views/html-order-items.php:272
 msgctxt "Refund $amount"
 msgid "Refund %s via %s"
-msgstr ""
+msgstr "Terugbetalen %s via %s"
 
 #: includes/admin/meta-boxes/views/html-order-refund.php:16
 msgctxt "Ex: Refund - $date >by< $username"
 msgid "by"
-msgstr ""
+msgstr "door"
 
 #: includes/admin/settings/class-wc-settings-checkout.php:26
 msgctxt "Settings tab label"
@@ -2508,11 +2508,11 @@ msgstr "Voer in in monetair decimaal (%s) formaat in zonder duizendtal scheiding
 
 #: includes/admin/class-wc-admin-assets.php:108
 msgid "Please enter in country code with two capital letters."
-msgstr ""
+msgstr "Voer de landcode in met twee kapitalen."
 
 #: includes/admin/class-wc-admin-assets.php:109
 msgid "Please enter in a value less than the regular price."
-msgstr ""
+msgstr "Voer een waarde in lager dan de standaard prijs."
 
 #: includes/admin/class-wc-admin-assets.php:142
 msgid "Are you sure you want to link all variations? This will create a new variation for each and every possible combination of variation attributes (max 50 per run)."
@@ -2570,15 +2570,15 @@ msgstr "Selecteer een aantal items."
 
 #: includes/admin/class-wc-admin-assets.php:168
 msgid "Are you sure you wish to process this refund? This action cannot be undone."
-msgstr ""
+msgstr "Weet je zeker dat je deze terugbetaling wilt verwerken? Deze actie kan niet worden teruggedraaid."
 
 #: includes/admin/class-wc-admin-assets.php:169
 msgid "Are you sure you wish to delete this refund? This action cannot be undone."
-msgstr ""
+msgstr "Weet je zeker dat je deze terugbetaling wilt verwijderen? Deze actie kan worden teruggedraaid."
 
 #: includes/admin/class-wc-admin-assets.php:170
 msgid "Are you sure you wish to delete this tax column? This action cannot be undone."
-msgstr ""
+msgstr "Weet je zeker dat je deze belastingkolom wilt verwijderen? Deze actie kan niet worden teruggedraaid."
 
 #: includes/admin/class-wc-admin-assets.php:171
 msgid "Remove this item meta?"
@@ -2688,11 +2688,11 @@ msgstr "Weet u zeker dat u toegang tot deze download wilt intrekken?"
 
 #: includes/admin/class-wc-admin-assets.php:217
 msgid "You cannot add the same tax rate twice!"
-msgstr ""
+msgstr "Je kunt niet hetzelfde belastingtarief twee keer toevoegen!"
 
 #: includes/admin/class-wc-admin-assets.php:218
 msgid "Your product has variations! Before changing the product type, it is a good idea to delete the variations to avoid errors in the stock reports."
-msgstr ""
+msgstr "Je product heeft variaties! Voordat je het producttype veranderd, is het een goed idee om de variaties te verwijderen om fouten in de voorraad rapporten te voorkomen."
 
 #: includes/admin/class-wc-admin-attributes.php:80
 msgid "Please, provide an attribute name, slug and type."
@@ -2935,7 +2935,7 @@ msgstr "Support"
 
 #: includes/admin/class-wc-admin-help.php:52
 msgid "After %sreading the documentation%s, for further assistance you can use our %scommunity forum%s if you get stuck. For help with premium add-ons from WooThemes, or if you are a WooThemes customer, you can %suse our helpdesk%s."
-msgstr ""
+msgstr "Na het %slezen van de documentatie%s, kan je als je vast komt te zitten gebruik maken van ons %scommunity forum%s. Voor hulp met premium add-ons van WooThemes, of als je een WooThemes klant bent kan je %sonze helpdesk%s gebruiken."
 
 #: includes/admin/class-wc-admin-help.php:54
 msgid "Before asking for help we recommend checking the status page to identify any problems with your configuration."
@@ -2951,11 +2951,11 @@ msgstr "Systeemstatus"
 
 #: includes/admin/class-wc-admin-help.php:56
 msgid "WooThemes Community Support"
-msgstr ""
+msgstr "WooThemes community support"
 
 #: includes/admin/class-wc-admin-help.php:56
 msgid "WooThemes Customer Support"
-msgstr ""
+msgstr "WooThemes klant support"
 
 #: includes/admin/class-wc-admin-help.php:62
 msgid "Found a bug?"
@@ -2980,11 +2980,11 @@ msgstr "Over WooCommerce"
 
 #: includes/admin/class-wc-admin-help.php:74
 msgid "WordPress.org Project"
-msgstr ""
+msgstr "WordPress.org project"
 
 #: includes/admin/class-wc-admin-help.php:75
 msgid "Github Project"
-msgstr ""
+msgstr "Github project"
 
 #: includes/admin/class-wc-admin-help.php:76
 msgid "Official Themes"
@@ -3472,7 +3472,7 @@ msgstr "Markeer als in de wacht"
 #: includes/admin/class-wc-admin-post-types.php:1144
 #: includes/admin/class-wc-admin-post-types.php:1145
 msgid "Mark complete"
-msgstr ""
+msgstr "Markeer als voltooid"
 
 #: includes/admin/class-wc-admin-post-types.php:1186
 msgid "Order status changed by bulk edit:"
@@ -3899,7 +3899,7 @@ msgstr "De wijzigingen die u gemaakt heeft zullen verloren gaan als u deze pagin
 
 #: includes/admin/class-wc-admin-settings.php:519
 msgid "The settings of this image size have been disabled because its values are being overwritten by a filter."
-msgstr ""
+msgstr "De instellingen van dit afbeeldingsformaat is uitgeschakeld omdat de waardes worden overschreven door een filter."
 
 #: includes/admin/class-wc-admin-settings.php:528
 msgid "Hard Crop?"
@@ -3957,7 +3957,7 @@ msgstr "Belastingtarieven succesvol verwijderd"
 
 #: includes/admin/class-wc-admin-status.php:141
 msgid "Translation update message hidden successfully!"
-msgstr ""
+msgstr "Vertaling update bericht succesvol verborgen!"
 
 #: includes/admin/class-wc-admin-status.php:150
 msgid "There was an error calling %s::%s"
@@ -3971,23 +3971,23 @@ msgstr "Er was een fout bij het aanroepen van %s"
 #: includes/admin/class-wc-admin-status.php:168
 #: includes/admin/class-wc-admin-status.php:171
 msgid "Failed to install/update the translation:"
-msgstr ""
+msgstr "Installatie/update van vertaling mislukt:"
 
 #: includes/admin/class-wc-admin-status.php:165
 msgid "Seems you don't have permission to do this!"
-msgstr ""
+msgstr "Het lijkt erop dat je geen toestemming hebt om dit te doen!"
 
 #: includes/admin/class-wc-admin-status.php:168
 msgid "An authentication error occurred while updating the translation. Please try again or configure your %sUpgrade Constants%s."
-msgstr ""
+msgstr "Een authentificatie fout is ontstaan tijdens het updaten van de vertaling. Probeer het opnieuw of configureer je %sUpgrade constanten%s."
 
 #: includes/admin/class-wc-admin-status.php:171
 msgid "Sorry but there is no translation available for your language =/"
-msgstr ""
+msgstr "Sorry maar er is geen vertaling beschikbaar in jouw taal =/"
 
 #: includes/admin/class-wc-admin-status.php:178
 msgid "Translations installed/updated successfully!"
-msgstr ""
+msgstr "Vertalingen succesvol geïnstalleerd/bijgewerkt!"
 
 #: includes/admin/class-wc-admin-status.php:185
 msgid "Your changes have been saved."
@@ -4080,15 +4080,15 @@ msgstr "<strong class=\"red\">Opmerking:</strong> Deze optie zal ALLE belastingt
 
 #: includes/admin/class-wc-admin-status.php:237
 msgid "Translation Upgrade"
-msgstr ""
+msgstr "Vertaling upgrade"
 
 #: includes/admin/class-wc-admin-status.php:238
 msgid "Force Translation Upgrade"
-msgstr ""
+msgstr "Forceer vertaling upgrade"
 
 #: includes/admin/class-wc-admin-status.php:239
 msgid "<strong class=\"red\">Note:</strong> This option will force the translation upgrade for your language if a translation is available."
-msgstr ""
+msgstr "<strong class=\"red\">Opmerking:</strong> Deze optie forceert de vertaling upgrade voor je taal wanneer een vertaling beschikbaar is."
 
 #: includes/admin/class-wc-admin-taxonomies.php:89
 #: includes/admin/class-wc-admin-taxonomies.php:177
@@ -4164,7 +4164,7 @@ msgstr "Bedankt voor het installeren!"
 
 #: includes/admin/class-wc-admin-welcome.php:232
 msgid "%s WooCommerce %s is more powerful, stable and secure than ever before. We hope you enjoy using it."
-msgstr ""
+msgstr "%s WooCommerce %s is krachtiger, stabieler en veiliger dan ooit. We hopen dat je geniet van het gebruik."
 
 #: includes/admin/class-wc-admin-welcome.php:236
 msgid "Version %s"
@@ -4188,83 +4188,83 @@ msgstr "Vertalers"
 
 #: includes/admin/class-wc-admin-welcome.php:271
 msgid "Perform partial refunds on orders"
-msgstr ""
+msgstr "Gedeeltelijke terugbetalingen voor bestellingen uitvoeren"
 
 #: includes/admin/class-wc-admin-welcome.php:272
 msgid "Store owners can now do partial refunds on orders; define the refund amount, qty, and optionally restore inventory. If the gateway supports it, the payment can be automatically refunded too!"
-msgstr ""
+msgstr "Winkeleigenaren kunnen nu gedeeltelijke terugbetalingen uitvoeren voor bestellingen; definieer het bedrag voor terugbetaling, aantal en optionele correctie van de voorraad. Als de gateway het ondersteund, zal de terugbetaling automatisch worden verricht!"
 
 #: includes/admin/class-wc-admin-welcome.php:276
 msgid "Updated order totals UI"
-msgstr ""
+msgstr "Bestelling totalen UI bijgewerkt"
 
 #: includes/admin/class-wc-admin-welcome.php:277
 msgid "To support the partial refund functionality, the order items and totals panels have been combined. As a result we have a simpler, more user friendly order page."
-msgstr ""
+msgstr "Om gedeeltelijke terugbetaling te ondersteunen, zijn de bestelling items en totalen gecombineerd. Als resultaat hebben we een eenvoudigere, meer gebruiksvriendelijke bestelpagina."
 
 #: includes/admin/class-wc-admin-welcome.php:282
 msgid "WooCommerce REST API version 2"
-msgstr ""
+msgstr "WooCommerce REST-API versie 2"
 
 #: includes/admin/class-wc-admin-welcome.php:285
 msgid "Introducing PUT/POST/DELETE methods"
-msgstr ""
+msgstr "Introduceert PUT/POST/DELETE methodes"
 
 #: includes/admin/class-wc-admin-welcome.php:286
 msgid "Update, delete and create orders, customers, products and coupons via the API."
-msgstr ""
+msgstr "Update, verwijder en maak bestellingen, klanten, producten en coupons via de API."
 
 #: includes/admin/class-wc-admin-welcome.php:289
 msgid "Other enhancements"
-msgstr ""
+msgstr "Andere verbeteringen"
 
 #: includes/admin/class-wc-admin-welcome.php:290
 msgid "Resources can now be ordered by any field you define for greater control over returned results. v2 also introduces an endpoint for getting product categories from your store."
-msgstr ""
+msgstr "Middelen kunnen nu worden gesorteerd op basis van elk veld voor meer controle over terugkerende resultaten. v2 introduceert ook een eindpunt om productcategorie&euml;n vanuit jou winkel te krijgen."
 
 #: includes/admin/class-wc-admin-welcome.php:293
 msgid "Webhooks"
-msgstr ""
+msgstr "Webhooks"
 
 #: includes/admin/class-wc-admin-welcome.php:294
 msgid "Trigger webhooks during events such as when an order is created. Opens up all kinds of external integration opportunities."
-msgstr ""
+msgstr "Webhooks laten afgaan tijdens acties zoals wanneer een bestelling wordt geplaatst. Opent allerlei externe integratie mogelijkheden."
 
 #: includes/admin/class-wc-admin-welcome.php:301
 msgid "Language pack downloader"
-msgstr ""
+msgstr "Taalpakket downloader"
 
 #: includes/admin/class-wc-admin-welcome.php:302
 msgid "Due to the size of PO and MO files, we have removed them from core and included our \"Language Pack Downloader\". International users can download and update their translation files easily from the dashboard."
-msgstr ""
+msgstr "Vanwege de grootte van de PO en MO bestanden, hebben we deze uit de core verwijderd en ze aan onze \"Taalpakket downloader\" toegevoegd. Internationale gebruikers kunnen hun vertaalbestanden vanuit de dashboard downloaden of updaten."
 
 #: includes/admin/class-wc-admin-welcome.php:305
 msgid "Variation stock management"
-msgstr ""
+msgstr "Variatie voorraadbeheer"
 
 #: includes/admin/class-wc-admin-welcome.php:306
 msgid "You can now set stock management options (such as backorder support) at variation level giving much greater control over stock."
-msgstr ""
+msgstr "Je kunt nu voorraadbeheer opties instellen (zoals nalevering ondersteuning) op variatie niveau voor veel grotere controle over de voorraad."
 
 #: includes/admin/class-wc-admin-welcome.php:309
 msgid "Improved Payment Gateways"
-msgstr ""
+msgstr "Verbeterde betaalmethoden"
 
 #: includes/admin/class-wc-admin-welcome.php:310
 msgid "The Payment Gateway API has been enhanced to support refunds and storing transaction IDs."
-msgstr ""
+msgstr "De betalingsgateway API is verbeterd om terugbetalingen te ondersteunen en transactie ID's op te slaan."
 
 #: includes/admin/class-wc-admin-welcome.php:317
 msgid "Join us at the inaugural WooCommerce Conference in San Francisco"
-msgstr ""
+msgstr "Neem deel aan onze eerste WooCommerce conferentie in San Francisco"
 
 #: includes/admin/class-wc-admin-welcome.php:318
 msgid "On the %s3rd and 4th%s of November 2014 WooCommerce creators WooThemes are hosting an event dedicated to store owners &amp; WordPress developers wanting to learn the art of eCommerce using WooCommerce."
-msgstr ""
+msgstr "Op de %s3e en %s4e van november 2014 hosten de WooCommerce makers WooThemes een evenement opgedragen aan winkeleigenaren &amp; WordPress ontwikkelaars die willen leren over de kunst van eCommerce met WooCommerce."
 
 #: includes/admin/class-wc-admin-welcome.php:319
 msgid "Find out more & buy tickets"
-msgstr ""
+msgstr "Ontdek meer & koop tickets"
 
 #: includes/admin/class-wc-admin-welcome.php:325
 msgid "Go to WooCommerce Settings"
@@ -4272,11 +4272,11 @@ msgstr "Ga naar WooCommerce instellingen"
 
 #: includes/admin/class-wc-admin-welcome.php:340
 msgid "WooCommerce is developed and maintained by a worldwide team of passionate individuals and backed by an awesome developer community. Want to see your name? <a href=\"%s\">Contribute to WooCommerce</a>."
-msgstr ""
+msgstr "WooCommerce is ontwikkeld en onderhouden door een wereldwijd team van gepassioneerde individuen en wordt ondersteund door een ontwikkelaars community. Wil je je naam zien? <a href=\"%s\">Help mee aan WooCommerce</a>."
 
 #: includes/admin/class-wc-admin-welcome.php:356
 msgid "WooCommerce has been kindly translated into several other languages thanks to our translation team. Want to see your name? <a href=\"%s\">Translate WooCommerce</a>."
-msgstr ""
+msgstr "WooCommerce is vriendelijk vertaald in verschillende talen dankzij ons vertaalteam. Wil je je naam zien? <a href=\"%s\">Vertaal WooCommerce</a>."
 
 #: includes/admin/class-wc-admin-welcome.php:405
 msgid "View %s"
@@ -4405,15 +4405,15 @@ msgstr "In dit veld kun je een minimum subtotaal opgeven voor het gebruik van de
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:88
 msgid "Maximum spend"
-msgstr ""
+msgstr "Maximale uitgaven"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:88
 msgid "No maximum"
-msgstr ""
+msgstr "Geen maximum"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:88
 msgid "This field allows you to set the maximum subtotal allowed when using the coupon."
-msgstr ""
+msgstr "Dit veld geeft je de mogelijkheid om een maximaal subtotaal te kiezen waarvoor een coupon kan worden gebruikt."
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:91
 msgid "Individual use only"
@@ -4525,7 +4525,7 @@ msgstr "Bestelling e-mails opnieuw versturen"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-actions.php:52
 msgid "Generate download permissions"
-msgstr ""
+msgstr "Genereer download rechten"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-actions.php:59
 #: includes/admin/meta-boxes/views/html-order-items.php:212
@@ -4565,15 +4565,15 @@ msgstr "Telefoon"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:160
 msgid "Order %s details"
-msgstr ""
+msgstr "Bestelling %s details"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:164
 msgid "Payment via %s"
-msgstr ""
+msgstr "Betaling via %s"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:177
 msgid "Customer IP"
-msgstr ""
+msgstr "Klant IP"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:183
 msgid "General Details"
@@ -4638,7 +4638,7 @@ msgstr "Anders"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:285
 msgid "Transaction ID"
-msgstr ""
+msgstr "Transactie ID"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:294
 msgid "Shipping Details"
@@ -4921,7 +4921,7 @@ msgstr "Beheer voorraad?"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:294
 msgid "Enable stock management at product level"
-msgstr ""
+msgstr "Voorraadbeheer inschakelen op product niveau"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:301
 #: includes/admin/views/html-bulk-edit-product.php:237
@@ -4962,7 +4962,7 @@ msgstr "Toelaten"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:310
 msgid "If managing stock, this controls whether or not backorders are allowed. If enabled, stock quantity can go below 0."
-msgstr ""
+msgstr "Bij voorraadbeheer, bepaald dit of er naleveringen zijn toegestaan. Wanneer ingeschakeld kan de voorraad onder 0 gaan."
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:319
 #: includes/admin/meta-boxes/views/html-variation-admin.php:102
@@ -5172,7 +5172,7 @@ msgstr "Sale prijzen verlagen met (vast bedrag of %)"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:825
 msgid "Toggle &quot;Manage stock&quot;"
-msgstr ""
+msgstr "Schakel &quot;Beheer voorraad&quot;"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:834
 msgid "Downloadable products"
@@ -5217,7 +5217,7 @@ msgstr "Variatie #%s van %s"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:1543
 msgid "Variation SKU must be unique."
-msgstr ""
+msgstr "Variatie SKU moet uniek zijn."
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-images.php:44
 #: includes/admin/meta-boxes/class-wc-meta-box-product-images.php:56
@@ -5277,7 +5277,7 @@ msgstr "Variatie ID:"
 
 #: includes/admin/meta-boxes/views/html-order-item.php:17
 msgid "No longer exists"
-msgstr ""
+msgstr "Bestaat niet meer"
 
 #: includes/admin/meta-boxes/views/html-order-item.php:21
 msgid "Product SKU:"
