@@ -106,7 +106,7 @@ class WooCommerceNLPlugin {
 	 */
 	public function load_mo_file( $mo_file, $domain ) {
 		if ( $this->language == null ) {
-			$this->language = get_option( 'WPLANG', WPLANG );
+			$this->language = get_locale();
 			$this->is_dutch = ( $this->language == 'nl' || $this->language == 'nl_NL' );
 		}
 
