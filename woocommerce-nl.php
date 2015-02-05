@@ -90,7 +90,7 @@ class WooCommerceNLPlugin {
 		$dir    = plugin_dir_path( __FILE__ );
 
 		if ( is_admin() ) {
-			load_textdomain( 'woocommerce', $dir . 'languages/woocommerce/admin-' . $locale . '.mo' );			
+			load_textdomain( 'woocommerce', $dir . 'languages/woocommerce/admin-' . $locale . '.mo' );
 		}
 
 		load_textdomain( 'woocommerce', $dir . 'languages/woocommerce/' . $locale . '.mo' );
