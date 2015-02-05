@@ -138,8 +138,8 @@ class WooCommerceNLPlugin {
 				),
 			);
 
-			if ( isset( $domains[$domain] ) ) {
-				$paths = $domains[$domain];
+			if ( isset( $domains[ $domain ] ) ) {
+				$paths = $domains[ $domain ];
 
 				foreach ( $paths as $path => $file ) {
 					if ( substr( $mo_file, -strlen( $path ) ) == $path ) {
