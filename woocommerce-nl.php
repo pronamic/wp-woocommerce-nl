@@ -119,23 +119,23 @@ class WooCommerceNLPlugin {
 		if ( $this->is_dutch ) {
 			$domains = array(
 				'wc_eu_vat_number'           => array(
-					'wc_eu_vat_number-nl_NL.mo'                 => 'woocommerce-eu-vat-number/nl_NL.mo'
+					'wc_eu_vat_number-nl_NL.mo'                 => 'woocommerce-eu-vat-number/nl_NL.mo',
 				),
 				'wc_gf_addons'               => array(
-					'languages/wc_gf_addons-nl_NL.mo'           => 'woocommerce-gravityforms-product-addons/nl_NL.mo'
+					'languages/wc_gf_addons-nl_NL.mo'           => 'woocommerce-gravityforms-product-addons/nl_NL.mo',
 				),
 				'wc_gravityforms'            => array(
-					'languages/wc_gravityforms-nl_NL.mo'        => 'woocommerce-gravityforms-product-addons/nl_NL.mo'
+					'languages/wc_gravityforms-nl_NL.mo'        => 'woocommerce-gravityforms-product-addons/nl_NL.mo',
 				),
 				'wc_subscribe_to_newsletter' => array(
-					'wc_subscribe_to_newsletter-nl_NL.mo'       => 'woocommerce-subscribe-to-newsletter/nl_NL.mo'
+					'wc_subscribe_to_newsletter-nl_NL.mo'       => 'woocommerce-subscribe-to-newsletter/nl_NL.mo',
 				),
 				'x3m_gf'                     => array(
-					'languages/x3m_gf-nl_NL.mo'                 => 'woocommerce-gateway-fees/nl_NL.mo'
+					'languages/x3m_gf-nl_NL.mo'                 => 'woocommerce-gateway-fees/nl_NL.mo',
 				),
 				'woocommerce-delivery-notes' => array(
-					'languages/woocommerce-delivery-notes-nl_NL.mo' => 'woocommerce-delivery-notes/nl_NL.mo'
-				)
+					'languages/woocommerce-delivery-notes-nl_NL.mo' => 'woocommerce-delivery-notes/nl_NL.mo',
+				),
 			);
 
 			if ( isset( $domains[$domain] ) ) {
