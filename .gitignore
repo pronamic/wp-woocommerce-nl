@@ -6,8 +6,5 @@
 # Deploy
 /deploy
 
-# WordPress SVN
-/wp-svn
-
 # Grunt
 /node_modules
