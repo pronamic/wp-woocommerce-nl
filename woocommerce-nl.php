@@ -4,7 +4,7 @@ Plugin Name: WooCommerce (nl)
 Plugin URI: http://www.happywp.com/plugins/woocommerce-nl/
 Description: Extends the WooCommerce plugin and add-ons with the Dutch language: <strong>WooCommerce</strong> 2.1.12 | <strong>WooCommerce EU VAT Number</strong> 1.4 | <strong>WooCommerce Subscribe to Newsletter</strong> 1.0.4 | <strong>WooCommerce Gateway Fees</strong> 1.2.1 | <strong>WooCommerce - Gravity Forms Product Add-Ons</strong> 2.4.2 | <strong>WooCommerce Print Invoices & Delivery Notes</strong> 2.0.2
 
-Version: 1.1.5
+Version: 1.1.6
 Requires at least: 3.0
 
 Author: Pronamic
@@ -90,7 +90,7 @@ class WooCommerceNLPlugin {
 		$dir    = plugin_dir_path( __FILE__ );
 
 		if ( is_admin() ) {
-			load_textdomain( 'woocommerce', $dir . 'languages/woocommerce/admin-' . $locale . '.mo' );			
+			load_textdomain( 'woocommerce', $dir . 'languages/woocommerce/admin-' . $locale . '.mo' );
 		}
 
 		load_textdomain( 'woocommerce', $dir . 'languages/woocommerce/' . $locale . '.mo' );
@@ -106,7 +106,7 @@ class WooCommerceNLPlugin {
 	 */
 	public function load_mo_file( $mo_file, $domain ) {
 		if ( $this->language == null ) {
-			$this->language = get_option( 'WPLANG', WPLANG );
+			$this->language = get_locale();
 			$this->is_dutch = ( $this->language == 'nl' || $this->language == 'nl_NL' );
 		}
 
@@ -119,27 +119,27 @@ class WooCommerceNLPlugin {
 		if ( $this->is_dutch ) {
 			$domains = array(
 				'wc_eu_vat_number'           => array(
-					'wc_eu_vat_number-nl_NL.mo'                 => 'woocommerce-eu-vat-number/nl_NL.mo'
+					'wc_eu_vat_number-nl_NL.mo'                 => 'woocommerce-eu-vat-number/nl_NL.mo',
 				),
 				'wc_gf_addons'               => array(
-					'languages/wc_gf_addons-nl_NL.mo'           => 'woocommerce-gravityforms-product-addons/nl_NL.mo'
+					'languages/wc_gf_addons-nl_NL.mo'           => 'woocommerce-gravityforms-product-addons/nl_NL.mo',
 				),
 				'wc_gravityforms'            => array(
-					'languages/wc_gravityforms-nl_NL.mo'        => 'woocommerce-gravityforms-product-addons/nl_NL.mo'
+					'languages/wc_gravityforms-nl_NL.mo'        => 'woocommerce-gravityforms-product-addons/nl_NL.mo',
 				),
 				'wc_subscribe_to_newsletter' => array(
-					'wc_subscribe_to_newsletter-nl_NL.mo'       => 'woocommerce-subscribe-to-newsletter/nl_NL.mo'
+					'wc_subscribe_to_newsletter-nl_NL.mo'       => 'woocommerce-subscribe-to-newsletter/nl_NL.mo',
 				),
 				'x3m_gf'                     => array(
-					'languages/x3m_gf-nl_NL.mo'                 => 'woocommerce-gateway-fees/nl_NL.mo'
+					'languages/x3m_gf-nl_NL.mo'                 => 'woocommerce-gateway-fees/nl_NL.mo',
 				),
 				'woocommerce-delivery-notes' => array(
-					'languages/woocommerce-delivery-notes-nl_NL.mo' => 'woocommerce-delivery-notes/nl_NL.mo'
-				)
+					'languages/woocommerce-delivery-notes-nl_NL.mo' => 'woocommerce-delivery-notes/nl_NL.mo',
+				),
 			);
 
-			if ( isset( $domains[$domain] ) ) {
-				$paths = $domains[$domain];
+			if ( isset( $domains[ $domain ] ) ) {
+				$paths = $domains[ $domain ];
 
 				foreach ( $paths as $path => $file ) {
 					if ( substr( $mo_file, -strlen( $path ) ) == $path ) {
