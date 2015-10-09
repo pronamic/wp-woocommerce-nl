@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
+
 <ruleset name="WooCommerce (nl)">
 	<rule ref="WordPress">
-
+		<exclude name="Squiz.Commenting" />
 	</rule>
 </ruleset>

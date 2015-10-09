@@ -17,12 +17,15 @@ module.exports = function( grunt ) {
 		// PHP Code Sniffer
 		phpcs: {
 			application: {
-				dir: [ './' ],
+				src: [
+					'**/*.php',
+					'!deploy/**',
+					'!node_modules/**'
+				]
 			},
 			options: {
 				standard: 'phpcs.ruleset.xml',
-				extensions: 'php',
-				ignore: 'wp-svn,deploy,node_modules'
+				showSniffCodes: true
 			}
 		},
 
@@ -48,11 +51,13 @@ module.exports = function( grunt ) {
 		makepot: {
 			target: {
 				options: {
-					cwd: '',
 					domainPath: 'languages',
-					exclude: [ 'deploy/.*', 'wp-svn/.*' ],
-					mainFile: 'woocommerce-nl.php',
-					type: 'wp-plugin'
+					type: 'wp-plugin',
+					updatePoFiles: true,
+					exclude: [
+						'deploy/.*',
+						'node_modules/.*'
+					]
 				}
 			}
 		},
@@ -60,7 +65,7 @@ module.exports = function( grunt ) {
 		// Check textdomain errors
 		checktextdomain: {
 			options:{
-				text_domain: 'woocommerce_nl',
+				text_domain: '<%= pkg.name %>',
 				keywords: [
 					'__:1,2d',
 					'_e:1,2d',
