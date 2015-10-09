@@ -1,16 +1,16 @@
 <?php
 /*
 Plugin Name: WooCommerce (nl)
-Plugin URI: http://www.happywp.com/plugins/woocommerce-nl/
+Plugin URI: http://www.pronamic.eu/plugins/woocommerce-nl/
 Description: Extends the WooCommerce plugin and add-ons with the Dutch language: <strong>WooCommerce</strong> 2.1.12 | <strong>WooCommerce EU VAT Number</strong> 1.4 | <strong>WooCommerce Subscribe to Newsletter</strong> 1.0.4 | <strong>WooCommerce Gateway Fees</strong> 1.2.1 | <strong>WooCommerce - Gravity Forms Product Add-Ons</strong> 2.4.2 | <strong>WooCommerce Print Invoices & Delivery Notes</strong> 2.0.2
 
-Version: 1.1.6
+Version: 1.1.7
 Requires at least: 3.0
 
 Author: Pronamic
 Author URI: http://www.pronamic.eu/
 
-Text Domain: woocommerce_nl
+Text Domain: woocommerce-nl
 Domain Path: /languages/
 
 License: GPL
@@ -105,15 +105,15 @@ class WooCommerceNLPlugin {
 	 * @param string $domain
 	 */
 	public function load_mo_file( $mo_file, $domain ) {
-		if ( $this->language == null ) {
+		if ( null === $this->language ) {
 			$this->language = get_locale();
-			$this->is_dutch = ( $this->language == 'nl' || $this->language == 'nl_NL' );
+			$this->is_dutch = ( 'nl' === $this->language || 'nl_NL' === $this->language );
 		}
 
 		// The ICL_LANGUAGE_CODE constant is defined from an plugin, so this constant
 		// is not always defined in the first 'load_textdomain_mofile' filter call
 		if ( defined( 'ICL_LANGUAGE_CODE' ) ) {
-			$this->is_dutch = ( ICL_LANGUAGE_CODE == 'nl' );
+			$this->is_dutch = ( 'nl' === ICL_LANGUAGE_CODE );
 		}
 
 		if ( $this->is_dutch ) {
@@ -142,7 +142,7 @@ class WooCommerceNLPlugin {
 				$paths = $domains[ $domain ];
 
 				foreach ( $paths as $path => $file ) {
-					if ( substr( $mo_file, -strlen( $path ) ) == $path ) {
+					if ( substr( $mo_file, -strlen( $path ) ) === $path ) {
 						$new_file = dirname( $this->file ) . '/languages/' . $file;
 
 						if ( is_readable( $new_file ) ) {
