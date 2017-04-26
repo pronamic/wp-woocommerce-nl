@@ -12,7 +12,7 @@ This WordPress plugin extends the WooCommerce plugin with the Dutch translation.
 
 <strong>WooCommerce</strong> 2.2.4
 <strong>WooCommerce EU VAT Number</strong> 1.4
-<strong>WooCommerce Subscribe to Newsletter</strong> 1.0.4
+<strong>WooCommerce Subscribe to Newsletter</strong> 2.3.6
 <strong>WooCommerce Gateway Fees</strong> 1.2.1
 <strong>WooCommerce - Gravity Forms Product Add-Ons</strong> 2.4.2
 <strong>WooCommerce Print Invoices & Delivery Notes</strong> 2.0.2
@@ -35,6 +35,9 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 
 == Changelog ==
+
+= unreleased =
+*	Updated translations for WooCommerce Subscribe to Newsletter v2.3.6
 
 = 1.1.7 =
 *	Changed text domain from 'woocommerce_nl' to 'woocommerce-nl'.
